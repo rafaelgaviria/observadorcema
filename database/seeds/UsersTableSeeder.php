@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
         
         // Eloquent::unguard();
     
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
         App\User::create(['id' => '374','name' => 'Esteban Garnica Kelly Marcela','username' => '52994597','email' => 'kemaesga@hotmail.com','password' => bcrypt('Mariposa09'),'document' => '52994597','documenttype_id' => '4','phonenumber' => '','officialcode' => '','course_id' => '1','role_id' => '5','file' => '',]);
         App\User::create(['id' => '435','name' => 'Pineda Mariana Acosta','username' => '1141124984','email' => '1141124984@cema.edu.co','password' => bcrypt('1141124984'),'document' => '1141124984','documenttype_id' => '1','phonenumber' => '','officialcode' => '2018256','course_id' => '1','role_id' => '5','file' => '',]);
@@ -351,7 +351,7 @@ class UsersTableSeeder extends Seeder
         //     'file' => '',
         // ]);
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=1;');
         //factory(App\User::class, 20)->create();
         
     }

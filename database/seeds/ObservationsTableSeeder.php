@@ -11,7 +11,7 @@ class ObservationsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         
         App\Observer::create(['id' => '291','user_id' => '441','course_id' => '1','creator_id' => '390','creator_role_id' => '4','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 7&nbsp;de marzo registra 1&nbsp;retardos sin justificaci&oacute;n.
 
@@ -1873,6 +1873,6 @@ class ObservationsTableSeeder extends Seeder
 
 
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }
