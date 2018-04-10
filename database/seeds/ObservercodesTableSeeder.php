@@ -187,6 +187,25 @@ class ObservercodesTableSeeder extends Seeder
             'name' => '08',
             'description' => 'Realizar acciones que se constituyan en presuntos delitos establecidos en la legislación penal colombiana.',
         ]);
-
+        
+        
+        
+        App\Observercode::create([
+            'name' => '08',
+            'description' => '02 Suministra al estudiante los recursos necesarios y solicitados',
+        ]);
+        App\Observercode::create([
+            'name' => '08',
+            'description' => '03 Cumple oportunamente con las obligaciones contractuales de matrícula',
+        ]);
+        App\Observercode::create([
+            'name' => '08',
+            'description' => '04 Evidencia su identificación con el Horizonte Institucional y acompañamiento en la formación del estudiante: Asistencia, puntualidad, presentación de excusas, presentación personal del estudiante, etc..',
+        ]);
+        App\Observercode::create([
+            'name' => '47',
+            'description' => 'SANCIÓN',
+        ]);
+        
     }
 }
