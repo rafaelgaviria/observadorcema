@@ -15,8 +15,8 @@ class CreateCoursesTable extends Migration
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->integer('director');
+            $table->string('name')->unique();
+            //$table->integer('director');
             //$table->foreign('director')->references('id')->on('users');
         });
     }
