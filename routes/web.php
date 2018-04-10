@@ -20,7 +20,20 @@ Route::redirect('/', 'blog');
 Auth::routes();
 
 Route::get('/blog', 'Web\PageController@blog')->name('blog');
+// Route::get('/blog', function(){
+//   $user = App\user::findOrFail(1);
+//   return $user->roles;
+  
+//   // $role = App\Role::findOrFail(1);
+//   // return $role->users;
+//   //dd($user);
+  
+// });
 
 
 //admin
 Route::resource('observer', 'Admin\ObserverController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -18,7 +18,6 @@ class CreateCoursesTable extends Migration
             $table->string('name');
             $table->integer('director');
             //$table->foreign('director')->references('id')->on('users');
-            $table->timestamps();
         });
     }
 

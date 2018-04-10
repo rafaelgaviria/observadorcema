@@ -18,7 +18,6 @@ class CreateObservercategoriesTable extends Migration
             $table->string('name');
             $table->string('description')->nullable();
             $table->string('prefix');
-            $table->timestamps();
         });
     }
 

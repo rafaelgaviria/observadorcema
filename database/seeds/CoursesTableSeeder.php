@@ -13,6 +13,10 @@ class CoursesTableSeeder extends Seeder
     {
          
         App\Course::create([
+            'name' => 'Primero',
+            'director' => '1',
+        ]);
+        App\Course::create([
             'name' => 'Segundo',
             'director' => '1',
         ]);

@@ -14,7 +14,17 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/semantic.min.css') }}">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="{{ asset('js/semantic.min.js') }}"></script>
+    
+    <script>
+        $('.message .close')
+            .on('click', function() {
+            $(this)
+                .closest('.message')
+                .transition('fade')
+            ;
+            })
+        ;
+    </script>
 </head>
 <body>
 
@@ -50,6 +60,7 @@
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
                         @else
+                            <li><a href="{{ route('observer.index')}}">Cursos</a></li>
                             <li><a href="{{ route('observer.index')}}">Observador</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
@@ -76,11 +87,59 @@
             </div>
         </nav>
 
-        @yield('content')
+        <div class="ui container">
+            {{--  <div class="ui info message">
+                <p>Plataforma para la gestión del observador del colegio Estrada María Auxiliadora. Versión 0.1</p>
+            </div>  --}}
+
+            @if(session('info')) 
+            <div class="ui positive message">
+                <i class="close icon"></i>
+                <div class="header">
+                    {{ session('info') }}
+                </div>
+                {{--<p>Go to your <b>special offers</b> page to see now.</p>--}}
+            </div>            
+            @endif
+
+            @if(count($errors))
+            <div class="ui error message">
+                <i class="close icon"></i>
+                <div class="header">Por favor revise la siguiente información:</div>
+                <ul class="list">
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    
+                    @endforeach
+                </ul>
+            </div> 
+            @endif
+
+
+            
+
+            @yield('content')
+        </div>
+        
     </div>
     <div class="ui black inverted vertical footer segment"></div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/semantic.min.js') }}"></script>
+
+  <script>
+    $('.message .close')
+    .on('click', function() {
+      $(this)
+      .closest('.message')
+      .transition('fade')
+      ;
+    })
+    ;
+  </script>
+
+    @yield('scripts')
+    
     
 </body>
 </html>

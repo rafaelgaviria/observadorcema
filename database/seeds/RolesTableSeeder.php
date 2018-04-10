@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class RolsTableSeeder extends Seeder
+class RolesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,23 +11,29 @@ class RolsTableSeeder extends Seeder
      */
     public function run()
     {
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Administrador',
+            'description' => '',
         ]);
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Rector',
+            'description' => '',
         ]);
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Coordinador',
+            'description' => '',
         ]);
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Profesor',
+            'description' => '',
         ]);
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Estudiante',
+            'description' => '',
         ]);
-        App\Rol::create([
+        App\Role::create([
             'name' => 'Acudiente',
+            'description' => '',
         ]);
     }
 }

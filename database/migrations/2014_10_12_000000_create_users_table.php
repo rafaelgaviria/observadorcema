@@ -14,23 +14,34 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id');            
             
-            $table->string('name');
-            $table->string('email', 128)->unique();
+            // INFORMACIÓN DE LOGUIN
+            $table->string('name', 50);
+            $table->string('username', 50);
+            $table->string('email', 50)->unique();
             $table->string('password');
-            //$table->integer('document', 12);
-            // $table->string('document_type', 6);
-            // $table->integer('code_school', 12)->nullable();;
-            // $table->string('status_id', 5);
-            // $table->integer('rol_id', 2)->unsigned();
-            // $table->string('file', 128)->nullable();
+            
+            // Datos adicionales del usuario
+            $table->string('phonenumber', 30)->nullable();
+            
+            $table->string('document', 15);
+            $table->integer('documenttype_id')->unsigned()->nullable();
+                $table->foreign('documenttype_id')->references('id')->on('documenttypes');
+            
+            $table->string('officialcode', 12)->nullable();
+            
+            $table->integer('course_id')->unsigned()->nullable();
+                $table->foreign('course_id')->references('id')->on('courses');
+            
+            $table->integer('role_id')->unsigned()->nullable();
+                $table->foreign('role_id')->references('id')->on('roles');
+           
+            $table->string('file', 128)->nullable();
+
             $table->rememberToken();
             $table->timestamps();
             
-            //Relations
-            //$table->foreign('rol_id')->references('id')->on('roles'); 
-            //$table->foreign('status_id')->references('id')->on('statuses');
         });
     }
 

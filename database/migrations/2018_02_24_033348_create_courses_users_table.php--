@@ -6,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateCoursesUsersTable extends Migration
 {
+    
     /**
      * Run the migrations.
      *
@@ -15,10 +16,15 @@ class CreateCoursesUsersTable extends Migration
     {
         Schema::create('courses_users', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('director')->unsigned;
-            $table->integer('course_id')->unsigned;
-            $table->integer('user_id')->unsigned;
-            $table->timestamps();
+            $table->integer('course_id')->unsigned();
+            $table->foreign('course_id')->references('id')->on('courses');
+
+            // $table->integer('director_id')->unsigned();
+            // $table->foreign('director_id')->references('id')->on('users');
+
+            $table->integer('student_id')->unsigned();
+            $table->foreign('student_id')->references('id')->on('users');
+            
         });
     }
 
