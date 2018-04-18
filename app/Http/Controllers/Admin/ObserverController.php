@@ -32,7 +32,6 @@ class ObserverController extends Controller
         $this->middleware('auth');
     }
 
-
     /**
      * Display a listing of the resource.
      *
@@ -42,6 +41,27 @@ class ObserverController extends Controller
     {
         //$users = User::all();
         $estudiantes = User::where("role_id","=",5)->get();
+
+        $userobservations = DB::table('users')
+            ->join('observations', function($join)
+                {
+                    $join->on('users.id', '=', 'observations.user_id')
+                        ->where('role_id', '=', 5);
+                })
+                //->pluck('observer_type_id' );
+                ->groupBy('course_id')
+            ->get();
+            
+        //dd($userobservations);
+
+        
+        // DB::table('users')
+        //     ->join('contacts', function($join)
+        //     {
+        //         $join->on('users.id', '=', 'contacts.user_id')
+        //             ->where('contacts.user_id', '>', 5);
+        //     })
+        //     ->get();
 
         //$observacionporcursos = Observer::Sum('id')->groupBy('course_id')->get();
         $totalobservaciones = Observer::all('id')->count();
@@ -110,7 +130,7 @@ class ObserverController extends Controller
         //Opción 3
         //print_r($observations);
 
-        return view('admin.observer.index', compact('estudiantes','users','observations', 'roles', 'users', 'totalobservaciones', 'tipo1', 'tipo2', 'tipo3', 'observacionporcursos', 'totalobservations', 'obsdecursos', 'obs_count', 'category1', 'category2', 'category3'));
+        return view('admin.observer.index', compact('estudiantes','users','observations', 'roles', 'users', 'totalobservaciones', 'tipo1', 'tipo2', 'tipo3', 'observacionporcursos', 'totalobservations', 'obsdecursos', 'obs_count', 'category1', 'category2', 'category3', 'userobservations'));
     }
 
     /**

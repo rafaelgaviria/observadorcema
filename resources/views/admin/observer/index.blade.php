@@ -25,6 +25,17 @@
   </div>  --}}
 
 <table>
+  @foreach($userobservations as $userobserver)
+  <tr>
+    <td>{{ $userobserver->id }}</td>
+    <td>{{ $userobserver->user_id }}</td>
+    <td>{{ $userobserver->name }}</td>
+    <td>{{ $userobserver->observer_category_id }}</td>
+  </tr>
+  @endforeach
+</table>
+
+{{-- <table>
   @foreach($obsdecursos as $obsdecurso)
   <tr>
     
@@ -32,7 +43,7 @@
     <td>{{ $obsdecurso->obs_count }}</td>
   </tr>
   @endforeach
-</table>
+</table> --}}
 
 
 
