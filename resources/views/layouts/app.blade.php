@@ -43,7 +43,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{--  {{ config('app.name', 'Laravel') }}  --}}
                     </a>
                 </div>
 
@@ -58,7 +58,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            {{--  <li><a href="{{ route('register') }}">Register</a></li>  --}}
                         @else
                             <li><a href="{{ route('observer.index')}}">Cursos</a></li>
                             <li><a href="{{ route('observer.index')}}">Observador</a></li>
