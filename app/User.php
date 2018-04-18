@@ -24,7 +24,7 @@ class User extends Authenticatable
         'document',
         'documenttype_id',
         'officialcode',
-        'course_id',
+        'course',
         'role_id',
         'file'
     ];
