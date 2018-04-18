@@ -31,8 +31,8 @@ class CreateUsersTable extends Migration
             
             $table->string('officialcode', 12)->nullable();
             
-            $table->integer('course_id')->unsigned()->nullable();
-                $table->foreign('course_id')->references('id')->on('courses');
+            $table->integer('course')->unsigned()->nullable();
+                $table->foreign('course')->references('id')->on('courses');
             
             $table->integer('role_id')->unsigned()->nullable();
                 $table->foreign('role_id')->references('id')->on('roles');
