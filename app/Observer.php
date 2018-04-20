@@ -12,7 +12,7 @@ class Observer extends Model
         'course_id',
         'rol_id',
         'creator_id',
-        'observer_type_id',
+        //'observer_type_id',
         'observer_scene_id',
         'observer_category_id',
         'observer_note_id',

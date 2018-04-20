@@ -31,5 +31,18 @@ class ObservercategoriesTableSeeder extends Seeder
             'name' => 'Circulares y Catedra Cemista',
             'prefix' => 'CIR',
         ]);
+        
+        App\Observercategory::create([
+            'name' => 'Faltas leves y tipo 1',
+            'prefix' => 'T3',
+        ]);
+        App\Observercategory::create([
+            'name' => 'Faltas graves y tipo 2',
+            'prefix' => 'T2',
+        ]);
+        App\Observercategory::create([
+            'name' => 'Faltas de especial gravedad y tipo 3',
+            'prefix' => 'T1',
+        ]);
     }
 }

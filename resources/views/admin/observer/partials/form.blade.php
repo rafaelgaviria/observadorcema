@@ -33,14 +33,14 @@
       </div>   
       
       {{--  TIPO DE OBSETVACIÓN  --}}
-      <div class="field">
+      {{--  <div class="field">
         {!! Form::label('Tipo de Observación', "Tipo de Observación") !!}
         {!! Form::select('observer_type_id', $observertypes, null, [
           'class'=>'ui selection dropdown',
           'placeholder'=>'Tipo observación',
           ])
           !!}
-        </div>
+      </div>  --}}
         
       {{--  BOTÓN ENVIAR  --}}
       {{ Form::submit('Enviar', [
