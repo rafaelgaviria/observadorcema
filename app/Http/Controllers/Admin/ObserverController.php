@@ -142,14 +142,12 @@ class ObserverController extends Controller
 		//     ->groupBy('course_id')
 		//     ->get();
 
-
 		// $orders = DB::table('orders')
 		//     ->select('department', DB::raw('SUM(price) as total_sales'))
 		//     ->groupBy('department')
 		//     ->havingRaw('SUM(price) > 2500')
 		//     ->get();
-		
-		
+				
 		// $observacionporcursos = DB::table('observations')
 		//     ->select('course_id', DB::raw('SUM(id) as totalobservations'))
 		//     ->groupBy('course_id')
@@ -195,20 +193,13 @@ class ObserverController extends Controller
 	 */
 	public function create(Request $id)
 	{
-		//$estudiante = $this->create($request)->id;
-		//$producto = Producto::find($id);
-		$users = User::find($id)->pluck('id');
-		//dd($users);
+		$user_id = User::find($id)->pluck('id');
 		$course = User::find($id)->pluck('course');
-		//dd($course);
-		//$inputs=Request::all();
-		//$users = $inputs['id'];
-		//$users = User::find($id);
-		//dd($id);
-	
+		//$rol = User::find($id)->pluck('role_id');
+		//dd($course);	
 		
-	//$users = User::OrderBy('name','ASC')->pluck('name','id');
-		//$user = User::find($id);
+		//$users = User::OrderBy('name','ASC')->pluck('name','id');
+		
 		//$users = User::with('roles')->where('roles.role_id','4')->pluck('name','id');
 
 		// $users = User::find(1);
@@ -239,12 +230,8 @@ class ObserverController extends Controller
 		//     ->get();
 
 		//$users = User::selectRaw("CONCAT(lastname, ' ', firstname) as fullName")->get()->pluck('lastname','id');
-		//    print_r($users);
+		//    print_r($users);		
 		
-		//dd($users);
-		
-		
-		//$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
 		$observertypes = Observertype::orderBy('id', 'ASC')->pluck('name','id');
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
@@ -253,7 +240,7 @@ class ObserverController extends Controller
 		$creator = Auth::id();
 		
 		
-		return view('admin.observer.create',compact('users','course','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
+		return view('admin.observer.create',compact('user_id','course','rol','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
 
 		// return view('admin.observer.create');
 	}
@@ -272,14 +259,15 @@ class ObserverController extends Controller
 			'observation' => 'required',
 			'user_id' => 'required',
 			'course_id' => 'required',
-			//'rol_id' => 'required',
+			// 'rol_id' => 'required',
 			'creator_id' => 'required',
+			'creator_role_id' => 'required',
 			'observer_type_id' => 'required',
 			'observer_scene_id' => 'required',
 			'observer_category_id' => 'required',
 			'observer_note_id' => 'required',
 			'observer_code_id' => 'required',
-			'state' => 'required',
+			//'state' => 'required',
 			]);
 			//Guardar los datos
 
@@ -287,14 +275,15 @@ class ObserverController extends Controller
 			'observation'=>$request->observation,
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
-			//'rol_id'=>$request->rol_id,
+			// 'rol_id'=>$request->rol_id,
 			'observer_type_id'=>$request->observer_type_id,
 			'creator_id'=>$request->creator_id,
+			'creator_role_id'=>$request->creator_role_id,
 			'observer_scene_id'=>$request->observer_scene_id,
 			'observer_category_id'=>$request->observer_category_id,
 			'observer_note_id'=>$request->observer_note_id,
 			'observer_code_id'=>$request->observer_code_id,
-			'state'=>$request->state,
+			// 'state'=>$request->state,
 			
 		]);
 		
@@ -360,7 +349,7 @@ class ObserverController extends Controller
 			'observer_category_id' => 'required',
 			'observer_note_id' => 'required',
 			'observer_code_id' => 'required',
-			'state' => 'required',
+			//'state' => 'required',
 		]);
 		// Actualizar los datos
 		$observation = Observer::find($id);
@@ -374,7 +363,7 @@ class ObserverController extends Controller
 		$observation->observer_category_id = $request->observer_category_id;
 		$observation->observer_note_id = $request->observer_note_id;
 		$observation->observer_code_id = $request->observer_code_id;
-		$observation->state = $request->state;
+		//$observation->state = $request->state;
 		$observation->save();
 		return redirect()->route('observer.show', $observation->id)->with('info', '¡La observación ha sido editada con éxito!');
 

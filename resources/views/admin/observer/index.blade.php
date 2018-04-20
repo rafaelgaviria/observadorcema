@@ -2,11 +2,11 @@
 
 @section('content')
 <div class="ui container">
-  
-  {{--  <a href="{{ route('observer.create')}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>  --}}
-  <br>
-  <br>
-  <br>
+  <h2 class="ui dividing header">Observador</h2>
+  <div class="ui message">
+    <div class="header">Selección de estudiante</div>
+    <p>Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>
+  </div>
   {{--  PRIMERO  --}}
   <div class="ui styled fluid accordion">
     <div class="title"><i class="dropdown icon"></i>Primero</div>
@@ -25,7 +25,7 @@
           <td>{{ $primeroestudiante->name }}</td>
           <td>
               
-              <a href="{{ route('observer.create', ['id' => $primeroestudiante->id])}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', ['id' => $primeroestudiante->id])}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
                
 
           </td>
@@ -49,7 +49,7 @@
           <td>Foto</td>
           <td>{{ $segundoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', ['id' => $segundoestudiante->id])}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', ['id' => $segundoestudiante->id])}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
   
           </td>
@@ -73,7 +73,7 @@
           <td>Foto</td>
           <td>{{ $terceroestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $terceroestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $terceroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -97,7 +97,7 @@
           <td>Foto</td>
           <td>{{ $cuartoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $cuartoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $cuartoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -121,7 +121,7 @@
           <td>Foto</td>
           <td>{{ $quintoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $quintoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $quintoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
             {{--  <a href="{{ route('observer.edit', $user->id)}}" class="mini ui primary button">Editar</a>  --}}
           </td>
@@ -145,7 +145,7 @@
           <td>Foto</td>
           <td>{{ $sextoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $sextoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $sextoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
           </td>
         </tr>
         @endforeach
@@ -167,7 +167,7 @@
           <td>Foto</td>
           <td>{{ $septimoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $septimoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $septimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -191,7 +191,7 @@
           <td>Foto</td>
           <td>{{ $octavoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $octavoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $octavoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -215,7 +215,7 @@
           <td>Foto</td>
           <td>{{ $novenoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $novenoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $novenoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -239,7 +239,7 @@
           <td>Foto</td>
           <td>{{ $decimoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $decimoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $decimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -263,7 +263,7 @@
           <td>Foto</td>
           <td>{{ $onceestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $onceestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', $onceestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
 
           </td>
@@ -377,17 +377,18 @@
   <br>
   <br>
   <br>
-  
-  <table>
-    @foreach($userobservations as $userobserver)
-    <tr>
-      <td>{{ $userobserver->id }}</td>
-      <td>{{ $userobserver->user_id }}</td>
-      <td>{{ $userobserver->name }}</td>
-      <td>{{ $userobserver->observer_category_id }}</td>
-    </tr>
-    @endforeach
-  </table>
+  {{-- 
+    <table>
+      @foreach($userobservations as $userobserver)
+      <tr>
+        <td>{{ $userobserver->id }}</td>
+        <td>{{ $userobserver->user_id }}</td>
+        <td>{{ $userobserver->name }}</td>
+        <td>{{ $userobserver->observer_category_id }}</td>
+      </tr>
+      @endforeach
+    </table>
+  --}}
   
   <br>
   <br>

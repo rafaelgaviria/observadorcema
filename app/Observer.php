@@ -10,7 +10,7 @@ class Observer extends Model
     protected $fillable =[
         'user_id',
         'course_id',
-        //'rol_id',
+        'rol_id',
         'creator_id',
         'observer_type_id',
         'observer_scene_id',
@@ -18,7 +18,7 @@ class Observer extends Model
         'observer_note_id',
         'observer_code_id',
         'observation',
-        'state',
+        //'state',
     ];
     
     

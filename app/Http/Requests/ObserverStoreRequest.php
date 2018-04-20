@@ -26,7 +26,7 @@ class ObserverStoreRequest extends FormRequest
         return [
             'user_id' => 'required',
             'course_id' => 'required',
-            'rol_id' => 'required',
+            'creator_role_id' => 'required',
             'creator_id' => 'required',
             'observer_type_id' => 'required',
             'observer_scene_id' => 'required',
@@ -34,7 +34,7 @@ class ObserverStoreRequest extends FormRequest
             'observer_note_id' => 'required',
             'observer_code_id' => 'required',
             'observation' => 'required',
-            'state' => 'required',
+            //'state' => 'required',
         ];
     }
 }
