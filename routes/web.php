@@ -32,7 +32,10 @@ Route::get('/blog', 'Web\PageController@blog')->name('blog');
 
 
 //admin
+//Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
+//Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::resource('observer', 'Admin\ObserverController');
+
 
 Auth::routes();
 

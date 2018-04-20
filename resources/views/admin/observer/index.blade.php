@@ -11,7 +11,6 @@
   <div class="ui styled fluid accordion">
     <div class="title"><i class="dropdown icon"></i>Primero</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -25,8 +24,9 @@
           <td>Foto</td>
           <td>{{ $primeroestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $primeroestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
               
+              <a href="{{ route('observer.create', ['id' => $primeroestudiante->id])}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+               
 
           </td>
         </tr>
@@ -36,7 +36,6 @@
     {{--  SEGUNDO  --}}
     <div class="title"><i class="dropdown icon"></i>Segundo</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -50,9 +49,9 @@
           <td>Foto</td>
           <td>{{ $segundoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', $segundoestudiante->id)}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
+              <a href="{{ route('observer.create', ['id' => $segundoestudiante->id])}}" class="ui primary button"><i class="plus circle icon"></i>Crear Observación</a>
               
-
+  
           </td>
         </tr>
         @endforeach
@@ -61,7 +60,6 @@
     {{--  TERCERO  --}}
     <div class="title"><i class="dropdown icon"></i>Tercero</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -86,7 +84,6 @@
     {{--  CUARTO  --}}
     <div class="title"><i class="dropdown icon"></i>Cuarto</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -111,7 +108,6 @@
     {{--  QUINTO  --}}
     <div class="title"><i class="dropdown icon"></i>Quinto</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -136,7 +132,6 @@
     {{--  SEXTO  --}}
     <div class="title"><i class="dropdown icon"></i>Sexto</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -159,7 +154,6 @@
     {{--  SEPTIMO  --}}
     <div class="title"><i class="dropdown icon"></i>Séptmo</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -184,7 +178,6 @@
     {{--  OCTAVO  --}}
     <div class="title"><i class="dropdown icon"></i>Octavo</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -209,7 +202,6 @@
     {{--  NOVENO  --}}
     <div class="title"><i class="dropdown icon"></i>Noveno</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -234,7 +226,6 @@
     {{--  DECIMO  --}}
     <div class="title"><i class="dropdown icon"></i>Décimo</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
@@ -259,7 +250,6 @@
     {{--  ONCE  --}}
     <div class="title"><i class="dropdown icon"></i>Once</div>
     <div class="content">
-      <h1>Table</h1>
       <table class="ui celled striped small compact table">
         <thead>
           <tr>

@@ -193,9 +193,22 @@ class ObserverController extends Controller
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
-	public function create()
+	public function create(Request $id)
 	{
-		$users = User::OrderBy('name','ASC')->pluck('name','id');
+		//$estudiante = $this->create($request)->id;
+		//$producto = Producto::find($id);
+		$users = User::find($id)->pluck('id');
+		//dd($users);
+		$course = User::find($id)->pluck('course');
+		//dd($course);
+		//$inputs=Request::all();
+		//$users = $inputs['id'];
+		//$users = User::find($id);
+		//dd($id);
+	
+		
+	//$users = User::OrderBy('name','ASC')->pluck('name','id');
+		//$user = User::find($id);
 		//$users = User::with('roles')->where('roles.role_id','4')->pluck('name','id');
 
 		// $users = User::find(1);
@@ -231,7 +244,7 @@ class ObserverController extends Controller
 		//dd($users);
 		
 		
-		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
+		//$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
 		$observertypes = Observertype::orderBy('id', 'ASC')->pluck('name','id');
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
@@ -240,7 +253,7 @@ class ObserverController extends Controller
 		$creator = Auth::id();
 		
 		
-		return view('admin.observer.create',compact('users','courses','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
+		return view('admin.observer.create',compact('users','course','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
 
 		// return view('admin.observer.create');
 	}

@@ -59,6 +59,15 @@
 </div>
 
 
+<div class="form-group">
+  <label>Curso</label>
+  {!! Form::select('course', $course, null, [
+    'class'=>'ui selection dropdown',
+    'placeholder'=>'Seleccione curso',
+    ])
+    !!}
+</div>
+
 
 <div class="form-group">
   {!! Form::label('Curso', "Curso") !!}
@@ -77,6 +86,12 @@
 
 <div class="form-group">
   {!! Form::hidden('creator_id', $creator) !!}
+</div>
+<div class="form-group">
+  {!! Form::hidden('users', $users) !!}
+</div>
+<div class="form-group">
+  {!! Form::hidden('course', $course) !!}
 </div>
 
 
