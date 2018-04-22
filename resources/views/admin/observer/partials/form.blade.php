@@ -30,17 +30,7 @@
           'placeholder'=>'Tipo de anotación',
           ])
         !!}
-      </div>   
-      
-      {{--  TIPO DE OBSETVACIÓN  --}}
-      {{--  <div class="field">
-        {!! Form::label('Tipo de Observación', "Tipo de Observación") !!}
-        {!! Form::select('observer_type_id', $observertypes, null, [
-          'class'=>'ui selection dropdown',
-          'placeholder'=>'Tipo observación',
-          ])
-          !!}
-      </div>  --}}
+      </div>
         
       {{--  BOTÓN ENVIAR  --}}
       {{ Form::submit('Enviar', [
@@ -77,18 +67,22 @@
 </div>
 
 <hr>
-{{--  <p>Estudiante: {{$user_id}}</p>
-<p>Curso: {{$course}}</p>
-<p>Rol: {{$rol}}</p>
-<p>Estado: {{$course}}</p>  --}}
+<p>Rol Creador: {{$creator_role}}</p>
+<p>ID Creador: {{$creator}}</p>
+{{--<p>Estudiante: {{$user_id->id}}</p>
+<p>Curso: {{$user_id->course}}</p>
+<p>User Role: {{$user_id->role_id}}</p>--}}
+{{--<p>Rol: {{$user_id->rol}}</p>
+<p>Estado: {{$course}}</p>--}}
 
 {{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
 
-  {!! Form::hidden('user_id', 437) !!}
-  {!! Form::hidden('course_id', 1) !!}
-  {{--  {!! Form::hidden('rol_id', $rol) !!}  --}}
+  {!! Form::hidden('user_id', $user_id->id) !!}
+  {!! Form::hidden('course_id', $user_id->course) !!}
+  {!! Form::hidden('user_rol_id', $user_id->role_id) !!}
   {!! Form::hidden('creator_id', $creator) !!}
-  {!! Form::hidden('creator_role_id', 2) !!}
+  {!! Form::hidden('creator_role', $creator_role) !!}
+  
   {{--  {!! Form::hidden('state', 1) !!}  --}}
 
 @section('scripts')

@@ -10,9 +10,9 @@ class Observer extends Model
     protected $fillable =[
         'user_id',
         'course_id',
-        'rol_id',
+        'user_role_id',
         'creator_id',
-        //'observer_type_id',
+        'creator_rol',
         'observer_scene_id',
         'observer_category_id',
         'observer_note_id',
@@ -56,6 +56,10 @@ class Observer extends Model
 
     public function creator(){
         return $this->hasOne(User::class, 'id', 'creator_id');
+    }
+    
+    public function creator_role_id(){
+        return $this->hasOne(User::class, 'id', 'creator_role_id');
     }
     
     public function obsdecurso(){

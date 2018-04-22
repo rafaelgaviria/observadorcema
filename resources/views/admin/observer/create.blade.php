@@ -3,7 +3,7 @@
 @section('content')
 
   <div class="ui container">
-    <h2 class="ui dividing header">Creación de Observación para: {{$user_id}}</h2>
+    <h2 class="ui dividing header">Creación de Observación para: {{$user_id->name}}</h2>
     {!! Form::open(['route' => 'observer.store'])!!}
     {{ csrf_field() }}
 

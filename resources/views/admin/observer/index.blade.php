@@ -25,7 +25,7 @@
           <td>{{ $primeroestudiante->name }}</td>
           <td>
               
-              <a href="{{ route('observer.create', ['id' => $primeroestudiante->id])}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
+              <a href="{{ route('observer',$primeroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
                
 
           </td>
@@ -49,7 +49,7 @@
           <td>Foto</td>
           <td>{{ $segundoestudiante->name }}</td>
           <td>
-              <a href="{{ route('observer.create', ['id' => $segundoestudiante->id])}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
+              <a href="{{ route('observer.create',$segundoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
               
   
           </td>

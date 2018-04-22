@@ -12,23 +12,25 @@
         </div>
         {{--  COLUMNA UNO  --}} 
         <div class="four wide column">
-          <h3>Tipo de observación:</h3>
           <h3>Escenario:</h3>
           <h3>Nota:</h3>
           <h3>Creado:</h3>
           <h3>Autor:</h3>
           <h3>ID Observación:</h3>
+          <h3>Curso:</h3>
+          <h3>Rol Creador:</h3>
           <h3>Observación:</h3>
         </div>
         {{--  COLUMNA UNO  --}}
         <div class="eight wide column">
-          <h3>{{ $observation->observertype->name }}</h3>
           <h3>{{ $observation->observerscene->name }}</h3>
           <h3>{{ $observation->observernote->name }}</h3>
           <h3>{{ $observation->created_at }}</h3>
           
           <h3>{{ $observation->creator->name }}</h3>
           <h3>{{ $observation->id }}</h3>
+          <h3>{{ $observation->course_id }}</h3>
+          <h3>{{ $observation->creator_role_id }}</h3>
           <h3>{{ $observation->observation }}</h3>
         </div>  
     </div>

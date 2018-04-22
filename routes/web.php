@@ -19,6 +19,7 @@ Route::redirect('/', 'blog');
 
 Auth::routes();
 
+
 Route::get('/blog', 'Web\PageController@blog')->name('blog');
 // Route::get('/blog', function(){
 //   $user = App\user::findOrFail(1);
@@ -34,8 +35,9 @@ Route::get('/blog', 'Web\PageController@blog')->name('blog');
 //admin
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
-Route::resource('observer', 'Admin\ObserverController');
+Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
 
+Route::resource('observer', 'Admin\ObserverController');
 
 Auth::routes();
 

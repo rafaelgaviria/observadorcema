@@ -20,7 +20,6 @@ Use App\Observerscene;
 Use App\Observercategory; 
 Use App\Observercode; 
 Use App\Observernote; 
-Use App\Observertype; 
 Use App\CourseUser; 
 Use App\Role; 
 
@@ -191,10 +190,9 @@ class ObserverController extends Controller
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
-	public function create(Request $id)
+	public function create()
 	{
-		$user_id = User::find($id)->pluck('id');
-		$course = User::find($id)->pluck('course');
+
 		//$rol = User::find($id)->pluck('role_id');
 		//dd($course);	
 		
@@ -233,16 +231,29 @@ class ObserverController extends Controller
 		//    print_r($users);		
 		
 		// $observertypes = Observertype::orderBy('id', 'ASC')->pluck('name','id');
+
+		// return view('admin.observer.create');
+	}
+	
+	public function crearObservacion($id){
+		$user_id = User::find($id);
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		$creator = Auth::id();
+		//$creator_role_id = Auth::role_id();
+		$creator_role = User::select('role_id')->where('id',$creator)->pluck('role_id')->first();
 		
+		//$creator_role_id = User::where('id', $creator)->get(['id', 'role_id'])->pluck('role_id');
 		
-		return view('admin.observer.create',compact('user_id','course','rol','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
 
-		// return view('admin.observer.create');
+		//dd($creator);
+		
+		//->toJson()
+		
+		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role'));
+		
 	}
 
 	/**
@@ -259,10 +270,9 @@ class ObserverController extends Controller
 			'observation' => 'required',
 			'user_id' => 'required',
 			'course_id' => 'required',
-			// 'rol_id' => 'required',
+			'user_rolid' => 'required',
 			'creator_id' => 'required',
-			'creator_role_id' => 'required',
-			//'observer_type_id' => 'required',
+			'creator_role' => 'required',
 			'observer_scene_id' => 'required',
 			'observer_category_id' => 'required',
 			'observer_note_id' => 'required',
@@ -270,19 +280,18 @@ class ObserverController extends Controller
 			//'state' => 'required',
 			]);
 			//Guardar los datos
-
+		//dd($creator_role_id);
 		 $observer = Observer::create([
-			'observation'=>$request->observation,
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
-			// 'rol_id'=>$request->rol_id,
-			//'observer_type_id'=>$request->observer_type_id,
+			'user_rol_id'=>$request->rol_id,
 			'creator_id'=>$request->creator_id,
-			'creator_role_id'=>$request->creator_role_id,
-			'observer_scene_id'=>$request->observer_scene_id,
+			'creator_role'=>$request->creator_role,
 			'observer_category_id'=>$request->observer_category_id,
-			'observer_note_id'=>$request->observer_note_id,
 			'observer_code_id'=>$request->observer_code_id,
+			'observer_scene_id'=>$request->observer_scene_id,
+			'observer_note_id'=>$request->observer_note_id,
+			'observation'=>$request->observation,
 			// 'state'=>$request->state,
 			
 		]);
@@ -315,18 +324,31 @@ class ObserverController extends Controller
 	
 	 public function edit($id)
 	{
-		$observation = Observer::find($id);
-		$users = User::OrderBy('name','DES')->pluck('name','id');
-		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
-		//$observertypes = Observertype::orderBy('id', 'ASC')->pluck('name','id');
+		$user_id = User::find($id);
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
-		$creator = User::find($id);
+		$creator = Auth::id();
+		
+		$observation = Observer::find($id);
+		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
+		
+		//dd($user_id);
+		//return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator'));
+		
+		//$observation = Observer::find($id);
+		//$users = User::OrderBy('name','DES')->pluck('name','id');
+		//$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
+		//$observertypes = Observertype::orderBy('id', 'ASC')->pluck('name','id');
+		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
+		//$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
+		//$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
+		//$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
+		//$creator = User::find($id);
 		
 		
-		return view('admin.observer.edit',compact('observation','users','courses','observercategories', 'observertypes', 'observerscenes','observercodes','observernotes', 'creator'));
+		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation'));
 	}
 
 	/**
