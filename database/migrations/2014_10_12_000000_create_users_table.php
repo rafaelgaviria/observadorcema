@@ -38,6 +38,8 @@ class CreateUsersTable extends Migration
                 $table->foreign('role_id')->references('id')->on('roles');
            
             $table->string('file', 128)->nullable();
+            
+            $table->boolean('state')->default(1);
 
             $table->rememberToken();
             $table->timestamps();
