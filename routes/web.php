@@ -36,6 +36,8 @@ Route::get('/blog', 'Web\PageController@blog')->name('blog');
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
+Route::put('observer/unactive','Admin\ObserverController@unactive');
+Route::put('observer/active','Admin\ObserverController@active');
 
 Route::resource('observer', 'Admin\ObserverController');
 

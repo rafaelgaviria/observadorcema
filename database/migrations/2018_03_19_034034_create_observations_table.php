@@ -49,7 +49,7 @@ class CreateObservationsTable extends Migration
             
             $table->string('observation', 1500);
             
-            $table->string('state');
+            $table->boolean('state')->default(1);
             
             $table->timestamps();
         });

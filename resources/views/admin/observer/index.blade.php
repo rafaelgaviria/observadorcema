@@ -23,12 +23,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $primeroestudiante->name }}</td>
-          <td>
-              
-              <a href="{{ route('observer',$primeroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-               
-
-          </td>
+          <td><a href="{{ route('observer',$primeroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -48,11 +43,8 @@
         <tr>
           <td>Foto</td>
           <td>{{ $segundoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create',$segundoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-  
-          </td>
+          <td><a href="{{ route('observer',$segundoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
+                        
         </tr>
         @endforeach
       </table>
@@ -72,11 +64,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $terceroestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $terceroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $terceroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
         </tr>
         @endforeach
       </table>
@@ -96,11 +84,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $cuartoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $cuartoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $cuartoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -120,11 +104,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $quintoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $quintoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-            {{--  <a href="{{ route('observer.edit', $user->id)}}" class="mini ui primary button">Editar</a>  --}}
-          </td>
+          <td><a href="{{ route('observer', $quintoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
         </tr>
         @endforeach
       </table>
@@ -144,9 +124,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $sextoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $sextoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-          </td>
+          <td><a href="{{ route('observer', $sextoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
         </tr>
         @endforeach
       </table>
@@ -166,11 +144,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $septimoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $septimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $septimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
         </tr>
         @endforeach
       </table>
@@ -190,11 +164,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $octavoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $octavoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $octavoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -214,11 +184,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $novenoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $novenoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $novenoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -238,11 +204,7 @@
         <tr>
           <td>Foto</td>
           <td>{{ $decimoestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $decimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $decimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -262,22 +224,14 @@
         <tr>
           <td>Foto</td>
           <td>{{ $onceestudiante->name }}</td>
-          <td>
-              <a href="{{ route('observer.create', $onceestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-              
-
-          </td>
+          <td><a href="{{ route('observer', $onceestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
     </div>
   </div> {{-- CIERRE CONTENEDOR ACORDEON    --}}
 
-<br>
-<br>
-<br>
-<br>
-
+{{--
   <div class="ui statistics">
     <div class="violet statistic">
       <div class="value">
@@ -286,23 +240,19 @@
       <div class="label">Observaciones</div>
     </div>
    
-  
-  
     <div class="violet statistic">
       <div class="value">
         {{$category1}}
       </div>
       <div class="label">Asistencia</div>
     </div>
-  
-  
+
     <div class="violet statistic">
       <div class="value">
         {{$category2}}
       </div>
       <div class="label">Puntualidad</div>
     </div>
-  
   
     <div class="violet statistic">
       <div class="value">
@@ -311,19 +261,10 @@
       <div class="label">Presentación Personal</div>
     </div>
   </div>
-  
- 
-  
-
-
-
+--}}
+<h2 class="ui dividing header">Últimas observaciones</h2>
   <table class="ui celled striped small very compact table">
     <thead>
-      <tr>
-        <th colspan="10">
-            {{$observations->render()}}  
-        </th>
-      </tr>
       <tr>
         <th>Id</th>
         <th>Foto</th>
@@ -351,12 +292,18 @@
         <td>{{ $observation->course->name }}</td>
 
         <td>
-          <a href="{{ route('observer.show', $observation->id)}}" class="mini ui primary button">Ver</a>
-          <a href="{{ route('observer.edit', $observation->id)}}" class="mini ui primary button">Editar</a>
-          
+          <a href="{{ route('observer.show', $observation->id)}}" class="ui icon button">
+            <i class="eye icon"></i>
+          </a>
+          <a href="{{ route('observer.edit', $observation->id)}}" class="ui icon button">
+            <i class="edit icon"></i>
+          </a>
+              
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
-          <button class="mini ui red button">Eliminar</button>
+          <button class="ui icon button">
+            <i class="minus circle red icon"></i>
+          </button>
           {!! Form::close() !!}
           
         </td>

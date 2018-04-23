@@ -242,16 +242,9 @@ class ObserverController extends Controller
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		$creator = Auth::id();
-		//$creatorrole_id_id = Auth::role_id();
-		//$creatorrole_id = User::select('role_id')->where('id', $creator)->pluck('role_id')->first();
 		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
-
-		//$curso = Matricula::where('id_alumno',$id)->pluck('curso_alumno')->first();
 		
-		//$creatorrole_id_id = User::where('id', $creator)->get(['id', 'role_id'])->pluck('role_id');
 		// dd($creatorrole_id);
-		
-		//->toJson()
 		
 		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creatorrole_id'));
 		
@@ -398,17 +391,26 @@ class ObserverController extends Controller
 		return redirect()->route('observer.show', $observation->id)->with('info', '¡La observación ha sido editada con éxito!');
 
 	}
-
-	/**
-	 * Remove the specified resource from storage.
-	 *
-	 * @param  int  $id
-	 * @return \Illuminate\Http\Response
-	 */
 	public function destroy($id)
 	{
 		Observer::find($id)->delete();
 
 		return back()->with('info', 'Registro eliminado correctamente');
 	}
+	
+	public function unactive(Request $request)
+	{ 
+		$observation = Observer::findOrFail($request->$id);
+		$observation->state = '0';
+		$observation->save();
+	
+	}	
+	
+	public function active(Request $request)
+	{ 
+		$observation = Observer::findOrFail($request->$id);
+		$observation->state = '1';
+		$observation->save();
+	
+	}	
 }
