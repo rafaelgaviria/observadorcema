@@ -67,21 +67,26 @@
 </div>
 
 <hr>
-<p>Rol Creador: {{$creator_role}}</p>
-<p>ID Creador: {{$creator}}</p>
-{{--<p>Estudiante: {{$user_id->id}}</p>
+
+<p>Estudiante: {{$user_id->id}}</p>
+<p>Rol Estudiante: {{$user_id->role_id}}</p>
 <p>Curso: {{$user_id->course}}</p>
-<p>User Role: {{$user_id->role_id}}</p>--}}
-{{--<p>Rol: {{$user_id->rol}}</p>
-<p>Estado: {{$course}}</p>--}}
+<hr>
+<p>ID Creador: {{$creator}}</p>
+<p>ID Rol Creador: {{$creatorrole_id}}</p>
+{{-- <p>Estado: {{$user_id->course}}</p> --}}
+<hr>
+
+{{-- @php dd($creatorrole_id); @endphp --}}
 
 {{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
 
   {!! Form::hidden('user_id', $user_id->id) !!}
   {!! Form::hidden('course_id', $user_id->course) !!}
   {!! Form::hidden('user_rol_id', $user_id->role_id) !!}
+  
   {!! Form::hidden('creator_id', $creator) !!}
-  {!! Form::hidden('creator_role', $creator_role) !!}
+  {!! Form::hidden('creatorrole_id', $creatorrole_id) !!}
   
   {{--  {!! Form::hidden('state', 1) !!}  --}}
 

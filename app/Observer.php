@@ -12,7 +12,7 @@ class Observer extends Model
         'course_id',
         'user_role_id',
         'creator_id',
-        'creator_rol',
+        'creatorrole_id',
         'observer_scene_id',
         'observer_category_id',
         'observer_note_id',
@@ -39,6 +39,10 @@ class Observer extends Model
         return $this->hasOne('App\Course','id','course_id');
     }
     
+    public function creatorrole(){
+        return $this->hasOne('App\Role','id','creatorrole_id');
+    }
+    
     public function observernote(){
         return $this->hasOne('App\Observernote','id','observer_note_id');
     }
@@ -58,8 +62,8 @@ class Observer extends Model
         return $this->hasOne(User::class, 'id', 'creator_id');
     }
     
-    public function creator_role_id(){
-        return $this->hasOne(User::class, 'id', 'creator_role_id');
+    public function creator_role(){
+        return $this->hasOne(User::class, 'role_id', 'creator_role');
     }
     
     public function obsdecurso(){

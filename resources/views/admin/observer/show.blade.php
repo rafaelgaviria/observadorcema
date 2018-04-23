@@ -29,8 +29,8 @@
           
           <h3>{{ $observation->creator->name }}</h3>
           <h3>{{ $observation->id }}</h3>
-          <h3>{{ $observation->course_id }}</h3>
-          <h3>{{ $observation->creator_role_id }}</h3>
+          <h3>{{ $observation->course->name }}</h3>
+          <h3>{{ $observation->creatorrole->name }}</h3>
           <h3>{{ $observation->observation }}</h3>
         </div>  
     </div>
