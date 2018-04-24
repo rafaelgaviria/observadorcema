@@ -2,34 +2,63 @@
 
 @section('content')
 <div class="ui container">
-  <h2 class="ui dividing header">Observador</h2>
-  <div class="ui message">
-    <div class="header">Selección de estudiante</div>
-    <p>Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>
+  {{-- RESUMEN ESTADISTICAS --}}
+  <div class="ui statistics">
+    <div class="blue statistic">
+      <div class="value">
+        {{$totalobservaciones}}
+      </div>
+      <div class="label">Observaciones</div>
+    </div>
   </div>
+  <h2 class="ui dividing header">Observador</h2>
+  <div class="ui message info">
+    <div class="header"></div>
+    <p><strong>Selección de estudiante:</strong>  Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>
+  </div>
+  
+  
   {{--  PRIMERO  --}}
-  <div class="ui styled fluid accordion">
-    <div class="title"><i class="dropdown icon"></i>Primero</div>
+  <div class="ui styled fluid accordion segment">
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Primero {{$primerototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
           <tr>
-            <th>Foto</th>
-            <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>Foto</h4></th>
+            <th><h4>Nombres</h4></th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
           </tr>
         </thead>
         @foreach($primeroestudiantes as $primeroestudiante)
         <tr>
           <td>Foto</td>
           <td>{{ $primeroestudiante->name }}</td>
-          <td><a href="{{ route('observer',$primeroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="{{ route('observer',$primeroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
+          </td>
+          
         </tr>
         @endforeach
       </table>
     </div>
     {{--  SEGUNDO  --}}
-    <div class="title"><i class="dropdown icon"></i>Segundo</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Segundo {{$segundototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -50,7 +79,7 @@
       </table>
     </div>
     {{--  TERCERO  --}}
-    <div class="title"><i class="dropdown icon"></i>Tercero</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Tercero {{$tercerototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -70,7 +99,7 @@
       </table>
     </div>
     {{--  CUARTO  --}}
-    <div class="title"><i class="dropdown icon"></i>Cuarto</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Cuarto {{$cuartototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -90,7 +119,7 @@
       </table>
     </div>
     {{--  QUINTO  --}}
-    <div class="title"><i class="dropdown icon"></i>Quinto</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Quinto {{$quintototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -110,7 +139,7 @@
       </table>
     </div>
     {{--  SEXTO  --}}
-    <div class="title"><i class="dropdown icon"></i>Sexto</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Sexto {{$sextototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -130,7 +159,7 @@
       </table>
     </div>
     {{--  SEPTIMO  --}}
-    <div class="title"><i class="dropdown icon"></i>Séptmo</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Séptmo {{$septimototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -150,7 +179,7 @@
       </table>
     </div>
     {{--  OCTAVO  --}}
-    <div class="title"><i class="dropdown icon"></i>Octavo</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Octavo {{$octavototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -170,7 +199,7 @@
       </table>
     </div>
     {{--  NOVENO  --}}
-    <div class="title"><i class="dropdown icon"></i>Noveno</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Noveno {{$novenototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -190,7 +219,7 @@
       </table>
     </div>
     {{--  DECIMO  --}}
-    <div class="title"><i class="dropdown icon"></i>Décimo</div>
+    <div class="title ui violet segment"><i class="dropdown icon"></i>Décimo {{$decimototal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -210,7 +239,7 @@
       </table>
     </div>
     {{--  ONCE  --}}
-    <div class="title"><i class="dropdown icon"></i>Once</div>
+    <div class="title ui violet segment"><i class="dropdown icon"></i>Once {{$oncetotal}}</div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -231,37 +260,6 @@
     </div>
   </div> {{-- CIERRE CONTENEDOR ACORDEON    --}}
 
-{{--
-  <div class="ui statistics">
-    <div class="violet statistic">
-      <div class="value">
-        {{$totalobservaciones}}
-      </div>
-      <div class="label">Observaciones</div>
-    </div>
-   
-    <div class="violet statistic">
-      <div class="value">
-        {{$category1}}
-      </div>
-      <div class="label">Asistencia</div>
-    </div>
-
-    <div class="violet statistic">
-      <div class="value">
-        {{$category2}}
-      </div>
-      <div class="label">Puntualidad</div>
-    </div>
-  
-    <div class="violet statistic">
-      <div class="value">
-        {{$category3}}
-      </div>
-      <div class="label">Presentación Personal</div>
-    </div>
-  </div>
---}}
 <h2 class="ui dividing header">Últimas observaciones</h2>
   <table class="ui celled striped small very compact table">
     <thead>

@@ -100,7 +100,6 @@ class ObserverController extends Controller
 			->orderBy('name', 'ASC')
 			->get();
 
-		////////////
 		$userobservations = DB::table('users')
 			->join('observations', function($join)
 				{
@@ -124,8 +123,20 @@ class ObserverController extends Controller
 		$totalobservaciones = Observer::all('id')->count();
 		
 		$category1 = Observer::where("observer_category_id","=",1)->count();
-		$category2 = Observer::where("observer_category_id","=",2)->count();
-		$category3 = Observer::where("observer_category_id","=",3)->count();
+		
+		$primerototal = Observer::where("course_id","=",1)->count();
+		$segundototal = Observer::where("course_id","=",2)->count();
+		$tercerototal = Observer::where("course_id","=",3)->count();
+		$cuartototal = Observer::where("course_id","=",4)->count();
+		$quintototal = Observer::where("course_id","=",5)->count();
+		$sextototal = Observer::where("course_id","=",6)->count();
+		$septimototal = Observer::where("course_id","=",7)->count();
+		$octavototal = Observer::where("course_id","=",8)->count();
+		$novenototal = Observer::where("course_id","=",9)->count();
+		$decimototal = Observer::where("course_id","=",10)->count();
+		$oncetotal = Observer::where("course_id","=",11)->count();
+	
+		
 		//$count = App\Flight::where('active', 1)->count();
 		
 		// $observacionporcursos = DB::observations('orders')
@@ -166,12 +177,28 @@ class ObserverController extends Controller
 					->groupBy('course_id')
 					->get();
 	
+		
 		//$users = User::all()->roles()->orderBy('name')->get();
 		
-		$observations = Observer::orderBy('id','DES')->paginate(8);
+		$observations = Observer::orderBy('id','DES')->paginate(10);
+		//dd($observations);
 
-		return view('admin.observer.index', compact('courses','estudiantes','users','observations', 'roles', 'users', 'levels', 'totalobservaciones', 'tipo1', 'tipo2', 'tipo3', 'observacionporcursos', 'totalobservations', 'obsdecursos', 'obs_count', 'category1', 'category2', 'category3', 'userobservations', 'listaprimero',
+		return view('admin.observer.index', compact('estudiantes','users','observations', 'roles', 'users', 'levels', 'totalobservaciones', 'observacionporcursos', 'totalobservations', 'obsdecursos', 'obs_count', 'userobservations', 'listaprimero', 'totalcursos',
 		
+		//Conteo por curso
+		'primerototal',
+		'segundototal',
+		'tercerototal',
+		'cuartototal',
+		'quintototal',
+		'sextototal',
+		'septimototal',
+		'octavototal',
+		'novenototal',
+		'decimototal',
+		'oncetotal',
+		
+		//Listado de estudiantes
 		'primeroestudiantes',
 		'segundoestudiantes',
 		'terceroestudiantes',
