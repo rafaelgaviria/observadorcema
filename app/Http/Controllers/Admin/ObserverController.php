@@ -183,33 +183,13 @@ class ObserverController extends Controller
 		$observations = Observer::orderBy('id','DES')->paginate(10);
 		//dd($observations);
 
-		return view('admin.observer.index', compact('estudiantes','users','observations', 'roles', 'users', 'levels', 'totalobservaciones', 'observacionporcursos', 'totalobservations', 'obsdecursos', 'obs_count', 'userobservations', 'listaprimero', 'totalcursos',
-		
+		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalobservations',
+
 		//Conteo por curso
-		'primerototal',
-		'segundototal',
-		'tercerototal',
-		'cuartototal',
-		'quintototal',
-		'sextototal',
-		'septimototal',
-		'octavototal',
-		'novenototal',
-		'decimototal',
-		'oncetotal',
+		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',
 		
 		//Listado de estudiantes
-		'primeroestudiantes',
-		'segundoestudiantes',
-		'terceroestudiantes',
-		'cuartoestudiantes',
-		'quintoestudiantes',
-		'sextoestudiantes',
-		'septimoestudiantes',
-		'octavoestudiantes',
-		'novenoestudiantes',
-		'decimoestudiantes',
-		'onceestudiantes'));
+		'primeroestudiantes','segundoestudiantes','terceroestudiantes','cuartoestudiantes','quintoestudiantes','sextoestudiantes','septimoestudiantes','octavoestudiantes','novenoestudiantes','decimoestudiantes','onceestudiantes'));
 	}
 
 	/**
