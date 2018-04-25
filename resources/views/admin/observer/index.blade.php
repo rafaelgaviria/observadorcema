@@ -40,7 +40,9 @@
         </thead>
         @foreach($primeroestudiantes as $primeroestudiante)
         <tr>
-          <td>Foto</td>
+          <td>
+            <img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo">
+          </td>
           <td>{{ $primeroestudiante->name }}</td>
           <td></td>
           <td></td>
@@ -65,13 +67,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($segundoestudiantes as $segundoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $segundoestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer',$segundoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
                         
         </tr>
@@ -86,13 +105,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($terceroestudiantes as $terceroestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $terceroestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $terceroestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
         </tr>
         @endforeach
@@ -106,13 +142,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($cuartoestudiantes as $cuartoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $cuartoestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $cuartoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
@@ -126,14 +179,31 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($quintoestudiantes as $quintoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $quintoestudiante->name }}</td>
-          <td><a href="{{ route('observer', $quintoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="{{ route('observer', $quintoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -146,14 +216,31 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($sextoestudiantes as $sextoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $sextoestudiante->name }}</td>
-          <td><a href="{{ route('observer', $sextoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="{{ route('observer', $sextoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -166,14 +253,31 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($septimoestudiantes as $septimoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $septimoestudiante->name }}</td>
-          <td><a href="{{ route('observer', $septimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a><td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="{{ route('observer', $septimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
       </table>
@@ -186,13 +290,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($octavoestudiantes as $octavoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $octavoestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $octavoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
@@ -206,13 +327,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($novenoestudiantes as $novenoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $novenoestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $novenoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
@@ -226,13 +364,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($decimoestudiantes as $decimoestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $decimoestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $decimoestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
@@ -246,13 +401,30 @@
           <tr>
             <th>Foto</th>
             <th>Nombres</th>
-            <th>Acciones</th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>Crear</h4></th>
+            
           </tr>
         </thead>
         @foreach($onceestudiantes as $onceestudiante)
         <tr>
-          <td>Foto</td>
+          <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
           <td>{{ $onceestudiante->name }}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td><a href="{{ route('observer', $onceestudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         @endforeach
