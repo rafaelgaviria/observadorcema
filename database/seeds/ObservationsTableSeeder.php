@@ -11,7 +11,7 @@ class ObservationsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        // DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         
         App\Observer::create(['id' => '291','user_id' => '441','course_id' => '1','creator_id' => '390','creatorrole_id' => '4', 'user_role_id' => '5','observer_category_id' => '2','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 7&nbsp;de marzo registra 1&nbsp;retardos sin justificaci&oacute;n.','created_at' => '2018-03-12 21:45:00',]);
         
@@ -1868,13 +1868,7 @@ class ObservationsTableSeeder extends Seeder
         App\Observer::create(['id' => '542','user_id' => '502','course_id' => '11','creator_id' => '390','creatorrole_id' => '4', 'user_role_id' => '5','observer_category_id' => '5','observer_code_id' => '43','observer_scene_id' => '3','observer_note_id' => '1','observation' => 'El d&iacute;a 26 de febrero es citado el acudiente del estudiante para notificar la sancion y la perdida de 1 punto del actitudinal por involucrase en juegos como el abecedario del diablo y el amague.
         
         ','created_at' => '2018-03-27 14:29:00',]);
-        
 
-
-
-
-
-
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        // DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }
