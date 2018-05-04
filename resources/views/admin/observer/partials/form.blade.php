@@ -83,7 +83,7 @@
 
   {!! Form::hidden('user_id', $user_id->id) !!}
   {!! Form::hidden('course_id', $user_id->course) !!}
-  {!! Form::hidden('user_rol_id', $user_id->role_id) !!}
+  {!! Form::hidden('user_role_id', $user_id->role_id) !!}
   
   {!! Form::hidden('creator_id', $creator) !!}
   {!! Form::hidden('creatorrole_id', $creatorrole_id) !!}

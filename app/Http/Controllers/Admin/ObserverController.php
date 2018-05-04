@@ -271,7 +271,7 @@ class ObserverController extends Controller
 			'observation' => 'required',
 			'user_id' => 'required',
 			'course_id' => 'required',
-			'user_rol_id' => 'required',
+			'user_role_id' => 'required',
 			'creator_id' => 'required',
 			'creatorrole_id' => 'required',
 			'observer_scene_id' => 'required',
@@ -285,7 +285,7 @@ class ObserverController extends Controller
 		 $observer = Observer::create([
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
-			'user_rol_id'=>$request->user_rol_id,
+			'user_role_id'=>$request->user_role_id,
 			'creator_id'=>$request->creator_id,
 			'creatorrole_id'=>$request->creatorrole_id,
 			'observer_category_id'=>$request->observer_category_id,
