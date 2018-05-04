@@ -285,7 +285,7 @@ class ObserverController extends Controller
 		 $observer = Observer::create([
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
-			'user_rol_id'=>$request->rol_id,
+			'user_rol_id'=>$request->user_rol_id,
 			'creator_id'=>$request->creator_id,
 			'creatorrole_id'=>$request->creatorrole_id,
 			'observer_category_id'=>$request->observer_category_id,
