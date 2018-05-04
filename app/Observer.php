@@ -8,6 +8,7 @@ class Observer extends Model
 {
     protected $table = 'observations';
     protected $fillable =[
+        'id',
         'user_id',
         'course_id',
         'user_role_id',
