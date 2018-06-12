@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ObservercodesTableSeeder::class);
         $this->call(ObservernotesTableSeeder::class);
         $this->call(ObserverscenesTableSeeder::class);
-        //$this->call(ObservertypesTableSeeder::class);
+        $this->call(ObservertypesTableSeeder::class);
         
         //$this->call(SubjectsTableSeeder::class);
         $this->call(ObservationsTableSeeder::class);
