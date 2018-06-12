@@ -13,9 +13,9 @@ class ObservationsTableSeeder extends Seeder
     {
     //    DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         
-App\Observer::create(['id' => '3','user_id' => '171','course_id' => '2','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 15 de febrero registra 4 retardos injustificados.
+// App\Observer::create(['id' => '3','user_id' => '171','course_id' => '2','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 15 de febrero registra 4 retardos injustificados.
 
-','created_at' => '2018-02-15 20:46:48',]);
+// ','created_at' => '2018-02-15 20:46:48',]);
 App\Observer::create(['id' => '4','user_id' => '444','course_id' => '2','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'El estudiante a fecha 15 de febrero registra un&nbsp;retardo sin justificaci&oacute;n
 
 ','created_at' => '2018-02-15 21:56:12',]);
