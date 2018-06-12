@@ -12,16 +12,24 @@ class ObservertypesTableSeeder extends Seeder
     public function run()
     {
         App\Observertype::create([
-            'name' => 'Tipo 1',
-            'description' => 'COMPORTAMIENTO Y FALTAS LEVES',
+            'name' => 'Faltas leves y tipo 1',
+            'description' => 'Faltas leves y tipo 1',
         ]);
         App\Observertype::create([
-            'name' => 'Tipo 2',
-            'description' => 'COMPORTAMIENTO Y FALTAS LEVES',
+            'name' => 'Faltas graves y tipo 2',
+            'description' => 'Faltas graves y tipo 2',
         ]);
         App\Observertype::create([
-            'name' => 'Tipo 3',
-            'description' => 'COMPORTAMIENTO Y FALTAS ESPECIAL GRAVEDAD',
+            'name' => 'Faltas especial gravedad y tipo 3',
+            'description' => 'Faltas especial gravedad y tipo 3',
+        ]);
+        App\Observertype::create([
+            'name' => 'Acudiente',
+            'description' => 'Observaciones la acudiente',
+        ]);
+        App\Observertype::create([
+            'name' => 'Sanción',
+            'description' => 'Estudiante sancioanado',
         ]);
     }
 }

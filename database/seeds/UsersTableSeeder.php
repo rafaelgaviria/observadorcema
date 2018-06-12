@@ -320,7 +320,10 @@ class UsersTableSeeder extends Seeder
     App\User::create(['id' => '433','name' => 'Esteban Sierra Nohora Mercedes','username' => '51827493','email' => 'noal9964@outlook.es','password' => bcrypt('51827493'),'document' => '51827493','documenttype_id' => '4','phonenumber' => '','officialcode' => '51827493','role_id' => '1','file' => '',]);
     App\User::create(['id' => '434','name' => 'Margoliner Salamanca Sonia Ángela','username' => '41647166','email' => 'jobdadelos@yahoo.com','password' => bcrypt('41647166'),'document' => '41647166','documenttype_id' => '4','phonenumber' => '','officialcode' => '41647166','role_id' => '1','file' => '',]);
 
-
+    App\User::create(['id' => '512','name' => 'Sandoval Sandoval Laura Ximena','username' => '46384265','email' => 'laur0328@hotmail.com','password' => bcrypt('46384265'),'document' => '46384265','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
+    App\User::create(['id' => '513','name' => 'León Aroca Clara Marcela del Pilar','username' => '1016042104','email' => 'leonmarcela1815@gmail.com','password' => bcrypt('1016042104'),'document' => '1016042104','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
+    App\User::create(['id' => '514','name' => 'Carvajal Martin María Elena','username' => '51630223','email' => 'mecm6910@hotmail.com','password' => bcrypt('51630223'),'document' => '51630223','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
+    App\User::create(['id' => '518','name' => 'Forero Ramírez José Leonardo','username' => '80274202','email' => 'jlforeror@gmail.com','password' => bcrypt('80274202'),'document' => '80274202','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
 
 // =CONCATENAR(
 //     "App\User::create([

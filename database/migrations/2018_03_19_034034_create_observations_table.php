@@ -43,6 +43,9 @@ class CreateObservationsTable extends Migration
             
             $table->integer('observer_scene_id')->unsigned();
                 $table->foreign('observer_scene_id')->references('id')->on('observerscenes');
+
+            $table->integer('observer_type_id')->unsigned();
+                $table->foreign('observer_type_id')->references('id')->on('observertypes');
             
             $table->integer('observer_note_id')->unsigned();
                 $table->foreign('observer_note_id')->references('id')->on('observernotes');  
