@@ -16,6 +16,7 @@ class Observer extends Model
         'creatorrole_id',
         'observer_scene_id',
         'observer_category_id',
+        'observer_type_id',
         'observer_note_id',
         'observer_code_id',
         'observation',
