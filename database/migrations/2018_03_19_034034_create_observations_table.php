@@ -18,7 +18,7 @@ class CreateObservationsTable extends Migration
             
             // INFO DE QUIEN RECIBE LA OBSERVACIÓN
             $table->integer('user_id')->unsigned();
-                $table->foreign('user_id')->references('id')->on('users');
+                //$table->foreign('user_id')->references('id')->on('users');
             
             $table->integer('course_id')->unsigned();
             //$table->foreign('course_id')->references('course_id')->on('users');
