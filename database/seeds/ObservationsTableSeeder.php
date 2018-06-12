@@ -921,9 +921,9 @@ App\Observer::create(['id' => '289','user_id' => '220','course_id' => '6','creat
 App\Observer::create(['id' => '290','user_id' => '98','course_id' => '6','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'El estudiante a fecha 12 de marzo registra 2&nbsp;retardos sin justificaci&oacute;n.
 
 ','created_at' => '2018-03-12 21:42:22',]);
-App\Observer::create(['id' => '291','user_id' => '441','course_id' => '1','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 7&nbsp;de marzo registra 1&nbsp;retardos sin justificaci&oacute;n.
+// App\Observer::create(['id' => '291','user_id' => '441','course_id' => '1','creator_id' => '390','creatorrole_id' => '2','observer_category_id' => '2','observer_type_id' => '1','observer_code_id' => '2','observer_scene_id' => '1','observer_note_id' => '1','observation' => 'La estudiante a fecha 7&nbsp;de marzo registra 1&nbsp;retardos sin justificaci&oacute;n.
 
-','created_at' => '2018-03-12 21:45:15',]);
+// ','created_at' => '2018-03-12 21:45:15',]);
 App\Observer::create(['id' => '292','user_id' => '295','course_id' => '9','creator_id' => '427','creatorrole_id' => '2','observer_category_id' => '1','observer_type_id' => '1','observer_code_id' => '1','observer_scene_id' => '3','observer_note_id' => '1','observation' => 'N asistio a la 5 hora de clase marzo 12 se evadio y se escondio en el grado 8 fue visto por la profesora de espa&ntilde;ol
 
 ','created_at' => '2018-03-12 21:57:08',]);
