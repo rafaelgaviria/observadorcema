@@ -50,7 +50,7 @@ class CreateObservationsTable extends Migration
             $table->integer('observer_note_id')->unsigned();
                 //$table->foreign('observer_note_id')->references('id')->on('observernotes');  
             
-            $table->string('observation', 1500);
+            $table->string('observation', 2500);
             
             $table->boolean('state')->default(1);
             
