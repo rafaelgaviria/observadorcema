@@ -36,19 +36,19 @@ class CreateObservationsTable extends Migration
             
             // DATOS DE LA OBSERVACIÓN
             $table->integer('observer_category_id')->unsigned();
-                $table->foreign('observer_category_id')->references('id')->on('observercategories');  
+                //$table->foreign('observer_category_id')->references('id')->on('observercategories');  
 
             $table->integer('observer_code_id')->unsigned();
-                $table->foreign('observer_code_id')->references('id')->on('observercodes');  
+                //$table->foreign('observer_code_id')->references('id')->on('observercodes');  
             
             $table->integer('observer_scene_id')->unsigned();
-                $table->foreign('observer_scene_id')->references('id')->on('observerscenes');
+                //$table->foreign('observer_scene_id')->references('id')->on('observerscenes');
 
             $table->integer('observer_type_id')->unsigned();
-                $table->foreign('observer_type_id')->references('id')->on('observertypes');
+                //$table->foreign('observer_type_id')->references('id')->on('observertypes');
             
             $table->integer('observer_note_id')->unsigned();
-                $table->foreign('observer_note_id')->references('id')->on('observernotes');  
+                //$table->foreign('observer_note_id')->references('id')->on('observernotes');  
             
             $table->string('observation', 1500);
             
