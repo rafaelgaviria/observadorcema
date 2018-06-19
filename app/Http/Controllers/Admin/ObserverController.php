@@ -311,7 +311,7 @@ class ObserverController extends Controller
 	 */
 	public function show($id) 
 	{
-		$observation = Observer::find($id); $observation = Observer::find($id);
+		$observation = Observer::find($id);
 
 		return view('admin.observer.show', compact('observation'));
 	}
@@ -420,4 +420,29 @@ class ObserverController extends Controller
 		$observation->save();
 	
 	}	
+
+	public function observerStudent($id)
+	{
+		//$observations = Observer::orderBy('id','DES')->paginate(10);
+		//$studenttotal = Observer::where("user_id","=",$id)->count();
+		
+		// $observations = DB::table('observations')
+		//  ->where('user_id', '=', $id)
+		//  ->orderBy('id', 'ASC')
+		//  ->get();
+		
+		$totalobservaciones = Observer::orderBy('id','DES')->where('user_id', '=', $id)->count();
+
+		$observations = Observer::orderBy('id','DES')->where('user_id', '=', $id)->paginate(10);
+		//dd($totalobservaciones);
+
+		//$observation = Observer::find($id); $observation = Observer::find($id);
+		$users = User::all();
+		return view('admin.observerstudent.index', compact('observations', 'users', 'observation', 'totalobservaciones'));
+	}
 }
+
+
+
+
+

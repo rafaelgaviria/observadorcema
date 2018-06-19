@@ -36,11 +36,18 @@ Route::get('/blog', 'Web\PageController@blog')->name('blog');
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
-Route::put('observer/unactive','Admin\ObserverController@unactive');
-Route::put('observer/active','Admin\ObserverController@active');
+// Route::put('observer/unactive','Admin\ObserverController@unactive');
+// Route::put('observer/active','Admin\ObserverController@active');
 
+//Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
 Route::resource('observer', 'Admin\ObserverController');
+Route::get('observerstudent/{id}',[
+  'as'=>'observerstudent',
+  'uses'=>'Admin\ObserverController@observerStudent'
+  ]);
+//'Admin\ObserverController@observerStudent');
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');

@@ -43,7 +43,10 @@
           <td>
             <img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo">
           </td>
-          <td>{{ $primeroestudiante->name }}</td>
+          <td>                                                                                                                             
+            <a href="{{ route('observerstudent',$primeroestudiante->id)}}" class="" >
+              {{ $primeroestudiante->name }}</a>            
+          </td>
           <td></td>
           <td></td>
           <td></td>
@@ -82,7 +85,7 @@
         @foreach($segundoestudiantes as $segundoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $segundoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$segundoestudiante->id)}}" class="" >{{ $segundoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -120,7 +123,7 @@
         @foreach($terceroestudiantes as $terceroestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $terceroestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$terceroestudiante->id)}}" class="" >{{ $terceroestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -157,7 +160,7 @@
         @foreach($cuartoestudiantes as $cuartoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $cuartoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$cuartoestudiante->id)}}" class="" >{{ $cuartoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -194,7 +197,7 @@
         @foreach($quintoestudiantes as $quintoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $quintoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$quintoestudiante->id)}}" class="" >{ $quintoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -231,7 +234,7 @@
         @foreach($sextoestudiantes as $sextoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $sextoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$sextoestudiante->id)}}" class="" >{{ $sextoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -268,7 +271,7 @@
         @foreach($septimoestudiantes as $septimoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $septimoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$septimoestudiante->id)}}" class="" >{{ $septimoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -305,7 +308,7 @@
         @foreach($octavoestudiantes as $octavoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $octavoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$octavoestudiante->id)}}" class="" >{{ $octavoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -342,7 +345,7 @@
         @foreach($novenoestudiantes as $novenoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $novenoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$novenoestudiante->id)}}" class="" >{{ $novenoestudiante->name }} </a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -379,7 +382,7 @@
         @foreach($decimoestudiantes as $decimoestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $decimoestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$decimoestudiante->id)}}" class="" > {{ $decimoestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
@@ -416,7 +419,7 @@
         @foreach($onceestudiantes as $onceestudiante)
         <tr>
           <td><img src="{{asset('/images/avatar/user.png')}}" class="imgcatalogo"></td>
-          <td>{{ $onceestudiante->name }}</td>
+          <td><a href="{{ route('observerstudent',$onceestudiante->id)}}" class="" >{{ $onceestudiante->name }}</a></td>
           <td></td>
           <td></td>
           <td></td>
