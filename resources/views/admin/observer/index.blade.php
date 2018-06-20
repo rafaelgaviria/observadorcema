@@ -8,7 +8,25 @@
       <div class="value">
         {{$totalobservaciones}}
       </div>
-      <div class="label">Observaciones</div>
+      <div class="label">Total Observaciones</div>
+    </div>
+    {{-- <div class="teal statistic">
+      <div class="value">
+        {{$totalobservacionesestudiantes}}
+      </div>
+      <div class="label">Total Observaciones</div>
+    </div> --}}
+    <div class="red statistic">
+      <div class="value">
+        {{$totalsanciones}}
+      </div>
+      <div class="label">Suspenciones</div>
+    </div>
+    <div class="green statistic">
+      <div class="value">
+        {{$totalobservacionesacudientes}}
+      </div>
+      <div class="label">Notas a acudientes</div>
     </div>
   </div>
   <h2 class="ui dividing header">Observador</h2>
@@ -442,6 +460,7 @@
         <th>Id</th>
         <th>Foto</th>
         <th>Nombres</th>
+        <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
         <th>Fecha</th>
@@ -457,6 +476,7 @@
         <td>{{ $observation->id }}</td>
         <td>Imagen</td>
         <td>{{ $observation->user->name }}</td>
+        <td>{{ $observation->observertype->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>

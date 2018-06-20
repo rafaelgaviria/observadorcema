@@ -38,11 +38,6 @@ class ObserverController extends Controller
 	 */
 	public function index()
 	{
-		$users = User::all();
-		//$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
-
-		// $estudiantes = User::where("role_id","=",5)->get();
-
 		// LISTADO DE CURSOS
 		$primeroestudiantes = DB::table('users')
 			->where('role_id', '=', 5)
@@ -100,30 +95,7 @@ class ObserverController extends Controller
 			->orderBy('name', 'ASC')
 			->get();
 
-		$userobservations = DB::table('users')
-			->join('observations', function($join)
-				{
-					$join->on('users.id', '=', 'observations.user_id')
-												->where('role_id', '=', 5)
-												->where('course_id', '=', 1);
-				})
-				//->pluck('observer_type_id' );
-				//->groupBy('course_id')
-						->get();
-		
-		// DB::table('users')
-		//     ->join('contacts', function($join)
-		//     {
-		//         $join->on('users.id', '=', 'contacts.user_id')
-		//             ->where('contacts.user_id', '>', 5);
-		//     })
-		//     ->get();
-
-		//$observacionporcursos = Observer::Sum('id')->groupBy('course_id')->get();
-		$totalobservaciones = Observer::all('id')->count();
-		
-		$category1 = Observer::where("observer_category_id","=",1)->count();
-		
+			
 		$primerototal = Observer::where("course_id","=",1)->count();
 		$segundototal = Observer::where("course_id","=",2)->count();
 		$tercerototal = Observer::where("course_id","=",3)->count();
@@ -135,10 +107,46 @@ class ObserverController extends Controller
 		$novenototal = Observer::where("course_id","=",9)->count();
 		$decimototal = Observer::where("course_id","=",10)->count();
 		$oncetotal = Observer::where("course_id","=",11)->count();
+		
+		$users = User::all();	
+		$totalobservaciones = Observer::all('id')->count();
+		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
+		$totalobservacionesacudientes = Observer::where('observer_type_id', '=', 4)->count();
+		$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
+		
+		$observations = Observer::orderBy('id','DES')->paginate(10);
+		
+		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
+		//CONTEO DE OBSERVACIONES POR CURSO
+		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',	
+		//LISTA DE ESTUDIANTES POR CURSO
+		'primeroestudiantes','segundoestudiantes','terceroestudiantes','cuartoestudiantes','quintoestudiantes','sextoestudiantes','septimoestudiantes','octavoestudiantes','novenoestudiantes','decimoestudiantes','onceestudiantes'));
+	}
+	//$category1 = Observer::where("observer_category_id","=",1)->count();
 	
-		
-		//$count = App\Flight::where('active', 1)->count();
-		
+	// $userobservations = DB::table('users')
+	// 	->join('observations', function($join)
+	// 		{
+	// 			$join->on('users.id', '=', 'observations.user_id')
+			// 								->where('role_id', '=', 5)
+			// 								->where('course_id', '=', 1);
+			// })
+			//->pluck('observer_type_id' );
+			//->groupBy('course_id')
+					// ->get();
+	
+	// DB::table('users')
+	//     ->join('contacts', function($join)
+	//     {
+	//         $join->on('users.id', '=', 'contacts.user_id')
+	//             ->where('contacts.user_id', '>', 5);
+	//     })
+	//     ->get();
+
+	//$observacionporcursos = Observer::Sum('id')->groupBy('course_id')->get();
+	
+	//$count = App\Flight::where('active', 1)->count();
+	
 		// $observacionporcursos = DB::observations('orders')
 		//     ->select('department', DB::raw('SUM(price) as total_sales'))
 		//     ->groupBy('department')
@@ -170,27 +178,18 @@ class ObserverController extends Controller
 		//    ->orderBy('updated_at','DESC')
 		//     ->get();
 
-		$obsdecursos = DB::table('observations')
+		// $obsdecursos = DB::table('observations')
 					//->join('courses', 'course_id', '=', 'observation.course_id')
-					->select(DB::raw('count(*) as obs_count, course_id'))
+					// ->select(DB::raw('count(*) as obs_count, course_id'))
 					//->where('status', '<>', 1)
-					->groupBy('course_id')
-					->get();
+					// ->groupBy('course_id')
+					// ->get();
 	
-		
+		//$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
+
+		// $estudiantes = User::where("role_id","=",5)->get();
 		//$users = User::all()->roles()->orderBy('name')->get();
 		
-		$observations = Observer::orderBy('id','DES')->paginate(10);
-		//dd($observations);
-
-		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalobservations',
-
-		//Conteo por curso
-		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',
-		
-		//Listado de estudiantes
-		'primeroestudiantes','segundoestudiantes','terceroestudiantes','cuartoestudiantes','quintoestudiantes','sextoestudiantes','septimoestudiantes','octavoestudiantes','novenoestudiantes','decimoestudiantes','onceestudiantes'));
-	}
 
 	/**
 	 * Show the form for creating a new resource.
@@ -251,10 +250,7 @@ class ObserverController extends Controller
 		$creator = Auth::id();
 		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		
-		// dd($creatorrole_id);
-		
 		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creatorrole_id'));
-		
 	}
 
 	/**
@@ -280,9 +276,9 @@ class ObserverController extends Controller
 			'observer_code_id' => 'required',
 			//'state' => 'required',
 			]);
+
 			//Guardar los datos
-		//dd($creatorrole_id_id);
-		 $observer = Observer::create([
+		 	$observer = Observer::create([
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
 			'user_role_id'=>$request->user_role_id,
@@ -299,8 +295,6 @@ class ObserverController extends Controller
 		
 		 return redirect()->route('observer.show', $observer->id)->with('info', '¡La observación ha sido creada con éxito!');
 		 //->with('info', 'Observación creada con éxito');
-
-		 
 	}
 
 	/**
@@ -325,7 +319,6 @@ class ObserverController extends Controller
 	
 	 public function edit($id)
 	{
-		//dd($id);
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
@@ -334,18 +327,15 @@ class ObserverController extends Controller
 		$creator = Auth::id();
 		$observation = Observer::find($id);
 		//$user_id = Observer::find($id);
-		//dd($observation);
 		
 		$estudiante = Observer::where('id', $id)->pluck('user_id', 'id')->first();
 		// $user_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		$user_id = User::find($estudiante);
-		//dd($user_id);
 		
 		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 
 		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
 		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
-		//dd($observation);
 		//return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator'));
 		
 		//$observation = Observer::find($id);
@@ -357,8 +347,7 @@ class ObserverController extends Controller
 		//$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		//$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		//$creator = User::find($id);
-		
-		
+
 		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation', 'creatorrole_id'));
 	}
 
@@ -410,7 +399,6 @@ class ObserverController extends Controller
 		$observation = Observer::findOrFail($request->$id);
 		$observation->state = '0';
 		$observation->save();
-	
 	}	
 	
 	public function active(Request $request)
@@ -418,27 +406,13 @@ class ObserverController extends Controller
 		$observation = Observer::findOrFail($request->$id);
 		$observation->state = '1';
 		$observation->save();
-	
 	}	
 
 	public function observerStudent($id)
 	{
-		//$observations = Observer::orderBy('id','DES')->paginate(10);
-		//$studenttotal = Observer::where("user_id","=",$id)->count();
-		
-		// $observations = DB::table('observations')
-		//  ->where('user_id', '=', $id)
-		//  ->orderBy('id', 'ASC')
-		//  ->get();
-		
-		$totalobservaciones = Observer::orderBy('id','DES')->where('user_id', '=', $id)->count();
-
-		$observations = Observer::orderBy('id','DES')->where('user_id', '=', $id)->paginate(10);
-		//dd($totalobservaciones);
-
-		//$observation = Observer::find($id); $observation = Observer::find($id);
-		$users = User::all();
-		return view('admin.observerstudent.index', compact('observations', 'users', 'observation', 'totalobservaciones'));
+		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
+		$observations = Observer::where('user_id', '=', $id)->paginate(10);
+		return view('admin.observerstudent.index', compact('observations', 'users', 'totalobservaciones'));
 	}
 }
 

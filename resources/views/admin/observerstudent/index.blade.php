@@ -25,6 +25,7 @@
       <tr>
         <th>Id</th>
         <th>Nombres</th>
+        <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
         <th>Fecha</th>
@@ -38,12 +39,13 @@
       <tr>
         <td>{{ $observation->id }}</td>
         <td>{{ $observation->user->name }}</td>
+        <td>{{ $observation->observertype->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
-        {{--  <td>{{ $observation->creator->name }}</td>
-        <td>{{ $observation->course->name }}</td>  --}}
+        <td>{{ $observation->creator->name }}</td>
+        
 
         <td>
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">

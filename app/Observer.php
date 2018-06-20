@@ -49,6 +49,8 @@ class Observer extends Model
         return $this->hasOne('App\Observernote','id','observer_note_id');
     }
 
+    
+
     // public function course(){
     //     return $this->hasOne('App\CourseUser','course_id','course_id');
     // }
