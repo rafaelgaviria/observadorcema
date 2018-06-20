@@ -112,7 +112,7 @@ class ObserverController extends Controller
 		$totalobservaciones = Observer::all('id')->count();
 		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
 		$totalobservacionesacudientes = Observer::where('observer_type_id', '=', 4)->count();
-		$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
+		//$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
 		
 		$observations = Observer::orderBy('id','DES')->paginate(10);
 		
