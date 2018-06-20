@@ -20,7 +20,7 @@
       <div class="value">
         {{$totalsanciones}}
       </div>
-      <div class="label">Suspenciones</div>
+      <div class="label">Suspensiones</div>
     </div>
     <div class="green statistic">
       <div class="value">
