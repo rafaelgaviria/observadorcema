@@ -414,6 +414,15 @@ class ObserverController extends Controller
 		$observations = Observer::where('user_id', '=', $id)->paginate(10);
 		return view('admin.observerstudent.index', compact('observations', 'users', 'totalobservaciones'));
 	}
+	
+	public function suspendidos()
+	{
+		//$suspendidos = Observer::where('user_id', '=', 436)->get();
+		$observations = Observer::where('observer_type_id', '=', 5)->paginate(20);
+		// dd($suspendidos);
+
+		return view('admin.observer.suspendidos.index', compact('observations'));
+	}
 }
 
 

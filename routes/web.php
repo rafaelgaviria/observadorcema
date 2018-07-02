@@ -11,7 +11,7 @@
 |
 */
 
-Route::redirect('/', 'blog');
+Route::redirect('/', 'autenticacion');
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -19,23 +19,13 @@ Route::redirect('/', 'blog');
 
 Auth::routes();
 
-
-Route::get('/blog', 'Web\PageController@blog')->name('blog');
-// Route::get('/blog', function(){
-//   $user = App\user::findOrFail(1);
-//   return $user->roles;
-  
-//   // $role = App\Role::findOrFail(1);
-//   // return $role->users;
-//   //dd($user);
-  
-// });
-
+Route::get('/autenticacion', 'Web\PageController@autenticacion');
 
 //admin
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
+Route::get('suspendidos','Admin\ObserverController@suspendidos')->name('suspendidos');;
 // Route::put('observer/unactive','Admin\ObserverController@unactive');
 // Route::put('observer/active','Admin\ObserverController@active');
 

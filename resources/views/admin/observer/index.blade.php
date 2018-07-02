@@ -16,12 +16,16 @@
       </div>
       <div class="label">Total Observaciones</div>
     </div> --}}
-    <div class="red statistic">
-      <div class="value">
-        {{$totalsanciones}}
+    
+    <a href="{{ route('suspendidos')}}">
+      <div class="red statistic">
+        <div class="value">
+          {{$totalsanciones}}
+        </div>
+        <div class="label">Suspensiones</div>
       </div>
-      <div class="label">Suspensiones</div>
-    </div>
+    </a>
+    
     <div class="green statistic">
       <div class="value">
         {{$totalobservacionesacudientes}}
