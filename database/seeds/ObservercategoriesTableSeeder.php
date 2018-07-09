@@ -34,7 +34,7 @@ class ObservercategoriesTableSeeder extends Seeder
         
         App\Observercategory::create([
             'name' => 'Faltas leves y tipo 1',
-            'prefix' => 'T3',
+            'prefix' => 'T1',
         ]);
         App\Observercategory::create([
             'name' => 'Faltas graves y tipo 2',
@@ -42,7 +42,11 @@ class ObservercategoriesTableSeeder extends Seeder
         ]);
         App\Observercategory::create([
             'name' => 'Faltas de especial gravedad y tipo 3',
-            'prefix' => 'T1',
+            'prefix' => 'T3',
+        ]);
+        App\Observercategory::create([
+            'name' => 'Acudiente',
+            'prefix' => 'Acudiente',
         ]);
     }
 }
