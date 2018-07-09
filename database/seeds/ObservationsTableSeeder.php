@@ -32338,7 +32338,7 @@ App\Observer::create([
     App\Observer::create([
     'id' => '1839',
     'user_id' => '516',
-    'course_id' => '0',
+    'course_id' => '8',
     'user_role_id' => '5',
     'creator_id' => '432',
     'creator_rol_id' => '2',
