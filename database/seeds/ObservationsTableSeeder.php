@@ -11,7 +11,7 @@ class ObservationsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
 App\Observer::create([
     'id' => '3',
@@ -33476,6 +33476,6 @@ App\Observer::create([
 
 
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        //DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }
