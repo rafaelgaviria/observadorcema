@@ -67,15 +67,16 @@
 </div>
 
 <hr>
-
+{{--
 <p>Estudiante: {{$user_id->id}}</p>
 <p>Rol Estudiante: {{$user_id->role_id}}</p>
 <p>Curso: {{$user_id->course}}</p>
 <hr>
 <p>ID Creador: {{$creator}}</p>
 <p>ID Rol Creador: {{$creatorrole_id}}</p>
-{{-- <p>Estado: {{$user_id->course}}</p> --}}
-<hr>
+ <p>Estado: {{$user_id->course}}</p> 
+ --}}
+
 
 {{-- @php dd($creatorrole_id); @endphp --}}
 

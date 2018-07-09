@@ -30,7 +30,7 @@ class CreateObservationsTable extends Migration
             $table->integer('creator_id')->unsigned();
                 //$table->foreign('creator_id')->references('id')->on('users');
             
-            $table->integer('creator_role_id')->unsigned();
+            $table->integer('creator_rol_id')->unsigned();
                 //$table->foreign('creator_role')->references('role_id')->on('users');
             
             

@@ -284,19 +284,28 @@ class UsersTableSeeder extends Seeder
         App\User::create(['id' => '479','name' => 'Páez Reyes Cristian Camilo','username' => '1015483792','email' => 'crispaez-99@outlook.com','password' => bcrypt('1015483792'),'document' => '1015483792','documenttype_id' => '1','phonenumber' => '','officialcode' => '2018246','course' => '11','role_id' => '5','file' => '',]);
         App\User::create(['id' => '502','name' => 'Macías Ulloa Martin David','username' => '1013259810','email' => 'gabrielarobayo@gmail.com','password' => bcrypt('1013259810'),'document' => '1013259810','documenttype_id' => '1','phonenumber' => '','officialcode' => '2018288','course' => '11','role_id' => '5','file' => '',]);
 
-
+        App\User::create(['id' => '519','name' => 'Santiago Rojas Burgos','username' => '1083888795','email' => 'mcristinas321@gmail.com','password' => bcrypt('1083888795'),'document' => '1083888795','documenttype_id' => '1','phonenumber' => '3134172894','officialcode' => '2018298','course' => '4','role_id' => '5','file' => '',]);
+   
+    App\User::create(['id' => '521','name' => 'Mayorga Montealegre Juan Manuel','username' => '1122129908','email' => 'paolamont24@gmail.com','password' => bcrypt('1122129908'),'document' => '1122129908','documenttype_id' => '1','phonenumber' => '000000','officialcode' => '2018300','course' => '3','role_id' => '5','file' => '',]);
+        
         // Estudiantes sin curso
 
-        App\User::create(['id' => '31','name' => 'Cruz Natalia Arzuza','username' => '1000783873','email' => 'arzunata011@hotmail.com','password' => bcrypt('1000783873'),'document' => '1000783873','documenttype_id' => '1','phonenumber' => '','officialcode' => '2015290','role_id' => '5','file' => '',]);
+        App\User::create(['id' => '31','name' => 'Cruz Natalia Arzuza','username' => '1000783873','email' => 'arzunata011@hotmail.com','password' => bcrypt('1000783873'),'document' => '1000783873','documenttype_id' => '1','phonenumber' => '','officialcode' => '2015290','course' => '11','role_id' => '5','file' => '',]);
+
+
+        App\User::create(['id' => '334','name' => 'Martínez González Diego Andrés','username' => '1000471372','email' => '1000471372@temporal.edu.co','password' => bcrypt('7190221'),'document' => '1000471372','documenttype_id' => '1','phonenumber' => '','officialcode' => '2013115','course' => '11','role_id' => '5','file' => '',]);
+
+        App\User::create(['id' => '347','name' => 'Rodríguez Gutiérrez María Paula','username' => '1001173133','email' => '1001173133@temporal.edu.co','password' => bcrypt('1001173133'),'document' => '1001173133','documenttype_id' => '1','phonenumber' => '','officialcode' => '201695','course' => '11','role_id' => '5','file' => '',]);
+
+        App\User::create(['id' => '349','name' => 'Suarez Delgado Julián Daymount','username' => '1000364205','email' => '1000364205@temporal.edu.co','password' => bcrypt('1000364205'),'document' => '1000364205','documenttype_id' => '1','phonenumber' => '','officialcode' => '2015336','course' => '11','role_id' => '5','file' => '',]);
+
+
+        // ESTUDIANTES DESACTIVADOS SE REQUIERE IDENTIFICAR EL CURSO
         App\User::create(['id' => '54','name' => 'Osorio López José Alejandro','username' => '1007935065','email' => 'alejo2013nl@hotmail.com','password' => bcrypt('1007935065'),'document' => '1007935065','documenttype_id' => '1','phonenumber' => '','officialcode' => '2012095','role_id' => '5','file' => '',]);
+
         App\User::create(['id' => '231','name' => 'Garzón Sanabria Santiago','username' => '1021395616','email' => '1021395616@temporal.edu.co','password' => bcrypt('1021395616'),'document' => '1021395616','documenttype_id' => '1','phonenumber' => '','officialcode' => '2015275','role_id' => '5','file' => '',]);
-        App\User::create(['id' => '334','name' => 'Martínez González Diego Andrés','username' => '1000471372','email' => '1000471372@temporal.edu.co','password' => bcrypt('7190221'),'document' => '1000471372','documenttype_id' => '1','phonenumber' => '','officialcode' => '2013115','role_id' => '5','file' => '',]);
-        App\User::create(['id' => '347','name' => 'Rodríguez Gutiérrez María Paula','username' => '1001173133','email' => '1001173133@temporal.edu.co','password' => bcrypt('1001173133'),'document' => '1001173133','documenttype_id' => '1','phonenumber' => '','officialcode' => '201695','role_id' => '5','file' => '',]);
-        App\User::create(['id' => '349','name' => 'Suarez Delgado Julián Daymount','username' => '1000364205','email' => '1000364205@temporal.edu.co','password' => bcrypt('1000364205'),'document' => '1000364205','documenttype_id' => '1','phonenumber' => '','officialcode' => '2015336','role_id' => '5','file' => '',]);
+        
         App\User::create(['id' => '415','name' => 'Hurtado Pulido Geraldine ','username' => '1014856748','email' => 'geraldegly@hotmail.com','password' => bcrypt('1014856748'),'document' => '1014856748','documenttype_id' => '1','phonenumber' => '4103072','officialcode' => '2017207','role_id' => '5','file' => '',]);
-
-
-
 
 
     // DIRECTIVAS Y DOCENTES DOCENTES
@@ -325,34 +334,8 @@ class UsersTableSeeder extends Seeder
     App\User::create(['id' => '514','name' => 'Carvajal Martin María Elena','username' => '51630223','email' => 'mecm6910@hotmail.com','password' => bcrypt('51630223'),'document' => '51630223','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
     App\User::create(['id' => '518','name' => 'Forero Ramírez José Leonardo','username' => '80274202','email' => 'jlforeror@gmail.com','password' => bcrypt('80274202'),'document' => '80274202','documenttype_id' => '4','phonenumber' => '','officialcode' => '','role_id' => '1','file' => '',]);
 
-// =CONCATENAR(
-//     "App\User::create([
-//         'id' => '";A2;"',
-//         'name' => '";B2;"',
-//         'username' => '";C2;"',
-//         'email' => '";D2;"',
-//         'password' => bcrypt('";E2;"'),
-//         'document' => '";F2;"',
-//         'documenttype' => '";G2;"',
-//         'phonenumber' => '";H2;"',
-//         'officialcode' => '";I2;"',
-//         'course' => '";J2;"',
-//         'role_id' => '";K2;"',
-//         'file' => '";L2;"',
-//     ]);"
-// )
 
 
-        // App\User::create(['id' => '1',
-        //     'firstname' => 'Rafael Huberto',
-        //     'lastname' => 'Gaviria Vega',
-        //     'username' => 'rafael',
-        //     'email' => 'rafaelgaviria@gmail.com',
-        //     'password' => bcrypt('1'),'document' => '79978365',
-        //     'documenttype' => '4',
-        //     'phonenumber' => '3102696399',
-        //     'file' => '',
-        // ]);
 
         //DB::statement('SET FOREIGN_KEY_CHECKS=1;');
         //factory(App\User::class, 20)->create();
