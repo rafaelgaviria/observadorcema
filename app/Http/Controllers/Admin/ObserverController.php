@@ -411,7 +411,7 @@ class ObserverController extends Controller
 	public function observerStudent($id)
 	{
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
-		$observations = Observer::where('user_id', '=', $id)->paginate(10);
+		$observations = Observer::orderBy('id','DES')->where('user_id', '=', $id)->paginate(10);
 		return view('admin.observerstudent.index', compact('observations', 'users', 'totalobservaciones'));
 	}
 	
@@ -422,6 +422,23 @@ class ObserverController extends Controller
 		// dd($suspendidos);
 
 		return view('admin.observer.suspendidos.index', compact('observations'));
+	}
+	public function micurso()
+	{
+		$creator = Auth::id();
+		$curso = User::where('id', $creator)->pluck('course', 'id')->first();
+		$estudiantes = DB::table('users')
+			->where('role_id', '=', 5)
+			->where('course', '=', $curso)
+			->orderBy('name', 'ASC')
+			->get();
+		$totalobservaciones = Observer::where('course_id', '=', $curso)->count();
+		$totalsanciones = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 5)->count();
+		$totalobservacionesacudientes = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 4)->count();
+		$observations = Observer::where('course_id', '=', $curso)->orderBy('id','DES')->paginate(10);
+		//dd($observations);
+
+		return view('admin.observer.micurso.index', compact('estudiantes', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes','observations'));
 	}
 }
 

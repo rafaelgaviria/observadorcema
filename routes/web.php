@@ -25,7 +25,8 @@ Route::get('/autenticacion', 'Web\PageController@autenticacion');
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
-Route::get('suspendidos','Admin\ObserverController@suspendidos')->name('suspendidos');;
+Route::get('suspendidos','Admin\ObserverController@suspendidos')->name('suspendidos');
+Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
 // Route::put('observer/unactive','Admin\ObserverController@unactive');
 // Route::put('observer/active','Admin\ObserverController@active');
 
