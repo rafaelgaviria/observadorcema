@@ -29,7 +29,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-15 20:46:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '4',
@@ -47,7 +47,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-15 21:56:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '5',
@@ -65,7 +65,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-15 21:57:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '6',
@@ -87,7 +87,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-16 01:13:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '7',
@@ -105,7 +105,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-16 20:06:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '8',
@@ -123,7 +123,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-16 20:10:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '9',
@@ -141,7 +141,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-16 20:13:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '10',
@@ -163,7 +163,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-16 22:07:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '11',
@@ -185,7 +185,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-18 02:37:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '12',
@@ -203,7 +203,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:47:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '13',
@@ -221,7 +221,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:48:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '14',
@@ -239,7 +239,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:50:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '15',
@@ -257,7 +257,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:52:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '16',
@@ -275,7 +275,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:53:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '17',
@@ -293,7 +293,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:54:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '18',
@@ -311,7 +311,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:55:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '19',
@@ -329,7 +329,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:56:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '20',
@@ -347,7 +347,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:57:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '21',
@@ -365,7 +365,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:58:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '22',
@@ -383,7 +383,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 19:59:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '23',
@@ -401,7 +401,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:00:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '24',
@@ -419,7 +419,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:01:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '25',
@@ -437,7 +437,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:13:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '26',
@@ -455,7 +455,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:14:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '27',
@@ -473,7 +473,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:14:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '28',
@@ -491,7 +491,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:15:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '30',
@@ -509,7 +509,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:17:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '31',
@@ -527,7 +527,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:20:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '32',
@@ -545,7 +545,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:20:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '33',
@@ -563,7 +563,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:21:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '34',
@@ -581,7 +581,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:22:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '35',
@@ -599,7 +599,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:23:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '36',
@@ -617,7 +617,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:24:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '37',
@@ -635,7 +635,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:25:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '38',
@@ -653,7 +653,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:25:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '39',
@@ -671,7 +671,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:26:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '40',
@@ -689,7 +689,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:27:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '41',
@@ -707,7 +707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:27:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '42',
@@ -725,7 +725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:29:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '43',
@@ -743,7 +743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:29:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '44',
@@ -761,7 +761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:30:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '45',
@@ -779,7 +779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:31:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '46',
@@ -797,7 +797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:32:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '47',
@@ -815,7 +815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:33:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '49',
@@ -833,7 +833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:35:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '50',
@@ -851,7 +851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:36:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '51',
@@ -869,7 +869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-20 20:37:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '52',
@@ -887,7 +887,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-21 15:16:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '53',
@@ -905,7 +905,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:22:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '54',
@@ -923,7 +923,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:29:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '55',
@@ -941,7 +941,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:32:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '56',
@@ -959,7 +959,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:34:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '57',
@@ -977,7 +977,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:38:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '58',
@@ -995,7 +995,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:41:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '59',
@@ -1013,7 +1013,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:44:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '60',
@@ -1031,7 +1031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:46:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '61',
@@ -1049,7 +1049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 16:49:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '62',
@@ -1067,7 +1067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 17:33:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '63',
@@ -1085,7 +1085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 20:37:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '64',
@@ -1103,7 +1103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:05:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '65',
@@ -1121,7 +1121,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:06:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '66',
@@ -1139,7 +1139,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:08:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '67',
@@ -1157,7 +1157,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:11:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '68',
@@ -1175,7 +1175,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:15:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '69',
@@ -1193,7 +1193,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 22:18:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '70',
@@ -1211,7 +1211,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:37:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '71',
@@ -1229,7 +1229,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:37:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '72',
@@ -1247,7 +1247,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:38:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '73',
@@ -1265,7 +1265,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:39:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '74',
@@ -1283,7 +1283,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:40:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '75',
@@ -1301,7 +1301,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:41:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '76',
@@ -1319,7 +1319,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:41:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '77',
@@ -1337,7 +1337,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:42:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '78',
@@ -1355,7 +1355,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:43:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '79',
@@ -1373,7 +1373,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:44:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '80',
@@ -1391,7 +1391,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:45:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '81',
@@ -1409,7 +1409,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:46:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '82',
@@ -1427,7 +1427,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-23 23:48:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '83',
@@ -1445,7 +1445,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-24 00:10:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '84',
@@ -1463,7 +1463,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-01 23:50:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '85',
@@ -1481,7 +1481,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 17:39:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '86',
@@ -1499,7 +1499,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 18:34:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '87',
@@ -1517,7 +1517,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:18:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '88',
@@ -1535,7 +1535,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:21:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '89',
@@ -1553,7 +1553,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:22:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '90',
@@ -1571,7 +1571,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:27:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '91',
@@ -1589,7 +1589,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:28:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '92',
@@ -1607,7 +1607,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:28:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '93',
@@ -1625,7 +1625,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:34:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '94',
@@ -1643,7 +1643,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:35:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '95',
@@ -1661,7 +1661,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:37:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '96',
@@ -1679,7 +1679,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:37:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '97',
@@ -1697,7 +1697,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:39:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '98',
@@ -1715,7 +1715,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:39:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '99',
@@ -1733,7 +1733,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:40:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '100',
@@ -1751,7 +1751,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:41:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '101',
@@ -1769,7 +1769,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:42:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '102',
@@ -1787,7 +1787,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:43:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '103',
@@ -1805,7 +1805,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:44:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '104',
@@ -1823,7 +1823,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:45:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '105',
@@ -1841,7 +1841,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:45:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '106',
@@ -1859,7 +1859,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:46:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '107',
@@ -1877,7 +1877,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:47:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '108',
@@ -1895,7 +1895,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:47:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '109',
@@ -1913,7 +1913,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:48:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '110',
@@ -1931,7 +1931,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:49:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '111',
@@ -1949,7 +1949,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:50:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '112',
@@ -1967,7 +1967,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:51:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '113',
@@ -1989,7 +1989,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:52:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '114',
@@ -2007,7 +2007,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:53:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '115',
@@ -2025,7 +2025,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:54:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '116',
@@ -2043,7 +2043,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:55:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '117',
@@ -2061,7 +2061,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:56:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '118',
@@ -2079,7 +2079,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:56:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '119',
@@ -2097,7 +2097,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:57:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '120',
@@ -2115,7 +2115,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:58:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '121',
@@ -2133,7 +2133,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 20:59:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '122',
@@ -2151,7 +2151,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:01:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '123',
@@ -2169,7 +2169,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:02:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '124',
@@ -2187,7 +2187,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:03:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '125',
@@ -2209,7 +2209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:03:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '126',
@@ -2227,7 +2227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:04:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '127',
@@ -2245,7 +2245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:05:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '128',
@@ -2267,7 +2267,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:06:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '129',
@@ -2285,7 +2285,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:06:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '130',
@@ -2303,7 +2303,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:07:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '132',
@@ -2321,7 +2321,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:08:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '133',
@@ -2339,7 +2339,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:09:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '134',
@@ -2361,7 +2361,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:09:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '135',
@@ -2383,7 +2383,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:11:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '136',
@@ -2401,7 +2401,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 21:16:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '137',
@@ -2419,7 +2419,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 23:17:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '138',
@@ -2437,7 +2437,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 23:20:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '139',
@@ -2455,7 +2455,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 23:21:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '140',
@@ -2473,7 +2473,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 23:21:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '141',
@@ -2491,7 +2491,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:15:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '142',
@@ -2509,7 +2509,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:23:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '143',
@@ -2527,7 +2527,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:24:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '144',
@@ -2545,7 +2545,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:34:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '145',
@@ -2563,7 +2563,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:35:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '146',
@@ -2581,7 +2581,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:39:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '147',
@@ -2599,7 +2599,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:42:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '148',
@@ -2617,7 +2617,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:43:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '149',
@@ -2635,7 +2635,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:55:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '150',
@@ -2653,7 +2653,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 16:56:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '151',
@@ -2671,7 +2671,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:14:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '152',
@@ -2689,7 +2689,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:19:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '153',
@@ -2707,7 +2707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:20:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '154',
@@ -2725,7 +2725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:21:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '155',
@@ -2743,7 +2743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:29:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '156',
@@ -2761,7 +2761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:30:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '157',
@@ -2779,7 +2779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:32:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '158',
@@ -2797,7 +2797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 17:36:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '159',
@@ -2815,7 +2815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 19:52:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '160',
@@ -2833,7 +2833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 19:53:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '161',
@@ -2851,7 +2851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-01 21:20:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '162',
@@ -2869,7 +2869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 14:40:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '163',
@@ -2887,7 +2887,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 15:42:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '165',
@@ -2905,7 +2905,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 16:20:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '166',
@@ -2923,7 +2923,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 16:24:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '167',
@@ -2941,7 +2941,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 16:36:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '168',
@@ -2959,7 +2959,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 16:56:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '169',
@@ -2977,7 +2977,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 17:25:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '170',
@@ -2995,7 +2995,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 17:46:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '171',
@@ -3013,7 +3013,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:23:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '172',
@@ -3031,7 +3031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:24:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '173',
@@ -3049,7 +3049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:27:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '174',
@@ -3067,7 +3067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:28:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '175',
@@ -3085,7 +3085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:30:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '176',
@@ -3103,7 +3103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:31:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '177',
@@ -3121,7 +3121,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:32:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '178',
@@ -3139,7 +3139,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:34:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '179',
@@ -3157,7 +3157,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-02 20:36:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '181',
@@ -3183,7 +3183,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-04 21:39:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '182',
@@ -3205,7 +3205,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-04 21:46:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '183',
@@ -3223,7 +3223,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:32:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '184',
@@ -3241,7 +3241,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:41:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '185',
@@ -3259,7 +3259,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:53:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '186',
@@ -3277,7 +3277,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:55:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '187',
@@ -3295,7 +3295,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:56:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '188',
@@ -3313,7 +3313,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:57:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '189',
@@ -3331,7 +3331,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:57:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '190',
@@ -3349,7 +3349,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:58:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '191',
@@ -3367,7 +3367,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:59:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '192',
@@ -3385,7 +3385,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:00:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '193',
@@ -3403,7 +3403,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:00:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '194',
@@ -3421,7 +3421,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:02:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '195',
@@ -3439,7 +3439,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:13:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '196',
@@ -3457,7 +3457,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:15:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '197',
@@ -3475,7 +3475,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 21:49:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '198',
@@ -3493,7 +3493,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 17:27:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '199',
@@ -3511,7 +3511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 18:46:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '200',
@@ -3529,7 +3529,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 20:56:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '201',
@@ -3547,7 +3547,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 21:43:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '202',
@@ -3565,7 +3565,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 21:45:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '203',
@@ -3583,7 +3583,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 21:53:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '204',
@@ -3605,7 +3605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:10:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '205',
@@ -3623,7 +3623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:12:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '206',
@@ -3641,7 +3641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:17:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '207',
@@ -3659,7 +3659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:18:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '208',
@@ -3677,7 +3677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:21:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '209',
@@ -3695,7 +3695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:22:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '210',
@@ -3713,7 +3713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:23:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '211',
@@ -3731,7 +3731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:25:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '212',
@@ -3749,7 +3749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:27:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '213',
@@ -3767,7 +3767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:28:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '214',
@@ -3785,7 +3785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 23:30:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '215',
@@ -3803,7 +3803,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 16:18:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '216',
@@ -3821,7 +3821,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 16:19:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '217',
@@ -3839,7 +3839,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 16:20:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '218',
@@ -3857,7 +3857,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 16:22:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '219',
@@ -3875,7 +3875,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 16:22:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '220',
@@ -3893,7 +3893,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 19:48:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '221',
@@ -3915,7 +3915,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 23:34:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '222',
@@ -3937,7 +3937,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-07 23:39:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '223',
@@ -3955,7 +3955,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 02:57:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '224',
@@ -3973,7 +3973,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:01:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '225',
@@ -3991,7 +3991,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:04:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '226',
@@ -4009,7 +4009,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:05:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '227',
@@ -4027,7 +4027,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:06:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '228',
@@ -4045,7 +4045,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:07:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '229',
@@ -4063,7 +4063,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:10:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '230',
@@ -4081,7 +4081,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:15:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '231',
@@ -4099,7 +4099,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:19:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '232',
@@ -4117,7 +4117,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:20:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '233',
@@ -4135,7 +4135,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 03:21:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '234',
@@ -4153,7 +4153,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 14:45:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '237',
@@ -4171,7 +4171,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 15:48:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '239',
@@ -4189,7 +4189,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 21:12:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '240',
@@ -4207,7 +4207,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 21:14:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '241',
@@ -4225,7 +4225,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 21:17:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '242',
@@ -4243,7 +4243,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 21:18:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '243',
@@ -4261,7 +4261,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 21:23:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '244',
@@ -4279,7 +4279,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-08 22:21:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '246',
@@ -4297,7 +4297,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:02:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '247',
@@ -4315,7 +4315,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:06:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '248',
@@ -4333,7 +4333,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:07:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '249',
@@ -4351,7 +4351,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:08:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '250',
@@ -4369,7 +4369,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:10:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '251',
@@ -4391,7 +4391,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 12:13:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '252',
@@ -4409,7 +4409,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 15:06:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '253',
@@ -4427,7 +4427,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 15:07:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '254',
@@ -4445,7 +4445,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 15:08:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '255',
@@ -4463,7 +4463,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 17:29:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '256',
@@ -4481,7 +4481,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 17:32:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '257',
@@ -4511,7 +4511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 22:01:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '258',
@@ -4531,7 +4531,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-28 22:10:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '259',
@@ -4549,7 +4549,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-09 22:12:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '261',
@@ -4567,7 +4567,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-10 01:10:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '262',
@@ -4585,7 +4585,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:02:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '263',
@@ -4603,7 +4603,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:03:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '264',
@@ -4621,7 +4621,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:05:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '265',
@@ -4639,7 +4639,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:08:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '266',
@@ -4657,7 +4657,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:12:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '267',
@@ -4675,7 +4675,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:14:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '268',
@@ -4693,7 +4693,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:15:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '269',
@@ -4711,7 +4711,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:17:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '270',
@@ -4729,7 +4729,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:18:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '271',
@@ -4747,7 +4747,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:19:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '272',
@@ -4765,7 +4765,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:20:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '273',
@@ -4783,7 +4783,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:21:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '274',
@@ -4801,7 +4801,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:22:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '275',
@@ -4819,7 +4819,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:23:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '276',
@@ -4837,7 +4837,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:24:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '277',
@@ -4855,7 +4855,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:24:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '278',
@@ -4873,7 +4873,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:25:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '279',
@@ -4891,7 +4891,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:26:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '280',
@@ -4909,7 +4909,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:27:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '281',
@@ -4927,7 +4927,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:28:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '282',
@@ -4945,7 +4945,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:29:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '283',
@@ -4963,7 +4963,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:34:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '284',
@@ -4981,7 +4981,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:36:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '285',
@@ -4999,7 +4999,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:37:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '286',
@@ -5017,7 +5017,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:38:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '287',
@@ -5035,7 +5035,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:39:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '288',
@@ -5053,7 +5053,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:40:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '289',
@@ -5071,7 +5071,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:41:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '290',
@@ -5089,7 +5089,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:42:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '291',
@@ -5107,7 +5107,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:45:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '292',
@@ -5125,7 +5125,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 21:57:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '294',
@@ -5143,7 +5143,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:00:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '295',
@@ -5161,7 +5161,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:01:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '296',
@@ -5179,7 +5179,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:02:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '297',
@@ -5197,7 +5197,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:03:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '298',
@@ -5215,7 +5215,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:37:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '299',
@@ -5233,7 +5233,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:39:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '300',
@@ -5251,7 +5251,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:40:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '301',
@@ -5269,7 +5269,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:41:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '302',
@@ -5287,7 +5287,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:42:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '303',
@@ -5305,7 +5305,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:43:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '304',
@@ -5323,7 +5323,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:44:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '305',
@@ -5341,7 +5341,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:47:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '306',
@@ -5359,7 +5359,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:48:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '307',
@@ -5377,7 +5377,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 22:50:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '308',
@@ -5395,7 +5395,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-12 23:48:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '309',
@@ -5413,7 +5413,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:01:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '310',
@@ -5431,7 +5431,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:06:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '311',
@@ -5449,7 +5449,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:08:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '312',
@@ -5467,7 +5467,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:11:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '313',
@@ -5485,7 +5485,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:13:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '314',
@@ -5503,7 +5503,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:15:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '315',
@@ -5521,7 +5521,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:17:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '317',
@@ -5539,7 +5539,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 00:19:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '318',
@@ -5561,7 +5561,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 01:30:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '320',
@@ -5579,7 +5579,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 12:03:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '321',
@@ -5597,7 +5597,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 16:01:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '322',
@@ -5615,7 +5615,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:17:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '323',
@@ -5633,7 +5633,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:26:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '324',
@@ -5651,7 +5651,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:29:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '325',
@@ -5669,7 +5669,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:33:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '326',
@@ -5687,7 +5687,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:36:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '327',
@@ -5705,7 +5705,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:44:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '328',
@@ -5723,7 +5723,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:49:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '329',
@@ -5741,7 +5741,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 17:54:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '330',
@@ -5763,7 +5763,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 20:40:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '331',
@@ -5785,7 +5785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 20:43:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '332',
@@ -5807,7 +5807,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 21:12:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '333',
@@ -5825,7 +5825,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 21:20:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '334',
@@ -5843,7 +5843,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 21:28:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '335',
@@ -5861,7 +5861,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-13 21:30:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '336',
@@ -5879,7 +5879,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 01:42:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '337',
@@ -5897,7 +5897,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:50:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '338',
@@ -5915,7 +5915,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:51:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '339',
@@ -5933,7 +5933,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:53:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '340',
@@ -5951,7 +5951,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:54:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '341',
@@ -5969,7 +5969,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:56:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '342',
@@ -5987,7 +5987,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:57:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '343',
@@ -6005,7 +6005,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 02:58:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '344',
@@ -6023,7 +6023,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:00:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '345',
@@ -6041,7 +6041,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:01:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '346',
@@ -6059,7 +6059,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:03:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '347',
@@ -6077,7 +6077,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:06:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '349',
@@ -6095,7 +6095,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:10:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '350',
@@ -6113,7 +6113,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:10:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '351',
@@ -6131,7 +6131,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:11:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '352',
@@ -6149,7 +6149,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:12:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '353',
@@ -6167,7 +6167,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:13:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '354',
@@ -6185,7 +6185,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:14:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '355',
@@ -6203,7 +6203,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:18:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '356',
@@ -6221,7 +6221,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:19:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '357',
@@ -6239,7 +6239,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:19:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '358',
@@ -6257,7 +6257,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:20:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '359',
@@ -6275,7 +6275,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:21:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '360',
@@ -6293,7 +6293,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:21:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '361',
@@ -6311,7 +6311,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:23:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '362',
@@ -6329,7 +6329,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:25:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '363',
@@ -6351,7 +6351,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:29:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '364',
@@ -6369,7 +6369,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 03:32:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '365',
@@ -6387,7 +6387,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:54:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '366',
@@ -6405,7 +6405,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:55:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '367',
@@ -6423,7 +6423,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:55:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '368',
@@ -6441,7 +6441,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:56:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '369',
@@ -6459,7 +6459,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:57:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '370',
@@ -6477,7 +6477,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 11:59:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '371',
@@ -6495,7 +6495,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:00:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '372',
@@ -6513,7 +6513,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:02:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '373',
@@ -6531,7 +6531,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:02:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '374',
@@ -6549,7 +6549,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:03:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '375',
@@ -6567,7 +6567,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:04:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '376',
@@ -6585,7 +6585,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:04:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '377',
@@ -6603,7 +6603,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:05:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '378',
@@ -6621,7 +6621,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:05:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '379',
@@ -6639,7 +6639,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:08:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '380',
@@ -6657,7 +6657,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 12:10:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '381',
@@ -6683,7 +6683,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 14:17:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '382',
@@ -6701,7 +6701,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 14:36:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '383',
@@ -6719,7 +6719,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:44:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '384',
@@ -6737,7 +6737,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:46:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '385',
@@ -6755,7 +6755,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:48:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '386',
@@ -6773,7 +6773,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:50:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '387',
@@ -6791,7 +6791,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:52:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '388',
@@ -6809,7 +6809,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:54:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '389',
@@ -6827,7 +6827,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:57:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '390',
@@ -6845,7 +6845,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 16:59:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '391',
@@ -6863,7 +6863,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:01:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '392',
@@ -6881,7 +6881,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:04:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '393',
@@ -6899,7 +6899,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:07:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '394',
@@ -6917,7 +6917,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:09:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '395',
@@ -6935,7 +6935,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:10:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '397',
@@ -6953,7 +6953,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:16:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '398',
@@ -6971,7 +6971,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 17:22:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '399',
@@ -6989,7 +6989,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:47:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '400',
@@ -7007,7 +7007,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:49:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '401',
@@ -7025,7 +7025,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:50:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '402',
@@ -7043,7 +7043,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:51:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '403',
@@ -7061,7 +7061,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:55:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '404',
@@ -7079,7 +7079,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:56:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '405',
@@ -7097,7 +7097,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 19:57:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '406',
@@ -7115,7 +7115,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 20:24:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '407',
@@ -7133,7 +7133,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 20:26:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '408',
@@ -7151,7 +7151,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:09:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '409',
@@ -7169,7 +7169,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:10:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '410',
@@ -7187,7 +7187,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:11:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '411',
@@ -7205,7 +7205,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:12:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '413',
@@ -7223,7 +7223,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:21:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '414',
@@ -7241,7 +7241,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:23:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '415',
@@ -7259,7 +7259,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:24:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '416',
@@ -7277,7 +7277,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:24:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '417',
@@ -7295,7 +7295,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:28:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '418',
@@ -7313,7 +7313,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 01:37:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '419',
@@ -7331,7 +7331,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 01:40:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '420',
@@ -7349,7 +7349,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 17:54:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '421',
@@ -7367,7 +7367,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 17:55:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '422',
@@ -7385,7 +7385,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 18:47:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '423',
@@ -7403,7 +7403,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 18:51:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '424',
@@ -7425,7 +7425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-15 19:02:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '425',
@@ -7443,7 +7443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 17:17:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '426',
@@ -7461,7 +7461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 17:20:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '427',
@@ -7479,7 +7479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 17:21:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '428',
@@ -7497,7 +7497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 17:22:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '429',
@@ -7515,7 +7515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 20:58:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '430',
@@ -7533,7 +7533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 20:59:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '431',
@@ -7551,7 +7551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:01:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '432',
@@ -7569,7 +7569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:03:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '436',
@@ -7587,7 +7587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:07:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '437',
@@ -7605,7 +7605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:08:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '438',
@@ -7623,7 +7623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:08:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '439',
@@ -7641,7 +7641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:09:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '440',
@@ -7659,7 +7659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:10:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '441',
@@ -7677,7 +7677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:10:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '442',
@@ -7695,7 +7695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:12:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '443',
@@ -7721,7 +7721,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:13:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '444',
@@ -7739,7 +7739,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:14:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '445',
@@ -7757,7 +7757,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:14:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '446',
@@ -7775,7 +7775,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:15:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '447',
@@ -7793,7 +7793,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:17:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '448',
@@ -7811,7 +7811,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:31:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '449',
@@ -7829,7 +7829,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:49:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '450',
@@ -7847,7 +7847,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 21:53:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '451',
@@ -7865,7 +7865,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 22:00:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '452',
@@ -7895,7 +7895,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 22:01:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '453',
@@ -7913,7 +7913,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 22:04:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '454',
@@ -7931,7 +7931,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-16 22:08:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '455',
@@ -7949,7 +7949,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 02:45:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '457',
@@ -7967,7 +7967,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 02:53:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '458',
@@ -7985,7 +7985,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 03:05:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '459',
@@ -8007,7 +8007,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 03:18:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '460',
@@ -8025,7 +8025,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 03:25:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '461',
@@ -8043,7 +8043,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 03:33:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '463',
@@ -8061,7 +8061,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 04:07:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '464',
@@ -8079,7 +8079,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 00:13:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '465',
@@ -8097,7 +8097,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 00:22:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '466',
@@ -8115,7 +8115,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 00:27:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '467',
@@ -8137,7 +8137,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 01:45:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '468',
@@ -8155,7 +8155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 02:04:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '469',
@@ -8173,7 +8173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:46:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '470',
@@ -8191,7 +8191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:51:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '471',
@@ -8209,7 +8209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:51:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '472',
@@ -8227,7 +8227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:52:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '473',
@@ -8245,7 +8245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:53:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '474',
@@ -8263,7 +8263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:54:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '475',
@@ -8281,7 +8281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:54:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '476',
@@ -8299,7 +8299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:55:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '477',
@@ -8317,7 +8317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:55:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '478',
@@ -8343,7 +8343,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:56:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '479',
@@ -8373,7 +8373,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:58:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '481',
@@ -8395,7 +8395,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 15:59:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '482',
@@ -8421,7 +8421,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:00:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '485',
@@ -8439,7 +8439,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:02:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '486',
@@ -8457,7 +8457,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:18:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '487',
@@ -8475,7 +8475,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:21:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '488',
@@ -8493,7 +8493,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:25:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '489',
@@ -8511,7 +8511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:27:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '490',
@@ -8529,7 +8529,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 16:30:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '491',
@@ -8547,7 +8547,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 17:51:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '492',
@@ -8569,7 +8569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-06 17:58:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '493',
@@ -8587,7 +8587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-05 20:18:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '494',
@@ -8605,7 +8605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 20:53:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '495',
@@ -8623,7 +8623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 20:55:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '496',
@@ -8641,7 +8641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 21:42:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '497',
@@ -8659,7 +8659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 22:04:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '498',
@@ -8677,7 +8677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-20 23:43:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '499',
@@ -8707,7 +8707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-12 23:50:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '500',
@@ -8725,7 +8725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 12:24:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '501',
@@ -8743,7 +8743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 12:25:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '502',
@@ -8761,7 +8761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 12:26:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '503',
@@ -8779,7 +8779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 12:27:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '504',
@@ -8797,7 +8797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 17:25:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '505',
@@ -8815,7 +8815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 17:28:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '506',
@@ -8833,7 +8833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 20:03:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '507',
@@ -8851,7 +8851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-21 20:06:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '508',
@@ -8869,7 +8869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-22 00:13:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '509',
@@ -8891,7 +8891,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-22 12:41:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '510',
@@ -8909,7 +8909,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:02:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '511',
@@ -8927,7 +8927,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:04:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '512',
@@ -8945,7 +8945,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:07:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '513',
@@ -8963,7 +8963,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:11:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '514',
@@ -8981,7 +8981,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:12:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '515',
@@ -8999,7 +8999,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:14:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '516',
@@ -9017,7 +9017,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:21:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '517',
@@ -9035,7 +9035,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:22:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '518',
@@ -9053,7 +9053,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:22:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '519',
@@ -9071,7 +9071,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:23:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '520',
@@ -9089,7 +9089,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:33:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '521',
@@ -9107,7 +9107,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:34:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '522',
@@ -9125,7 +9125,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:38:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '523',
@@ -9143,7 +9143,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:39:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '524',
@@ -9161,7 +9161,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:40:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '525',
@@ -9179,7 +9179,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:41:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '526',
@@ -9197,7 +9197,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:42:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '527',
@@ -9215,7 +9215,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:43:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '528',
@@ -9233,7 +9233,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:44:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '529',
@@ -9251,7 +9251,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:44:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '530',
@@ -9269,7 +9269,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:45:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '531',
@@ -9287,7 +9287,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:46:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '532',
@@ -9305,7 +9305,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:48:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '533',
@@ -9323,7 +9323,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:49:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '534',
@@ -9341,7 +9341,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:55:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '535',
@@ -9359,7 +9359,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:56:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '536',
@@ -9377,7 +9377,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 16:57:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '537',
@@ -9395,7 +9395,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:18:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '538',
@@ -9413,7 +9413,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:21:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '539',
@@ -9431,7 +9431,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:23:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '540',
@@ -9449,7 +9449,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:24:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '541',
@@ -9467,7 +9467,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:27:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '542',
@@ -9485,7 +9485,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:29:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '543',
@@ -9503,7 +9503,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:51:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '544',
@@ -9521,7 +9521,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 14:55:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '545',
@@ -9539,7 +9539,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:05:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '546',
@@ -9557,7 +9557,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:08:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '547',
@@ -9575,7 +9575,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:11:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '548',
@@ -9597,7 +9597,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:20:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '549',
@@ -9615,7 +9615,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:24:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '550',
@@ -9633,7 +9633,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:32:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '551',
@@ -9651,7 +9651,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:34:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '552',
@@ -9669,7 +9669,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:37:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '553',
@@ -9687,7 +9687,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:39:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '554',
@@ -9705,7 +9705,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 15:41:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '555',
@@ -9723,7 +9723,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 13:57:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '556',
@@ -9741,7 +9741,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 13:59:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '557',
@@ -9759,7 +9759,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:01:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '558',
@@ -9777,7 +9777,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:03:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '559',
@@ -9795,7 +9795,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:27:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '560',
@@ -9813,7 +9813,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:29:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '561',
@@ -9831,7 +9831,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:30:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '562',
@@ -9849,7 +9849,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:32:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '563',
@@ -9867,7 +9867,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:34:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '564',
@@ -9885,7 +9885,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:37:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '565',
@@ -9903,7 +9903,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:38:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '566',
@@ -9921,7 +9921,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:40:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '567',
@@ -9939,7 +9939,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:41:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '568',
@@ -9957,7 +9957,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 14:44:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '571',
@@ -9975,7 +9975,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-28 15:09:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '572',
@@ -9993,7 +9993,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 12:13:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '573',
@@ -10011,7 +10011,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 12:15:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '574',
@@ -10029,7 +10029,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 14:10:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '575',
@@ -10047,7 +10047,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 14:14:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '576',
@@ -10065,7 +10065,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:40:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '577',
@@ -10083,7 +10083,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:44:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '578',
@@ -10101,7 +10101,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:46:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '579',
@@ -10119,7 +10119,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:47:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '581',
@@ -10137,7 +10137,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:49:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '582',
@@ -10155,7 +10155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:50:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '583',
@@ -10173,7 +10173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:52:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '584',
@@ -10191,7 +10191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:53:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '585',
@@ -10209,7 +10209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 15:56:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '586',
@@ -10227,7 +10227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 16:01:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '587',
@@ -10245,7 +10245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 16:04:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '588',
@@ -10263,7 +10263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 17:30:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '589',
@@ -10281,7 +10281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 17:31:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '590',
@@ -10299,7 +10299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 17:40:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '591',
@@ -10317,7 +10317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 19:45:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '592',
@@ -10335,7 +10335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-02 19:50:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '593',
@@ -10353,7 +10353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 12:56:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '594',
@@ -10371,7 +10371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 12:57:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '595',
@@ -10389,7 +10389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 12:58:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '596',
@@ -10407,7 +10407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 15:52:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '597',
@@ -10425,7 +10425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 15:56:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '598',
@@ -10443,7 +10443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 15:57:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '599',
@@ -10461,7 +10461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 15:59:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '600',
@@ -10479,7 +10479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 16:02:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '601',
@@ -10497,7 +10497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 16:03:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '602',
@@ -10515,7 +10515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 16:09:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '603',
@@ -10533,7 +10533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 16:14:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '604',
@@ -10551,7 +10551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:13:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '605',
@@ -10569,7 +10569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:30:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '606',
@@ -10587,7 +10587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:32:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '607',
@@ -10605,7 +10605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:33:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '608',
@@ -10623,7 +10623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:35:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '609',
@@ -10641,7 +10641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:36:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '610',
@@ -10659,7 +10659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:39:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '611',
@@ -10677,7 +10677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:39:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '612',
@@ -10695,7 +10695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:42:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '613',
@@ -10713,7 +10713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 19:54:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '614',
@@ -10731,7 +10731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-03 20:01:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '615',
@@ -10749,7 +10749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 02:23:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '616',
@@ -10767,7 +10767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 02:26:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '617',
@@ -10785,7 +10785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 03:03:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '618',
@@ -10803,7 +10803,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 03:05:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '619',
@@ -10821,7 +10821,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 03:09:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '620',
@@ -10843,7 +10843,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 03:14:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '621',
@@ -10861,7 +10861,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 03:16:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '622',
@@ -10879,7 +10879,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 16:06:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '623',
@@ -10897,7 +10897,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 16:07:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '624',
@@ -10915,7 +10915,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 17:57:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '625',
@@ -10933,7 +10933,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 18:02:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '627',
@@ -10951,7 +10951,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 18:05:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '628',
@@ -10969,7 +10969,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-27 18:07:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '629',
@@ -10987,7 +10987,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 20:05:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '630',
@@ -11005,7 +11005,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 22:47:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '631',
@@ -11023,7 +11023,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 22:49:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '632',
@@ -11053,7 +11053,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 17:53:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '633',
@@ -11075,7 +11075,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 18:44:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '634',
@@ -11093,7 +11093,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 18:49:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '635',
@@ -11111,7 +11111,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 22:34:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '636',
@@ -11129,7 +11129,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 22:40:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '637',
@@ -11151,7 +11151,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 23:25:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '638',
@@ -11169,7 +11169,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-05 23:30:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '639',
@@ -11187,7 +11187,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 01:28:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '640',
@@ -11205,7 +11205,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 01:29:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '641',
@@ -11223,7 +11223,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 01:33:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '642',
@@ -11241,7 +11241,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 14:59:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '643',
@@ -11259,7 +11259,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:02:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '644',
@@ -11277,7 +11277,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:04:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '645',
@@ -11295,7 +11295,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:53:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '646',
@@ -11313,7 +11313,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:53:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '647',
@@ -11331,7 +11331,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:54:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '648',
@@ -11349,7 +11349,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:55:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '649',
@@ -11367,7 +11367,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:56:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '650',
@@ -11385,7 +11385,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:56:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '653',
@@ -11403,7 +11403,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 16:59:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '654',
@@ -11421,7 +11421,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:02:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '655',
@@ -11439,7 +11439,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:12:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '656',
@@ -11457,7 +11457,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:15:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '657',
@@ -11475,7 +11475,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:17:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '658',
@@ -11493,7 +11493,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:18:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '659',
@@ -11511,7 +11511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:20:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '660',
@@ -11529,7 +11529,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:21:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '661',
@@ -11547,7 +11547,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:27:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '662',
@@ -11565,7 +11565,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:32:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '663',
@@ -11583,7 +11583,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:34:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '664',
@@ -11601,7 +11601,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:36:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '665',
@@ -11619,7 +11619,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:37:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '666',
@@ -11637,7 +11637,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:40:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '667',
@@ -11655,7 +11655,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:41:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '668',
@@ -11673,7 +11673,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 17:57:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '669',
@@ -11691,7 +11691,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:01:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '670',
@@ -11709,7 +11709,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:02:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '671',
@@ -11727,7 +11727,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:03:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '672',
@@ -11745,7 +11745,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:04:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '673',
@@ -11763,7 +11763,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:55:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '674',
@@ -11781,7 +11781,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:57:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '675',
@@ -11799,7 +11799,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 18:59:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '676',
@@ -11817,7 +11817,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:11:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '677',
@@ -11835,7 +11835,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:13:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '678',
@@ -11853,7 +11853,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:14:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '679',
@@ -11871,7 +11871,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:18:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '680',
@@ -11889,7 +11889,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:20:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '681',
@@ -11907,7 +11907,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:21:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '682',
@@ -11925,7 +11925,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:22:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '683',
@@ -11943,7 +11943,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:28:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '684',
@@ -11961,7 +11961,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:29:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '685',
@@ -11979,7 +11979,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:30:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '686',
@@ -11997,7 +11997,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:31:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '687',
@@ -12015,7 +12015,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:32:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '688',
@@ -12033,7 +12033,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:33:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '689',
@@ -12051,7 +12051,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:33:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '690',
@@ -12069,7 +12069,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:34:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '691',
@@ -12087,7 +12087,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:35:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '692',
@@ -12105,7 +12105,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:36:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '693',
@@ -12123,7 +12123,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:36:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '694',
@@ -12141,7 +12141,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:37:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '695',
@@ -12159,7 +12159,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:38:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '696',
@@ -12177,7 +12177,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:39:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '697',
@@ -12195,7 +12195,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:41:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '698',
@@ -12213,7 +12213,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:43:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '699',
@@ -12231,7 +12231,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 19:43:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '701',
@@ -12249,7 +12249,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-06 20:01:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '702',
@@ -12267,7 +12267,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-09 13:25:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '703',
@@ -12285,7 +12285,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 18:09:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '704',
@@ -12303,7 +12303,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-04 18:11:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '705',
@@ -12321,7 +12321,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-09 22:30:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '706',
@@ -12339,7 +12339,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-09 22:39:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '707',
@@ -12357,7 +12357,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-23 14:07:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '708',
@@ -12375,7 +12375,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 14:22:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '709',
@@ -12397,7 +12397,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 14:23:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '710',
@@ -12415,7 +12415,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 14:24:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '711',
@@ -12433,7 +12433,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:01:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '712',
@@ -12451,7 +12451,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:02:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '713',
@@ -12469,7 +12469,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:04:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '714',
@@ -12487,7 +12487,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:05:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '715',
@@ -12505,7 +12505,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:06:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '716',
@@ -12523,7 +12523,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:07:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '717',
@@ -12541,7 +12541,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:08:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '718',
@@ -12559,7 +12559,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 16:10:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '719',
@@ -12577,7 +12577,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 18:07:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '720',
@@ -12595,7 +12595,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 19:30:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '721',
@@ -12613,7 +12613,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 19:30:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '722',
@@ -12631,7 +12631,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 19:33:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '723',
@@ -12649,7 +12649,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 19:33:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '724',
@@ -12667,7 +12667,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 19:34:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '725',
@@ -12685,7 +12685,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-01 19:37:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '726',
@@ -12715,7 +12715,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-12 19:47:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '727',
@@ -12733,7 +12733,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 19:54:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '728',
@@ -12751,7 +12751,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-10 21:00:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '729',
@@ -12773,7 +12773,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 21:50:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '730',
@@ -12791,7 +12791,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-17 21:57:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '731',
@@ -12809,7 +12809,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-04 23:03:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '732',
@@ -12827,7 +12827,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-02-27 23:12:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '733',
@@ -12849,7 +12849,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-03-14 23:22:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '734',
@@ -12867,7 +12867,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 12:19:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '735',
@@ -12885,7 +12885,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 16:42:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '736',
@@ -12903,7 +12903,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 16:55:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '737',
@@ -12921,7 +12921,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 18:33:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '738',
@@ -12939,7 +12939,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 19:10:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '739',
@@ -12957,7 +12957,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 19:11:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '740',
@@ -12975,7 +12975,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 19:16:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '741',
@@ -12993,7 +12993,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 19:19:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '742',
@@ -13011,7 +13011,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-11 19:21:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '743',
@@ -13029,7 +13029,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:04:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '744',
@@ -13047,7 +13047,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:18:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '745',
@@ -13065,7 +13065,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:20:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '746',
@@ -13083,7 +13083,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:22:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '747',
@@ -13101,7 +13101,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:24:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '748',
@@ -13119,7 +13119,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:26:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '749',
@@ -13137,7 +13137,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:28:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '750',
@@ -13155,7 +13155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:30:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '751',
@@ -13173,7 +13173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:31:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '752',
@@ -13191,7 +13191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:33:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '753',
@@ -13209,7 +13209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 13:34:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '754',
@@ -13227,7 +13227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 15:41:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '755',
@@ -13245,7 +13245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 15:51:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '756',
@@ -13275,7 +13275,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 17:43:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '757',
@@ -13293,7 +13293,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 17:45:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '758',
@@ -13311,7 +13311,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 17:46:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '760',
@@ -13329,7 +13329,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-12 19:35:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '761',
@@ -13347,7 +13347,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 13:21:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '762',
@@ -13365,7 +13365,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 13:25:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '763',
@@ -13383,7 +13383,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 13:55:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '764',
@@ -13401,7 +13401,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 13:55:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '765',
@@ -13419,7 +13419,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:05:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '766',
@@ -13437,7 +13437,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:10:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '767',
@@ -13455,7 +13455,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:12:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '768',
@@ -13473,7 +13473,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:13:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '769',
@@ -13491,7 +13491,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:14:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '770',
@@ -13509,7 +13509,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:15:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '771',
@@ -13527,7 +13527,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:15:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '772',
@@ -13545,7 +13545,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:17:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '773',
@@ -13563,7 +13563,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:27:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '774',
@@ -13581,7 +13581,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:29:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '775',
@@ -13599,7 +13599,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:53:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '776',
@@ -13617,7 +13617,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 15:59:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '777',
@@ -13635,7 +13635,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:00:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '778',
@@ -13653,7 +13653,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:03:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '779',
@@ -13671,7 +13671,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:04:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '780',
@@ -13689,7 +13689,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:08:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '781',
@@ -13707,7 +13707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:10:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '782',
@@ -13725,7 +13725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:12:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '783',
@@ -13743,7 +13743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:13:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '784',
@@ -13761,7 +13761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:14:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '785',
@@ -13779,7 +13779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:16:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '786',
@@ -13797,7 +13797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:17:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '787',
@@ -13815,7 +13815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:18:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '788',
@@ -13833,7 +13833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:20:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '789',
@@ -13851,7 +13851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:22:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '790',
@@ -13869,7 +13869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:22:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '791',
@@ -13887,7 +13887,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:27:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '792',
@@ -13905,7 +13905,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:28:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '793',
@@ -13923,7 +13923,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:45:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '794',
@@ -13941,7 +13941,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 16:46:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '795',
@@ -13959,7 +13959,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:13:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '796',
@@ -13977,7 +13977,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:15:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '797',
@@ -13995,7 +13995,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:52:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '798',
@@ -14013,7 +14013,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:53:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '799',
@@ -14031,7 +14031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:56:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '800',
@@ -14049,7 +14049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 17:59:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '801',
@@ -14067,7 +14067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 18:01:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '802',
@@ -14085,7 +14085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 19:01:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '803',
@@ -14103,7 +14103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 19:02:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '804',
@@ -14125,7 +14125,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 19:04:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '805',
@@ -14147,7 +14147,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 19:07:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '806',
@@ -14169,7 +14169,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 20:04:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '807',
@@ -14187,7 +14187,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 20:11:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '808',
@@ -14205,7 +14205,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 22:31:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '809',
@@ -14223,7 +14223,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 22:31:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '810',
@@ -14241,7 +14241,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 22:34:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '811',
@@ -14259,7 +14259,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 22:38:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '812',
@@ -14277,7 +14277,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-13 22:40:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '813',
@@ -14299,7 +14299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 14:34:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '814',
@@ -14317,7 +14317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 18:02:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '815',
@@ -14335,7 +14335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 19:40:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '816',
@@ -14353,7 +14353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 19:43:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '817',
@@ -14371,7 +14371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 19:52:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '818',
@@ -14389,7 +14389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:02:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '819',
@@ -14407,7 +14407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:11:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '820',
@@ -14425,7 +14425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:12:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '821',
@@ -14443,7 +14443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:14:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '822',
@@ -14461,7 +14461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:18:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '823',
@@ -14479,7 +14479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:22:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '824',
@@ -14497,7 +14497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:29:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '825',
@@ -14515,7 +14515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:32:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '826',
@@ -14533,7 +14533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:35:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '827',
@@ -14551,7 +14551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:40:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '828',
@@ -14569,7 +14569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:45:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '829',
@@ -14587,7 +14587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:50:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '830',
@@ -14605,7 +14605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-16 20:53:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '831',
@@ -14627,7 +14627,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 16:24:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '832',
@@ -14645,7 +14645,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 16:27:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '833',
@@ -14663,7 +14663,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 20:04:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '834',
@@ -14681,7 +14681,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 20:25:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '835',
@@ -14699,7 +14699,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 20:28:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '836',
@@ -14717,7 +14717,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 20:31:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '837',
@@ -14735,7 +14735,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:42:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '838',
@@ -14753,7 +14753,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:43:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '839',
@@ -14771,7 +14771,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:45:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '840',
@@ -14789,7 +14789,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:46:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '841',
@@ -14807,7 +14807,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:47:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '842',
@@ -14825,7 +14825,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:48:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '843',
@@ -14843,7 +14843,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 21:49:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '844',
@@ -14861,7 +14861,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:02:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '845',
@@ -14879,7 +14879,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:03:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '846',
@@ -14897,7 +14897,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:04:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '847',
@@ -14915,7 +14915,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:06:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '848',
@@ -14933,7 +14933,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:07:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '849',
@@ -14951,7 +14951,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:09:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '850',
@@ -14969,7 +14969,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:12:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '851',
@@ -14987,7 +14987,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:13:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '852',
@@ -15005,7 +15005,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:14:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '853',
@@ -15023,7 +15023,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:17:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '854',
@@ -15041,7 +15041,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:18:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '858',
@@ -15059,7 +15059,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:23:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '859',
@@ -15077,7 +15077,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-17 23:25:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '860',
@@ -15095,7 +15095,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 12:31:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '861',
@@ -15113,7 +15113,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:43:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '862',
@@ -15131,7 +15131,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:50:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '863',
@@ -15149,7 +15149,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:51:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '864',
@@ -15167,7 +15167,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:52:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '865',
@@ -15185,7 +15185,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:53:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '866',
@@ -15203,7 +15203,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 15:53:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '867',
@@ -15221,7 +15221,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:00:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '868',
@@ -15239,7 +15239,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:02:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '869',
@@ -15257,7 +15257,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:03:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '870',
@@ -15275,7 +15275,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:16:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '871',
@@ -15293,7 +15293,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:17:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '872',
@@ -15311,7 +15311,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:18:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '873',
@@ -15329,7 +15329,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:19:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '874',
@@ -15347,7 +15347,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:21:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '875',
@@ -15365,7 +15365,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:22:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '876',
@@ -15383,7 +15383,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:23:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '877',
@@ -15401,7 +15401,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:24:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '878',
@@ -15419,7 +15419,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:25:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '881',
@@ -15437,7 +15437,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:29:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '882',
@@ -15455,7 +15455,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:30:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '883',
@@ -15473,7 +15473,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:32:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '884',
@@ -15491,7 +15491,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:39:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '885',
@@ -15509,7 +15509,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:40:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '886',
@@ -15527,7 +15527,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:43:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '887',
@@ -15549,7 +15549,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 16:55:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '888',
@@ -15567,7 +15567,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:04:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '889',
@@ -15585,7 +15585,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:08:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '890',
@@ -15603,7 +15603,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:18:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '891',
@@ -15621,7 +15621,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:21:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '892',
@@ -15639,7 +15639,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:24:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '893',
@@ -15657,7 +15657,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:25:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '894',
@@ -15675,7 +15675,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:26:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '895',
@@ -15693,7 +15693,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 17:28:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '896',
@@ -15711,7 +15711,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 19:22:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '897',
@@ -15729,7 +15729,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 19:22:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '898',
@@ -15747,7 +15747,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:31:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '899',
@@ -15765,7 +15765,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:32:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '900',
@@ -15783,7 +15783,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:33:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '901',
@@ -15801,7 +15801,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:35:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '902',
@@ -15819,7 +15819,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:36:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '903',
@@ -15837,7 +15837,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:38:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '904',
@@ -15855,7 +15855,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:38:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '905',
@@ -15873,7 +15873,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:39:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '906',
@@ -15891,7 +15891,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:40:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '907',
@@ -15909,7 +15909,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:40:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '909',
@@ -15927,7 +15927,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:42:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '910',
@@ -15945,7 +15945,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:43:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '911',
@@ -15963,7 +15963,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:44:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '912',
@@ -15981,7 +15981,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:45:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '913',
@@ -15999,7 +15999,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:46:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '914',
@@ -16017,7 +16017,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:47:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '915',
@@ -16035,7 +16035,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:47:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '916',
@@ -16053,7 +16053,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:48:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '917',
@@ -16071,7 +16071,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:49:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '918',
@@ -16089,7 +16089,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:50:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '919',
@@ -16107,7 +16107,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 20:55:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '920',
@@ -16125,7 +16125,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:13:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '921',
@@ -16143,7 +16143,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:16:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '922',
@@ -16161,7 +16161,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:18:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '923',
@@ -16179,7 +16179,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:19:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '924',
@@ -16197,7 +16197,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:20:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '925',
@@ -16215,7 +16215,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:22:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '926',
@@ -16233,7 +16233,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:24:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '927',
@@ -16251,7 +16251,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:25:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '928',
@@ -16269,7 +16269,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:27:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '929',
@@ -16287,7 +16287,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:30:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '930',
@@ -16305,7 +16305,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:32:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '931',
@@ -16323,7 +16323,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 21:33:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '932',
@@ -16341,7 +16341,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 22:03:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '933',
@@ -16359,7 +16359,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 22:04:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '935',
@@ -16377,7 +16377,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 22:06:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '936',
@@ -16395,7 +16395,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 22:07:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '937',
@@ -16413,7 +16413,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-18 22:08:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '938',
@@ -16431,7 +16431,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-19 16:15:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '940',
@@ -16449,7 +16449,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-20 00:29:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '941',
@@ -16471,7 +16471,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-20 12:27:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '942',
@@ -16493,7 +16493,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-20 12:27:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '943',
@@ -16511,7 +16511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-20 15:56:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '944',
@@ -16529,7 +16529,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-20 16:01:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '945',
@@ -16547,7 +16547,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-22 15:42:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '946',
@@ -16565,7 +16565,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-22 15:43:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '947',
@@ -16583,7 +16583,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-22 15:47:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '948',
@@ -16601,7 +16601,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-22 15:48:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '949',
@@ -16619,7 +16619,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-23 23:27:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '950',
@@ -16637,7 +16637,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-23 23:35:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '951',
@@ -16655,7 +16655,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-23 23:40:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '952',
@@ -16673,7 +16673,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 13:36:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '953',
@@ -16691,7 +16691,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 13:54:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '954',
@@ -16709,7 +16709,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 13:56:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '955',
@@ -16727,7 +16727,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 15:13:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '957',
@@ -16745,7 +16745,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 15:29:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '958',
@@ -16763,7 +16763,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 15:30:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '959',
@@ -16781,7 +16781,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 15:32:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '960',
@@ -16799,7 +16799,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 15:43:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '961',
@@ -16817,7 +16817,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 23:19:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '962',
@@ -16835,7 +16835,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 23:23:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '963',
@@ -16853,7 +16853,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-24 23:30:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '964',
@@ -16871,7 +16871,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-25 17:11:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '965',
@@ -16889,7 +16889,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-25 20:32:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '966',
@@ -16907,7 +16907,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:00:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '967',
@@ -16925,7 +16925,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:05:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '968',
@@ -16943,7 +16943,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:06:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '969',
@@ -16961,7 +16961,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:07:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '970',
@@ -16979,7 +16979,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:08:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '971',
@@ -16997,7 +16997,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:11:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '972',
@@ -17015,7 +17015,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 02:21:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '973',
@@ -17033,7 +17033,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 10:57:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '974',
@@ -17051,7 +17051,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 11:55:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '975',
@@ -17069,7 +17069,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 11:57:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '976',
@@ -17087,7 +17087,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 11:58:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '977',
@@ -17105,7 +17105,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 11:59:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '978',
@@ -17123,7 +17123,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:00:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '979',
@@ -17141,7 +17141,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:01:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '980',
@@ -17159,7 +17159,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:03:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '981',
@@ -17177,7 +17177,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:15:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '982',
@@ -17195,7 +17195,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:30:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '983',
@@ -17213,7 +17213,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:31:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '984',
@@ -17231,7 +17231,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:31:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '985',
@@ -17249,7 +17249,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:32:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '986',
@@ -17267,7 +17267,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:33:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '987',
@@ -17285,7 +17285,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:34:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '988',
@@ -17303,7 +17303,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:35:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '989',
@@ -17321,7 +17321,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:36:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '990',
@@ -17339,7 +17339,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:36:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '991',
@@ -17357,7 +17357,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:37:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '992',
@@ -17375,7 +17375,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:38:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '993',
@@ -17393,7 +17393,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:39:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '994',
@@ -17411,7 +17411,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:39:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '995',
@@ -17429,7 +17429,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 12:40:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '996',
@@ -17447,7 +17447,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 13:03:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '997',
@@ -17465,7 +17465,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 13:54:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '998',
@@ -17483,7 +17483,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 13:56:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '999',
@@ -17501,7 +17501,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 13:57:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1000',
@@ -17519,7 +17519,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 13:58:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1001',
@@ -17537,7 +17537,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:06:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1002',
@@ -17555,7 +17555,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:17:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1003',
@@ -17573,7 +17573,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:18:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1004',
@@ -17591,7 +17591,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:19:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1005',
@@ -17609,7 +17609,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:21:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1006',
@@ -17627,7 +17627,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:22:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1007',
@@ -17645,7 +17645,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:23:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1008',
@@ -17663,7 +17663,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:24:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1009',
@@ -17681,7 +17681,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 14:25:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1010',
@@ -17707,7 +17707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 15:10:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1012',
@@ -17725,7 +17725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 15:14:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1013',
@@ -17743,7 +17743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 15:58:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1014',
@@ -17761,7 +17761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:00:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1015',
@@ -17779,7 +17779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:01:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1016',
@@ -17797,7 +17797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:02:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1017',
@@ -17815,7 +17815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:04:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1018',
@@ -17833,7 +17833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:09:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1019',
@@ -17851,7 +17851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:12:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1020',
@@ -17869,7 +17869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:16:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1021',
@@ -17887,7 +17887,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:18:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1022',
@@ -17905,7 +17905,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:19:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1023',
@@ -17923,7 +17923,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:22:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1024',
@@ -17941,7 +17941,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:23:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1025',
@@ -17959,7 +17959,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:23:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1026',
@@ -17977,7 +17977,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:24:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1027',
@@ -17995,7 +17995,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:24:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1028',
@@ -18013,7 +18013,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:25:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1029',
@@ -18031,7 +18031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:31:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1030',
@@ -18049,7 +18049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:31:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1031',
@@ -18067,7 +18067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:34:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1032',
@@ -18085,7 +18085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:37:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1033',
@@ -18103,7 +18103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:38:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1034',
@@ -18121,7 +18121,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:38:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1035',
@@ -18139,7 +18139,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:39:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1036',
@@ -18157,7 +18157,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:39:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1037',
@@ -18175,7 +18175,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:41:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1038',
@@ -18193,7 +18193,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:42:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1039',
@@ -18211,7 +18211,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:43:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1040',
@@ -18229,7 +18229,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:44:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1041',
@@ -18247,7 +18247,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:45:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1042',
@@ -18269,7 +18269,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:46:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1043',
@@ -18287,7 +18287,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:47:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1044',
@@ -18305,7 +18305,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:47:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1045',
@@ -18323,7 +18323,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:48:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1046',
@@ -18341,7 +18341,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:50:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1047',
@@ -18359,7 +18359,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:51:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1048',
@@ -18377,7 +18377,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:51:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1049',
@@ -18395,7 +18395,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:52:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1050',
@@ -18413,7 +18413,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:54:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1051',
@@ -18431,7 +18431,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 16:58:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1052',
@@ -18449,7 +18449,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:00:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1053',
@@ -18467,7 +18467,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:19:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1054',
@@ -18485,7 +18485,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:20:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1055',
@@ -18503,7 +18503,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:21:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1056',
@@ -18521,7 +18521,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:22:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1057',
@@ -18539,7 +18539,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:23:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1058',
@@ -18557,7 +18557,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:32:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1059',
@@ -18575,7 +18575,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:33:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1060',
@@ -18593,7 +18593,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:34:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1061',
@@ -18611,7 +18611,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:38:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1062',
@@ -18629,7 +18629,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:39:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1063',
@@ -18647,7 +18647,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:41:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1064',
@@ -18665,7 +18665,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:42:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1065',
@@ -18683,7 +18683,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:42:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1066',
@@ -18701,7 +18701,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:50:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1067',
@@ -18719,7 +18719,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:50:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1068',
@@ -18737,7 +18737,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:51:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1069',
@@ -18755,7 +18755,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:53:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1070',
@@ -18773,7 +18773,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:54:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1071',
@@ -18791,7 +18791,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:55:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1072',
@@ -18809,7 +18809,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 17:55:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1074',
@@ -18827,7 +18827,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 19:27:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1075',
@@ -18849,7 +18849,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-26 19:39:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1076',
@@ -18867,7 +18867,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 12:06:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1077',
@@ -18885,7 +18885,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 12:07:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1078',
@@ -18903,7 +18903,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 12:09:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1079',
@@ -18921,7 +18921,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 12:09:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1080',
@@ -18943,7 +18943,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 12:11:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1081',
@@ -18961,7 +18961,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 13:30:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1082',
@@ -18979,7 +18979,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:12:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1083',
@@ -18997,7 +18997,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:14:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1084',
@@ -19015,7 +19015,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:14:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1085',
@@ -19033,7 +19033,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:15:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1086',
@@ -19051,7 +19051,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:16:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1087',
@@ -19069,7 +19069,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:17:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1088',
@@ -19087,7 +19087,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:18:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1093',
@@ -19105,7 +19105,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:27:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1094',
@@ -19123,7 +19123,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:28:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1095',
@@ -19141,7 +19141,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:29:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1096',
@@ -19159,7 +19159,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:31:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1097',
@@ -19177,7 +19177,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:31:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1098',
@@ -19195,7 +19195,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-27 21:33:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1099',
@@ -19213,7 +19213,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 13:49:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1100',
@@ -19231,7 +19231,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 13:50:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1101',
@@ -19249,7 +19249,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 13:50:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1102',
@@ -19267,7 +19267,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 13:51:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1103',
@@ -19285,7 +19285,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 13:52:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1104',
@@ -19311,7 +19311,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 14:24:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1105',
@@ -19329,7 +19329,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 14:31:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1106',
@@ -19347,7 +19347,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 14:41:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1107',
@@ -19365,7 +19365,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 15:21:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1108',
@@ -19383,7 +19383,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 17:28:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1109',
@@ -19401,7 +19401,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 17:32:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1110',
@@ -19419,7 +19419,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:25:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1111',
@@ -19437,7 +19437,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:26:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1112',
@@ -19455,7 +19455,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:27:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1113',
@@ -19473,7 +19473,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:28:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1114',
@@ -19491,7 +19491,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:29:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1115',
@@ -19509,7 +19509,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:30:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1116',
@@ -19527,7 +19527,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:33:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1117',
@@ -19545,7 +19545,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:47:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1118',
@@ -19563,7 +19563,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:48:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1119',
@@ -19581,7 +19581,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:49:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1120',
@@ -19599,7 +19599,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:50:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1121',
@@ -19617,7 +19617,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:52:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1122',
@@ -19635,7 +19635,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:52:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1123',
@@ -19653,7 +19653,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:55:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1124',
@@ -19671,7 +19671,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:56:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1125',
@@ -19689,7 +19689,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:57:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1126',
@@ -19707,7 +19707,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:58:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1127',
@@ -19725,7 +19725,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 21:59:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1128',
@@ -19743,7 +19743,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:00:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1129',
@@ -19761,7 +19761,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:01:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1130',
@@ -19779,7 +19779,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:02:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1131',
@@ -19797,7 +19797,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:03:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1132',
@@ -19815,7 +19815,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:04:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1133',
@@ -19833,7 +19833,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:04:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1134',
@@ -19851,7 +19851,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:06:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1135',
@@ -19869,7 +19869,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:06:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1136',
@@ -19887,7 +19887,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:06:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1137',
@@ -19905,7 +19905,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-04-30 22:10:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1138',
@@ -19923,7 +19923,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:20:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1139',
@@ -19941,7 +19941,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:21:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1140',
@@ -19959,7 +19959,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:22:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1141',
@@ -19977,7 +19977,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:23:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1142',
@@ -19995,7 +19995,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:25:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1143',
@@ -20013,7 +20013,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:25:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1144',
@@ -20031,7 +20031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:26:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1145',
@@ -20049,7 +20049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:27:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1146',
@@ -20067,7 +20067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:28:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1147',
@@ -20085,7 +20085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:29:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1148',
@@ -20103,7 +20103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:31:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1149',
@@ -20121,7 +20121,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:37:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1150',
@@ -20139,7 +20139,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:38:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1151',
@@ -20157,7 +20157,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:41:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1152',
@@ -20175,7 +20175,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:45:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1153',
@@ -20193,7 +20193,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:46:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1154',
@@ -20211,7 +20211,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:47:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1155',
@@ -20229,7 +20229,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:48:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1156',
@@ -20247,7 +20247,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:49:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1157',
@@ -20265,7 +20265,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:49:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1158',
@@ -20283,7 +20283,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:50:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1159',
@@ -20301,7 +20301,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:52:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1160',
@@ -20319,7 +20319,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:54:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1161',
@@ -20337,7 +20337,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:55:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1162',
@@ -20355,7 +20355,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 16:56:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1163',
@@ -20373,7 +20373,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:32:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1164',
@@ -20391,7 +20391,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:32:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1165',
@@ -20409,7 +20409,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:34:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1166',
@@ -20427,7 +20427,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:34:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1167',
@@ -20445,7 +20445,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:35:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1168',
@@ -20463,7 +20463,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:36:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1169',
@@ -20481,7 +20481,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:37:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1170',
@@ -20499,7 +20499,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:38:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1171',
@@ -20517,7 +20517,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:39:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1172',
@@ -20535,7 +20535,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:39:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1173',
@@ -20553,7 +20553,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:40:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1174',
@@ -20571,7 +20571,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:41:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1175',
@@ -20589,7 +20589,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:43:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1176',
@@ -20607,7 +20607,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:44:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1177',
@@ -20625,7 +20625,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:45:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1179',
@@ -20643,7 +20643,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:48:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1180',
@@ -20661,7 +20661,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:49:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1181',
@@ -20679,7 +20679,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:50:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1182',
@@ -20697,7 +20697,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:51:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1183',
@@ -20715,7 +20715,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:52:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1184',
@@ -20733,7 +20733,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 17:52:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1185',
@@ -20751,7 +20751,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 19:18:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1186',
@@ -20769,7 +20769,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 19:20:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1187',
@@ -20787,7 +20787,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 19:21:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1188',
@@ -20805,7 +20805,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 22:36:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1189',
@@ -20823,7 +20823,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 22:37:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1192',
@@ -20841,7 +20841,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 22:43:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1193',
@@ -20859,7 +20859,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-02 22:46:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1195',
@@ -20877,7 +20877,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 12:02:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1196',
@@ -20895,7 +20895,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 12:04:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1197',
@@ -20913,7 +20913,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 12:05:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1198',
@@ -20931,7 +20931,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 12:09:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1199',
@@ -20949,7 +20949,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 12:10:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1200',
@@ -20967,7 +20967,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 13:53:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1201',
@@ -20985,7 +20985,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 14:15:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1202',
@@ -21003,7 +21003,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 14:16:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1203',
@@ -21021,7 +21021,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 15:04:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1204',
@@ -21039,7 +21039,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 15:50:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1205',
@@ -21057,7 +21057,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 15:57:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1206',
@@ -21075,7 +21075,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 16:01:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1207',
@@ -21093,7 +21093,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 16:04:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1208',
@@ -21111,7 +21111,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 16:47:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1209',
@@ -21129,7 +21129,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 16:49:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1210',
@@ -21155,7 +21155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 17:49:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1212',
@@ -21173,7 +21173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:18:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1213',
@@ -21191,7 +21191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:21:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1214',
@@ -21209,7 +21209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:25:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1215',
@@ -21227,7 +21227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:28:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1216',
@@ -21245,7 +21245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:29:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1217',
@@ -21263,7 +21263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:31:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1218',
@@ -21281,7 +21281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:32:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1219',
@@ -21299,7 +21299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:37:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1220',
@@ -21317,7 +21317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:39:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1221',
@@ -21335,7 +21335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:39:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1222',
@@ -21353,7 +21353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:40:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1223',
@@ -21371,7 +21371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:41:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1224',
@@ -21389,7 +21389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:43:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1225',
@@ -21407,7 +21407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:44:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1226',
@@ -21425,7 +21425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 19:52:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1227',
@@ -21443,7 +21443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 20:03:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1228',
@@ -21461,7 +21461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 20:37:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1229',
@@ -21479,7 +21479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 21:40:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1230',
@@ -21497,7 +21497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 23:11:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1231',
@@ -21515,7 +21515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 23:13:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1232',
@@ -21533,7 +21533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-03 23:14:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1233',
@@ -21551,7 +21551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 11:52:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1234',
@@ -21569,7 +21569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 11:53:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1235',
@@ -21587,7 +21587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 11:54:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1236',
@@ -21609,7 +21609,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 11:55:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1237',
@@ -21627,7 +21627,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 14:56:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1238',
@@ -21645,7 +21645,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 14:58:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1239',
@@ -21663,7 +21663,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 14:59:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1240',
@@ -21681,7 +21681,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:02:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1241',
@@ -21699,7 +21699,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:07:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1242',
@@ -21717,7 +21717,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:08:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1243',
@@ -21735,7 +21735,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:10:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1244',
@@ -21753,7 +21753,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:11:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1245',
@@ -21771,7 +21771,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:12:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1246',
@@ -21789,7 +21789,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:13:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1247',
@@ -21807,7 +21807,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:14:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1248',
@@ -21825,7 +21825,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:15:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1249',
@@ -21843,7 +21843,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:17:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1250',
@@ -21861,7 +21861,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:18:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1251',
@@ -21879,7 +21879,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:18:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1252',
@@ -21897,7 +21897,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:19:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1253',
@@ -21915,7 +21915,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:20:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1254',
@@ -21933,7 +21933,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:21:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1256',
@@ -21951,7 +21951,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:23:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1257',
@@ -21969,7 +21969,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-04 15:29:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1258',
@@ -21987,7 +21987,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-05 02:41:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1259',
@@ -22005,7 +22005,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-05 02:43:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1260',
@@ -22031,7 +22031,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:15:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1261',
@@ -22049,7 +22049,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:21:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1262',
@@ -22067,7 +22067,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:22:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1263',
@@ -22085,7 +22085,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:24:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1264',
@@ -22103,7 +22103,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:25:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1265',
@@ -22121,7 +22121,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:33:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1266',
@@ -22139,7 +22139,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 16:51:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1267',
@@ -22157,7 +22157,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:11:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1268',
@@ -22175,7 +22175,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:12:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1269',
@@ -22193,7 +22193,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:14:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1270',
@@ -22211,7 +22211,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:19:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1271',
@@ -22229,7 +22229,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:21:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1272',
@@ -22247,7 +22247,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:25:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1273',
@@ -22265,7 +22265,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:29:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1274',
@@ -22283,7 +22283,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:39:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1275',
@@ -22301,7 +22301,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:41:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1276',
@@ -22319,7 +22319,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:43:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1277',
@@ -22337,7 +22337,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:45:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1278',
@@ -22355,7 +22355,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:53:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1279',
@@ -22373,7 +22373,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 17:54:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1280',
@@ -22399,7 +22399,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 18:04:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1281',
@@ -22417,7 +22417,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 21:03:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1282',
@@ -22439,7 +22439,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 21:06:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1283',
@@ -22457,7 +22457,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 21:16:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1284',
@@ -22475,7 +22475,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 23:01:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1285',
@@ -22493,7 +22493,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 23:05:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1286',
@@ -22511,7 +22511,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 23:06:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1287',
@@ -22529,7 +22529,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 23:08:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1288',
@@ -22547,7 +22547,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-07 23:59:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1289',
@@ -22565,7 +22565,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 00:01:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1290',
@@ -22583,7 +22583,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 00:04:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1293',
@@ -22601,7 +22601,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 00:15:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1294',
@@ -22623,7 +22623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 13:17:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1295',
@@ -22641,7 +22641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 14:00:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1296',
@@ -22659,7 +22659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 14:08:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1297',
@@ -22677,7 +22677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 15:44:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1298',
@@ -22695,7 +22695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 15:44:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1299',
@@ -22713,7 +22713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:18:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1300',
@@ -22731,7 +22731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:19:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1301',
@@ -22749,7 +22749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:31:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1302',
@@ -22767,7 +22767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:36:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1303',
@@ -22785,7 +22785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:38:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1304',
@@ -22803,7 +22803,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:39:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1305',
@@ -22821,7 +22821,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:40:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1306',
@@ -22839,7 +22839,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 16:41:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1307',
@@ -22857,7 +22857,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 19:09:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1308',
@@ -22875,7 +22875,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 19:09:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1309',
@@ -22893,7 +22893,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 19:10:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1310',
@@ -22911,7 +22911,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 19:11:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1311',
@@ -22929,7 +22929,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:20:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1312',
@@ -22947,7 +22947,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:23:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1313',
@@ -22965,7 +22965,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:25:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1314',
@@ -22983,7 +22983,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:26:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1315',
@@ -23001,7 +23001,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:27:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1316',
@@ -23019,7 +23019,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:29:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1317',
@@ -23037,7 +23037,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:31:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1318',
@@ -23055,7 +23055,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:32:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1319',
@@ -23073,7 +23073,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:33:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1320',
@@ -23091,7 +23091,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:34:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1321',
@@ -23109,7 +23109,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:35:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1322',
@@ -23127,7 +23127,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 21:58:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1323',
@@ -23145,7 +23145,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 22:01:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1324',
@@ -23163,7 +23163,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-08 22:03:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1325',
@@ -23181,7 +23181,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:12:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1326',
@@ -23199,7 +23199,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:13:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1327',
@@ -23217,7 +23217,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:14:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1328',
@@ -23235,7 +23235,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:15:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1329',
@@ -23253,7 +23253,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:17:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1330',
@@ -23271,7 +23271,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:19:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1331',
@@ -23289,7 +23289,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:20:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1332',
@@ -23307,7 +23307,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:20:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1333',
@@ -23325,7 +23325,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:21:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1334',
@@ -23343,7 +23343,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:22:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1335',
@@ -23361,7 +23361,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 12:23:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1336',
@@ -23379,7 +23379,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 14:44:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1337',
@@ -23397,7 +23397,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 14:45:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1338',
@@ -23415,7 +23415,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:40:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1339',
@@ -23433,7 +23433,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:40:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1340',
@@ -23451,7 +23451,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:40:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1341',
@@ -23469,7 +23469,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:42:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1342',
@@ -23487,7 +23487,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:42:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1343',
@@ -23505,7 +23505,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:43:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1344',
@@ -23523,7 +23523,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:44:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1345',
@@ -23541,7 +23541,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:45:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1346',
@@ -23559,7 +23559,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:46:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1347',
@@ -23577,7 +23577,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:47:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1348',
@@ -23595,7 +23595,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:48:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1349',
@@ -23613,7 +23613,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:48:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1350',
@@ -23631,7 +23631,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:49:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1351',
@@ -23649,7 +23649,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:50:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1352',
@@ -23667,7 +23667,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:51:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1353',
@@ -23685,7 +23685,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 15:52:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1354',
@@ -23703,7 +23703,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:00:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1355',
@@ -23721,7 +23721,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:01:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1356',
@@ -23739,7 +23739,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:02:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1357',
@@ -23757,7 +23757,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:07:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1358',
@@ -23775,7 +23775,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:09:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1359',
@@ -23793,7 +23793,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:10:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1360',
@@ -23811,7 +23811,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:10:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1361',
@@ -23829,7 +23829,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:11:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1362',
@@ -23847,7 +23847,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:12:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1363',
@@ -23865,7 +23865,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:21:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1364',
@@ -23883,7 +23883,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:39:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1365',
@@ -23901,7 +23901,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:41:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1366',
@@ -23919,7 +23919,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:42:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1367',
@@ -23937,7 +23937,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:43:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1368',
@@ -23955,7 +23955,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:44:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1369',
@@ -23973,7 +23973,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:45:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1370',
@@ -23991,7 +23991,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:47:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1371',
@@ -24009,7 +24009,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:49:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1372',
@@ -24027,7 +24027,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:50:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1373',
@@ -24045,7 +24045,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:50:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1374',
@@ -24063,7 +24063,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:52:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1375',
@@ -24081,7 +24081,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 16:53:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1376',
@@ -24099,7 +24099,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 21:38:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1377',
@@ -24117,7 +24117,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 23:23:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1378',
@@ -24135,7 +24135,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-09 23:26:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1379',
@@ -24153,7 +24153,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 16:57:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1380',
@@ -24171,7 +24171,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 16:57:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1381',
@@ -24189,7 +24189,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 16:58:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1382',
@@ -24207,7 +24207,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 17:00:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1383',
@@ -24225,7 +24225,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 21:11:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1384',
@@ -24243,7 +24243,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 21:12:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1385',
@@ -24261,7 +24261,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-11 21:13:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1386',
@@ -24279,7 +24279,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:10:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1387',
@@ -24297,7 +24297,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:23:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1388',
@@ -24315,7 +24315,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:29:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1389',
@@ -24333,7 +24333,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:33:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1390',
@@ -24351,7 +24351,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:35:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1391',
@@ -24369,7 +24369,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:36:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1392',
@@ -24387,7 +24387,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:38:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1393',
@@ -24405,7 +24405,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:49:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1394',
@@ -24423,7 +24423,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:50:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1396',
@@ -24441,7 +24441,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:53:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1397',
@@ -24459,7 +24459,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:55:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1398',
@@ -24477,7 +24477,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 05:56:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1399',
@@ -24495,7 +24495,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:05:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1400',
@@ -24513,7 +24513,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:07:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1401',
@@ -24531,7 +24531,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:21:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1402',
@@ -24549,7 +24549,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:22:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1403',
@@ -24567,7 +24567,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:23:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1404',
@@ -24585,7 +24585,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:26:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1405',
@@ -24603,7 +24603,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:30:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1406',
@@ -24621,7 +24621,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:31:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1407',
@@ -24639,7 +24639,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:32:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1408',
@@ -24657,7 +24657,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:33:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1409',
@@ -24675,7 +24675,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-12 06:35:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1410',
@@ -24693,7 +24693,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-14 16:14:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1411',
@@ -24711,7 +24711,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-14 16:17:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1412',
@@ -24729,7 +24729,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-14 16:19:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1413',
@@ -24747,7 +24747,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 13:14:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1414',
@@ -24765,7 +24765,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 13:15:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1415',
@@ -24783,7 +24783,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 13:16:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1416',
@@ -24801,7 +24801,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 15:48:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1417',
@@ -24819,7 +24819,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 16:00:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1418',
@@ -24837,7 +24837,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 16:12:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1419',
@@ -24855,7 +24855,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 16:15:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1420',
@@ -24873,7 +24873,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 16:17:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1421',
@@ -24891,7 +24891,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 16:21:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1422',
@@ -24909,7 +24909,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:08:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1423',
@@ -24927,7 +24927,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:12:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1424',
@@ -24945,7 +24945,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:14:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1425',
@@ -24963,7 +24963,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:17:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1426',
@@ -24985,7 +24985,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:22:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1427',
@@ -25003,7 +25003,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:35:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1428',
@@ -25021,7 +25021,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:53:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1429',
@@ -25039,7 +25039,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 17:57:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1430',
@@ -25057,7 +25057,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:26:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1431',
@@ -25075,7 +25075,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:28:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1432',
@@ -25093,7 +25093,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:28:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1433',
@@ -25111,7 +25111,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:29:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1434',
@@ -25129,7 +25129,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:29:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1435',
@@ -25147,7 +25147,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:30:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1436',
@@ -25165,7 +25165,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:30:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1437',
@@ -25183,7 +25183,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:31:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1438',
@@ -25201,7 +25201,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:33:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1439',
@@ -25219,7 +25219,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:34:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1440',
@@ -25237,7 +25237,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:35:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1441',
@@ -25255,7 +25255,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:38:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1442',
@@ -25273,7 +25273,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:39:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1443',
@@ -25291,7 +25291,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:40:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1444',
@@ -25309,7 +25309,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:40:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1445',
@@ -25327,7 +25327,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:41:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1446',
@@ -25345,7 +25345,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:41:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1447',
@@ -25363,7 +25363,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:41:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1448',
@@ -25381,7 +25381,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:42:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1449',
@@ -25399,7 +25399,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:43:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1450',
@@ -25417,7 +25417,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:43:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1451',
@@ -25435,7 +25435,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:44:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1452',
@@ -25453,7 +25453,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:45:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1453',
@@ -25471,7 +25471,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:46:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1454',
@@ -25489,7 +25489,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:46:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1455',
@@ -25507,7 +25507,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:47:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1456',
@@ -25525,7 +25525,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:48:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1457',
@@ -25543,7 +25543,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:49:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1458',
@@ -25561,7 +25561,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:49:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1459',
@@ -25579,7 +25579,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 19:50:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1460',
@@ -25597,7 +25597,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 20:55:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1461',
@@ -25615,7 +25615,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:27:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1462',
@@ -25633,7 +25633,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:29:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1463',
@@ -25651,7 +25651,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:30:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1464',
@@ -25669,7 +25669,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:31:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1465',
@@ -25687,7 +25687,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:32:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1467',
@@ -25705,7 +25705,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:33:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1468',
@@ -25723,7 +25723,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:34:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1469',
@@ -25741,7 +25741,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:35:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1470',
@@ -25763,7 +25763,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:36:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1471',
@@ -25785,7 +25785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:37:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1472',
@@ -25807,7 +25807,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:39:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1473',
@@ -25825,7 +25825,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:40:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1474',
@@ -25843,7 +25843,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:42:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1475',
@@ -25877,7 +25877,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:45:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1476',
@@ -25895,7 +25895,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:54:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1477',
@@ -25913,7 +25913,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-15 21:54:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1478',
@@ -25931,7 +25931,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 02:25:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1479',
@@ -25949,7 +25949,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 02:27:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1480',
@@ -25967,7 +25967,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 02:31:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1481',
@@ -25985,7 +25985,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:31:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1482',
@@ -26003,7 +26003,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:32:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1483',
@@ -26021,7 +26021,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:33:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1484',
@@ -26039,7 +26039,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:34:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1485',
@@ -26057,7 +26057,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:35:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1486',
@@ -26075,7 +26075,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:36:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1487',
@@ -26093,7 +26093,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:37:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1488',
@@ -26111,7 +26111,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 14:45:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1489',
@@ -26129,7 +26129,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:09:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1490',
@@ -26147,7 +26147,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:14:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1491',
@@ -26165,7 +26165,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:15:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1492',
@@ -26183,7 +26183,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:17:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1493',
@@ -26201,7 +26201,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:18:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1494',
@@ -26219,7 +26219,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:20:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1495',
@@ -26237,7 +26237,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:39:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1496',
@@ -26255,7 +26255,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:39:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1497',
@@ -26273,7 +26273,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:41:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1498',
@@ -26291,7 +26291,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:42:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1499',
@@ -26309,7 +26309,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:43:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1500',
@@ -26327,7 +26327,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:44:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1501',
@@ -26345,7 +26345,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:45:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1502',
@@ -26363,7 +26363,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:47:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1503',
@@ -26381,7 +26381,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:48:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1504',
@@ -26399,7 +26399,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:49:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1505',
@@ -26417,7 +26417,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:50:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1506',
@@ -26435,7 +26435,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:51:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1507',
@@ -26453,7 +26453,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:52:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1508',
@@ -26471,7 +26471,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:53:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1509',
@@ -26489,7 +26489,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:54:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1510',
@@ -26507,7 +26507,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:55:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1511',
@@ -26525,7 +26525,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:56:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1512',
@@ -26543,7 +26543,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:57:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1513',
@@ -26561,7 +26561,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:58:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1514',
@@ -26579,7 +26579,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 15:59:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1515',
@@ -26597,7 +26597,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:00:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1516',
@@ -26615,7 +26615,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:00:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1517',
@@ -26633,7 +26633,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:01:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1518',
@@ -26651,7 +26651,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:02:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1519',
@@ -26669,7 +26669,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:03:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1520',
@@ -26687,7 +26687,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:04:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1522',
@@ -26705,7 +26705,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:05:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1523',
@@ -26723,7 +26723,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:06:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1524',
@@ -26741,7 +26741,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:06:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1525',
@@ -26759,7 +26759,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:07:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1526',
@@ -26777,7 +26777,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:08:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1527',
@@ -26795,7 +26795,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:09:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1528',
@@ -26813,7 +26813,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 16:09:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1529',
@@ -26831,7 +26831,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 22:30:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1530',
@@ -26849,7 +26849,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 22:32:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1531',
@@ -26867,7 +26867,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-16 22:35:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1532',
@@ -26885,7 +26885,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 11:40:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1533',
@@ -26903,7 +26903,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 13:09:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1534',
@@ -26921,7 +26921,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 13:09:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1535',
@@ -26939,7 +26939,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 13:10:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1536',
@@ -26957,7 +26957,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 13:36:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1537',
@@ -26975,7 +26975,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 15:49:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1538',
@@ -26993,7 +26993,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:23:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1539',
@@ -27011,7 +27011,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:44:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1540',
@@ -27029,7 +27029,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:46:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1542',
@@ -27047,7 +27047,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:47:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1543',
@@ -27065,7 +27065,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:48:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1544',
@@ -27083,7 +27083,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:49:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1545',
@@ -27101,7 +27101,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 18:49:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1546',
@@ -27119,7 +27119,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 20:23:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1547',
@@ -27137,7 +27137,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-17 20:24:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1548',
@@ -27155,7 +27155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-18 01:04:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1549',
@@ -27173,7 +27173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-18 01:06:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1550',
@@ -27191,7 +27191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-21 13:27:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1551',
@@ -27209,7 +27209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-21 13:28:08',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1552',
@@ -27227,7 +27227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-21 22:08:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1553',
@@ -27245,7 +27245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-21 22:10:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1554',
@@ -27263,7 +27263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-21 22:11:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1556',
@@ -27281,7 +27281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 16:16:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1557',
@@ -27299,7 +27299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 16:17:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1558',
@@ -27317,7 +27317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 16:20:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1559',
@@ -27335,7 +27335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 17:32:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1560',
@@ -27353,7 +27353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 17:34:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1561',
@@ -27371,7 +27371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 17:35:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1562',
@@ -27389,7 +27389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 18:02:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1563',
@@ -27407,7 +27407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 18:05:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1564',
@@ -27425,7 +27425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-22 20:09:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1565',
@@ -27443,7 +27443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 02:32:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1566',
@@ -27461,7 +27461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 02:40:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1567',
@@ -27479,7 +27479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 02:42:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1568',
@@ -27497,7 +27497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 02:45:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1569',
@@ -27515,7 +27515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 18:56:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1570',
@@ -27533,7 +27533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 19:06:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1571',
@@ -27551,7 +27551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 19:07:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1572',
@@ -27569,7 +27569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-23 19:08:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1573',
@@ -27587,7 +27587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:04:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1574',
@@ -27605,7 +27605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:05:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1575',
@@ -27623,7 +27623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:06:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1576',
@@ -27641,7 +27641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:08:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1577',
@@ -27659,7 +27659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:09:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1578',
@@ -27677,7 +27677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:11:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1579',
@@ -27695,7 +27695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:14:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1580',
@@ -27713,7 +27713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:15:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1581',
@@ -27731,7 +27731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:16:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1582',
@@ -27749,7 +27749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:18:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1583',
@@ -27767,7 +27767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:28:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1584',
@@ -27785,7 +27785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 12:29:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1586',
@@ -27803,7 +27803,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 15:52:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1587',
@@ -27821,7 +27821,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 21:59:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1588',
@@ -27839,7 +27839,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-24 22:01:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1589',
@@ -27857,7 +27857,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-25 11:32:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1590',
@@ -27875,7 +27875,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-25 11:34:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1591',
@@ -27893,7 +27893,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-25 11:35:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1592',
@@ -27911,7 +27911,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-25 11:37:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1594',
@@ -27929,7 +27929,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-28 21:30:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1595',
@@ -27947,7 +27947,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-28 21:31:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1596',
@@ -27965,7 +27965,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-28 21:33:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1597',
@@ -27983,7 +27983,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-28 21:34:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1598',
@@ -28001,7 +28001,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 02:10:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1599',
@@ -28019,7 +28019,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:25:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1600',
@@ -28037,7 +28037,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:26:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1601',
@@ -28055,7 +28055,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:28:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1602',
@@ -28073,7 +28073,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:30:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1603',
@@ -28091,7 +28091,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:35:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1604',
@@ -28109,7 +28109,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 16:36:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1605',
@@ -28127,7 +28127,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 17:20:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1606',
@@ -28145,7 +28145,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-29 19:49:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1607',
@@ -28163,7 +28163,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-30 19:28:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1608',
@@ -28181,7 +28181,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-30 19:30:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1609',
@@ -28199,7 +28199,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 16:09:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1610',
@@ -28217,7 +28217,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 17:18:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1611',
@@ -28235,7 +28235,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 17:26:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1612',
@@ -28253,7 +28253,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:49:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1613',
@@ -28271,7 +28271,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:52:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1614',
@@ -28289,7 +28289,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:53:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1615',
@@ -28307,7 +28307,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:54:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1616',
@@ -28325,7 +28325,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:55:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1617',
@@ -28343,7 +28343,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 18:56:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1618',
@@ -28361,7 +28361,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 19:36:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1619',
@@ -28379,7 +28379,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 19:37:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1620',
@@ -28397,7 +28397,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-05-31 19:41:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1621',
@@ -28427,7 +28427,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 15:27:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1622',
@@ -28445,7 +28445,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 19:27:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1623',
@@ -28463,7 +28463,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 19:31:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1624',
@@ -28481,7 +28481,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 19:45:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1625',
@@ -28499,7 +28499,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 19:47:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1626',
@@ -28517,7 +28517,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 19:53:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1627',
@@ -28535,7 +28535,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 20:10:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1628',
@@ -28553,7 +28553,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 20:19:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1629',
@@ -28571,7 +28571,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 20:26:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1630',
@@ -28589,7 +28589,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 20:28:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1631',
@@ -28607,7 +28607,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-01 20:30:13',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1632',
@@ -28625,7 +28625,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:30:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1633',
@@ -28643,7 +28643,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:32:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1634',
@@ -28661,7 +28661,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:32:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1635',
@@ -28679,7 +28679,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:33:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1636',
@@ -28697,7 +28697,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:33:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1637',
@@ -28715,7 +28715,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:34:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1638',
@@ -28733,7 +28733,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:35:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1639',
@@ -28751,7 +28751,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:36:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1640',
@@ -28769,7 +28769,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 14:37:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1641',
@@ -28787,7 +28787,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 15:18:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1642',
@@ -28805,7 +28805,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 15:21:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1643',
@@ -28827,7 +28827,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 16:00:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1644',
@@ -28845,7 +28845,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 17:25:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1645',
@@ -28863,7 +28863,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 17:26:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1646',
@@ -28881,7 +28881,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 17:27:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1647',
@@ -28899,7 +28899,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-05 17:27:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1648',
@@ -28917,7 +28917,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 02:28:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1649',
@@ -28935,7 +28935,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 12:33:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1650',
@@ -28953,7 +28953,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 12:36:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1652',
@@ -28971,7 +28971,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 14:49:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1653',
@@ -28989,7 +28989,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:44:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1654',
@@ -29007,7 +29007,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:47:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1655',
@@ -29025,7 +29025,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:51:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1656',
@@ -29043,7 +29043,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:52:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1657',
@@ -29061,7 +29061,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:54:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1658',
@@ -29079,7 +29079,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 15:58:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1659',
@@ -29097,7 +29097,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:01:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1660',
@@ -29115,7 +29115,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:46:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1661',
@@ -29133,7 +29133,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:48:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1662',
@@ -29151,7 +29151,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:50:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1663',
@@ -29173,7 +29173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:53:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1664',
@@ -29191,7 +29191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:54:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1665',
@@ -29209,7 +29209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:55:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1666',
@@ -29227,7 +29227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:58:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1667',
@@ -29245,7 +29245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 16:59:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1668',
@@ -29263,7 +29263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:00:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1669',
@@ -29281,7 +29281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:01:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1670',
@@ -29299,7 +29299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:07:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1671',
@@ -29317,7 +29317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:35:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1672',
@@ -29335,7 +29335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:38:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1673',
@@ -29353,7 +29353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:40:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1674',
@@ -29371,7 +29371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:42:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1675',
@@ -29389,7 +29389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 17:55:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1676',
@@ -29407,7 +29407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 18:01:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1677',
@@ -29425,7 +29425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:20:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1678',
@@ -29443,7 +29443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:29:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1679',
@@ -29461,7 +29461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:32:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1680',
@@ -29479,7 +29479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:33:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1681',
@@ -29497,7 +29497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:46:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1682',
@@ -29515,7 +29515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 19:57:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1683',
@@ -29533,7 +29533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:03:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1684',
@@ -29551,7 +29551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:06:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1685',
@@ -29569,7 +29569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:08:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1686',
@@ -29587,7 +29587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:25:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1687',
@@ -29605,7 +29605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:26:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1688',
@@ -29623,7 +29623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:53:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1689',
@@ -29641,7 +29641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-06 20:54:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1690',
@@ -29659,7 +29659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 14:14:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1691',
@@ -29677,7 +29677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 14:15:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1692',
@@ -29695,7 +29695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 14:17:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1693',
@@ -29713,7 +29713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 14:18:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1694',
@@ -29731,7 +29731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 15:19:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1695',
@@ -29749,7 +29749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:31:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1696',
@@ -29767,7 +29767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:33:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1697',
@@ -29789,7 +29789,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:36:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1698',
@@ -29807,7 +29807,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:36:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1699',
@@ -29829,7 +29829,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:37:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1700',
@@ -29847,7 +29847,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:39:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1701',
@@ -29865,7 +29865,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:41:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1702',
@@ -29883,7 +29883,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 19:42:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1703',
@@ -29901,7 +29901,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-07 21:42:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1705',
@@ -29919,7 +29919,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:21:42',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1706',
@@ -29937,7 +29937,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:22:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1707',
@@ -29955,7 +29955,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:23:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1708',
@@ -29973,7 +29973,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:28:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1709',
@@ -29991,7 +29991,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:29:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1710',
@@ -30009,7 +30009,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:30:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1711',
@@ -30027,7 +30027,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:31:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1712',
@@ -30045,7 +30045,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:40:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1713',
@@ -30063,7 +30063,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:48:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1714',
@@ -30081,7 +30081,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:50:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1715',
@@ -30099,7 +30099,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:52:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1716',
@@ -30117,7 +30117,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:53:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1717',
@@ -30135,7 +30135,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:54:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1718',
@@ -30153,7 +30153,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:55:37',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1719',
@@ -30171,7 +30171,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:56:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1720',
@@ -30189,7 +30189,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 15:57:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1721',
@@ -30207,7 +30207,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:21:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1722',
@@ -30225,7 +30225,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:23:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1723',
@@ -30243,7 +30243,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:25:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1724',
@@ -30261,7 +30261,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:25:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1725',
@@ -30279,7 +30279,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:26:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1726',
@@ -30297,7 +30297,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:27:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1727',
@@ -30315,7 +30315,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:30:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1728',
@@ -30333,7 +30333,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:33:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1729',
@@ -30351,7 +30351,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:34:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1730',
@@ -30369,7 +30369,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:40:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1731',
@@ -30399,7 +30399,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 16:49:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1732',
@@ -30417,7 +30417,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 17:11:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1733',
@@ -30435,7 +30435,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 17:23:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1734',
@@ -30453,7 +30453,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 17:24:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1735',
@@ -30471,7 +30471,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:23:18',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1736',
@@ -30489,7 +30489,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:25:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1737',
@@ -30507,7 +30507,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:26:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1738',
@@ -30525,7 +30525,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:26:56',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1739',
@@ -30543,7 +30543,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:29:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1740',
@@ -30561,7 +30561,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:30:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1741',
@@ -30579,7 +30579,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:31:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1742',
@@ -30597,7 +30597,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:31:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1743',
@@ -30615,7 +30615,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:32:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1744',
@@ -30633,7 +30633,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:33:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1745',
@@ -30651,7 +30651,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:34:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1746',
@@ -30669,7 +30669,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:35:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1747',
@@ -30687,7 +30687,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:36:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1748',
@@ -30705,7 +30705,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:37:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1749',
@@ -30723,7 +30723,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:37:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1750',
@@ -30741,7 +30741,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:38:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1751',
@@ -30759,7 +30759,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:40:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1752',
@@ -30777,7 +30777,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:41:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1753',
@@ -30795,7 +30795,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:42:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1754',
@@ -30813,7 +30813,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:43:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1755',
@@ -30831,7 +30831,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:44:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1756',
@@ -30849,7 +30849,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:45:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1757',
@@ -30867,7 +30867,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:46:54',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1758',
@@ -30885,7 +30885,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:49:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1759',
@@ -30903,7 +30903,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:51:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1760',
@@ -30921,7 +30921,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 19:59:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1761',
@@ -30939,7 +30939,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:26:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1762',
@@ -30957,7 +30957,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:27:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1763',
@@ -30975,7 +30975,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:28:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1764',
@@ -30993,7 +30993,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:29:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1765',
@@ -31011,7 +31011,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:29:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1766',
@@ -31029,7 +31029,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:30:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1767',
@@ -31047,7 +31047,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:31:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1768',
@@ -31065,7 +31065,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:33:15',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1769',
@@ -31083,7 +31083,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:33:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1770',
@@ -31101,7 +31101,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:34:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1771',
@@ -31119,7 +31119,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:35:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1772',
@@ -31137,7 +31137,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:36:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1773',
@@ -31155,7 +31155,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:37:26',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1774',
@@ -31173,7 +31173,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:38:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1775',
@@ -31191,7 +31191,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:39:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1776',
@@ -31209,7 +31209,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:40:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1777',
@@ -31227,7 +31227,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:41:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1778',
@@ -31245,7 +31245,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:41:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1779',
@@ -31263,7 +31263,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:42:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1780',
@@ -31281,7 +31281,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:43:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1781',
@@ -31299,7 +31299,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:44:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1782',
@@ -31317,7 +31317,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:44:59',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1783',
@@ -31335,7 +31335,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:45:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1784',
@@ -31353,7 +31353,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:46:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1785',
@@ -31371,7 +31371,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:47:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1786',
@@ -31389,7 +31389,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:48:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1787',
@@ -31407,7 +31407,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:49:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1788',
@@ -31425,7 +31425,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:49:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1789',
@@ -31443,7 +31443,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:50:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1790',
@@ -31461,7 +31461,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:52:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1791',
@@ -31479,7 +31479,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:53:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1792',
@@ -31497,7 +31497,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:53:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1793',
@@ -31515,7 +31515,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:55:25',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1794',
@@ -31533,7 +31533,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:56:29',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1795',
@@ -31551,7 +31551,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:57:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1796',
@@ -31569,7 +31569,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:58:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1797',
@@ -31587,7 +31587,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:59:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1798',
@@ -31605,7 +31605,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 20:59:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1799',
@@ -31623,7 +31623,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:02:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1800',
@@ -31641,7 +31641,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:02:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1801',
@@ -31659,7 +31659,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:03:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1802',
@@ -31677,7 +31677,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:04:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1803',
@@ -31695,7 +31695,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:05:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1804',
@@ -31713,7 +31713,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:06:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1805',
@@ -31731,7 +31731,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:07:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1806',
@@ -31749,7 +31749,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:08:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1807',
@@ -31767,7 +31767,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:09:00',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1808',
@@ -31785,7 +31785,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:09:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1809',
@@ -31803,7 +31803,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:10:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1810',
@@ -31821,7 +31821,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:11:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1811',
@@ -31839,7 +31839,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:12:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1812',
@@ -31857,7 +31857,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:13:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1813',
@@ -31875,7 +31875,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:14:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1814',
@@ -31893,7 +31893,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:16:52',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1815',
@@ -31911,7 +31911,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 21:18:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1816',
@@ -31929,7 +31929,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-08 23:11:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1817',
@@ -31951,7 +31951,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 14:59:09',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1818',
@@ -31973,7 +31973,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 15:00:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1819',
@@ -31991,7 +31991,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 15:16:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1820',
@@ -32009,7 +32009,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 15:17:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1821',
@@ -32027,7 +32027,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 15:29:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1822',
@@ -32045,7 +32045,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-12 15:38:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1823',
@@ -32063,7 +32063,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 14:00:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1824',
@@ -32081,7 +32081,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 14:03:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1825',
@@ -32099,7 +32099,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:25:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1826',
@@ -32117,7 +32117,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:26:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1827',
@@ -32135,7 +32135,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:26:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1828',
@@ -32153,7 +32153,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:27:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1829',
@@ -32171,7 +32171,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:28:01',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1830',
@@ -32189,7 +32189,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:28:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1831',
@@ -32207,7 +32207,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:29:14',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1832',
@@ -32225,7 +32225,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:29:57',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1833',
@@ -32243,7 +32243,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:30:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1834',
@@ -32261,7 +32261,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:31:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1835',
@@ -32279,7 +32279,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:31:41',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1836',
@@ -32297,7 +32297,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:32:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1837',
@@ -32315,7 +32315,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:32:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1838',
@@ -32333,7 +32333,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:33:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1839',
@@ -32351,7 +32351,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:34:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1840',
@@ -32369,7 +32369,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 15:34:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1841',
@@ -32387,7 +32387,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 21:37:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1842',
@@ -32405,7 +32405,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-13 21:40:46',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1843',
@@ -32423,7 +32423,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 14:11:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1844',
@@ -32441,7 +32441,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 14:13:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1845',
@@ -32459,7 +32459,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 18:51:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1846',
@@ -32477,7 +32477,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 18:52:55',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1847',
@@ -32495,7 +32495,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 19:02:03',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1848',
@@ -32513,7 +32513,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 20:28:05',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1849',
@@ -32531,7 +32531,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 20:30:33',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1850',
@@ -32549,7 +32549,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 21:17:43',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1851',
@@ -32567,7 +32567,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 21:18:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1852',
@@ -32585,7 +32585,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 21:25:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1853',
@@ -32603,7 +32603,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 21:26:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1854',
@@ -32621,7 +32621,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 21:27:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1855',
@@ -32639,7 +32639,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 22:47:23',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1856',
@@ -32657,7 +32657,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 22:48:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1857',
@@ -32675,7 +32675,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 22:51:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1858',
@@ -32693,7 +32693,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-14 22:52:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1859',
@@ -32711,7 +32711,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 14:43:30',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1860',
@@ -32729,7 +32729,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 14:44:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1861',
@@ -32747,7 +32747,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 14:45:36',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1862',
@@ -32765,7 +32765,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 14:47:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1863',
@@ -32783,7 +32783,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 15:52:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1864',
@@ -32801,7 +32801,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 15:54:34',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1865',
@@ -32819,7 +32819,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 15:55:40',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1866',
@@ -32837,7 +32837,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 15:58:27',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1867',
@@ -32855,7 +32855,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 15:59:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1868',
@@ -32873,7 +32873,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:00:44',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1869',
@@ -32891,7 +32891,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:02:21',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1870',
@@ -32909,7 +32909,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:03:22',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1871',
@@ -32927,7 +32927,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:05:17',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1872',
@@ -32945,7 +32945,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:08:50',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1873',
@@ -32963,7 +32963,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:15:07',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1874',
@@ -32981,7 +32981,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:16:51',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1875',
@@ -32999,7 +32999,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 16:18:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1876',
@@ -33017,7 +33017,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 17:02:06',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1877',
@@ -33035,7 +33035,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 17:02:58',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1878',
@@ -33053,7 +33053,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 17:10:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1879',
@@ -33071,7 +33071,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:03:12',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1880',
@@ -33089,7 +33089,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:04:16',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1881',
@@ -33107,7 +33107,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:28:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1882',
@@ -33125,7 +33125,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:34:48',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1883',
@@ -33143,7 +33143,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:35:39',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1884',
@@ -33161,7 +33161,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:36:20',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1885',
@@ -33179,7 +33179,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:37:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1886',
@@ -33197,7 +33197,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:37:53',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1887',
@@ -33215,7 +33215,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 18:39:28',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1888',
@@ -33233,7 +33233,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 19:14:11',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1889',
@@ -33251,7 +33251,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 19:19:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1890',
@@ -33269,7 +33269,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-15 19:21:49',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1891',
@@ -33287,7 +33287,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:01:24',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1892',
@@ -33305,7 +33305,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:03:45',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1893',
@@ -33323,7 +33323,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:07:47',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1894',
@@ -33341,7 +33341,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:11:04',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1895',
@@ -33359,7 +33359,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:13:38',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1896',
@@ -33377,7 +33377,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 16:18:31',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1897',
@@ -33399,7 +33399,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-18 20:50:19',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1898',
@@ -33417,7 +33417,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-27 18:27:10',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1899',
@@ -33435,7 +33435,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-27 18:27:35',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1900',
@@ -33453,7 +33453,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-27 18:28:02',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
     App\Observer::create([
     'id' => '1901',
@@ -33471,7 +33471,7 @@ App\Observer::create([
     
     ',
     'created_at' => '2018-06-27 18:28:32',
-    'updated_at' => '0000-00-00 00:00:00',
+    'updated_at' => '',
     ]);
 
 
