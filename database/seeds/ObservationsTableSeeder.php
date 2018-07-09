@@ -32554,7 +32554,7 @@ App\Observer::create([
     App\Observer::create([
     'id' => '1851',
     'user_id' => '334',
-    'course_id' => '0',
+    'course_id' => '11',
     'user_role_id' => '5',
     'creator_id' => '381',
     'creator_rol_id' => '2',
@@ -32644,7 +32644,7 @@ App\Observer::create([
     App\Observer::create([
     'id' => '1856',
     'user_id' => '213',
-    'course_id' => '0',
+    'course_id' => '11',
     'user_role_id' => '5',
     'creator_id' => '377',
     'creator_rol_id' => '2',
@@ -32680,7 +32680,7 @@ App\Observer::create([
     App\Observer::create([
     'id' => '1858',
     'user_id' => '507',
-    'course_id' => '0',
+    'course_id' => '11',
     'user_role_id' => '5',
     'creator_id' => '377',
     'creator_rol_id' => '2',
