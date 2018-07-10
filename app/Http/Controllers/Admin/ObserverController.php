@@ -288,7 +288,7 @@ class ObserverController extends Controller
 			'course_id'=>$request->course_id,
 			'user_role_id'=>$request->user_role_id,
 			'creator_id'=>$request->creator_id,
-			'creator_role_id'=>$request->creator_role_id,
+			'creator_rol_id'=>$request->creator_role_id,
 			'observer_category_id'=>$request->observer_category_id,
 			'observer_code_id'=>$request->observer_code_id,
 			'observer_scene_id'=>$request->observer_scene_id,
