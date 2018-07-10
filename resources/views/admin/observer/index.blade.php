@@ -485,7 +485,7 @@
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
-        {{--<td>{{ $observation->creator->name }}</td>--}}
+        <td>{{ $observation->creator->name }}</td>
         <td></td>
         <td>{{ $observation->course->name }}</td>
 
