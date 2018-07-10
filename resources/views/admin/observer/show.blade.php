@@ -7,9 +7,11 @@
     <hr>
     
       <div class="ui grid">
+        {{--
         <div class="two wide column">
           <a href="{{ route('observer.edit', $observation->id)}}" class="tiny ui primary button">Editar</a>
         </div>
+        --}}
         {{--  COLUMNA UNO  --}} 
         <div class="four wide column">
           <h3>Escenario:</h3>
@@ -18,7 +20,7 @@
           <h3>Autor:</h3>
           <h3>ID Observación:</h3>
           <h3>Curso:</h3>
-          <h3>Rol Creador:</h3>
+          {{--<h3>Rol Creador:</h3>--}}
           <h3>Observación:</h3>
         </div>
         {{--  COLUMNA UNO  --}}

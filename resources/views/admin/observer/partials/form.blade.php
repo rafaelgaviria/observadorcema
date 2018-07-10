@@ -73,12 +73,12 @@
 <p>Curso: {{$user_id->course}}</p>
 <hr>
 <p>ID Creador: {{$creator}}</p>
-<p>ID Rol Creador: {{$creatorrole_id}}</p>
+<p>ID Rol Creador: {{$creator_rol_id}}</p>
  <p>Estado: {{$user_id->course}}</p> 
  --}}
 
 
-{{-- @php dd($creatorrole_id); @endphp --}}
+
 
 {{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
 
@@ -87,7 +87,7 @@
   {!! Form::hidden('user_role_id', $user_id->role_id) !!}
   
   {!! Form::hidden('creator_id', $creator) !!}
-  {!! Form::hidden('creatorrole_id', $creatorrole_id) !!}
+  {!! Form::hidden('creator_rol_id', $creator_rol_id) !!}
   
   {{--  {!! Form::hidden('state', 1) !!}  --}}
 

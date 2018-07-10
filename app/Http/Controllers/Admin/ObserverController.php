@@ -248,9 +248,9 @@ class ObserverController extends Controller
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		$creator = Auth::id();
-		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		
-		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creatorrole_id'));
+		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_rol_id'));
 	}
 
 	/**
@@ -269,7 +269,7 @@ class ObserverController extends Controller
 			'course_id' => 'required',
 			'user_role_id' => 'required',
 			'creator_id' => 'required',
-			'creatorrole_id' => 'required',
+			'creator_rol_id' => 'required',
 			'observer_scene_id' => 'required',
 			'observer_category_id' => 'required',
 			'observer_note_id' => 'required',
@@ -283,7 +283,7 @@ class ObserverController extends Controller
 			'course_id'=>$request->course_id,
 			'user_role_id'=>$request->user_role_id,
 			'creator_id'=>$request->creator_id,
-			'creatorrole_id'=>$request->creatorrole_id,
+			'creator_rol_id'=>$request->creator_rol_id,
 			'observer_category_id'=>$request->observer_category_id,
 			'observer_code_id'=>$request->observer_code_id,
 			'observer_scene_id'=>$request->observer_scene_id,
@@ -332,10 +332,10 @@ class ObserverController extends Controller
 		// $user_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		$user_id = User::find($estudiante);
 		
-		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 
 		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
-		$creatorrole_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		//return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator'));
 		
 		//$observation = Observer::find($id);
@@ -348,7 +348,7 @@ class ObserverController extends Controller
 		//$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		//$creator = User::find($id);
 
-		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation', 'creatorrole_id'));
+		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation', 'creator_rol_id'));
 	}
 
 	/**
