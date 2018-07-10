@@ -252,10 +252,15 @@ class ObserverController extends Controller
         //	->pluck();
 		//print_r($observercodes);
 		
+		//$sql = "SELECT * FROM articles WHERE id_author = $id";
+		//$idobservation = SELECT setval('observation_id_seq', (SELECT MAX(id) from "observations"));
+		$idobservation = SELECT setval(pg_get_serial_sequence('observations', 'id'), coalesce(max(id),1), false) FROM observations;
+		dd($suspendidos);
+		
 		$creator = Auth::id();
 		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		
-		return view('admin.observer.create',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id'));
+		return view('admin.observer.create',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id', 'idobservation'));
 	}
 
 	/**
