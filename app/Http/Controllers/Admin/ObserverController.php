@@ -254,8 +254,9 @@ class ObserverController extends Controller
 		
 		//$sql = "SELECT * FROM articles WHERE id_author = $id";
 		//$idobservation = SELECT setval('observation_id_seq', (SELECT MAX(id) from "observations"));
-		$idobservation = SELECT setval(pg_get_serial_sequence('observations', 'id'), coalesce(max(id),1), false) FROM observations;
-		dd($suspendidos);
+		//$idobservation = "SELECT setval(pg_get_serial_sequence('observations', 'id'), coalesce(max(id),1), false) FROM observations";
+		$idobservation = "SELECT setval('observations_id_seq', (SELECT MAX(id) FROM observations))";
+		dd($idobservation);
 		
 		$creator = Auth::id();
 		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
