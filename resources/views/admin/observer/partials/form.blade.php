@@ -64,8 +64,21 @@
         'class' => 'huge blue ui button',
       ]) }}
   </div>
-    
+  
+  {!! Form::hidden('new_id', $new_id) !!}  
 </div>
+
+{{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
+  {{$new_id}}
+  {!! Form::hidden('user_id', $user_id->id) !!}
+  {!! Form::hidden('course_id', $user_id->course) !!}
+  {!! Form::hidden('user_role_id', $user_id->role_id) !!}
+  {!! Form::hidden('creator_id', $creator) !!}
+  {!! Form::hidden('creator_role_id', $creator_role_id) !!}
+  
+  {{--  {!! Form::hidden('state', 1) !!}  --}}
+
+
 
 <hr>
 {{--
@@ -81,16 +94,7 @@
 <br/><br/><br/>
 
 
-{{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
 
-  {!! Form::hidden('user_id', $user_id->id) !!}
-  {!! Form::hidden('course_id', $user_id->course) !!}
-  {!! Form::hidden('user_role_id', $user_id->role_id) !!}
-  
-  {!! Form::hidden('creator_id', $creator) !!}
-  {!! Form::hidden('creator_role_id', $creator_role_id) !!}
-  
-  {{--  {!! Form::hidden('state', 1) !!}  --}}
 
 @section('scripts')
   <script>

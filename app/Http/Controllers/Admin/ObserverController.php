@@ -255,13 +255,16 @@ class ObserverController extends Controller
 		//$sql = "SELECT * FROM articles WHERE id_author = $id";
 		//$idobservation = SELECT setval('observation_id_seq', (SELECT MAX(id) from "observations"));
 		//$idobservation = "SELECT setval(pg_get_serial_sequence('observations', 'id'), coalesce(max(id),1), false) FROM observations";
-		$idobservation = "SELECT setval('observations_id_seq', (SELECT MAX(id) FROM observations))";
-		dd($idobservation);
+		//$idobservation = "SELECT setval('observations_id_seq', (SELECT MAX(id) FROM observations))";
+		
+		$current_id = DB::table('observations')->max('id');
+		$new_id = $current_id + 1;
+		//dd($new_id);
 		
 		$creator = Auth::id();
 		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		
-		return view('admin.observer.create',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id', 'idobservation'));
+		return view('admin.observer.create',compact('new_id','user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id', 'idobservation'));
 	}
 
 	/**
@@ -275,6 +278,7 @@ class ObserverController extends Controller
 		//$observer = Observer::create($request->all());
 		//Validar datos
 		$request->validate([
+			'new_id' => 'required',
 			'observation' => 'required',
 			'user_id' => 'required',
 			'course_id' => 'required',
@@ -290,6 +294,7 @@ class ObserverController extends Controller
 
 			//Guardar los datos
 		 	$observer = Observer::create([
+	 		'id'=>$request->new_id,
 			'user_id'=>$request->user_id,
 			'course_id'=>$request->course_id,
 			'user_role_id'=>$request->user_role_id,
