@@ -20,10 +20,9 @@
     <thead>
       <tr>
         <th>Id</th>
+        <th>Foto</th>
         <th>Nombres</th>
-        <th>Tipo</th>
         <th>Escenario</th>
-        <th>Nota</th>
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
@@ -34,10 +33,9 @@
       @foreach($observations as $observation)
       <tr>
         <td>{{ $observation->id }}</td>
+        <td><img src="{{asset('images/avatar/'.$observation->user->document.'.jpg')}}" class="avatar"></td>
         <td>{{ $observation->user->name }}</td>
-        <td>{{ $observation->observertype->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
-        <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
         <td>{{ $observation->creator->name }}</td>
@@ -47,6 +45,7 @@
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
+          {{--
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
@@ -56,6 +55,7 @@
           <button class="ui tiny icon button">
             <i class="cancel red icon"></i>
           </button>
+          --}}
           {!! Form::close() !!}
           
         </td>

@@ -34,7 +34,7 @@
     </div>
   </div>
   
-    <div class="title ui orange segment"><h2>Curso</h2></div>
+    <div class="title ui orange segment"><h2>Curso {{$curso}}</h2></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -110,6 +110,7 @@
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
+          {{--
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
@@ -119,6 +120,7 @@
           <button class="ui tiny icon button">
             <i class="cancel red icon"></i>
           </button>
+          --}}
           {!! Form::close() !!}
           
         </td>
