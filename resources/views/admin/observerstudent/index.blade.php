@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="ui container">
+
     {{--  <h2><strong>Detalle Observación:</strong> {{ $observation->user->name }}</h2>
     <h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>  --}}
   {{-- RESUMEN ESTADISTICAS --}}
@@ -78,27 +78,7 @@
 
   <br>
   <br>
-  <br>
-  <br>
-  {{-- 
-    <table>
-      @foreach($userobservations as $userobserver)
-      <tr>
-        <td>{{ $userobserver->id }}</td>
-        <td>{{ $userobserver->user_id }}</td>
-        <td>{{ $userobserver->name }}</td>
-        <td>{{ $userobserver->observer_category_id }}</td>
-      </tr>
-      @endforeach
-    </table>
-  --}}
-  
-  <br>
-  <br>
-  <br>
-  <br>
 
-</div>
 @endsection
 
 @section('scripts')

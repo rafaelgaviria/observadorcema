@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div class="ui container">
+  
     <h2><strong>Detalle Observación:</strong> {{ $observation->user->name }}</h2>
     <h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>
     <hr>
@@ -35,7 +35,7 @@
           {{--<h3>{{ $observation->creatorrole->name }}</h3>--}}
           <h3>{{ $observation->observation }}</h3>
         </div>  
-    </div>
+  
     <hr>
   </div>
 @endsection

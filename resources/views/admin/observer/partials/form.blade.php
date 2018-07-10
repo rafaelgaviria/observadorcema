@@ -1,4 +1,4 @@
-<div class="ui grid">
+<div class="ui stackable two column grid">
   {{--  COLUMNA UNO  --}}
   <div class="eight wide column">
     <div class="ui big form">
@@ -31,11 +31,6 @@
           ])
         !!}
       </div>
-        
-      {{--  BOTÓN ENVIAR  --}}
-      {{ Form::submit('Enviar', [
-        'class' => 'huge blue ui button',
-      ]) }}  
 
     </div>
   </div>
@@ -63,7 +58,13 @@
         </div>   
           
       </div>
+      <br/>
+      {{--  BOTÓN ENVIAR  --}}
+      {{ Form::submit('Enviar', [
+        'class' => 'huge blue ui button',
+      ]) }}
   </div>
+    
 </div>
 
 <hr>
@@ -77,7 +78,7 @@
  <p>Estado: {{$user_id->course}}</p> 
  --}}
 
-
+<br/><br/><br/>
 
 
 {{--  DATOS OCULTOS DEL ESTUDIANTE  --}}
@@ -87,7 +88,7 @@
   {!! Form::hidden('user_role_id', $user_id->role_id) !!}
   
   {!! Form::hidden('creator_id', $creator) !!}
-  {!! Form::hidden('creator_rol_id', $creator_rol_id) !!}
+  {!! Form::hidden('creator_role_id', $creator_role_id) !!}
   
   {{--  {!! Form::hidden('state', 1) !!}  --}}
 

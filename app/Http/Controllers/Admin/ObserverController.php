@@ -247,10 +247,15 @@ class ObserverController extends Controller
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
-		$creator = Auth::id();
-		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		//$observercodes = Observercode::select("observercodes.*"
+		//,DB::raw("CONCAT(observercodes.name,' ',observercodes.description) as observercodes"))
+        //	->pluck();
+		//print_r($observercodes);
 		
-		return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_rol_id'));
+		$creator = Auth::id();
+		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		
+		return view('admin.observer.create',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id'));
 	}
 
 	/**
