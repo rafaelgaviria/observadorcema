@@ -462,7 +462,7 @@
     <thead>
       <tr>
         <th>Id</th>
-        <th>Foto</th>
+        {{--<th>Foto</th>--}}
         <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
@@ -478,7 +478,7 @@
       @foreach($observations as $observation)
       <tr>
         <td>{{ $observation->id }}</td>
-        <td>Imagen</td>
+        {{--<td><img src="{{asset('images/avatar/'.$user->document.'.jpg')}}" class="avatar"></td>--}}
         <td>{{ $observation->user->name }}</td>
         <td>{{ $observation->observertype->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
@@ -486,7 +486,7 @@
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
         <td>{{ $observation->creator->name }}</td>
-        <td></td>
+
         <td>{{ $observation->course->name }}</td>
 
         <td>
@@ -540,7 +540,7 @@
   <br>
   <br>
   <br>
-  <br>
+
 
 </div>
 @endsection
