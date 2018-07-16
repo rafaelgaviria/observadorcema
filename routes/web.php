@@ -21,7 +21,7 @@ Route::redirect('/', 'autenticacion');
 Auth::routes();
 
 Route::get('/miobservador', function(){
-  return 'Área del Observador del estudiante';
+  return 'Esta es eñ área del Observador del estudiante';
 });
 
 Route::get('/autenticacion', 'Web\PageController@autenticacion');
