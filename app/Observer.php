@@ -48,6 +48,14 @@ class Observer extends Model
     public function observernote(){
         return $this->hasOne('App\Observernote','id','observer_note_id');
     }
+    
+    
+    
+    public function users()
+       {
+            //return $this->belongsTo('App\User');
+            return $this->belongsTo(User::class, 'useer_id');
+       } 
 
     
 

@@ -3,3 +3,4 @@
 [19-Apr-2018 23:35:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/ubuntu/workspace/observador/app/Http/Controllers/Admin/ObserverController.php on line 200
 [19-Apr-2018 23:36:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/ubuntu/workspace/observador/app/Http/Controllers/Admin/ObserverController.php on line 200
 [19-Apr-2018 23:36:34 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/ubuntu/workspace/observador/app/Http/Controllers/Admin/ObserverController.php on line 200
+[11-Jul-2018 05:29:31 UTC] PHP Fatal error:  Cannot redeclare App\User::observaciones() in /home/ubuntu/workspace/observador/observadorcema/app/User.php on line 65

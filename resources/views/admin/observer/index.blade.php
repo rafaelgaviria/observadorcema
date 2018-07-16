@@ -10,12 +10,12 @@
       </div>
       <div class="label">Total Observaciones</div>
     </div>
-    {{-- <div class="teal statistic">
+    <div class="teal statistic">
       <div class="value">
         {{$totalobservacionesestudiantes}}
       </div>
       <div class="label">Total Observaciones</div>
-    </div> --}}
+    </div>
     
     <a href="{{ route('suspendidos')}}">
       <div class="red statistic">

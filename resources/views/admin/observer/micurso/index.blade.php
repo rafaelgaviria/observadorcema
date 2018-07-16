@@ -61,7 +61,7 @@
             <a href="{{ route('observerstudent',$estudiante->id)}}" class="" >
               {{ $estudiante->name }}</a>            
           </td>
-          <td></td>
+          <td>{{ $estudiante->observer_code_id }}</td>
           <td></td>
           <td></td>
           <td></td>

@@ -52,6 +52,20 @@ class User extends Authenticatable
     {
         return $this->fresh()->fullname; // make sure you call fresh instance or you'll get an error that fullname is not found or something like that...
     }
+    
+    
+    
+    public function emergencias()
+       {
+          return $this->hasMany('Valach\Emergencia', 'empleado_id', 'id');
+       }
+       
+    public function observaciones()
+    {
+        return $this->hasMany(Observer::class);
+        
+    }
+        
     // public function firstname(){
     //     return $this->hasMany('id', 'firstname');
     // }

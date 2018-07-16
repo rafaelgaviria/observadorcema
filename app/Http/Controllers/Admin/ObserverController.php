@@ -12,16 +12,16 @@ use Illuminate\Support\Facades\Auth;
 use DB;
 
 use App\Observer;
-Use App\Level;
-Use App\Course;
-Use App\Subject; 
-Use App\User; 
-Use App\Observerscene; 
-Use App\Observercategory; 
-Use App\Observercode; 
-Use App\Observernote; 
-Use App\CourseUser; 
-Use App\Role; 
+use App\Level;
+use App\Course;
+use App\Subject; 
+use App\User; 
+use App\Observerscene; 
+use App\Observercategory; 
+use App\Observercode; 
+use App\Observernote; 
+use App\CourseUser; 
+use App\Role; 
 
 class ObserverController extends Controller
 {
@@ -112,7 +112,7 @@ class ObserverController extends Controller
 		$totalobservaciones = Observer::all('id')->count();
 		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
 		$totalobservacionesacudientes = Observer::where('observer_type_id', '=', 4)->count();
-		//$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
+		$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
 		
 		$observations = Observer::orderBy('id','DES')->paginate(10);
 		
@@ -443,11 +443,39 @@ class ObserverController extends Controller
 	{
 		$creator = Auth::id();
 		$curso = User::where('id', $creator)->pluck('course', 'id')->first();
+		//$estudiantes = DB::table('users')
+		//	->where('role_id', '=', 5)
+		//	->where('course', '=', $curso)
+		//	->orderBy('name', 'ASC')
+		//	->get();
+		
+		//$observaciones = User::findOrFail()->observaciones->where("observer_code_id", "=", 3);
+		
 		$estudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', $curso)
-			->orderBy('name', 'ASC')
-			->get();
+            ->join('observations', 'users.id', '=', 'observations.user_id')
+            ->where('role_id', '=', 5)
+            ->where('course', '=', $curso)
+            ->groupBy('user_id')
+            ->orderBy('name', 'ASC')
+            ->get();
+    
+    	//$temptable = DB::raw("(SELECT user_id, count(*) AS num_observations FROM observations GROUP BY user_id) as observations");
+	
+		//return DB::table('users')
+		//	->join('observations', 'users.id', '=', 'observations.user_id')
+		//	->select('users.id','users.name', 'observer_code_id')
+		//	->leftJoin($temptable, 'observations.user_id', '=', 'users.id') 
+		//	->where('role_id', '=', 5)
+		//	->get();
+		//dd($temptable);	    
+    
+    	//$users = User::join("roles","users.roles_id","=","roles.id")
+    	//->where('users.estado','=',1)
+    	//->get();
+		
+		
+		//dd($estudiantes);
+		
 		$totalobservaciones = Observer::where('course_id', '=', $curso)->count();
 		$totalsanciones = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 5)->count();
 		$totalobservacionesacudientes = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 4)->count();

@@ -13,13 +13,23 @@
 
 Route::redirect('/', 'autenticacion');
 
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Auth::routes();
 
+Route::get('/miobservador', function(){
+  return 'Área del Observador del estudiante';
+});
+
 Route::get('/autenticacion', 'Web\PageController@autenticacion');
+
+Route::get('/prueba', function(){
+    $user = App\User::findOrFail(20);
+    return $user->observaciones->where("observer_code_id", "=", 3);
+});
 
 //admin
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
@@ -41,4 +51,4 @@ Route::get('observerstudent/{id}',[
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');

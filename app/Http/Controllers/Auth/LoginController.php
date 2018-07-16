@@ -26,7 +26,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/observer';
+    //protected $redirectTo = '/miobservador';
 
     /**
      * Create a new controller instance.
@@ -36,6 +36,21 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+    
+    public function redirectPath()
+    {
+        //dd('redirectPath');
+        if (auth()->user()->role_id == 1 ){
+            return '/observer';
+        }
+        
+        return '/miobservador';
+        // if (method_exists($this, 'redirectTo')) {
+        //     return $this->redirectTo();
+        // }
+
+        //return property_exists($this, 'redirectTo') ? $this->redirectTo : '/home';
     }
 
     protected function credentials(Request $request)
