@@ -53,6 +53,7 @@ class LoginController extends Controller
         //return property_exists($this, 'redirectTo') ? $this->redirectTo : '/home';
     }
 
+
     protected function credentials(Request $request)
     {
         $login = $request->input($this->username());

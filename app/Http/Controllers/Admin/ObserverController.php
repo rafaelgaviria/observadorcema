@@ -38,6 +38,22 @@ class ObserverController extends Controller
 	 */
 	public function index()
 	{
+		
+		//PERIODOS
+		
+		// Primer periodo
+		$ini_1p = date('2018-06-08');
+		$end_1p = date('2018-07-31');
+		// Segundo periodo
+		$ini_2p = date('2018-06-08');
+		$end_2p = date('2018-07-31');
+		// Tercer periodo
+		$ini_3p = date('2018-06-08');
+		$end_3p = date('2018-07-31');
+		// Cuarto periodo
+		$ini_4p = date('2018-06-08');
+		$end_4p = date('2018-07-31');
+		
 		// LISTADO DE CURSOS
 		$primeroestudiantes = DB::table('users')
 			->where('role_id', '=', 5)
@@ -96,23 +112,24 @@ class ObserverController extends Controller
 			->get();
 
 			
-		$primerototal = Observer::where("course_id","=",1)->count();
-		$segundototal = Observer::where("course_id","=",2)->count();
-		$tercerototal = Observer::where("course_id","=",3)->count();
-		$cuartototal = Observer::where("course_id","=",4)->count();
-		$quintototal = Observer::where("course_id","=",5)->count();
-		$sextototal = Observer::where("course_id","=",6)->count();
-		$septimototal = Observer::where("course_id","=",7)->count();
-		$octavototal = Observer::where("course_id","=",8)->count();
-		$novenototal = Observer::where("course_id","=",9)->count();
-		$decimototal = Observer::where("course_id","=",10)->count();
-		$oncetotal = Observer::where("course_id","=",11)->count();
+		$primerototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",1)->count();
+		$segundototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",2)->count();
+		$tercerototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",3)->count();
+		$cuartototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",4)->count();
+		$quintototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",5)->count();
+		$sextototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",6)->count();
+		$septimototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",7)->count();
+		$octavototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",8)->count();
+		$novenototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",9)->count();
+		$decimototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",10)->count();
+		$oncetotal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",11)->count();
 		
 		$users = User::all();	
-		$totalobservaciones = Observer::all('id')->count();
-		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
-		$totalobservacionesacudientes = Observer::where('observer_type_id', '=', 4)->count();
-		$totalobservacionesestudiantes = Observer::where('user_role_id', '=', 5)->count();
+		$totalobservaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();
+		$totalsanciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 5)->count();
+		$totalobservacionesacudientes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 4)->count();
+		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
+		
 		
 		$observations = Observer::orderBy('id','DES')->paginate(10);
 		
@@ -485,8 +502,3 @@ class ObserverController extends Controller
 		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes','observations'));
 	}
 }
-
-
-
-
-

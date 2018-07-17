@@ -3,18 +3,19 @@
 @section('content')
 
   {{-- RESUMEN ESTADISTICAS --}}
+  <h2>Tercer periodo</h2>
   <div class="ui statistics">
-    <div class="blue statistic">
+    {{--<div class="blue statistic">
       <div class="value">
         {{$totalobservaciones}}
       </div>
       <div class="label">Total Observaciones</div>
-    </div>
+    </div>--}}
     <div class="teal statistic">
       <div class="value">
         {{$totalobservacionesestudiantes}}
       </div>
-      <div class="label">Total Observaciones</div>
+      <div class="label">Observaciones <br> de estudiantes</div>
     </div>
     
     <a href="{{ route('suspendidos')}}">
@@ -42,7 +43,7 @@
   
   {{--  PRIMERO  --}}
   <div class="ui styled fluid accordion segment">
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Primero {{$primerototal}}</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Primero <span>{{$primerototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -85,7 +86,7 @@
       </table>
     </div>
     {{--  SEGUNDO  --}}
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Segundo {{$segundototal}}</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Segundo <span>{{$segundototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -123,7 +124,7 @@
       </table>
     </div>
     {{--  TERCERO  --}}
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Tercero {{$tercerototal}}</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Tercero <span>{{$tercerototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -160,7 +161,7 @@
       </table>
     </div>
     {{--  CUARTO  --}}
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Cuarto {{$cuartototal}}</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Cuarto <span>{{$cuartototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -197,7 +198,7 @@
       </table>
     </div>
     {{--  QUINTO  --}}
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Quinto {{$quintototal}}</div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Quinto <span>{{$quintototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -234,7 +235,7 @@
       </table>
     </div>
     {{--  SEXTO  --}}
-    <div class="title ui teal segment"><i class="dropdown icon"></i>Sexto {{$sextototal}}</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Sexto <span>{{$sextototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -271,7 +272,7 @@
       </table>
     </div>
     {{--  SEPTIMO  --}}
-    <div class="title ui teal segment"><i class="dropdown icon"></i>Séptmo {{$septimototal}}</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Séptmo <span>{{$septimototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -308,7 +309,7 @@
       </table>
     </div>
     {{--  OCTAVO  --}}
-    <div class="title ui teal segment"><i class="dropdown icon"></i>Octavo {{$octavototal}}</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Octavo <span>{{$octavototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -345,7 +346,7 @@
       </table>
     </div>
     {{--  NOVENO  --}}
-    <div class="title ui teal segment"><i class="dropdown icon"></i>Noveno {{$novenototal}}</div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Noveno <span>{{$novenototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -382,7 +383,7 @@
       </table>
     </div>
     {{--  DECIMO  --}}
-    <div class="title ui violet segment"><i class="dropdown icon"></i>Décimo {{$decimototal}}</div>
+    <div class="title ui violet segment"><i class="dropdown icon"></i>Décimo <span>{{$decimototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -419,7 +420,7 @@
       </table>
     </div>
     {{--  ONCE  --}}
-    <div class="title ui violet segment"><i class="dropdown icon"></i>Once {{$oncetotal}}</div>
+    <div class="title ui violet segment"><i class="dropdown icon"></i>Once <span>{{$oncetotal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
