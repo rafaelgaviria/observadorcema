@@ -11,8 +11,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/semantic.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('css/semantic.min.css') }}" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     
     <script>
@@ -27,7 +27,6 @@
     </script>
 </head>
 <body>
-
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="ui container">
