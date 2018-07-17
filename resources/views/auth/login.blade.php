@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-
+<head>
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('css/semantic.min.css') }}" rel="stylesheet" type="text/css">
+</head>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
