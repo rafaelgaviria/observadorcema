@@ -1,8 +1,7 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
-<link rel="stylesheet" type="text/css" href="{{ asset('/css/semantic.min.css') }}">
-<div class="container">
+
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
@@ -66,5 +65,5 @@
             </div>
         </div>
     </div>
-</div>
+
 @endsection
