@@ -1,1 +1,0 @@
-<h1>Observador del estudiante en construcción</h1>

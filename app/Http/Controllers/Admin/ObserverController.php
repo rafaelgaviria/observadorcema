@@ -25,6 +25,7 @@ use App\Role;
 
 class ObserverController extends Controller
 {
+	
 	// Seguridad para bloquear contenido que solo se puede ver cuando esté logueado
 	public function __construct()
 	{
@@ -40,19 +41,23 @@ class ObserverController extends Controller
 	{
 		
 		//PERIODOS
+		//1 periodo: febrero 1 a Abril 6
+		//2 periodo: abril 9 a Junio 8
+		//3 periodo: Junio 12-Sept 14
+		//4 periodo: Sept 17- Nov 30
 		
 		// Primer periodo
-		$ini_1p = date('2018-06-08');
-		$end_1p = date('2018-07-31');
+		$ini_1p = date('2018-02-01');
+		$end_1p = date('2018-04-06');
 		// Segundo periodo
-		$ini_2p = date('2018-06-08');
-		$end_2p = date('2018-07-31');
+		$ini_2p = date('2018-04-09');
+		$end_2p = date('2018-06-08');
 		// Tercer periodo
-		$ini_3p = date('2018-06-08');
-		$end_3p = date('2018-07-31');
+		$ini_3p = date('2018-06-12');
+		$end_3p = date('2018-09-30');
 		// Cuarto periodo
-		$ini_4p = date('2018-06-08');
-		$end_4p = date('2018-07-31');
+		$ini_4p = date('2018-09-17');
+		$end_4p = date('2018-11-30');
 		
 		// LISTADO DE CURSOS
 		$primeroestudiantes = DB::table('users')
@@ -131,7 +136,7 @@ class ObserverController extends Controller
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
 		
-		$observations = Observer::orderBy('id','DES')->paginate(10);
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->orderBy('id','DES')->paginate(15);
 		
 		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		//CONTEO DE OBSERVACIONES POR CURSO
@@ -458,6 +463,10 @@ class ObserverController extends Controller
 	}
 	public function micurso()
 	{
+		
+		$ini_3p = date('2018-06-12');
+		$end_3p = date('2018-09-30');
+		
 		$creator = Auth::id();
 		$curso = User::where('id', $creator)->pluck('course', 'id')->first();
 		//$estudiantes = DB::table('users')
@@ -489,7 +498,6 @@ class ObserverController extends Controller
     	//$users = User::join("roles","users.roles_id","=","roles.id")
     	//->where('users.estado','=',1)
     	//->get();
-		
 		
 		//dd($estudiantes);
 		
