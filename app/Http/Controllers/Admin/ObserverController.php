@@ -448,8 +448,10 @@ class ObserverController extends Controller
 
 	public function observerStudent($id)
 	{
-		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
-		$observations = Observer::orderBy('id','DES')->where('user_id', '=', $id)->paginate(10);
+		$ini_3p = date('2018-06-12');
+		$end_3p = date('2018-09-30');
+		$totalobservaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->count();
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('id','DES')->paginate(10);
 		return view('admin.observerstudent.index', compact('observations', 'users', 'totalobservaciones'));
 	}
 	
