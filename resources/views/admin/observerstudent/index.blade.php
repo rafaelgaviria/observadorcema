@@ -2,8 +2,8 @@
 
 @section('content')
 
-    {{--  <h2><strong>Detalle Observación:</strong> {{ $observation->user->name }}</h2>
-    <h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>  --}}
+    <h2><strong>Estudiante:</strong> {{ $estudiante }}</h2>
+    {{--<h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>  --}}
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui statistics">
     <div class="blue statistic">
@@ -19,7 +19,6 @@
     <thead>
       <tr>
         <th>Id</th>
-        <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -33,7 +32,6 @@
       @foreach($observations3p as $observations3p)
       <tr>
         <td>{{ $observations3p->id }}</td>
-        <td>{{ $observations3p->user->name }}</td>
         <td>{{ $observations3p->observertype->name }}</td>
         <td>{{ $observations3p->observerscene->name }}</td>
         <td>{{ $observations3p->observernote->name }}</td>
@@ -71,7 +69,6 @@
     <thead>
       <tr>
         <th>Id</th>
-        <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -85,7 +82,6 @@
       @foreach($observations2p as $observations2p)
       <tr>
         <td>{{ $observations2p->id }}</td>
-        <td>{{ $observations2p->user->name }}</td>
         <td>{{ $observations2p->observertype->name }}</td>
         <td>{{ $observations2p->observerscene->name }}</td>
         <td>{{ $observations2p->observernote->name }}</td>
@@ -123,7 +119,6 @@
     <thead>
       <tr>
         <th>Id</th>
-        <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -137,7 +132,6 @@
       @foreach($observations1p as $observations1p)
       <tr>
         <td>{{ $observations1p->id }}</td>
-        <td>{{ $observations1p->user->name }}</td>
         <td>{{ $observations1p->observertype->name }}</td>
         <td>{{ $observations1p->observerscene->name }}</td>
         <td>{{ $observations1p->observernote->name }}</td>

@@ -47,17 +47,17 @@ class ObserverController extends Controller
 		//4 periodo: Sept 17- Nov 30
 		
 		// Primer periodo
-		$ini_1p = date('2018-02-01');
-		$end_1p = date('2018-04-06');
+		$ini_1p = date('2018-02-01 00:00:00');
+		$end_1p = date('2018-04-06 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2018-04-09');
-		$end_2p = date('2018-06-08');
+		$ini_2p = date('2018-04-09 00:00:00');
+		$end_2p = date('2018-06-08 23:59:59');
 		// Tercer periodo
-		$ini_3p = date('2018-06-12');
-		$end_3p = date('2018-09-30');
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2018-09-17');
-		$end_4p = date('2018-11-30');
+		$ini_4p = date('2018-09-17 00:00:00');
+		$end_4p = date('2018-11-30 23:59:59');
 		
 		// LISTADO DE CURSOS
 		$primeroestudiantes = DB::table('users')
@@ -452,19 +452,22 @@ class ObserverController extends Controller
 		$ini_1p = date('2018-02-01 00:00:00');
 		$end_1p = date('2018-04-06 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2018-04-07 00:00:00.0');
+		$ini_2p = date('2018-04-07 00:00:00');
 		$end_2p = date('2018-06-08 23:59:59');
 		// Tercero periodo
-		$ini_3p = date('2018-06-09 00:00:00.0');
+		$ini_3p = date('2018-06-09 00:00:00');
 		$end_3p = date('2018-09-30 23:59:59');
+		
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
 		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->get();
 		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->get();
 		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->get();
 		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
-		//dd($observations3p);
+		$estudiante = User::where('id', '=', $id)->pluck('name','id')->first();
+		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
+		//dd($estudiante);
 		//dd($totalobservaciones);
-		return view('admin.observerstudent.index', compact('observations', 'observations1p', 'observations2p', 'observations3p', 'users', 'totalobservaciones'));
+		return view('admin.observerstudent.index', compact('estudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'users', 'totalobservaciones'));
 		
 	}
 	
@@ -479,8 +482,8 @@ class ObserverController extends Controller
 	public function micurso()
 	{
 		
-		$ini_3p = date('2018-06-12');
-		$end_3p = date('2018-09-30');
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
 		
 		$creator = Auth::id();
 		$curso = User::where('id', $creator)->pluck('course', 'id')->first();
@@ -524,16 +527,5 @@ class ObserverController extends Controller
 
 		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes','observations'));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 }
