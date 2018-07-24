@@ -13,7 +13,7 @@
       <div class="label">Total Observaciones</div>
     </div>
   </div>
-{{--
+
 <h2 class="ui dividing header">Tercer periodo</h2>
   <table class="ui celled striped small very compact table">
     <thead>
@@ -26,7 +26,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <th>Acciones</th>
+        <!--<th>Acciones</th>-->
       </tr>
     </thead>
     <tbody>
@@ -40,7 +40,7 @@
         <td>{{ $observations3p->created_at }}</td>
         <td>{{ $observations3p->observation }}</td>
         <td>{{ $observations3p->creator->name }}</td>
-        <td>
+        {{--<td>
           <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
@@ -51,10 +51,11 @@
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-        </td>
+        </td>--}}
       </tr>
       @endforeach 
     </tbody>
+    {{--
     <tfoot>
       <tr>
         <th colspan="10">
@@ -62,6 +63,7 @@
         </th>
     </tr>
   </tfoot>
+  --}}
   </table>
   
   <h2 class="ui dividing header">Segundo periodo</h2>
@@ -76,7 +78,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <th>Acciones</th>
+        <!--<th>Acciones</th>-->
       </tr>
     </thead>
     <tbody>
@@ -90,7 +92,7 @@
         <td>{{ $observations2p->created_at }}</td>
         <td>{{ $observations2p->observation }}</td>
         <td>{{ $observations2p->creator->name }}</td>
-        <td>
+        {{--<td>
           <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
@@ -101,10 +103,11 @@
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-        </td>
+        </td>--}}
       </tr>
       @endforeach 
     </tbody>
+    {{--
     <tfoot>
       <tr>
         <th colspan="10">
@@ -112,6 +115,7 @@
         </th>
     </tr>
   </tfoot>
+  --}}
   </table>
   
   <h2 class="ui dividing header">Primer periodo</h2>
@@ -126,7 +130,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <th>Acciones</th>
+        <!--<th>Acciones</th>-->
       </tr>
     </thead>
     <tbody>
@@ -140,8 +144,7 @@
         <td>{{ $observations1p->created_at }}</td>
         <td>{{ $observations1p->observation }}</td>
         <td>{{ $observations1p->creator->name }}</td>
-        <td>
-          
+        {{--<td>
           <a href="{{ route('observer.show', $observations1p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
@@ -154,9 +157,11 @@
           {!! Form::close() !!}
           
         </td>
+        --}}
       </tr>
       @endforeach 
     </tbody>
+    {{--
     <tfoot>
       <tr>
         <th colspan="10">
@@ -164,8 +169,10 @@
         </th>
     </tr>
   </tfoot>
-  </table>
   --}}
+  </table>
+  <!-- TODAS LAS OBSERVACIONES -->
+  {{--
   <h2 class="ui dividing header">Todas las observaciones</h2>
   <table class="ui celled striped small very compact table">
     <thead>
@@ -200,25 +207,25 @@
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
-          {{--
+          
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-          --}}
+          
         </td>
       </tr>
       @endforeach 
     </tbody>
-    {{--<tfoot>
+    <tfoot>
       <tr>
         <th colspan="10">
             {{$observations->render()}}  
         </th>
     </tr>
-  </tfoot>--}}
+  </tfoot>
   </table>
-
+  --}}
 <br>
 
 @endsection

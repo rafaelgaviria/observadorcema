@@ -449,14 +449,14 @@ class ObserverController extends Controller
 	public function observerStudent($id)
 	{
 		// Primer periodo
-		$ini_1p = date('2018-02-01 00:00:00.0');
-		$end_1p = date('2018-04-06 11:59:00.0');
+		$ini_1p = date('2018-02-01 00:00:00');
+		$end_1p = date('2018-04-06 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2018-04-07 00:00:00.0');
-		$end_2p = date('2018-06-08 11:59:00.0');
+		$end_2p = date('2018-06-08 23:59:59');
 		// Tercero periodo
 		$ini_3p = date('2018-06-09 00:00:00.0');
-		$end_3p = date('2018-09-30 11:59:00.0');
+		$end_3p = date('2018-09-30 23:59:59');
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
 		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->get();
 		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->get();
