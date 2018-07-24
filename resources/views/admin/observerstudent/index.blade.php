@@ -191,7 +191,7 @@
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
-        <td>{{--{{ $observation->creator->name }}--}}</td>
+        <td>{{ $observation->creator->name }}</td>
         <td>
           
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
@@ -200,11 +200,12 @@
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
+          {{--
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-          
+          --}}
         </td>
       </tr>
       @endforeach 
