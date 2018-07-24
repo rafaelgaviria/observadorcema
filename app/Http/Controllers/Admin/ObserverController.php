@@ -136,7 +136,7 @@ class ObserverController extends Controller
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
 		
-		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->orderBy('id','DES')->paginate(15);
+		$observations = Observer::orderBy('id','DES')->paginate(15);
 		
 		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		//CONTEO DE OBSERVACIONES POR CURSO
@@ -448,11 +448,24 @@ class ObserverController extends Controller
 
 	public function observerStudent($id)
 	{
-		$ini_3p = date('2018-06-12');
-		$end_3p = date('2018-09-30');
-		$totalobservaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->count();
-		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('id','DES')->paginate(10);
-		return view('admin.observerstudent.index', compact('observations', 'users', 'totalobservaciones'));
+		// Primer periodo
+		$ini_1p = date('2018-02-01 00:00:00.0');
+		$end_1p = date('2018-04-06 11:59:00.0');
+		// Segundo periodo
+		$ini_2p = date('2018-04-07 00:00:00.0');
+		$end_2p = date('2018-06-08 11:59:00.0');
+		// Tercero periodo
+		$ini_3p = date('2018-06-09 00:00:00.0');
+		$end_3p = date('2018-09-30 11:59:00.0');
+		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
+		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->get();
+		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->get();
+		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->get();
+		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
+		//dd($observations3p);
+		//dd($totalobservaciones);
+		return view('admin.observerstudent.index', compact('observations', 'observations1p', 'observations2p', 'observations3p', 'users', 'totalobservaciones'));
+		
 	}
 	
 	public function suspendidos()
@@ -510,5 +523,17 @@ class ObserverController extends Controller
 		//dd($observations);
 
 		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes','observations'));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	}
 }

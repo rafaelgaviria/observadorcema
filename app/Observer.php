@@ -22,9 +22,7 @@ class Observer extends Model
         'observation',
         //'state',
     ];
-    
-    
-    
+
     public function user(){
         return $this->hasOne(User::class, 'id', 'user_id');
         // el primer id corresponde a la fila de la tabla 2 y el 'idperfil' corresponde al campo de la tabla usuario
@@ -48,16 +46,12 @@ class Observer extends Model
     public function observernote(){
         return $this->hasOne('App\Observernote','id','observer_note_id');
     }
-    
-    
-    
+
     public function users()
        {
             //return $this->belongsTo('App\User');
             return $this->belongsTo(User::class, 'useer_id');
        } 
-
-    
 
     // public function course(){
     //     return $this->hasOne('App\CourseUser','course_id','course_id');
@@ -68,7 +62,6 @@ class Observer extends Model
     //     return $this->belongsToMany('App\Observer', 'courses_users')
     //                 ->withPivot('course_id', 'student_id');
     // }
-
 
     public function creator(){
         return $this->hasOne(User::class, 'id', 'creator_id');
@@ -81,10 +74,4 @@ class Observer extends Model
     public function obsdecurso(){
         return $this->hasOne(course::class, 'id', 'course_id');
     }
-
-    
-    
  }
-
-
-
