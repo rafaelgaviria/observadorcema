@@ -65,6 +65,26 @@ class ObserverController extends Controller
 			->where('course', '=', 1)
 			->orderBy('name', 'ASC')
 			->get();
+		$primeroestudiantes = DB::table('users')
+            ->join('observations', 'users.id', '=', 'observations.user_id')
+            ->where('course', '=', 1)
+            ->where('role_id', '=', 5)
+			->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id',DB::raw('COUNT(observer_category_id) as count'))
+			//->whereBetween('observations.created_at', [$ini_3p, $end_3p])
+			->groupBy('users.id')
+			//->orderBy('count')
+            //->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id')
+            //->groupBy('users.id')
+            ->get();
+			//dd($primeroestudiantes);
+		//$primeroestudiantes = DB::table('observations')
+			// ->where('role_id', '=', 5)
+			// ->where('course', '=', 1)
+			// ->select('observations.observer_category_id',DB::raw('COUNT(observer_category_id) as count'))
+			// ->groupBy('number')
+			// ->orderBy('count')
+			// ->get();
+		
 		$segundoestudiantes = DB::table('users')
 			->where('role_id', '=', 5)
 			->where('course', '=', 2)
@@ -459,9 +479,9 @@ class ObserverController extends Controller
 		$end_3p = date('2018-09-30 23:59:59');
 		
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
-		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->get();
-		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->get();
-		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->get();
+		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
+		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
+		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
 		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
 		$estudiante = User::where('id', '=', $id)->pluck('name','id')->first();
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');

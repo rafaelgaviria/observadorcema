@@ -70,7 +70,7 @@
             <a href="{{ route('observerstudent',$primeroestudiante->id)}}" class="" >
               {{ $primeroestudiante->name }}</a>            
           </td>
-          <td></td>
+          <td>{{ $primeroestudiante->count }}</td>
           <td></td>
           <td></td>
           <td></td>
