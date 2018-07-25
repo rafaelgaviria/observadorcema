@@ -39,7 +39,7 @@
     <div class="header"></div>
     <p><strong>Selección de estudiante:</strong>  Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>
   </div>
-  
+  <?php var_dump($primeroestudiantes); ?>
   
   {{--  PRIMERO  --}}
   <div class="ui styled fluid accordion segment">
@@ -70,7 +70,7 @@
             <a href="{{ route('observerstudent',$primeroestudiante->id)}}" class="" >
               {{ $primeroestudiante->name }}</a>            
           </td>
-          <td>{{ $primeroestudiante->count }}</td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>

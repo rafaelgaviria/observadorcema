@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Collection as Collection;
 use Illuminate\Http\Request;
 use App\Http\Requests\ObserverStoreRequest;
 use App\Http\Requests\ObserverUpdateRequest;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+
 
 use DB;
 
@@ -67,16 +69,23 @@ class ObserverController extends Controller
 			->get();
 		$primeroestudiantes = DB::table('users')
             ->join('observations', 'users.id', '=', 'observations.user_id')
-            ->where('course', '=', 1)
             ->where('role_id', '=', 5)
-			->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id',DB::raw('COUNT(observer_category_id) as count'))
+            ->where('course', '=', 1)
+            ->orderBy('name', 'ASC')
+			->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id'
+			//DB::raw('COUNT(observer_category_id) as count')
+			)
 			//->whereBetween('observations.created_at', [$ini_3p, $end_3p])
+			//->groupBy('observer_category_id')
 			->groupBy('users.id')
 			//->orderBy('count')
-            //->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id')
-            //->groupBy('users.id')
             ->get();
+        
+            //$collection = Collection::make($primeroestudiantes);
+            //$collection->toJson();
+            //var_dump($primeroestudiantes);
 			//dd($primeroestudiantes);
+		
 		//$primeroestudiantes = DB::table('observations')
 			// ->where('role_id', '=', 5)
 			// ->where('course', '=', 1)
