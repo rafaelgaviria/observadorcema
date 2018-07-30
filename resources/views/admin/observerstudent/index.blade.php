@@ -3,6 +3,7 @@
 @section('content')
 
     <h2><strong>Estudiante:</strong> {{ $estudiante }}</h2>
+    {{--<a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear observación</a>--}}
     {{--<h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>  --}}
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui statistics">
@@ -25,7 +26,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <!--<th>Acciones</th>-->
+        <th>Acciones</th>
       </tr>
     </thead>
     <tbody>
@@ -38,18 +39,24 @@
         <td>{{ $observations3p->created_at }}</td>
         <td>{{ $observations3p->observation }}</td>
         <td>{{ $observations3p->creator->name }}</td>
-        {{--<td>
-          <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-            <i class="eye blue icon"></i>
-          </a>
-          <a href="{{ route('observer.edit', $observations3p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
+        <td>
+          <?php $role = Auth::user()->role_id; ?>
+          @if($role == 1)
+            <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+              <i class="eye blue icon"></i>
+            </a>
+            <a href="{{ route('observer.edit', $observations3p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+          @endif 
+          
+          {{--
           {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-        </td>--}}
+          --}}
+        </td>
       </tr>
       @endforeach 
     </tbody>
@@ -75,7 +82,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <!--<th>Acciones</th>-->
+        <th>Acciones</th>
       </tr>
     </thead>
     <tbody>
@@ -88,18 +95,24 @@
         <td>{{ $observations2p->created_at }}</td>
         <td>{{ $observations2p->observation }}</td>
         <td>{{ $observations2p->creator->name }}</td>
-        {{--<td>
-          <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-            <i class="eye blue icon"></i>
-          </a>
-          <a href="{{ route('observer.edit', $observations2p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
+        <td>
+          <?php $role = Auth::user()->role_id; ?>
+          @if($role == 1)
+            <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+              <i class="eye blue icon"></i>
+            </a>
+            <a href="{{ route('observer.edit', $observations2p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+          @endif 
+          
+          {{--
           {!!Form::open(['route' => ['observer.destroy', $observations2p->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-        </td>--}}
+          --}}
+        </td>
       </tr>
       @endforeach 
     </tbody>
@@ -125,7 +138,7 @@
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <!--<th>Acciones</th>-->
+        <th>Acciones</th>
       </tr>
     </thead>
     <tbody>
@@ -138,20 +151,24 @@
         <td>{{ $observations1p->created_at }}</td>
         <td>{{ $observations1p->observation }}</td>
         <td>{{ $observations1p->creator->name }}</td>
-        {{--<td>
-          <a href="{{ route('observer.show', $observations1p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-            <i class="eye blue icon"></i>
-          </a>
-          <a href="{{ route('observer.edit', $observations1p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
+        <td>
+          <?php $role = Auth::user()->role_id; ?>
+          @if($role == 1)
+            <a href="{{ route('observer.show', $observations1p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+              <i class="eye blue icon"></i>
+            </a>
+            <a href="{{ route('observer.edit', $observations1p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+          @endif 
+          
+          {{--
           {!!Form::open(['route' => ['observer.destroy', $observations1p->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
           {!! Form::close() !!}
-          
+          --}}
         </td>
-        --}}
       </tr>
       @endforeach 
     </tbody>

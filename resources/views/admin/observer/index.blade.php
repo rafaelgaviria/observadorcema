@@ -38,6 +38,7 @@
   <div class="ui message info">
     <div class="header"></div>
     <p><strong>Selección de estudiante:</strong>  Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>
+      
   </div>
   
   <!-- <?php var_dump($primeroestudiantes); ?> -->
@@ -273,7 +274,7 @@
       </table>
     </div>
     {{--  SEPTIMO  --}}
-    <div class="title ui teal segment"><i class="dropdown icon"></i>Séptmo <span>{{$septimototal}}</span></div>
+    <div class="title ui teal segment"><i class="dropdown icon"></i>Séptimo <span>{{$septimototal}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
