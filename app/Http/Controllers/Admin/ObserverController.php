@@ -160,14 +160,17 @@ class ObserverController extends Controller
 		
 		$users = User::all();	
 		$totalobservaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();
-		$totalsanciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 5)->count();
+		
+		$totalsanciones3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 5)->count();
+		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
+		
 		$totalobservacionesacudientes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 4)->count();
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
 		
 		$observations = Observer::orderBy('id','DES')->paginate(15);
 		
-		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
+		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		//CONTEO DE OBSERVACIONES POR CURSO
 		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',	
 		//LISTA DE ESTUDIANTES POR CURSO
@@ -493,18 +496,17 @@ class ObserverController extends Controller
 		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
 		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
 		$estudiante = User::where('id', '=', $id)->pluck('name','id')->first();
+		$idestudiante = User::find($id);
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		//dd($estudiante);
 		//dd($totalobservaciones);
-		return view('admin.observerstudent.index', compact('estudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'users', 'totalobservaciones'));
+		return view('admin.observerstudent.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'users', 'totalobservaciones'));
 		
 	}
 	
 	public function suspendidos()
 	{
-		//$suspendidos = Observer::where('user_id', '=', 436)->get();
 		$observations = Observer::where('observer_type_id', '=', 5)->paginate(20);
-		// dd($suspendidos);
 
 		return view('admin.observer.suspendidos.index', compact('observations'));
 	}

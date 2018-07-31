@@ -2,8 +2,15 @@
 
 @section('content')
 
-    <h2><strong>Estudiante:</strong> {{ $estudiante }}</h2>
-    {{--<a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear observación</a>--}}
+<div class="ui grid">
+  <div class="twelve wide column">
+    <h3><B>Estudiante:</B> {{ $estudiante }}</h3>
+  </div>
+  <div class="four wide column">
+    <a href="{{ route('observer',$idestudiante)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear observación</a>
+  </div>
+</div>
+
     {{--<h2><strong>Curso:</strong> {{ $observation->course->name }}</h2>  --}}
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui statistics">
@@ -15,7 +22,7 @@
     </div>
   </div>
 
-<h2 class="ui dividing header">Tercer periodo</h2>
+<h3 class="ui dividing header">Tercer periodo</h3>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
@@ -71,7 +78,7 @@
   --}}
   </table>
   
-  <h2 class="ui dividing header">Segundo periodo</h2>
+  <h3 class="ui dividing header">Segundo periodo</h3>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
@@ -127,7 +134,7 @@
   --}}
   </table>
   
-  <h2 class="ui dividing header">Primer periodo</h2>
+  <h3 class="ui dividing header">Primer periodo</h3>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>

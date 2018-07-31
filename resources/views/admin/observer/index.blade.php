@@ -3,37 +3,52 @@
 @section('content')
 
   {{-- RESUMEN ESTADISTICAS --}}
-  <h2>Tercer periodo</h2>
-  <div class="ui statistics">
-    {{--<div class="blue statistic">
-      <div class="value">
-        {{$totalobservaciones}}
+  <div class="ui grid">
+    <div class="ten wide column">
+      <h3 class="ui dividing header">Tercer periodo</h3>
+      <div class="ui statistics">
+        <div class="teal statistic">
+          <div class="value">
+            {{$totalobservacionesestudiantes}}
+          </div>
+          <div class="label">Observaciones <br> de estudiantes</div>
+        </div>
+        <a href="{{ route('suspendidos')}}">
+          <div class="red statistic">
+            <div class="value">
+              {{$totalsanciones3p}}
+            </div>
+            <div class="label">Suspensiones</div>
+          </div>
+        </a>
+        <div class="green statistic">
+          <div class="value">
+            {{$totalobservacionesacudientes}}
+          </div>
+          <div class="label">Notas a acudientes</div>
+        </div>
       </div>
-      <div class="label">Total Observaciones</div>
-    </div>--}}
-    <div class="teal statistic">
-      <div class="value">
-        {{$totalobservacionesestudiantes}}
-      </div>
-      <div class="label">Observaciones <br> de estudiantes</div>
+      
     </div>
     
-    <a href="{{ route('suspendidos')}}">
-      <div class="red statistic">
-        <div class="value">
-          {{$totalsanciones}}
-        </div>
-        <div class="label">Suspensiones</div>
+    <div class="six wide column">
+      <h3 class="ui dividing header">Total año</h3>
+      <div class="ui inverted segment">
+        
+          <a href="{{ route('suspendidos')}}">
+            <div class="ui red inverted statistic">
+              <div class="value">
+                {{$totalsanciones}}
+              </div>
+              <div class="label">Suspensiones</div>
+            </div>
+          </a>
+        
       </div>
-    </a>
-    
-    <div class="green statistic">
-      <div class="value">
-        {{$totalobservacionesacudientes}}
-      </div>
-      <div class="label">Notas a acudientes</div>
+      
     </div>
   </div>
+  
   <h2 class="ui dividing header">Observador</h2>
   <div class="ui message info">
     <div class="header"></div>
