@@ -394,18 +394,15 @@ class ObserverController extends Controller
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
 		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		
-		$creator = Auth::id();
+		
 		$observation = Observer::find($id);
 		//$user_id = Observer::find($id);
 		
 		$estudiante = Observer::where('id', $id)->pluck('user_id', 'id')->first();
 		// $user_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
 		$user_id = User::find($estudiante);
-		
-		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
-
 		$courses = Course::orderBy('id', 'ASC')->pluck('name','id');
-		$creator_rol_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		
 		//return view('admin.observer.create',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator'));
 		
 		//$observation = Observer::find($id);
@@ -418,7 +415,7 @@ class ObserverController extends Controller
 		//$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		//$creator = User::find($id);
 
-		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation', 'creator_rol_id'));
+		return view('admin.observer.edit',compact('user_id','user_role_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'observation', 'creator_role_id'));
 	}
 
 	/**
@@ -434,7 +431,7 @@ class ObserverController extends Controller
 		$request->validate([
 			'observation' => 'required',
 			'course_id' => 'required',
-			'creator_id' => 'required',
+			
 			'observer_scene_id' => 'required',
 			'observer_category_id' => 'required',
 			'observer_note_id' => 'required',
@@ -446,7 +443,7 @@ class ObserverController extends Controller
 		$observation->observation = $request->observation;
 		$observation->course_id = $request->course_id;
 		//$observation->rol_id = $request->rol_id;
-		$observation->creator_id = $request->creator_id;
+		
 		//$observation->observer_type_id = $request->observer_type_id;
 		$observation->observer_scene_id = $request->observer_scene_id;
 		$observation->observer_category_id = $request->observer_category_id;

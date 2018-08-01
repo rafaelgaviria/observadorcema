@@ -27,7 +27,7 @@ class ObserverUpdateRequest extends FormRequest
             'user_id' => 'required',
             'course_id' => 'required',
             //'rol_id' => 'required',
-            'creator_id' => 'required',
+            //'creator_id' => 'required',
             //'observer_type_id' => 'required',
             'observer_scene_id' => 'required',
             'observer_category_id' => 'required',
