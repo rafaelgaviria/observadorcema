@@ -44,6 +44,9 @@ class LoginController extends Controller
         if (auth()->user()->role_id == 1 ){
             return '/observer';
         }
+        if (auth()->user()->role_id == 4 ){
+            return '/observer';
+        }
         
         return '/miobservador';
         // if (method_exists($this, 'redirectTo')) {
