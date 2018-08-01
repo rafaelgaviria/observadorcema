@@ -4,3 +4,11 @@
     font-weight: 500;
     font-size: 21px;
 }
+
+.avatar{
+    -webkit-border-radius: 100px;/*Safari, Chrome*/
+    -moz-border-radius: 100px;/*Firefox*/
+    border-radius: 100px;
+    width: 40%;
+    height: auto;
+}
