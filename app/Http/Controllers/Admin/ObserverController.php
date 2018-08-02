@@ -300,7 +300,7 @@ class ObserverController extends Controller
 		$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		$observercategories = Observercategory::orderBy('id', 'ASC')->pluck('name','id');
 		$observernotes = Observernote::orderBy('id', 'ASC')->pluck('name','id');
-		$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
+		$observercodes = Observercode::orderBy('name', 'ASC')->pluck('description','id');
 		//$observercodes = Observercode::select("observercodes.*"
 		//,DB::raw("CONCAT(observercodes.name,' ',observercodes.description) as observercodes"))
         //	->pluck();
@@ -509,7 +509,6 @@ class ObserverController extends Controller
 	}
 	public function micurso()
 	{
-		
 		$ini_3p = date('2018-06-12 00:00:00');
 		$end_3p = date('2018-09-30 23:59:59');
 		
@@ -527,9 +526,11 @@ class ObserverController extends Controller
             ->join('observations', 'users.id', '=', 'observations.user_id')
             ->where('role_id', '=', 5)
             ->where('course', '=', $curso)
+            //->count('observer_category_id', '=', 1)
             ->groupBy('user_id')
             ->orderBy('name', 'ASC')
             ->get();
+        //dd($estudiantes);
     
     	//$temptable = DB::raw("(SELECT user_id, count(*) AS num_observations FROM observations GROUP BY user_id) as observations");
 	
