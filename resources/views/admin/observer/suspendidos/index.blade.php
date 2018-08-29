@@ -22,6 +22,7 @@
         <th>Id</th>
         <th>Foto</th>
         <th>Nombres</th>
+        <th>Curso</th>
         <th>Escenario</th>
         <th>Fecha</th>
         <th>Comentario</th>
@@ -35,6 +36,7 @@
         <td>{{ $observation->id }}</td>
         <td><img src="{{asset('images/avatar/'.$observation->user->document.'.jpg')}}" class="avatar"></td>
         <td>{{ $observation->user->name }}</td>
+        <td>{{ $observation->course->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->created_at }}</td>
         <td>{{ $observation->observation }}</td>
