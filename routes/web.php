@@ -37,8 +37,13 @@ Route::get('/prueba', function(){
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
-Route::get('suspendidos','Admin\ObserverController@suspendidos')->name('suspendidos');
 Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
+
+Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
+Route::get('compromisos','Admin\ObserverController@compromisos')->name('compromisos');
+Route::get('sanciones','Admin\ObserverController@sanciones')->name('sanciones');
+Route::get('matricula_condicional','Admin\ObserverController@matricula_condicional')->name('matricula_condicional');
+Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricula')->name('cancelacion_matricula');
 // Route::put('observer/unactive','Admin\ObserverController@unactive');
 // Route::put('observer/active','Admin\ObserverController@active');
 

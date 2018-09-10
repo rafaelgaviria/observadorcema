@@ -41,7 +41,6 @@ class ObserverController extends Controller
 	 */
 	public function index()
 	{
-		
 		//PERIODOS
 		//1 periodo: febrero 1 a Abril 6
 		//2 periodo: abril 9 a Junio 8
@@ -144,7 +143,6 @@ class ObserverController extends Controller
 			->where('course', '=', 11)
 			->orderBy('name', 'ASC')
 			->get();
-
 			
 		$primerototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",1)->count();
 		$segundototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",2)->count();
@@ -159,18 +157,89 @@ class ObserverController extends Controller
 		$oncetotal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",11)->count();
 		
 		$users = User::all();	
-		$totalobservaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();
 		
-		$totalsanciones3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 5)->count();
-		$totalsanciones = Observer::where('observer_type_id', '=', 5)->count();
+
+		$totalobservaciones = Observer::all()->count();
+		$comentarios = Observer::where('observer_note_id', '=', 1)->count();
+		$notificaciones = Observer::where('observer_note_id', '=', 2)->count();
+		$compromisos = Observer::where('observer_note_id', '=', 3)->count();
+		$sancion = Observer::where('observer_note_id', '=', 4)->count();
+		$matricula_condicional = Observer::where('observer_note_id', '=', 5)->count();
+		$remision_comite_convivencia = Observer::where('observer_note_id', '=', 6)->count();
+		$remision_consejo_academico = Observer::where('observer_note_id', '=', 7)->count();
+		$cancelacion_matricula = Observer::where('observer_note_id', '=', 8)->count();
+		$remision_orientacion = Observer::where('observer_note_id', '=', 9)->count();
+
+		//PRIMER PERIODO
+		$totalobservaciones_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->count();
+		$comentarios_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 1)->count();
+		$notificaciones_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 2)->count();
+		$compromisos_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 3)->count();
+		$sancion_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 4)->count();
+		$matricula_condicional_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 5)->count();
+		$remision_comite_convivencia_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 6)->count();
+		$remision_consejo_academico_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 7)->count();
+		$cancelacion_matricula_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 8)->count();
+		$remision_orientacion_1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 9)->count();
+		//SEGUNDO PERIODO
+		$totalobservaciones_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->count();
+		$comentarios_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 1)->count();
+		$notificaciones_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 2)->count();
+		$compromisos_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 3)->count();
+		$sancion_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 4)->count();
+		$matricula_condicional_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 5)->count();
+		$remision_comite_convivencia_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 6)->count();
+		$remision_consejo_academico_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 7)->count();
+		$cancelacion_matricula_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 8)->count();
+		$remision_orientacion_2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('observer_note_id', '=', 9)->count();
+		//TERCER PERIODO
+		$totalobservaciones_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();
+		$comentarios_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 1)->count();
+		$notificaciones_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 2)->count();
+		$compromisos_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 3)->count();
+		$sancion_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 4)->count();
+		$matricula_condicional_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 5)->count();
+		$remision_comite_convivencia_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 6)->count();
+		$remision_consejo_academico_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 7)->count();
+		$cancelacion_matricula_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 8)->count();
+		$remision_orientacion_3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 9)->count();
+		//CUARTO PERIODO
+		$totalobservaciones_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->count();
+		$comentarios_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 1)->count();
+		$notificaciones_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 2)->count();
+		$compromisos_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 3)->count();
+		$sancion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 4)->count();
+		$matricula_condicional_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 5)->count();
+		$remision_comite_convivencia_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 6)->count();
+		$remision_consejo_academico_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 7)->count();
+		$cancelacion_matricula_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
+		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
+
+		// SANCIONES
+		$totalsanciones3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 4)->count();
+		//$totalmatriculacondicional = Observer::where('observer_type_id', '=', 5)->count();
 		
 		$totalobservacionesacudientes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 4)->count();
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
-		
 		$observations = Observer::orderBy('id','DES')->paginate(15);
+		//dd($totalmatriculacondicional);
+		//$matriculacondicional = Observer::whereBetween('created_at')->count();
+
+		return view('admin.observer.index', compact(
+		//ACUMULADO AÑO TIPO DE NOTA
+		'comentarios','notificaciones','compromisos','sancion','matricula_condicional','remision_comite_convivencia','remision_consejo_academico','cancelacion_matricula','remision_orientacion',
+		//PRIMER PERIODO TIPO DE NOTA
+		'totalobservaciones_1p','comentarios_1p','notificaciones_1p','compromisos_1p','sancion_1p','matricula_condicional_1p','remision_comite_convivencia_1p','remision_consejo_academico_1p','cancelacion_matricula_1p','remision_orientacion_1p',
+		//SEGUNDO PERIODO TIPO DE NOTA
+		'totalobservaciones_2p','comentarios_2p','notificaciones_2p','compromisos_2p','sancion_2p','matricula_condicional_2p','remision_comite_convivencia_2p','remision_consejo_academico_2p','cancelacion_matricula_2p','remision_orientacion_2p',
+		//TERCER PERIODO TIPO DE NOTA
+		'totalobservaciones_3p','comentarios_3p','notificaciones_3p','compromisos_3p','sancion_3p','matricula_condicional_3p','remision_comite_convivencia_3p','remision_consejo_academico_3p','cancelacion_matricula_3p','remision_orientacion_3p',
+		//TERCER PERIODO TIPO DE NOTA
+		'totalobservaciones_4p','comentarios_4p','notificaciones_4p','compromisos_4p','sancion_4p','matricula_condicional_4p','remision_comite_convivencia_4p','remision_consejo_academico_4p','cancelacion_matricula_4p','remision_orientacion_4p',
 		
-		return view('admin.observer.index', compact('users','observations', 'totalobservaciones', 'totalsanciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
+			
+		'users','observations', 'totalobservaciones', 'totalsanciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		//CONTEO DE OBSERVACIONES POR CURSO
 		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',	
 		//LISTA DE ESTUDIANTES POR CURSO
@@ -501,11 +570,55 @@ class ObserverController extends Controller
 		
 	}
 	
-	public function suspendidos()
+	public function notificaciones()
 	{
-		$observations = Observer::where('observer_type_id', '=', 5)->paginate(20);
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 2)->paginate(20);
+		$total_notificaciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 2)->count();
 
-		return view('admin.observer.suspendidos.index', compact('observations'));
+		return view('admin.observer.notificaciones', compact('observations', 'total_notificaciones'));
+	}
+	public function compromisos()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 3)->paginate(20);
+		$total_compromisos = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 3)->count();
+
+		return view('admin.observer.compromisos', compact('observations', 'total_compromisos'));
+	}
+	public function sanciones()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 4)->paginate(20);
+		$total_sanciones = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 4)->count();
+
+		return view('admin.observer.sanciones', compact('observations', 'total_sanciones'));
+	}
+	public function matricula_condicional()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 5)->paginate(20);
+		$totalobservations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 5)->count();
+
+		return view('admin.observer.matricula_condicional', compact('observations', 'totalobservations'));
+	}
+	public function cancelacion_matricula()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 8)->paginate(20);
+		$totalobservations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 8)->count();
+
+		return view('admin.observer.cancelacion_matricula', compact('observations', 'totalobservations'));
 	}
 	public function micurso()
 	{
