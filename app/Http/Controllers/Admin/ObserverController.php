@@ -570,6 +570,16 @@ class ObserverController extends Controller
 		
 	}
 	
+	public function comentarios()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 1)->paginate(20);
+		$total_comentarios = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 1)->count();
+
+		return view('admin.observer.comentarios', compact('observations', 'total_comentarios'));
+	}
 	public function notificaciones()
 	{
 		// Tercer periodo
@@ -600,6 +610,26 @@ class ObserverController extends Controller
 
 		return view('admin.observer.sanciones', compact('observations', 'total_sanciones'));
 	}
+	public function comite_convivencia()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 6)->paginate(20);
+		$total_comite_convivencia = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 6)->count();
+
+		return view('admin.observer.comite_convivencia', compact('observations', 'total_comite_convivencia'));
+	}
+	public function consejo_academico()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 7)->paginate(20);
+		$total_consejo_academico = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 7)->count();
+
+		return view('admin.observer.consejo_academico', compact('observations', 'total_consejo_academico'));
+	}
 	public function matricula_condicional()
 	{
 		// Tercer periodo
@@ -619,6 +649,16 @@ class ObserverController extends Controller
 		$totalobservations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 8)->count();
 
 		return view('admin.observer.cancelacion_matricula', compact('observations', 'totalobservations'));
+	}
+	public function remision_orientacion()
+	{
+		// Tercer periodo
+		$ini_3p = date('2018-06-12 00:00:00');
+		$end_3p = date('2018-09-30 23:59:59');
+		$observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 9)->paginate(20);
+		$total_remision_orientacion = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 9)->count();
+
+		return view('admin.observer.remision_orientacion', compact('observations', 'total_remision_orientacion'));
 	}
 	public function micurso()
 	{

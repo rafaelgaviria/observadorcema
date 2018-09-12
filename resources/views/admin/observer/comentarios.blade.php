@@ -4,13 +4,12 @@
 <div class="ui container">
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 
-<h1 class="ui dividing header">Matricula Condicional - Tercer periodo</h1>
+<h1 class="ui dividing header">Comentarios - Tercer periodo</h1>
 
-  {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui statistics">
     <div class="blue statistic">
       <div class="value">
-        {{$totalobservations}}
+        {{$total_comentarios}}
       </div>
       
     </div>

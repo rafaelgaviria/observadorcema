@@ -4,13 +4,13 @@
 <div class="ui container">
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 
-<h1 class="ui dividing header">Matricula Condicional - Tercer periodo</h1>
+<h1 class="ui dividing header">Remisión a comité de convivencia - Tercer periodo</h1>
 
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui statistics">
     <div class="blue statistic">
       <div class="value">
-        {{$totalobservations}}
+        {{$total_comite_convivencia}}
       </div>
       
     </div>
@@ -47,11 +47,11 @@
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
+          
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
-              
-          {{--
+          {{--    
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button">

@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
+<br><br>
 
 <div class="ui grid">
   <div class="twelve wide column">

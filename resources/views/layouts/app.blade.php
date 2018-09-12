@@ -62,7 +62,7 @@
                             {{--  <li><a href="{{ route('register') }}">Register</a></li>  --}}
                         @else
                         
-                                <li><a href="{{ route('observer.index') }}">Colegio</a></li>
+                                <li><a href="{{ route('observer.index') }}"><i class="home icon"></i> Inicio</a></li>
                                 <li><a href="{{ route('micurso') }}">Mi Curso</a></li>
 
                             <li class="dropdown">

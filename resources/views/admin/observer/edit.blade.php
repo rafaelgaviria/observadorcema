@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
+  <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
     <h1>Editar Observación de: {{ $observation->user->name }}</h1>
     <p><strong>ID Observación: </strong> {{ $observation->id }}</p>
     {!! Form::model($observation, ['route' => ['observer.update', $observation->id],

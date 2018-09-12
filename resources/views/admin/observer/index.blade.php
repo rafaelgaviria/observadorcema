@@ -26,7 +26,10 @@
             <td >Comentarios</td>
             <td class="disabled">{{$comentarios_1p}}</td>
             <td class="disabled">{{$comentarios_2p}}</td>
-            <td>{{$comentarios_3p}}</td>
+            <td>{{$comentarios_3p}}
+              <a href="{{ route('comentarios')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a>
+            </td>
             <td></td>
             <td>{{$comentarios}}</td>
           </tr>
@@ -77,7 +80,10 @@
             <td>Remisión a comité de convivencia</td>
             <td class="disabled">{{$remision_comite_convivencia_1p}}</td>
             <td class="disabled">{{$remision_comite_convivencia_2p}}</td>
-            <td>{{$remision_comite_convivencia_3p}}</td>
+            <td>{{$remision_comite_convivencia_3p}}
+              <a href="{{ route('comite_convivencia')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a>
+            </td>
             <td></td>
             <td>{{$remision_comite_convivencia}}</td>
           </tr>
@@ -85,7 +91,10 @@
             <td>Remisión al consejo académico</td>
             <td class="disabled">{{$remision_consejo_academico_1p}}</td>
             <td class="disabled">{{$remision_consejo_academico_2p}}</td>
-            <td>{{$remision_consejo_academico_3p}}</td>
+            <td>{{$remision_consejo_academico_3p}}
+            <a href="{{ route('consejo_academico')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a>            
+            </td>
             <td></td>
             <td>{{$remision_consejo_academico}}</td>
           </tr>
@@ -104,7 +113,10 @@
             <td>Remisión a orientación</td>
             <td class="disabled">{{$remision_orientacion_1p}}</td>
             <td class="disabled">{{$remision_orientacion_2p}}</td>
-            <td>{{$remision_orientacion_3p}}</td>
+            <td>{{$remision_orientacion_3p}}
+              <a href="{{ route('remision_orientacion')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a>
+            </td>
             <td></td>
             <td>{{$remision_orientacion}}</td>
           </tr>

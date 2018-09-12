@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="ui container">
-<a href=""><i class="angle left icon fz2em"></i> Regresar</a>
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 
 <h1 class="ui dividing header">Sanciones - Tercer periodo</h1>
 
@@ -47,11 +47,11 @@
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
-          {{--
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
               
+          {{--
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button">
