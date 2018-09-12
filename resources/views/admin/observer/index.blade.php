@@ -5,7 +5,7 @@
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui grid">
     <div class="wide column">
-      <h2 class="ui header">Resumen ok</h2>
+      <h1 class="ui header">Resumen observador CEMA</h1>
       <!-- <table class="ui six celled striped small compact table"> -->
       <table class="ui small celled structured compact table">
         <thead>
