@@ -61,90 +61,37 @@ class ObserverController extends Controller
 		$end_4p = date('2018-11-30 23:59:59');
 		
 		// LISTADO DE CURSOS
-		$primeroestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 1)
-			->orderBy('name', 'ASC')
-			->get();
-		//$primeroestudiantes = DB::table('users')
-            //->join('observations', 'users.id', '=', 'observations.user_id')
-            //->where('role_id', '=', 5)
-            //->where('course', '=', 1)
-            //->orderBy('name', 'ASC')
-			//->select('users.name', 'users.document', 'users.id', 'observations.observer_category_id'
-			//DB::raw('COUNT(observer_category_id) as count')
-			//)
-			//->whereBetween('observations.created_at', [$ini_3p, $end_3p])
-			//->groupBy('observer_category_id')
-			//->groupBy('users.id')
-			//->orderBy('count')
-            //->get();
-        
-            //$collection = Collection::make($primeroestudiantes);
-            //$collection->toJson();
-            //var_dump($primeroestudiantes);
-			//dd($primeroestudiantes);
-		
-		//$primeroestudiantes = DB::table('observations')
-			// ->where('role_id', '=', 5)
-			// ->where('course', '=', 1)
-			// ->select('observations.observer_category_id',DB::raw('COUNT(observer_category_id) as count'))
-			// ->groupBy('number')
-			// ->orderBy('count')
-			// ->get();
-		
-		$segundoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 2)
-			->orderBy('name', 'ASC')
-			->get();
-		$terceroestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 3)
-			->orderBy('name', 'ASC')
-			->get();
-		$cuartoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 4)
-			->orderBy('name', 'ASC')
-			->get();
-		$quintoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 5)
-			->orderBy('name', 'ASC')
-			->get();
-		$sextoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 6)
-			->orderBy('name', 'ASC')
-			->get();
-		$septimoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 7)
-			->orderBy('name', 'ASC')
-			->get();
-		$octavoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 8)
-			->orderBy('name', 'ASC')
-			->get();
-		$novenoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 9)
-			->orderBy('name', 'ASC')
-			->get();
-		$decimoestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 10)
-			->orderBy('name', 'ASC')
-			->get();
-		$onceestudiantes = DB::table('users')
-			->where('role_id', '=', 5)
-			->where('course', '=', 11)
-			->orderBy('name', 'ASC')
-			->get();
+		for($i=1;$i<=11;$i++){
+			$estudiantes[$i] = DB::table('users')
+				->where('role_id', '=', 5)->where('course', '=', $i)->orderBy('name', 'ASC')->get();
+			$total[$i] = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",$i)->count();
 			
-		$primerototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",1)->count();
+			foreach($estudiantes[$i] as $estudiante){
+				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',1)->count();
+				$puntualidad[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',2)->count();
+				$presentacion_personal[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',3)->count();
+				$cumplimiento_tareas[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',4)->count();
+				$circulares[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',5)->count();
+				$tipo_3[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',6)->count();
+				$tipo_2[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',7)->count();
+				$tipo_1[$i][] = DB::table('observations')->where('user_id',$estudiante->id)
+						->where('observer_category_id',8)->count();
+				//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";
+			}
+			//print_r($observacion);
+		}
+
+		return view('admin.observer.index',compact('estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1'));
+
+		
+		/*
 		$segundototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",2)->count();
 		$tercerototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",3)->count();
 		$cuartototal = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where("course_id","=",4)->count();
@@ -222,11 +169,12 @@ class ObserverController extends Controller
 		$totalobservacionesacudientes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 4)->count();
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
-		$observations = Observer::orderBy('id','DES')->paginate(15);
-		//dd($totalmatriculacondicional);
+		$observations = Observer::orderBy('id','DES')->paginate(5);
+		$count_observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->orderBy('course_id','ASC')->paginate(50);
+		//dd($count_observations);
 		//$matriculacondicional = Observer::whereBetween('created_at')->count();
 
-		return view('admin.observer.index', compact(
+		return view('admin.observer.index', compact('count_observations',
 		//ACUMULADO AÑO TIPO DE NOTA
 		'comentarios','notificaciones','compromisos','sancion','matricula_condicional','remision_comite_convivencia','remision_consejo_academico','cancelacion_matricula','remision_orientacion',
 		//PRIMER PERIODO TIPO DE NOTA
@@ -244,6 +192,7 @@ class ObserverController extends Controller
 		'primerototal','segundototal','tercerototal','cuartototal','quintototal','sextototal','septimototal','octavototal','novenototal','decimototal','oncetotal',	
 		//LISTA DE ESTUDIANTES POR CURSO
 		'primeroestudiantes','segundoestudiantes','terceroestudiantes','cuartoestudiantes','quintoestudiantes','sextoestudiantes','septimoestudiantes','octavoestudiantes','novenoestudiantes','decimoestudiantes','onceestudiantes'));
+	*/
 	}
 	//$category1 = Observer::where("observer_category_id","=",1)->count();
 	
