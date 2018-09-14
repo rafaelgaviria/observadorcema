@@ -42,7 +42,7 @@
       @foreach($observations3p as $observations3p)
       <tr>
         <td>{{ $observations3p->id }}</td>
-        <td>{{ $observations3p->observertype->name }}</td>
+        <td>{{ $observations3p->observercategory->name }}</td>
         <td>{{ $observations3p->observerscene->name }}</td>
         <td>{{ $observations3p->observernote->name }}</td>
         <td>{{ $observations3p->created_at }}</td>
@@ -98,7 +98,7 @@
       @foreach($observations2p as $observations2p)
       <tr>
         <td>{{ $observations2p->id }}</td>
-        <td>{{ $observations2p->observertype->name }}</td>
+        <td>{{ $observations2p->observercategory->name }}</td>
         <td>{{ $observations2p->observerscene->name }}</td>
         <td>{{ $observations2p->observernote->name }}</td>
         <td>{{ $observations2p->created_at }}</td>
@@ -154,7 +154,7 @@
       @foreach($observations1p as $observations1p)
       <tr>
         <td>{{ $observations1p->id }}</td>
-        <td>{{ $observations1p->observertype->name }}</td>
+        <td>{{ $observations1p->observercategory->name }}</td>
         <td>{{ $observations1p->observerscene->name }}</td>
         <td>{{ $observations1p->observernote->name }}</td>
         <td>{{ $observations1p->created_at }}</td>
@@ -213,7 +213,7 @@
       <tr>
         <td>{{ $observation->id }}</td>
         <td>{{ $observation->user->name }}</td>
-        <td>{{ $observation->observertype->name }}</td>
+        <td>{{ $observation->observercategory->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>

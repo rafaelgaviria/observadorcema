@@ -34,6 +34,9 @@ class Observer extends Model
     public function observertype(){
         return $this->hasOne('App\Observertype','id','observer_type_id');
     }
+    public function observercategory(){
+        return $this->hasOne('App\Observercategory','id','observer_category_id');
+    }
     
     public function course(){
         return $this->hasOne('App\Course','id','course_id');

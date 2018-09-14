@@ -1,10 +1,14 @@
-.segment span{
+.segment .totalcurso{
     color: #00b5ad;
     float: right;
     font-weight: 500;
     font-size: 21px;
 }
 
+.link{
+    float: right;
+    font-size: 14px;
+}
 .avatar{
     -webkit-border-radius: 100px;/*Safari, Chrome*/
     -moz-border-radius: 100px;/*Firefox*/

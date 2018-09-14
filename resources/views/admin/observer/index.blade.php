@@ -4,7 +4,7 @@
 
   {{-- RESUMEN ESTADISTICAS --}}
   <div class="ui grid">
-  {{-- 
+  
     <div class="wide column">
       <h1 class="ui header">Resumen observador Colegio CEMA</h1>
       <!-- <table class="ui six celled striped small compact table"> -->
@@ -134,7 +134,7 @@
         </tfoot>
       </table>
     </div>
-    --}}
+    
   </div>
   
   <h2 class="ui header">Cursos</h2>
@@ -147,6 +147,7 @@
   
   
   {{--  PRIMERO  --}}
+  <div class="ui styled fluid accordion segment">
   @for($i=1;$i<=11;$i++)
   <?php
     if($i==1) $curso="Primero";
@@ -161,8 +162,7 @@
     if($i==10) $curso="Décimo";
     if($i==11) $curso="Once";
   ?>
-  <div class="ui styled fluid accordion segment">
-    <div class="title ui orange segment"><i class="dropdown icon"></i>Curso {{$curso}}<span>{{$total[$i]}}</span></div>
+    <div class="title ui orange segment"><i class="dropdown icon"></i>Curso {{$curso}}<span class="totalcurso">{{$total[$i]}}</span></div>
     <div class="content">
       <table class="ui celled striped small compact table">
         <thead>
@@ -177,37 +177,38 @@
             <th><h4>T3</h4></th>
             <th><h4>T2</h4></th>
             <th><h4>T1</h4></th>
+            <th><h4>Acudiente</h4></th>
             <th><h4>Crear</h4></th>
           </tr>
         </thead>
-        <?php $k=0; ?>
+        <?php 
+          $k=0;
+          $nada="-" ?>
         @foreach($estudiantes[$i] as $estudiante)
         <tr>
           <td>
             <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar">
           </td>
-          <td>                                                                                                                             
-            <a href="{{ route('observerstudent',$estudiante->id)}}" class="" >
-              {{ $estudiante->name }}</a>    
+          <td><h4 style="display:inline-block"><a href="{{ route('observerstudent',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
+            <span class="link"><a href="{{ route('observerstudent',$estudiante->id)}}" ><i class="angle double right icon teal"></i></a></span>
           </td>
-          <td>{{$asistencia[$i][$k]}}</td>
-          <td>{{$puntualidad[$i][$k]}}</td>
-          <td>{{$presentacion_personal[$i][$k]}}</td>
-          <td>{{$cumplimiento_tareas[$i][$k]}}</td>
-          <td>{{$circulares[$i][$k]}}</td>
-          <td>{{$tipo_3[$i][$k]}}</td>
-          <td>{{$tipo_2[$i][$k]}}</td>
-          <td>{{$tipo_1[$i][$k]}}</td>
-          <td><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a>
-          </td>
-          
+          <td>@if ($asistencia[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$asistencia[$i][$k]}} </h3> @endif</td>
+          <td>@if ($puntualidad[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$puntualidad[$i][$k]}} </h3> @endif</td>
+          <td>@if ($presentacion_personal[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$presentacion_personal[$i][$k]}} </h3> @endif</td>
+          <td>@if ($cumplimiento_tareas[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$cumplimiento_tareas[$i][$k]}} </h3> @endif</td>
+          <td>@if ($circulares[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$circulares[$i][$k]}} </h3> @endif</td>
+          <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
+          <td>@if ($tipo_2[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_2[$i][$k]}} </h3> @endif</td>
+          <td>@if ($tipo_1[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_1[$i][$k]}} </h3> @endif</td>
+          <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
+          <td><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         <?php $k++; ?>
         @endforeach
       </table>
     </div>
+    @endfor
   </div>
-  @endfor
 
   {{-- CIERRE CONTENEDOR ACORDEON    --}}
 {{-- 
