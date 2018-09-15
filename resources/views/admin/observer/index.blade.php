@@ -200,7 +200,7 @@
           <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
           <td>@if ($tipo_2[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_2[$i][$k]}} </h3> @endif</td>
           <td>@if ($tipo_1[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_1[$i][$k]}} </h3> @endif</td>
-          <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
+          <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
           <td><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
         </tr>
         <?php $k++; ?>
@@ -211,13 +211,12 @@
   </div>
 
   {{-- CIERRE CONTENEDOR ACORDEON    --}}
-{{-- 
+
 <h2 class="ui dividing header">Últimas observaciones</h2>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
         <th>Id</th>
-        <th>Foto</th>
         <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
@@ -233,9 +232,8 @@
       @foreach($observations as $observation)
       <tr>
         <td>{{ $observation->id }}</td>
-        <td><img src="{{asset('images/avatar/'.$user->document.'.jpg')}}" class="avatar"></td>
         <td>{{ $observation->user->name }}</td>
-        <td>{{ $observation->observertype->name }}</td>
+        <td>{{ $observation->observercategory->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
@@ -274,8 +272,7 @@
     </tr>
   </tfoot>
   </table>
---}}
-  <br>
+
   <br>
   <br>
   <br>

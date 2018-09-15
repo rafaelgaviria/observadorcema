@@ -91,10 +91,6 @@ class ObserverController extends Controller
 			//print_r($observacion);
 		}
 
-		//return view('admin.observer.index',compact('estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1'));
-	
-		//	$users = User::all();	
-	
 		$totalobservaciones = Observer::all()->count();
 		$comentarios = Observer::where('observer_note_id', '=', 1)->count();
 		$notificaciones = Observer::where('observer_note_id', '=', 2)->count();
@@ -151,9 +147,11 @@ class ObserverController extends Controller
 		$cancelacion_matricula_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
 		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
 		
+		$observations = Observer::orderBy('id','DES')->paginate(20);
+
 		return view('admin.observer.index', compact(
-		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',
-		
+		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',		
+		'observations', 'totalobservaciones', 'totalsanciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		'count_observations',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
@@ -165,10 +163,10 @@ class ObserverController extends Controller
 		//TERCER PERIODO TIPO DE NOTA
 		'totalobservaciones_3p','comentarios_3p','notificaciones_3p','compromisos_3p','sancion_3p','matricula_condicional_3p','remision_comite_convivencia_3p','remision_consejo_academico_3p','cancelacion_matricula_3p','remision_orientacion_3p',
 		//TERCER PERIODO TIPO DE NOTA
-		'totalobservaciones_4p','comentarios_4p','notificaciones_4p','compromisos_4p','sancion_4p','matricula_condicional_4p','remision_comite_convivencia_4p','remision_consejo_academico_4p','cancelacion_matricula_4p','remision_orientacion_4p',
+		'totalobservaciones_4p','comentarios_4p','notificaciones_4p','compromisos_4p','sancion_4p','matricula_condicional_4p','remision_comite_convivencia_4p','remision_consejo_academico_4p','cancelacion_matricula_4p','remision_orientacion_4p'
 		
+	));
 			
-		'users','observations', 'totalobservaciones', 'totalsanciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes'));
 	/*
 		// SANCIONES
 		$totalsanciones3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id', '=', 4)->count();
@@ -177,7 +175,6 @@ class ObserverController extends Controller
 		$totalobservacionesacudientes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_type_id', '=', 4)->count();
 		$totalobservacionesestudiantes = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->count();		
 		
-		$observations = Observer::orderBy('id','DES')->paginate(5);
 		$count_observations = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->orderBy('course_id','ASC')->paginate(50);
 		//dd($count_observations);
 		//$matriculacondicional = Observer::whereBetween('created_at')->count();
