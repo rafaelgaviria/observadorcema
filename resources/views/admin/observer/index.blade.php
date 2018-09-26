@@ -164,7 +164,7 @@
   ?>
     <div class="title ui orange segment"><i class="dropdown icon"></i>Curso {{$curso}}<span class="totalcurso">{{$total[$i]}}</span></div>
     <div class="content">
-      <table class="ui celled striped small compact table">
+      <table class="ui celled striped small compact table rowfix">
         <thead>
           <tr>
             <th><h4>Foto</h4></th>
@@ -250,12 +250,12 @@
           <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
             <i class="edit blue icon"></i>
           </a>
-              
+{{--               
           {!!Form::open(['route' => ['observer.destroy', $observation->id],
           'method' => 'DELETE']) !!}
           <button class="ui tiny icon button">
             <i class="cancel red icon"></i>
-          </button>
+          </button> --}}
           
           {!! Form::close() !!}
           

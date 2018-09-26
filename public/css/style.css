@@ -16,3 +16,36 @@
     width: 40%;
     height: auto;
 }
+
+/* .rowfix table {
+    width: 100%;
+}
+
+.rowfix thead, .rowfix tbody, .rowfix tr, .rowfix td, .rowfix th { display: block; }
+
+.rowfix tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.rowfix thead th {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+
+.rowfix tbody {
+    height: 120px;
+    overflow-y: auto
+}
+
+.rowfix thead {
+    /* fallback */
+} */
+
+.rowfix tbody td, .rowfix thead th {
+    width: 8.3%;
+    float: left;
+}
