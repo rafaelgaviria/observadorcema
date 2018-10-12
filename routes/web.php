@@ -24,7 +24,8 @@ Auth::routes();
 //  return 'Esta es el área del Observador del estudiante';
 //});
 
-Route::view('/miobservador', 'miobservador/index');
+//Route::view('/miobservador', 'miobservador/index');
+Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miobservador');
 //Route::view('/welcome', 'welcome');
 Route::get('/autenticacion', 'Web\PageController@autenticacion');
 

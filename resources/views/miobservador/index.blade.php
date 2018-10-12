@@ -107,67 +107,173 @@
   <h2 class="ui dividing header">Mi Observador</h2>
 
   
-  
-  
+  <div class="ui statistics">
+    <div class="blue statistic">
+      <div class="value">
+        {{$totalobservaciones}}
+      </div>
+      <div class="label">Total Observaciones</div>
+    </div>
+  </div>
 
-<h2 class="ui dividing header">Últimas observaciones</h2>
+<h3 class="ui dividing header">Cuarto periodo</h3>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
         <th>Id</th>
-        <th>Nombres</th>
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
         <th>Fecha</th>
         <th>Comentario</th>
         <th>Autor</th>
-        <th>Acciones</th>
       </tr>
     </thead>
     <tbody>
-   {{--  @foreach($observations as $observation) --}}
+      @foreach($observations4p as $observations4p)
       <tr>
-        <td>{{-- {{ $observation->id }} --}}</td>
-        <td>{{-- {{ $observation->user->name }} --}}</td>
-        <td>{{-- {{ $observation->observertype->name }} --}}</td>
-        <td>{{-- {{ $observation->observerscene->name }} --}}</td>
-        <td>{{-- {{ $observation->observernote->name }} --}}</td>
-        <td>{{-- {{ $observation->created_at }} --}}</td>
-        <td>{{-- {{ $observation->observation }} --}}</td>
-        <td>{{-- {{ $observation->creator->name }} --}}</td>
-        
-
-        <td>
-        {{--  
-          <a href="{{-- {{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-            <i class="eye blue icon"></i>
-          </a>
-          <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
-        
-          {!!Form::open(['route' => ['observer.destroy', $observation->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button">
-            <i class="cancel red icon"></i>
-          </button>
-          {!! Form::close() !!}
-          --}}
-        </td>
+        <td>{{ $observations4p->id }}</td>
+        <td>{{ $observations4p->observercategory->name }}</td>
+        <td>{{ $observations4p->observerscene->name }}</td>
+        <td>{{ $observations4p->observernote->name }}</td>
+        <td>{{ $observations4p->created_at }}</td>
+        <td>{{ $observations4p->observation }}</td>
+        <td>{{ $observations4p->creator->name }}</td>
       </tr>
-      {{--
       @endforeach 
-      --}}
     </tbody>
+    {{--
     <tfoot>
       <tr>
         <th colspan="10">
-          {{--  {{$observations->render()}}  --}}
+            {{$observations->render()}}  
         </th>
     </tr>
   </tfoot>
+  --}}
   </table>
+<h3 class="ui dividing header">Tercer periodo</h3>
+  <table class="ui celled striped small very compact table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Escenario</th>
+        <th>Nota</th>
+        <th>Fecha</th>
+        <th>Comentario</th>
+        <th>Autor</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach($observations3p as $observations3p)
+      <tr>
+        <td>{{ $observations3p->id }}</td>
+        <td>{{ $observations3p->observercategory->name }}</td>
+        <td>{{ $observations3p->observerscene->name }}</td>
+        <td>{{ $observations3p->observernote->name }}</td>
+        <td>{{ $observations3p->created_at }}</td>
+        <td>{{ $observations3p->observation }}</td>
+        <td>{{ $observations3p->creator->name }}</td>
+      </tr>
+      @endforeach 
+    </tbody>
+    {{--
+    <tfoot>
+      <tr>
+        <th colspan="10">
+            {{$observations->render()}}  
+        </th>
+    </tr>
+  </tfoot>
+  --}}
+  </table>
+  
+  <h3 class="ui dividing header">Segundo periodo</h3>
+  <table class="ui celled striped small very compact table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Escenario</th>
+        <th>Nota</th>
+        <th>Fecha</th>
+        <th>Comentario</th>
+        <th>Autor</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach($observations2p as $observations2p)
+      <tr>
+        <td>{{ $observations2p->id }}</td>
+        <td>{{ $observations2p->observercategory->name }}</td>
+        <td>{{ $observations2p->observerscene->name }}</td>
+        <td>{{ $observations2p->observernote->name }}</td>
+        <td>{{ $observations2p->created_at }}</td>
+        <td>{{ $observations2p->observation }}</td>
+        <td>{{ $observations2p->creator->name }}</td>
+      </tr>
+      @endforeach 
+    </tbody>
+    {{--
+    <tfoot>
+      <tr>
+        <th colspan="10">
+            {{$observations->render()}}  
+        </th>
+    </tr>
+  </tfoot>
+  --}}
+  </table>
+  
+  <h3 class="ui dividing header">Primer periodo</h3>
+  <table class="ui celled striped small very compact table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Escenario</th>
+        <th>Nota</th>
+        <th>Fecha</th>
+        <th>Comentario</th>
+        <th>Autor</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach($observations1p as $observations1p)
+      <tr>
+        <td>{{ $observations1p->id }}</td>
+        <td>{{ $observations1p->observercategory->name }}</td>
+        <td>{{ $observations1p->observerscene->name }}</td>
+        <td>{{ $observations1p->observernote->name }}</td>
+        <td>{{ $observations1p->created_at }}</td>
+        <td>{{ $observations1p->observation }}</td>
+        <td>{{ $observations1p->creator->name }}</td>
+      </tr>
+      @endforeach 
+    </tbody>
+    {{--
+    <tfoot>
+      <tr>
+        <th colspan="10">
+            {{$observations->render()}}  
+        </th>
+    </tr>
+  </tfoot>
+  --}}
+  </table>
+
+<br>
+<br>
+<br>
+
+
+
+
+  
+  
+
+
 </div>
     <div class="ui black inverted vertical footer segment"></div>
     <!-- Scripts -->
