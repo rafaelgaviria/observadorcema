@@ -24,6 +24,61 @@
     </div>
   </div>
 
+<h3 class="ui dividing header">Cuarto periodo</h3>
+  <table class="ui celled striped small very compact table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Tipo</th>
+        <th>Escenario</th>
+        <th>Nota</th>
+        <th>Fecha</th>
+        <th>Comentario</th>
+        <th>Autor</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach($observations4p as $observations4p)
+      <tr>
+        <td>{{ $observations4p->id }}</td>
+        <td>{{ $observations4p->observercategory->name }}</td>
+        <td>{{ $observations4p->observerscene->name }}</td>
+        <td>{{ $observations4p->observernote->name }}</td>
+        <td>{{ $observations4p->created_at }}</td>
+        <td>{{ $observations4p->observation }}</td>
+        <td>{{ $observations4p->creator->name }}</td>
+        <td>
+          <?php $role = Auth::user()->role_id; ?>
+          @if($role == 1)
+            <a href="{{ route('observer.show', $observations4p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+              <i class="eye blue icon"></i>
+            </a>
+            <a href="{{ route('observer.edit', $observations4p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+          @endif 
+          
+          {{--
+          {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
+          'method' => 'DELETE']) !!}
+          <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
+          {!! Form::close() !!}
+          --}}
+        </td>
+      </tr>
+      @endforeach 
+    </tbody>
+    {{--
+    <tfoot>
+      <tr>
+        <th colspan="10">
+            {{$observations->render()}}  
+        </th>
+    </tr>
+  </tfoot>
+  --}}
+  </table>
 <h3 class="ui dividing header">Tercer periodo</h3>
   <table class="ui celled striped small very compact table">
     <thead>

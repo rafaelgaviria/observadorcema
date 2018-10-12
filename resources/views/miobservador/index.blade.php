@@ -102,10 +102,9 @@
       <div class="value">
        {{-- {{$totalobservaciones}} --}}
       </div>
-      <div class="label">Observaciones</div>
     </div>
   </div>
-  <h2 class="ui dividing header">Observador</h2>
+  <h2 class="ui dividing header">Mi Observador</h2>
 
   
   
