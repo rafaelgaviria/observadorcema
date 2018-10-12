@@ -142,7 +142,7 @@
     <div class="header"></div>
     <p><strong>Selección de estudiante:</strong>  Al desplegar cada una de las pestañas de curso encontrará el listado de estudiantes.</p>      
   </div>
-  <!--
+  
   <div class="ui styled fluid accordion segment">
   @for($i=1;$i<=11;$i++)
   <?php
@@ -205,7 +205,7 @@
     </div>
     @endfor
   </div>
--->
+
   {{-- CIERRE CONTENEDOR ACORDEON    --}}
 
 <h2 class="ui dividing header">Últimas observaciones</h2>
