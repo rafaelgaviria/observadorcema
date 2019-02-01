@@ -151,7 +151,7 @@ class ObserverController extends Controller
 
 		return view('admin.observer.index', compact(
 		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',		
-		'observations', 'totalobservaciones', 'totalsanciones3p', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
+		'observations', 'totalobservaciones', 'totalobservacionesacudientes', 'totalobservacionesestudiantes',
 		'count_observations',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
