@@ -610,7 +610,7 @@ class ObserverController extends Controller
 		$observations = Observer::where('course_id', '=', $curso)->orderBy('id','DES')->paginate(10);
 		//dd($observations);
 
-		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalsanciones', 'totalobservacionesacudientes','observations'));
+		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalobservacionesacudientes','observations'));
 		
 	}
 }
