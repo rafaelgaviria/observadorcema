@@ -151,7 +151,7 @@ class ObserverController extends Controller
 
 		return view('admin.observer.index', compact(
 		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',		
-		'observations', 'totalobservaciones', 'totalobservacionesestudiantes',
+		'observations', 'totalobservaciones',
 		'count_observations',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
@@ -610,7 +610,7 @@ class ObserverController extends Controller
 		$observations = Observer::where('course_id', '=', $curso)->orderBy('id','DES')->paginate(10);
 		//dd($observations);
 
-		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'totalobservacionesacudientes','observations'));
+		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'observations'));
 		
 	}
 }
