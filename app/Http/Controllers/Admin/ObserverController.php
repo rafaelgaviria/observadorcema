@@ -351,7 +351,7 @@ class ObserverController extends Controller
 		//$observercodes = Observercode::orderBy('id', 'ASC')->pluck('description','id');
 		//$creator = User::find($id);
 
-		return view('admin.observer.edit',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'observation', 'creator_role_id'));
+		return view('admin.observer.edit',compact('user_id','observercategories', 'observerscenes','observercodes','observernotes', 'observation'));
 	}
 
 	/**
