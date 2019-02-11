@@ -437,7 +437,7 @@ class ObserverController extends Controller
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		//dd($estudiante);
 		//dd($totalobservaciones);
-		return view('admin.observerstudent.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p', 'users', 'totalobservaciones'));
+		return view('admin.observerstudent.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p', 'totalobservaciones'));
 		
 	}
 	
