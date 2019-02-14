@@ -52,7 +52,8 @@
           {!! Form::textarea('observation', null,  [
             'size' => '30x8',
             'class'=>'form-control',
-            'placeholder'=>'Breve descripción de los hechos', 
+            'placeholder'=>'Breve descripción de los hechos',
+            'name'=>'body',
             ])
           !!}
         </div>   
@@ -97,9 +98,13 @@
 
 
 @section('scripts')
+  <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
   <script>
     $('select.dropdown')
     .dropdown();
+    //CKEDITOR.config.height = 400;
+    CKEDITOR.config.width = 'auto';
+  
+    CKEDITOR.replace('body');
   </script>
 @endsection
-

@@ -29,7 +29,6 @@ class User extends Authenticatable
         'file'
     ];
     
-    
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -53,7 +52,9 @@ class User extends Authenticatable
         return $this->fresh()->fullname; // make sure you call fresh instance or you'll get an error that fullname is not found or something like that...
     }
     
-    
+    public function course(){
+        return $this->belongsTo(Course::class);
+    }    
     
     public function emergencias()
        {

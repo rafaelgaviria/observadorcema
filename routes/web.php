@@ -39,6 +39,9 @@ Route::get('/prueba', function(){
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
 Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
+//Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
+Route::resource('/usuarios', 'Admin\UsersController');
+
 
 Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
 Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');

@@ -35,32 +35,6 @@ class UsersTableSeeder extends Seeder
             'role_id' => '4',
             'file' => '',
         ]);
-        App\User::create(['id' => '529',
-            'name' => 'Moreno Romero Claudia Patricia',
-            'username' => '52915000',
-            'email' => 'efelannteclaus21@hotmail.com',
-            'password' => bcrypt('52915000'),
-            'document' => '52915000',
-            'documenttype_id' => '4',
-            'phonenumber' => '',
-            'officialcode' => '',
-            'role_id' => '4',
-            'file' => '',
-        ]);
-        App\User::create(['id' => '530',
-            'name' => 'Osuna Echeverry Héctor Fabio',
-            'username' => '6034368',
-            'email' => 'hfabioe2562@gmail.com',
-            'password' => bcrypt('6034368'),
-            'document' => '6034368',
-            'documenttype_id' => '4',
-            'phonenumber' => '',
-            'officialcode' => '',
-            'role_id' => '4',
-            'file' => '',
-        ]);
-
-
 
 
         //DB::statement('SET FOREIGN_KEY_CHECKS=1;');
