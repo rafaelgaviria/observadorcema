@@ -49,7 +49,7 @@ class ObserverController extends Controller
 		
 		// Primer periodo
 		$ini_1p = date('2018-02-01 00:00:00');
-		$end_1p = date('2018-04-06 23:59:59');
+		$end_1p = date('2018-04-01 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2018-04-09 00:00:00');
 		$end_2p = date('2018-06-08 23:59:59');
@@ -468,7 +468,7 @@ class ObserverController extends Controller
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		//dd($estudiante);
 		//dd($totalobservaciones);
-		return view('miobservador.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p', 'users', 'totalobservaciones'));
+		return view('miobservador.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p','totalobservaciones'));
 		
 	}
 	
