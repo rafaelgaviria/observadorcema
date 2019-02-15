@@ -6,7 +6,7 @@
   <div class="ui grid">
   
     <div class="wide column">
-      <h1 class="ui header">Resumen observador Colegio CEMA</h1>
+      <h1 class="ui header">Resumen Observador Colegio CEMA</h1>
       <!-- <table class="ui six celled striped small compact table"> -->
       <table class="ui small celled structured compact table">
         <thead>
@@ -233,7 +233,7 @@
       <tr>
         <td>{{ $observation->id }}</td>
         <td>{{ $observation->user->name }}</td>
-        <td>{{ $observation->observercategory->name }}</td>
+        <td>{{ $observation->observercategory}}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
