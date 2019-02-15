@@ -18,7 +18,7 @@
       <div class="value">
         {{$totalobservaciones}}
       </div>
-      <div class="label">Total Observaciones</div>
+      <div class="label">Total Observaciones ok</div>
     </div>
   </div>
 
