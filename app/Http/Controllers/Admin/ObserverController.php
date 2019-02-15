@@ -48,17 +48,17 @@ class ObserverController extends Controller
 		//4 periodo: Sept 17 a Nov 30
 		
 		// Primer periodo
-		$ini_1p = date('2018-02-01 00:00:00');
-		$end_1p = date('2018-04-01 23:59:59');
+		$ini_1p = date('2019-02-01 00:00:00');
+		$end_1p = date('2019-04-01 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2018-04-09 00:00:00');
-		$end_2p = date('2018-06-08 23:59:59');
+		$ini_2p = date('2019-04-09 00:00:00');
+		$end_2p = date('2019-06-08 23:59:59');
 		// Tercer periodo
-		$ini_3p = date('2018-06-12 00:00:00');
-		$end_3p = date('2018-09-14 23:59:59');
+		$ini_3p = date('2019-06-12 00:00:00');
+		$end_3p = date('2019-09-14 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2018-09-15 00:00:00');
-		$end_4p = date('2018-11-30 23:59:59');
+		$ini_4p = date('2019-09-15 00:00:00');
+		$end_4p = date('2019-11-30 23:59:59');
 		
 		// LISTADO DE CURSOS
 		for($i=1;$i<=11;$i++){
@@ -445,8 +445,8 @@ class ObserverController extends Controller
 	{
 		$id = Auth::id();
 		// Primer periodo
-		$ini_1p = date('2018-02-01 00:00:00');
-		$end_1p = date('2018-04-06 23:59:59');
+		$ini_1p = date('2019-02-01 00:00:00');
+		$end_1p = date('2019-04-01 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2018-04-07 00:00:00');
 		$end_2p = date('2018-06-08 23:59:59');
@@ -467,7 +467,7 @@ class ObserverController extends Controller
 		$idestudiante = User::find($id);
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		//dd($estudiante);
-		//dd($totalobservaciones);
+		//dd($observations1p);
 		return view('miobservador.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p','totalobservaciones'));
 		
 	}
