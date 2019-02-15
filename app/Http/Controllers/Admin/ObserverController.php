@@ -441,36 +441,7 @@ class ObserverController extends Controller
 		
 	}
 	
-	public function miobservador()
-	{
-		$id = Auth::id();
-		// Primer periodo
-		$ini_1p = date('2018-02-01 00:00:00');
-		$end_1p = date('2018-04-06 23:59:59');
-		// Segundo periodo
-		$ini_2p = date('2018-04-07 00:00:00');
-		$end_2p = date('2018-06-08 23:59:59');
-		// Tercero periodo
-		$ini_3p = date('2018-06-09 00:00:00');
-		$end_3p = date('2018-09-14 23:59:59');
-		// Cuarto periodo
-		$ini_4p = date('2018-09-15 00:00:00');
-		$end_4p = date('2018-11-30 23:59:59');
 
-		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
-		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
-		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
-		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
-		$observations4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
-		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
-		$estudiante = User::where('id', '=', $id)->pluck('name','id')->first();
-		$idestudiante = User::find($id);
-		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
-		//dd($estudiante);
-		//dd($totalobservaciones);
-		return view('miobservador.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p','totalobservaciones'));
-		
-	}
 	
 	public function comentarios()
 	{
