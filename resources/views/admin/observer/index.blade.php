@@ -6,7 +6,7 @@
   <div class="ui grid">
   
     <div class="wide column">
-      <h1 class="ui header">Resumen Observador Colegio CEMA</h1>
+      <h1 class="ui header">Resumen observador Colegio CEMA</h1>
       <!-- <table class="ui six celled striped small compact table"> -->
       <table class="ui small celled structured compact table">
         <thead>
@@ -28,8 +28,8 @@
             <td class="disabled">{{$comentarios_1p}}</td>
             <td class="disabled">{{$comentarios_2p}}</td>
             <td class="disabled">{{$comentarios_3p}}
-              <a href="{{ route('comentarios')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>
+              <!-- <a href="{{ route('comentarios')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$comentarios_4p}}</td>
             <td>{{$comentarios}}</td>
@@ -39,8 +39,8 @@
             <td class="disabled">{{$notificaciones_1p}}</td>
             <td class="disabled">{{$notificaciones_2p}}</td>
             <td class="disabled">{{$notificaciones_3p}}
-              <a href="{{ route('notificaciones')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>
+              <!-- <a href="{{ route('notificaciones')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$notificaciones_4p}}</td>
             <td>{{$notificaciones}}</td>
@@ -50,8 +50,8 @@
             <td class="disabled">{{$compromisos_1p}}</td>
             <td class="disabled">{{$compromisos_2p}}</td>
             <td class="disabled">{{$compromisos_3p}}
-              <a href="{{ route('compromisos')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>
+              <!-- <a href="{{ route('compromisos')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$compromisos_4p}}</td>
             <td>{{$compromisos}}</td>
@@ -60,8 +60,8 @@
             <td>Sanciones</td>
             <td class="disabled">{{$sancion_1p}}</td>
             <td class="disabled">{{$sancion_2p}}</td>
-            <td class="disabled">{{$sancion_3p}} <a href="{{ route('sanciones')}}" class="ui tiny icon" style="display: inline-block !important">
-            <i class="angle double right icon blue fz2em"></i></a>
+            <!-- <td class="disabled">{{$sancion_3p}} <a href="{{ route('sanciones')}}" class="ui tiny icon" style="display: inline-block !important">
+            <i class="angle double right icon blue fz2em"></i></a> -->
           </td>
             <td>{{$sancion_4p}}</td>
             <td>{{$sancion}}</td>
@@ -71,8 +71,8 @@
             <td class="disabled">{{$matricula_condicional_1p}}</td>
             <td class="disabled">{{$matricula_condicional_2p}}</td>
             <td class="disabled">{{$matricula_condicional_3p}}
-            <a href="{{ route('matricula_condicional')}}" class="ui tiny icon" style="display: inline-block !important">
-            <i class="angle double right icon blue fz2em"></i></a>
+            <!-- <a href="{{ route('matricula_condicional')}}" class="ui tiny icon" style="display: inline-block !important">
+            <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$matricula_condicional_4p}}</td>
             <td>{{$matricula_condicional}}</td>
@@ -82,8 +82,8 @@
             <td class="disabled">{{$remision_comite_convivencia_1p}}</td>
             <td class="disabled">{{$remision_comite_convivencia_2p}}</td>
             <td class="disabled">{{$remision_comite_convivencia_3p}}
-              <a href="{{ route('comite_convivencia')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>
+              <!-- <a href="{{ route('comite_convivencia')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$remision_comite_convivencia_4p}}</td>
             <td>{{$remision_comite_convivencia}}</td>
@@ -93,8 +93,8 @@
             <td class="disabled">{{$remision_consejo_academico_1p}}</td>
             <td class="disabled">{{$remision_consejo_academico_2p}}</td>
             <td class="disabled">{{$remision_consejo_academico_3p}}
-            <a href="{{ route('consejo_academico')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>            
+            <!-- <a href="{{ route('consejo_academico')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a>             -->
             </td>
             <td>{{$remision_consejo_academico_4p}}</td>
             <td>{{$remision_consejo_academico}}</td>
@@ -104,8 +104,8 @@
             <td class="disabled">{{$cancelacion_matricula_1p}}</td>
             <td class="disabled">{{$cancelacion_matricula_2p}}</td>
             <td class="disabled">{{$cancelacion_matricula_3p}}
-            <a href="{{ route('cancelacion_matricula')}}" class="ui tiny icon" style="display: inline-block !important">
-            <i class="angle double right icon blue fz2em"></i></a>
+            <!-- <a href="{{ route('cancelacion_matricula')}}" class="ui tiny icon" style="display: inline-block !important">
+            <i class="angle double right icon blue fz2em"></i></a> -->
              </td>
             <td>{{$cancelacion_matricula_4p}}</td>
             <td>{{$cancelacion_matricula}}</td>
@@ -115,8 +115,8 @@
             <td class="disabled">{{$remision_orientacion_1p}}</td>
             <td class="disabled">{{$remision_orientacion_2p}}</td>
             <td class="disabled">{{$remision_orientacion_3p}}
-              <a href="{{ route('remision_orientacion')}}" class="ui tiny icon" style="display: inline-block !important">
-              <i class="angle double right icon blue fz2em"></i></a>
+              <!-- <a href="{{ route('remision_orientacion')}}" class="ui tiny icon" style="display: inline-block !important">
+              <i class="angle double right icon blue fz2em"></i></a> -->
             </td>
             <td>{{$remision_orientacion_4p}}</td>
             <td>{{$remision_orientacion}}</td>
@@ -233,7 +233,7 @@
       <tr>
         <td>{{ $observation->id }}</td>
         <td>{{ $observation->user->name }}</td>
-        <td>{{ $observation->observercategory}}</td>
+        <td>{{ $observation->observercategory->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>
         <td>{{ $observation->created_at }}</td>
