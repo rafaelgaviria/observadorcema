@@ -63,9 +63,9 @@ class ObserverController extends Controller
 		// LISTADO DE CURSOS
 		for($i=1;$i<=11;$i++){
 			$estudiantes[$i] = DB::table('users')
-				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course_id', '=', $i)->orderBy('name', 'ASC')->get();
+				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $i)->orderBy('name', 'ASC')->get();
 			
-				$total[$i] = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where("course_id","=",$i)->count();
+				$total[$i] = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where("course","=",$i)->count();
 			
 			foreach($estudiantes[$i] as $estudiante){
 				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
