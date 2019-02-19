@@ -102,13 +102,14 @@
 
 
 @section('scripts')
-  <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
+
+  {{-- <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script> --}}
   <script>
     $('select.dropdown')
     .dropdown();
     //CKEDITOR.config.height = 400;
-    CKEDITOR.config.width = 'auto';
+    // CKEDITOR.config.width = 'auto';
 
-    CKEDITOR.replace( 'text');
+    // CKEDITOR.replace( 'text');
   </script>
 @endsection
