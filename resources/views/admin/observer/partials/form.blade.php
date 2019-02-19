@@ -50,11 +50,11 @@
         <div class="field">
           {!! Form::label('Observación') !!}
           {!! Form::textarea('observation', null,  [
-            'id'=>'editor',
-            'size' => '30x8',
+            // 'id'=>'editor',
+            // 'size' => '30x8',
             'class'=>'form-control',
             'placeholder'=>'Breve descripción de los hechos',
-            'name'=>'text',
+            // 'name'=>'text',
             
             ])
           !!}
