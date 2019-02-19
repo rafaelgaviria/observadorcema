@@ -18,7 +18,7 @@
       <div class="value">
         {{$totalobservaciones}}
       </div>
-      <div class="label">Total Observaciones</div>
+      <div class="label">Total Observaciones ok</div>
     </div>
   </div>
 
@@ -45,7 +45,7 @@
         <td>{{ $observations4p->observernote->name }}</td>
         <td>{{ $observations4p->created_at }}</td>
         <td>{{ $observations4p->observation }}</td>
-        <td>{{ $observations4p->creator->name }}</td>
+        <td>{{ $observations4p->creator }}</td>
         <td>
           <?php $role = Auth::user()->role_id; ?>
           @if($role == 1)

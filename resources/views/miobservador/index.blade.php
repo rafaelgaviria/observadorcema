@@ -104,7 +104,7 @@
       </div>
     </div>
   </div>
-  <h2 class="ui dividing header">Mi Observador</h2>
+  <h2 class="ui dividing header">Mi Observador ok</h2>
 
   
   <div class="ui statistics">
