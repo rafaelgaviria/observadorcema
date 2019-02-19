@@ -50,10 +50,12 @@
         <div class="field">
           {!! Form::label('Observación') !!}
           {!! Form::textarea('observation', null,  [
+            'id'=>'editor',
             'size' => '30x8',
             'class'=>'form-control',
             'placeholder'=>'Breve descripción de los hechos',
-            'name'=>'body',
+            'name'=>'text',
+            
             ])
           !!}
         </div>   
@@ -94,7 +96,9 @@
 
 <br/><br/><br/>
 
-
+{{-- @php
+    $contenido = addslashes($_POST['text']);
+@endphp --}}
 
 
 @section('scripts')
@@ -104,7 +108,7 @@
     .dropdown();
     //CKEDITOR.config.height = 400;
     CKEDITOR.config.width = 'auto';
-  
-    CKEDITOR.replace('body');
+
+    CKEDITOR.replace( 'text');
   </script>
 @endsection
