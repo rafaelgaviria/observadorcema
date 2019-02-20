@@ -91,6 +91,9 @@ class ObserverController extends Controller
 			//print_r($observacion);
 		}
 
+		//$totalusers = DB::table('users')->where('role_id', '=', 4)->where('state', '=', true)->count();
+		$totalstudents = User::all()->where('role_id', '=', 5)->where('state', '=', true)->count();
+		//dd($totalusers);
 		$totalobservaciones = Observer::all()->count();
 		$comentarios = Observer::where('observer_note_id', '=', 1)->count();
 		$notificaciones = Observer::where('observer_note_id', '=', 2)->count();
@@ -151,7 +154,7 @@ class ObserverController extends Controller
 
 		return view('admin.observer.index', compact(
 		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',		
-		'observations', 'totalobservaciones',
+		'observations', 'totalobservaciones', 'totalstudents',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
 		'comentarios','notificaciones','compromisos','sancion','matricula_condicional','remision_comite_convivencia','remision_consejo_academico','cancelacion_matricula','remision_orientacion',

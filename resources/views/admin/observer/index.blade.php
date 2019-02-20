@@ -276,6 +276,7 @@
   </table>
 
   <br>
+  <h4>Total estudiantes: <b>{{$totalstudents}}</b></h4>
   <br>
   <br>
 
