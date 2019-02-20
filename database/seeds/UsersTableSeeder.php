@@ -17,17 +17,17 @@ class UsersTableSeeder extends Seeder
         // Estudiantes
         //App\User::create(['id' => '502','name' => 'Macías Ulloa Martin David','username' => '1013259810','email' => 'gabrielarobayo@gmail.com','password' => bcrypt('1013259810'),'document' => '1013259810','documenttype_id' => '1','phonenumber' => '','officialcode' => '2018288','course' => '11','role_id' => '5','file' => '',]);  
     
-        App\User::create(['id' => '529',
-        'name' => 'Moreno Romero Claudia Patricia',
-        'username' => '52915900',
-        'email' => 'efelannteclaus21@hotmail.com',
-        'password' => bcrypt('52915900'),
-        'document' => '52915900',
-        'documenttype_id' => '4',
-        'phonenumber' => '',
-        'officialcode' => '',
-        'course' => '5',
-        'role_id' => '4',
+        App\User::create(['id' => '586',
+        'name' => 'Agudelo García Juan Diego',
+        'username' => '1015456083',
+        'email' => 'lizethsithag@hotmail.com',
+        'password' => bcrypt('1015456083'),
+        'document' => '1015456083',
+        'documenttype_id' => '3',
+        'phonenumber' => '4604998',
+        'officialcode' => '2019379',
+        'course' => '1',
+        'role_id' => '5',
         'file' => '',
         ]); 
 
