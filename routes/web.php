@@ -11,14 +11,21 @@
 |
 */
 
+
+
+
 Route::redirect('/', 'autenticacion');
 
-
+Route::get('/', function(){
+  $user = App\User::findOrFail(16);
+});
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Auth::routes();
+
+
 
 //Route::get('/miobservador', function(){
 //  return 'Esta es el área del Observador del estudiante';
@@ -29,10 +36,10 @@ Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miob
 //Route::view('/welcome', 'welcome');
 Route::get('/autenticacion', 'Web\PageController@autenticacion');
 
-Route::get('/prueba', function(){
-    $user = App\User::findOrFail(20);
-    return $user->observaciones->where("observer_code_id", "=", 3);
-});
+// Route::get('/prueba', function(){
+//     $user = App\User::findOrFail(20);
+//     return $user->observaciones->where("observer_code_id", "=", 3);
+// });
 
 //admin
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
@@ -57,6 +64,16 @@ Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricu
 
 //Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
 Route::resource('observer', 'Admin\ObserverController');
+
+////////////// CONSULTAS MUCHOS A MUCHOS //////////////
+// Route::get('observer', function(){
+  // $user = App\User::findOrFail(16);
+  // return $user->materias; 
+ 
+//   $materia = App\Materia::findOrFail(1);
+//   return $materia->users; 
+// });
+
 Route::get('observerstudent/{id}',[
   'as'=>'observerstudent',
   'uses'=>'Admin\ObserverController@observerStudent'

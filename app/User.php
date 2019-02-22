@@ -66,6 +66,11 @@ class User extends Authenticatable
         return $this->hasMany(Observer::class);
         
     }
+
+    public function materias()
+    {
+        return $this->belongsToMany(Materia::class);
+    }
         
     // public function firstname(){
     //     return $this->hasMany('id', 'firstname');
