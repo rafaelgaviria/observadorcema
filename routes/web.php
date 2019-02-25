@@ -71,6 +71,7 @@ Route::resource('observer', 'Admin\ObserverController');
  // OBSERVADOR ACADEMICO
   Route::resource('cursos', 'Admin\MateriasController');
   Route::get('materia_list/{id}','Admin\MateriasController@materia_list')->name('materia_list');
+  Route::get('student_list/{id}','Admin\MateriasController@student_list')->name('student_list');
 
 Route::get('observerstudent/{id}',[
   'as'=>'observerstudent',

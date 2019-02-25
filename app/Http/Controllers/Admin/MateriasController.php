@@ -45,11 +45,16 @@ class MateriasController extends Controller
 
         //dd($course);
         $materias = Materia::where('course_id', $id)->paginate(20);
-        
-        // Observerscene::orderBy('id', 'ASC')->pluck('name','id');
-        // $estudiante = Observer::where('id', $id)->pluck('user_id', 'id')->first();
 
         return view('admin.materias.materia_list',compact('materias', 'course'));
+    }
+    public function student_list($id)
+    {
+        $course = Materia::where('id', $id)->pluck('course_id','id')->first();
+        $students = User::where('course',$course)->paginate(20);
+        $materias = Materia::where('id', $id)->first();
+        //dd($materias);
+        return view('admin.materias.student_list',compact('materias', 'students'));
     }
 
     /**

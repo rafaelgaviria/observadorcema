@@ -14,7 +14,7 @@
       @foreach($materias as $materia)
         <tr>
             <td>
-                <a href="{{ route('materia_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important">
+                <a href="{{ route('student_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important">
                     <h3>{{$materia->name}}</h3>                    
                 </a>
             </td>
