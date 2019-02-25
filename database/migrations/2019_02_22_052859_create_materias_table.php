@@ -16,9 +16,11 @@ class CreateMateriasTable extends Migration
         Schema::create('materias', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 250);
-            $table->string('code', 30)->nullable();
+            $table->string('code', 30);
+            $table->string('area', 200);
+            $table->string('course_id', 30);
+            $table->string('name_course', 200);
             //$table->integer('course_id', 10)->nullable();
-            $table->timestamps();
 
             //$table->foreign('course_id')->references('id')->on('courses');
         });

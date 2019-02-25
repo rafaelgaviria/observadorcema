@@ -11,9 +11,6 @@
 |
 */
 
-
-
-
 Route::redirect('/', 'autenticacion');
 
 Route::get('/', function(){
@@ -24,8 +21,6 @@ Route::get('/', function(){
 // });
 
 Auth::routes();
-
-
 
 //Route::get('/miobservador', function(){
 //  return 'Esta es el área del Observador del estudiante';
@@ -49,7 +44,6 @@ Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
 //Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
 Route::resource('/usuarios', 'Admin\UsersController');
 
-
 Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
 Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
 Route::get('compromisos','Admin\ObserverController@compromisos')->name('compromisos');
@@ -59,20 +53,24 @@ Route::get('comite_convivencia','Admin\ObserverController@comite_convivencia')->
 Route::get('consejo_academico','Admin\ObserverController@consejo_academico')->name('consejo_academico');
 Route::get('remision_orientacion','Admin\ObserverController@remision_orientacion')->name('remision_orientacion');
 Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricula')->name('cancelacion_matricula');
+
 // Route::put('observer/unactive','Admin\ObserverController@unactive');
 // Route::put('observer/active','Admin\ObserverController@active');
 
 //Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
 Route::resource('observer', 'Admin\ObserverController');
 
-////////////// CONSULTAS MUCHOS A MUCHOS //////////////
+////////////// PRUEBAS CONSULTAS MUCHOS A MUCHOS //////////////
 // Route::get('observer', function(){
-  // $user = App\User::findOrFail(16);
+  // $user = App\User::findOrFail(402);
   // return $user->materias; 
- 
-//   $materia = App\Materia::findOrFail(1);
-//   return $materia->users; 
-// });
+  
+  // $materia = App\Materia::findOrFail(144);
+  // return $materia->users; 
+  //  });
+ // OBSERVADOR ACADEMICO
+  Route::resource('cursos', 'Admin\MateriasController');
+  Route::get('materia_list/{id}','Admin\MateriasController@materia_list')->name('materia_list');
 
 Route::get('observerstudent/{id}',[
   'as'=>'observerstudent',

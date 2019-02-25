@@ -18,7 +18,6 @@ class CreateMateriaUserTable extends Migration
             $table->integer('materia_id')->unsigned();
             $table->integer('user_id')->unsigned();
             $table->integer('course_id')->unsigned()->nullable();
-            $table->timestamps();
 
             $table->foreign('materia_id')->references('id')->on('materias');
             $table->foreign('user_id')->references('id')->on('users');
