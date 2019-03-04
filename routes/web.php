@@ -13,7 +13,9 @@
 
 Route::redirect('/', 'autenticacion');
 
-
+// Route::get('/', function(){
+//   $user = App\User::findOrFail(16);
+// });
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -29,10 +31,10 @@ Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miob
 //Route::view('/welcome', 'welcome');
 Route::get('/autenticacion', 'Web\PageController@autenticacion');
 
-Route::get('/prueba', function(){
-    $user = App\User::findOrFail(20);
-    return $user->observaciones->where("observer_code_id", "=", 3);
-});
+// Route::get('/prueba', function(){
+//     $user = App\User::findOrFail(20);
+//     return $user->observaciones->where("observer_code_id", "=", 3);
+// });
 
 //admin
 //Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
@@ -41,7 +43,6 @@ Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->
 Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
 //Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
 Route::resource('/usuarios', 'Admin\UsersController');
-
 
 Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
 Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
@@ -52,11 +53,29 @@ Route::get('comite_convivencia','Admin\ObserverController@comite_convivencia')->
 Route::get('consejo_academico','Admin\ObserverController@consejo_academico')->name('consejo_academico');
 Route::get('remision_orientacion','Admin\ObserverController@remision_orientacion')->name('remision_orientacion');
 Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricula')->name('cancelacion_matricula');
+
 // Route::put('observer/unactive','Admin\ObserverController@unactive');
 // Route::put('observer/active','Admin\ObserverController@active');
 
 //Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
 Route::resource('observer', 'Admin\ObserverController');
+
+////////////// PRUEBAS CONSULTAS MUCHOS A MUCHOS //////////////
+// Route::get('observer', function(){
+  // $user = App\User::findOrFail(402);
+  // return $user->materias; 
+  
+  // $materia = App\Materia::findOrFail(144);
+  // return $materia->users; 
+  //  });
+ // OBSERVADOR ACADEMICO
+  Route::get('cursos', 'Admin\MateriasController@index')->name('cursos');
+  Route::get('materia_list/{id}','Admin\MateriasController@materia_list')->name('materia_list');
+  Route::get('student_list/{id}','Admin\MateriasController@student_list')->name('student_list');
+  
+  Route::resource('materias', 'Admin\MateriasController');
+  // Route::post('materias',array('as'=>'store','uses'=>'MateriasController@store'));
+
 Route::get('observerstudent/{id}',[
   'as'=>'observerstudent',
   'uses'=>'Admin\ObserverController@observerStudent'

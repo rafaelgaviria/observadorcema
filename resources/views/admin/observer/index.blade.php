@@ -209,7 +209,7 @@
         @endforeach
       </table>
     </div>
-    @endfor
+  @endfor
   </div>
 
   {{-- CIERRE CONTENEDOR ACORDEON    --}}

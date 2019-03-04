@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-{{-- <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2> --}}
+<h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
 
 {!! Form::open(['route' => 'materias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
@@ -32,7 +32,7 @@
         <th class="text-center">3<br>Nov. 15</th>
       </tr>
     </thead>
-    {{-- <tbody>
+    <tbody>
       <?php 
         $e=1;
         $cant = count($students);
@@ -65,13 +65,12 @@
         </tr>
         <?php $e++; ?>
         @endforeach
-    </tbody> --}}
   </table>
   {{-- @php    
     dd($rating_id);
   @endphp --}}
-  {!! Form::hidden('student_count',$cant )!!}
-  {!! Form::hidden('course_id',$course_id = 1 )!!}
+  {!! Form::hidden('student_count',$cant)!!}
+  {!! Form::hidden('course',$course)!!}
   {!! Form::hidden('materia_id',$materia_id = 1 )!!}
   {!! Form::hidden('creator_id',$creator_id = 1 )!!}
 
