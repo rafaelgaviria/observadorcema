@@ -186,7 +186,15 @@
         @foreach($estudiantes[$i] as $estudiante)
         <tr>
           <td>
-            <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar">
+              @php
+              $foto = public_path().'/images/avatar/'.$estudiante->document.'.jpg';
+            @endphp
+            @if(file_exists($foto))
+              <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar" style="width: 48px; height:45px">
+            @else
+              <img src="{{asset('images/avatar/user.png')}}" class="avatar" style="width: 48px; height:45px">
+            @endif  
+            {{-- <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar"> --}}
           </td>
           <td><h4 style="display:inline-block"><a href="{{ route('observerstudent',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
             <span class="link"><a href="{{ route('observerstudent',$estudiante->id)}}" ><i class="angle double right icon teal"></i></a></span>
