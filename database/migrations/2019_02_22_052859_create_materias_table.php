@@ -20,6 +20,8 @@ class CreateMateriasTable extends Migration
             $table->string('area', 200);
             $table->string('course_id', 30);
             $table->string('name_course', 200);
+            $table->integer('teacher_id')->unsigned()->nullable();
+            $table->boolean('state')->default(1);
             //$table->integer('course_id', 10)->nullable();
 
             //$table->foreign('course_id')->references('id')->on('courses');

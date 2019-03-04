@@ -5,7 +5,7 @@
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th>Curso</th>
+        <th><h3>Cursos</h3></th>
       </tr>
     </thead>
     <tbody>
@@ -13,10 +13,9 @@
         <tr>
             <td>
                 <a href="{{ route('materia_list', $course->id)}}" class="ui tiny icon" style="display: inline-block !important">
-                    <h3>{{$course->name}} <!--<i class="angle double right icon blue fz2em"></i>--></h3>                    
+                    <h4>{{$course->name}} <!--<i class="angle double right icon blue fz2em"></i>--></h4>                    
                 </a>
             </td>
-
         </tr>
         @endforeach
   </table>
@@ -24,7 +23,6 @@
   <br>
   <br>
   <br>
-
 @endsection
 
 @section('scripts')

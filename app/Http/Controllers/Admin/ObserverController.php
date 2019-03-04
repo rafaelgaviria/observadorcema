@@ -255,7 +255,7 @@ class ObserverController extends Controller
 		//dd($new_id);
 		
 		$creator = Auth::id();
-		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->first();
+		$creator_role_id = User::where('id', $creator)->pluck('role_id', 'id')->get();
 		
 		return view('admin.observer.create',compact('new_id','user_id','observercategories', 'observerscenes','observercodes','observernotes', 'creator', 'creator_role_id'));
 	}
