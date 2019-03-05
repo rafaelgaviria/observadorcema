@@ -50,7 +50,7 @@ class MateriasController extends Controller
         $materias = Materia::where('id', $id)->first();
         // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
         //dd($materias);
-        return view('admin.materias.student_list',compact('materias', 'students', 'ratings', 'course', 'creator'));
+        return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator'));
     }
 
     /**
