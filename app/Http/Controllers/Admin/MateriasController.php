@@ -44,12 +44,13 @@ class MateriasController extends Controller
     public function student_list($id)
     {
         $course = Materia::where('id', $id)->pluck('course_id','id')->first();
-        $students = User::where('course',$course)->where('state', '=', TRUE)->orderBy('name', 'ASC')->get();
+        $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
+        $creator = Auth::id();
         // $students = User::where('course',$course)->where('id', 586)->get();
         $materias = Materia::where('id', $id)->first();
-        $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
-        //dd($course);
-        return view('admin.materias.student_list',compact('materias', 'students', 'ratings', 'course'));
+        // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
+        //dd($materias);
+        return view('admin.materias.student_list',compact('materias', 'students', 'ratings', 'course', 'creator'));
     }
 
     /**

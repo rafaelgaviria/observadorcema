@@ -71,8 +71,9 @@
   @endphp --}}
   {!! Form::hidden('student_count',$cant)!!}
   {!! Form::hidden('course',$course)!!}
-  {!! Form::hidden('materia_id',$materia_id = 1 )!!}
-  {!! Form::hidden('creator_id',$creator_id = 1 )!!}
+  {!! Form::hidden('creator_id',$creator)!!}
+  
+  {!! Form::hidden('materia_id',$materias->id)!!}
 
   {!! Form::close() !!}
   <br>

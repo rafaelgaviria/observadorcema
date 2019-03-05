@@ -11,7 +11,7 @@ class Observer extends Model
         'id',
         'user_id',
         'course_id',
-        //'user_role_id',
+        'user_role_id',
         'creator_id',
         'creator_rol_id',
         'observer_scene_id',

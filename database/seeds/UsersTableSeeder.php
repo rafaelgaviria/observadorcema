@@ -15,53 +15,13 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
             
         App\User::create([
-            'id' => '601',
-            'name' => 'Suarez Castro Ximena Paola',
-            'username' => '1033699214',
-            'email' => '1033699214@cema.edu.co',
-            'password' => bcrypt('1033699214'),
-            'document' => '1033699214',
-            'course' => '7',
-            'role_id' => '5'
-            ]);
-        App\User::create([
-            'id' => '602',
-            'name' => 'Sandoval Moreno Juan Esteban',
-            'username' => '1019842090',
-            'email' => '1019842090@cema.edu.co',
-            'password' => bcrypt('1019842090'),
-            'document' => '1019842090',
-            'course' => '8',
-            'role_id' => '5'
-            ]);
-        App\User::create([
-            'id' => '603',
-            'name' => 'Sayas Meriño Uriel De Jesús',
-            'username' => '1043969827',
-            'email' => '1043969827@cema.edu.co',
-            'password' => bcrypt('1043969827'),
-            'document' => '1043969827',
-            'course' => '8',
-            'role_id' => '5'
-            ]);
-        App\User::create([
-            'id' => '604',
-            'name' => 'Tavera Rico Soleil',
-            'username' => '1031809699',
-            'email' => '1031809699@cema.edu.co',
-            'password' => bcrypt('1031809699'),
-            'document' => '1031809699',
-            'course' => '8',
-            'role_id' => '5'
-            ]);
-        App\User::create([
-            'id' => '605',
-            'name' => 'Palacios Coy Nazli Sulay',
-            'username' => '1000592944',
-            'email' => '1000592944@cema.edu.co',
-            'password' => bcrypt('1000592944'),
-            'document' => '1000592944',
-            'course' => '10',
+            //'id' => '601',
+            'name' => 'Mosquera Rodríguez Carlos Mario',
+            'username' => '1010844857',
+            'email' => '1010844857@cema.edu.co',
+            'password' => bcrypt('1010844857'),
+            'document' => '1010844857',
+            'course' => '1',
             'role_id' => '5'
             ]);
 
