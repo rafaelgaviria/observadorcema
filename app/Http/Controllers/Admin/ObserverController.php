@@ -151,6 +151,7 @@ class ObserverController extends Controller
 		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
 		
 		$observations = Observer::orderBy('id','DES')->paginate(20);
+		// dd($observations);
 
 		return view('admin.observer.index', compact(
 		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente',		

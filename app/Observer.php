@@ -50,6 +50,10 @@ class Observer extends Model
         return $this->hasOne('App\Observernote','id','observer_note_id');
     }
 
+    public function creator(){
+        return $this->hasOne('App\User', 'id', 'creator_id');
+    }
+
     public function users()
        {
             //return $this->belongsTo('App\User');
@@ -66,9 +70,9 @@ class Observer extends Model
     //                 ->withPivot('course_id', 'student_id');
     // }
 
-    public function creator(){
-        return $this->hasOne(User::class, 'id', 'creator_id');
-    }
+    // public function creator(){
+    //     return $this->belongsTo(User::class, 'id', 'creator_id');
+    // }
     
     public function creator_role(){
         return $this->hasOne(User::class, 'role_id', 'creator_role');
