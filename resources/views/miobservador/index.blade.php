@@ -61,12 +61,11 @@
                             <li><a href="{{ route('login') }}">Login</a></li>
                             {{--  <li><a href="{{ route('register') }}">Register</a></li>  --}}
                         @else
-                        
-                       
-                        
-                        
-                             
-                            
+                        <li><a href="{{ route('miobservador') }}">
+                          {{-- <i class="home icon"></i> --}}
+                          Disciplinario</a></li>
+                        <li><a href="{{ route('miobservadoracademico') }}">Académico</a></li>
+     
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -104,7 +103,7 @@
       </div>
     </div>
   </div>
-  <h2 class="ui dividing header">Mi Observador ok</h2>
+  <h2 class="ui dividing header">Mi Observador</h2>
 
   
   <div class="ui statistics">

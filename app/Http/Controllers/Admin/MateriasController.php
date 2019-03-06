@@ -48,10 +48,12 @@ class MateriasController extends Controller
         $student = User::where('id', $id)->get();
         $course = User::where('id', $id)->pluck('course','id')->first();
         $materias = Materia::where('course_id', $course)->get();
-        $totalmaterias = Materia::where('course_id', $course)->count();
-        // dd($materias);
+        // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         // dd($academic);
+        
+        $ob_academics = Academic::where('user_id',$id)->get();
+        // dd($ob_academics);
 
         // LISTADO DE CURSOS
 		// for($i=1;$i<=$totalmaterias;$i++){
@@ -65,7 +67,7 @@ class MateriasController extends Controller
 			
 	
 
-        return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'academic'));
+        return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics'));
     }
     public function student_list($id)
     {

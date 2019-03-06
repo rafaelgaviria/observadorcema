@@ -25,5 +25,10 @@ class Academic extends Model
         'cp_11',
         'cp_12',
     ];
-    
+    public function materia(){
+        return $this->hasOne('App\Materia','id','materia_id');
+    }
+    public function profesor(){
+        return $this->hasOne('App\user','id','creator_id');
+    }
 }
