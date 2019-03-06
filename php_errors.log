@@ -4,3 +4,5 @@
 [19-Apr-2018 23:36:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/ubuntu/workspace/observador/app/Http/Controllers/Admin/ObserverController.php on line 200
 [19-Apr-2018 23:36:34 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/ubuntu/workspace/observador/app/Http/Controllers/Admin/ObserverController.php on line 200
 [11-Jul-2018 05:29:31 UTC] PHP Fatal error:  Cannot redeclare App\User::observaciones() in /home/ubuntu/workspace/observador/observadorcema/app/User.php on line 65
+[04-Mar-2019 17:50:16 UTC] PHP Warning:  require(/home/ubuntu/workspace/observadorcema/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/observadorcema/public/index.php on line 24
+[04-Mar-2019 17:50:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/observadorcema/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/observadorcema/public/index.php on line 24
