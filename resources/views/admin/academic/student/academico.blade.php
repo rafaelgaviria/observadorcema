@@ -130,7 +130,13 @@
                 
                 </h4>
             </td>
-            @if ($ob_academic->cp_01 === 1) <td style="background-color:#db2828;"></td> @else <td style="background-color:#21ba45;"></td>@endif
+            <td style="text-align: center; vertical-align:middle">
+              @if ($ob_academic->cp_01 === 1)
+                <i class="x big icon red"></i>
+              @else
+                <i class="check big icon green"></i>
+              @endif
+            </td>
             <td></td>
             <td></td>
             <td></td>
