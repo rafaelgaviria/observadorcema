@@ -15,13 +15,23 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
             
         App\User::create([
-            //'id' => '601',
-            'name' => 'Mosquera Rodríguez Carlos Mario',
-            'username' => '1010844857',
-            'email' => '1010844857@cema.edu.co',
-            'password' => bcrypt('1010844857'),
-            'document' => '1010844857',
-            'course' => '1',
+            'id' => '455',
+            'name' => 'Herrera Tello Juan Pablo',
+            'username' => '1021395340',
+            'email' => '1021395340@cema.edu.co',
+            'password' => bcrypt('1021395340'),
+            'document' => '1021395340',
+            'course' => '6',
+            'role_id' => '5'
+            ]);
+        App\User::create([
+            'id' => '215',
+            'name' => 'Parra Salazar Maria Celeste',
+            'username' => '1016944552',
+            'email' => 'celesteotaku51511@gmail.com',
+            'password' => bcrypt('1016944552'),
+            'document' => '1016944552',
+            'course' => '8',
             'role_id' => '5'
             ]);
 
