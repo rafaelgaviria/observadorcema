@@ -93,7 +93,7 @@
 <div class="ui container">
 
 
-<h2 class="ui dividing header">Observador académico</h2>
+<h2 class="ui dividing header">Observador académico grado {{$namecourse}}</h2>
   <table class="ui celled striped small very compact table">
       <thead>
           <tr>
@@ -125,8 +125,8 @@
       @foreach($ob_academics as $ob_academic)
         <tr>
             <td>
-                <h3>{{ $ob_academic->materia->name }}</h3>
-                <p>{{ $ob_academic->profesor->name }}</p> 
+                <h3 data-tooltip="id = {{ $ob_academic->materia->id }}" data-position="top left">{{ $ob_academic->materia->name }}</h3>
+                <p data-tooltip="id = {{ $ob_academic->profesor->id }}" data-position="top left" data-inverted="">{{ $ob_academic->profesor->name }}</p> 
                 
                 </h4>
             </td>

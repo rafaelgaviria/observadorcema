@@ -31,4 +31,7 @@ class Academic extends Model
     public function profesor(){
         return $this->hasOne('App\user','id','creator_id');
     }
+    public function course(){
+        return $this->hasOne('App\Course','id','course_id');
+    }
 }
