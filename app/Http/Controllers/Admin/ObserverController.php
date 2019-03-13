@@ -569,52 +569,58 @@ class ObserverController extends Controller
 	}
 	public function micurso()
 	{
-		$ini_3p = date('2019-06-12 00:00:00');
-		$end_3p = date('2019-09-14 23:59:59');
+		// Primer periodo
+		$ini_1p = date('2019-02-01 00:00:00');
+		$end_1p = date('2019-04-01 23:59:59');
 		
-		$creator = Auth::id();
-		$curso = User::where('id', $creator)->pluck('course', 'id')->first();
-		//$estudiantes = DB::table('users')
-		//	->where('role_id', '=', 5)
-		//	->where('course', '=', $curso)
-		//	->orderBy('name', 'ASC')
-		//	->get();
-		
-		//$observaciones = User::findOrFail()->observaciones->where("observer_code_id", "=", 3);
+		$coordinador = Auth::id();
+		$course = User::where('id', $coordinador)->pluck('course','id')->first();
+        $namecourse = Course::where('id', $course)->pluck('name','id')->first();
 		
 		$estudiantes = DB::table('users')
-            ->join('observations', 'users.id', '=', 'observations.user_id')
-            ->where('role_id', '=', 5)
-            ->where('course', '=', $curso)
-            //->count('observer_category_id', '=', 1)
-            ->groupBy('user_id')
-            ->orderBy('name', 'ASC')
-            ->get();
-        //dd($estudiantes);
-    
-    	//$temptable = DB::raw("(SELECT user_id, count(*) AS num_observations FROM observations GROUP BY user_id) as observations");
-	
-		//return DB::table('users')
-		//	->join('observations', 'users.id', '=', 'observations.user_id')
-		//	->select('users.id','users.name', 'observer_code_id')
-		//	->leftJoin($temptable, 'observations.user_id', '=', 'users.id') 
-		//	->where('role_id', '=', 5)
-		//	->get();
-		//dd($temptable);	    
-    
-    	//$users = User::join("roles","users.roles_id","=","roles.id")
-    	//->where('users.estado','=',1)
-    	//->get();
+			->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $course)->orderBy('name', 'ASC')->get();
 		
-		//dd($estudiantes);
+		foreach($estudiantes as $estudiante){
+			$asistencia[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',1)->count();
+			$puntualidad[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',2)->count();
+			$presentacion_personal[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',3)->count();
+			$cumplimiento_tareas[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',4)->count();
+			$circulares[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',5)->count();
+			$tipo_3[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',8)->count();
+			$tipo_2[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',7)->count();
+			$tipo_1[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',6)->count();
+			$acudiente[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+					->where('observer_category_id',9)->count();
+			//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";	
+		}
 		
-		$totalobservaciones = Observer::where('course_id', '=', $curso)->count();
-		$totalsanciones = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 5)->count();
-		$totalobservacionesacudientes = Observer::where('course_id', '=', $curso)->where('observer_type_id', '=', 4)->count();
-		$observations = Observer::where('course_id', '=', $curso)->orderBy('id','DES')->paginate(10);
-		//dd($observations);
+		// dd($estudiantes);
+		
+		$totalobservaciones = Observer::where('course_id', '=', $course)->count();
+		$totalsanciones = Observer::where('course_id', '=', $course)->where('observer_type_id', '=', 5)->count();
+		$totalobservacionesacudientes = Observer::where('course_id', '=', $course)->where('observer_type_id', '=', 4)->count();
+		$observations = Observer::where('course_id', '=', $course)->orderBy('id','DES')->paginate(10);
 
-		return view('admin.observer.micurso.index', compact('curso', 'estudiantes', 'totalobservaciones', 'observations'));
+		return view('admin.observer.micurso.index', compact('course', 'estudiantes', 'totalobservaciones', 'observations', 'namecourse', 'totalobservaciones', 'totalobservacionesacudientes',
+		
+'asistencia',
+'puntualidad',
+'presentacion_personal',
+'cumplimiento_tareas',
+'circulares',
+'tipo_3',
+'tipo_2',
+'tipo_1',
+'acudiente'
+		));
 		
 	}
 }

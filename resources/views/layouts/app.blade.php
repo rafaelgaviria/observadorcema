@@ -63,8 +63,9 @@
                         @else
                         
                                 <li><a href="{{ route('observer.index') }}"><i class="home icon"></i> Inicio</a></li>
-                                {{-- <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li>
-                                <li><a href="{{ route('micurso') }}">Mi Curso</a></li> --}}
+                                {{-- {{-- <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li> --}}
+                                
+                                <li><a href="{{ route('micurso') }}">Mi Curso</a></li>
                                 <li><a href="{{ route('cursos') }}">Académico</a></li>
 
                             <li class="dropdown">
