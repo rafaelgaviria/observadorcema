@@ -41,7 +41,7 @@ class MateriasController extends Controller
 
         return view('admin.materias.materia_list',compact('materias', 'course'));
     }
-    // public function academico($id)
+
     public function miobservadoracademico()
     {
         $id = Auth::id();
@@ -51,24 +51,32 @@ class MateriasController extends Controller
         $materias = Materia::where('course_id', $course)->get();
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
-        // dd($academic);
         
         $ob_academics = Academic::where('user_id',$id)->get();
-        // dd($ob_academics);
-
-        // LISTADO DE CURSOS
-		// for($i=1;$i<=$totalmaterias;$i++){
-			// $materias = DB::table('materias')
-			// 	->where('course_id', $course)->orderBy('name', 'ASC')->get();
-			//dd($materias[$i]);
-            // foreach($materias as $materia){
-            //     $cp_01 = DB::table('academic')->where('user_id',$student)->get();
-            // }
-            
-			
-	
-
         return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
+    }
+
+    public function academicocurso()
+    {
+        $coordinador = Auth::id();
+        $course = User::where('id', $coordinador)->pluck('course','id')->first();
+        $namecourse = Course::where('id', $course)->pluck('name','id')->first();
+
+        $estudiantes = DB::table('users')
+            ->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $course)->orderBy('name', 'ASC')->get();
+        $materias = Materia::where('course_id', $course)->get();
+
+        // $cp_01 = Academic::where
+        // dd($estudiantes);
+        // $ob_academics = Academic::where('user_id',$id)->get();
+        foreach($materias as $materia){
+            $cp_01[] = DB::table('academics')->where('course_id',$course)->get();
+        }
+		// foreach($estudiantes as $estudiante){
+		// 	$cp_01[] = DB::table('academics')->where('user_id',$estudiante->id)->get();
+        // }
+    // dd($cp_01);
+        return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse', 'cp_01'));
     }
     public function student_list($id)
     {
@@ -78,9 +86,9 @@ class MateriasController extends Controller
         // $students = User::where('course',$course)->where('id', 586)->get();
         $materias = Materia::where('id', $id)->first();
         // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
-        return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator'));
+        return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator','cp_01'));
     }
-
+    
     /**
      * Show the form for creating a new resource.
      *

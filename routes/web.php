@@ -75,9 +75,8 @@ Route::resource('observer', 'Admin\ObserverController');
   Route::get('materia_list/{id}','Admin\MateriasController@materia_list')->name('materia_list');
   Route::get('student_list/{id}','Admin\MateriasController@student_list')->name('student_list');
   Route::resource('materias', 'Admin\MateriasController');
-  // Route::post('materias',array('as'=>'store','uses'=>'MateriasController@store'));
-
   Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');
+  Route::get('academicocurso','Admin\MateriasController@academicocurso')->name('academicocurso');
   //Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miobservador');
 
 Route::get('observerstudent/{id}',[

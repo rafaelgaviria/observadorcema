@@ -599,10 +599,7 @@ class ObserverController extends Controller
 					->where('observer_category_id',6)->count();
 			$acudiente[] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 					->where('observer_category_id',9)->count();
-			//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";	
 		}
-		
-		// dd($estudiantes);
 		
 		$totalobservaciones = Observer::where('course_id', '=', $course)->count();
 		$totalsanciones = Observer::where('course_id', '=', $course)->where('observer_type_id', '=', 5)->count();
@@ -610,17 +607,7 @@ class ObserverController extends Controller
 		$observations = Observer::where('course_id', '=', $course)->orderBy('id','DES')->paginate(10);
 
 		return view('admin.observer.micurso.index', compact('course', 'estudiantes', 'totalobservaciones', 'observations', 'namecourse', 'totalobservaciones', 'totalobservacionesacudientes',
-		
-'asistencia',
-'puntualidad',
-'presentacion_personal',
-'cumplimiento_tareas',
-'circulares',
-'tipo_3',
-'tipo_2',
-'tipo_1',
-'acudiente'
+		'asistencia','puntualidad','presentacion_personal','cumplimiento_tareas','circulares','tipo_3','tipo_2','tipo_1','acudiente'
 		));
-		
 	}
 }
