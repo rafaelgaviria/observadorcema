@@ -69,13 +69,39 @@ class MateriasController extends Controller
         // $cp_01 = Academic::where
         // dd($estudiantes);
         // $ob_academics = Academic::where('user_id',$id)->get();
-        foreach($materias as $materia){
-            $cp_01[] = DB::table('academics')->where('course_id',$course)->get();
-        }
+        // foreach($materias as $materia){
+        //     $cp_01[] = DB::table('academics')->where('course_id',$course)->get();
+        // }
 		// foreach($estudiantes as $estudiante){
 		// 	$cp_01[] = DB::table('academics')->where('user_id',$estudiante->id)->get();
         // }
-    // dd($cp_01);
+        $estudiantes = DB::table('academics')
+            // ->groupBy('user_id')
+            ->select('id','user_id','materia_id', 'cp_01', 'course_id')
+            ->where('course_id',$course)
+            ->orderBy('user_id', 'ASC')
+            ->get();
+
+            // ->toJson();
+            // Creamos una instancia de Collection con los resultados
+            // $results = collect(DB::select(DB::raw($sql),['materia_id' => $id]));
+            // dd($sql);
+
+        // $estudiantes = $results
+    // // Mapeamos el arreglo para que tenga llaves útiles
+    // ->mapWithKeys(function ($item) {
+    //     return [
+    //         'brand'   => $item[0],
+    //         'type'    => $item[1],
+    //         'valor_1' => $item[2],
+    //         'valor_2' => $item[3],
+    //         'valor_3' => $item[4],
+    //     ];
+    // })
+    // // Realizamos la agrupación de elementos
+    // ->groupBy(['brand', 'type']);
+
+    //  dd($academics);
         return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse', 'cp_01'));
     }
     public function student_list($id)
@@ -228,7 +254,10 @@ class MateriasController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $id = 1;
+        $academic = Academic::where('course_id',$id)->get();
+        dd($academic);
     }
 
     /**

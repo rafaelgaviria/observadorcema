@@ -21,28 +21,35 @@
       </tr>
     </thead>
     <tbody>
-      
+      @php
+        $k=0;
+        $nada="-"
+      @endphp
       @foreach($estudiantes as $estudiante)
         <tr>
             <td>
-              @php
+              {{-- @php
                 $foto = public_path().'/images/avatar/'.$estudiante->document.'.jpg';
               @endphp
               @if(file_exists($foto))
                 <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar" style="width: 48px; height:45px">
               @else
                 <img src="{{asset('images/avatar/user.png')}}" class="avatar" style="width: 48px; height:45px">
-              @endif  
+              @endif   --}}
             </td>
             <td>
-              <p data-tooltip="id = {{ $estudiante->id }}" data-position="top left">
+              <p data-tooltip="id = {{ $estudiante->user_id }}" data-position="top left">
                 {{-- <input type="hidden" name="user_id[{{$e}}]" value="{{ $estudiante->id }}"> --}}
-                {{$estudiante->name}}</p>
+                {{$estudiante->user_id}}</p>
             </td>
             {{-- @for ($i = 1; $i < 13; $i++) --}}
-
-            {{-- <td>@if ($cp_01[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$asistencia[$k]}} </h3> @endif</td>
-            </td> --}}
+            <td>
+                {{$estudiante->cp_01}}
+              {{-- @if ($academics[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$cp_01[$k]}} </h3> @endif</td> --}}
+            </td>
+            <td>
+                {{-- {{$estudiante->cp_02}} --}}
+            </td>
             {{-- <td>
                 Corte {{ $i }} 
                 <div class="ui toggle checkbox mini form" id="cp">
