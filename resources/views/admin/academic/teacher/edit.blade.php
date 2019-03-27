@@ -4,15 +4,9 @@
 <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
 
 {!! Form::open(['route' => 'materias.store','method'=>'post'])!!}
-<div class="ui grid">
-  <div class="nine column row">
-    <div class="right floated column">
-      {!! Form::submit('Enviar', [
-        'class' => 'fluid blue ui button',
-      ]) !!}
-    </div>
-  </div>
-</div>
+{!! Form::submit('Enviar', [
+  'class' => 'huge blue ui button',
+]) !!}
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
@@ -70,18 +64,8 @@
             @endfor
         </tr>
         <?php $e++; ?>
-      @endforeach
+        @endforeach
   </table>
-  <div class="ui grid">
-    <div class="nine column row">
-      <div class="right floated column">
-        {!! Form::submit('Enviar', [
-          'class' => 'fluid blue ui button',
-        ]) !!}
-      </div>
-    </div>
-  </div>
- 
   {{-- @php    
     dd($rating_id);
   @endphp --}}
@@ -102,10 +86,5 @@
   $('.ui.checkbox')
     .checkbox()
   ;
-</script>
-<script>
-  $('.tiny.modal')
-  .modal('show')
-;
 </script>
 @endsection

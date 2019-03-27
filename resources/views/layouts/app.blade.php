@@ -66,7 +66,7 @@
                                 {{-- {{-- <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li> --}}
                                 
                                 <li><a href="{{ route('micurso') }}">Disciplinario</a></li>
-                                <li><a href="{{ route('academicocurso') }}">Académico</a></li>
+                                {{-- <li><a href="{{ route('academicocurso') }}">Académico</a></li> --}}
                                 <li><a href="{{ route('cursos') }}">Calificación</a></li>
 
                             <li class="dropdown">

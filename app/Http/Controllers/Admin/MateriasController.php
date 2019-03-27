@@ -104,6 +104,22 @@ class MateriasController extends Controller
     //  dd($academics);
         return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse', 'cp_01'));
     }
+    
+    // PRUEBAS 
+    // public function student_list($id)
+    // {
+    //     $course = Materia::where('id', $id)->pluck('course_id','id')->first();
+    //     $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
+    //     $creator = Auth::id();
+    //     // $students = User::where('course',$course)->where('id', 586)->get();
+    //     $materias = Materia::where('id', $id)->first();
+    //     $academics = Academic::where('materia_id', $id)->get();
+    //     // dd($materias);
+    //     // dd($academics);
+    //     // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
+    //     return view('admin.materias.student_list',compact('materias', 'students', 'course', 'academics', 'creator','cp_01'));
+    // }
+    
     public function student_list($id)
     {
         $course = Materia::where('id', $id)->pluck('course_id','id')->first();
@@ -112,6 +128,7 @@ class MateriasController extends Controller
         // $students = User::where('course',$course)->where('id', 586)->get();
         $materias = Materia::where('id', $id)->first();
         // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
+        // dd($creator);
         return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator','cp_01'));
     }
     

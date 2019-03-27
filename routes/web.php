@@ -77,6 +77,7 @@ Route::resource('observer', 'Admin\ObserverController');
   Route::resource('materias', 'Admin\MateriasController');
   Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');
   Route::get('academicocurso','Admin\MateriasController@academicocurso')->name('academicocurso');
+  Route::get('editmateria/{id}','Admin\MateriasController@editmateria')->name('editmateria');
   //Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miobservador');
 
 Route::get('observerstudent/{id}',[
