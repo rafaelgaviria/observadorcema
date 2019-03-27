@@ -102,7 +102,7 @@ class MateriasController extends Controller
     // ->groupBy(['brand', 'type']);
 
     //  dd($academics);
-        return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse'));
+        return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse', 'cp_01'));
     }
     
     // PRUEBAS 
@@ -129,7 +129,7 @@ class MateriasController extends Controller
         $materias = Materia::where('id', $id)->first();
         // $ratings = Rating::orderBy('id', 'ASC')->pluck('name','id');
         // dd($creator);
-        return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator','cp_01'));
+        return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator'));
     }
     
     /**
