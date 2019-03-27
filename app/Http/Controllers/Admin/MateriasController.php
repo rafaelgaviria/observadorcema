@@ -102,7 +102,7 @@ class MateriasController extends Controller
     // ->groupBy(['brand', 'type']);
 
     //  dd($academics);
-        return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse', 'cp_01'));
+        return view('admin.academic.teacher.academicocurso',compact('coordinador', 'course', 'estudiantes', 'materias', 'namecourse'));
     }
     
     // PRUEBAS 
