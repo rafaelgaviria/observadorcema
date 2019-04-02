@@ -39,6 +39,14 @@ Route::get('/autenticacion', 'Web\PageController@autenticacion');
 //admin
 // Route::get('observer/create{id}',['as'=>'id','uses'=>'ObserverController@create']);
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
+
+Route::group(['middleware' => 'admin'], function () {
+  
+  
+  Route::resource('observer', 'Admin\ObserverController');
+});
+
+
 Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
 Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
 //Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
@@ -58,7 +66,7 @@ Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricu
 // Route::put('observer/active','Admin\ObserverController@active');
 
 //Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
-Route::resource('observer', 'Admin\ObserverController');
+
 
 ////////////// PRUEBAS CONSULTAS MUCHOS A MUCHOS //////////////
 // Route::get('observer', function(){
