@@ -63,7 +63,7 @@
               'size' => '30x8',
               'class'=>'form-control',
               'placeholder'=>'Breve descripción de los hechos', 
-              'name'=>'body',
+              // 'name'=>'body',
               ])
             !!}
           </div>   
@@ -102,14 +102,14 @@
 <br/><br/><br/>
 
 @section('scripts')
-  <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/ckeditor/ckeditor.js') }}"></script> --}}
   <script>
     $('select.dropdown')
     .dropdown();
     //CKEDITOR.config.height = 400;
-    CKEDITOR.config.width = 'auto';
+    // CKEDITOR.config.width = 'auto';
   
-    CKEDITOR.replace('body');
+    // CKEDITOR.replace('body');
   </script>
 @endsection   
 
