@@ -210,7 +210,8 @@
           <td>@if ($tipo_1[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_1[$i][$k]}} </h3> @endif</td>
           <td>@if ($tipo_2[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_2[$i][$k]}} </h3> @endif</td>
           <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
-          <td></td>
+          <td>@if ($sanciones[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$sanciones[$i][$k]}} </h3> @endif</td>
+
           <td></td>
           <td></td>
           <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
@@ -262,17 +263,18 @@
             <i class="eye blue icon"></i>
           </a>
            
-          <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
-{{--               
-          {!!Form::open(['route' => ['observer.destroy', $observation->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button">
-            <i class="cancel red icon"></i>
-          </button> --}}
-          
-          {!! Form::close() !!}
+          @if(Auth::user()->id == 16)   
+            <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+            {!!Form::open(['route' => ['observer.destroy', $observation->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button">
+              <i class="cancel red icon"></i>
+            </button>
+            
+            {!! Form::close() !!}
+          @endif
           
         </td>
       </tr>

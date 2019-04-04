@@ -46,17 +46,19 @@
           <a href="{{ route('observer.show', $observation->id)}}" class="ui tiny icon button" style="display: inline-block !important">
             <i class="eye blue icon"></i>
           </a>
-          <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
-            <i class="edit blue icon"></i>
-          </a>
-              
-          {{--
-          {!!Form::open(['route' => ['observer.destroy', $observation->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button">
-            <i class="cancel red icon"></i>
-          </button>
-          --}}
+          
+          @if(Auth::user()->id == 16)   
+            <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a>
+            
+            {!!Form::open(['route' => ['observer.destroy', $observation->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button">
+              <i class="cancel red icon"></i>
+            </button>
+          @endif
+         
           {!! Form::close() !!}
           
         </td>
