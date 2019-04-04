@@ -422,16 +422,16 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-06 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-07 00:00:00');
-		$end_2p = date('2019-06-08 23:59:59');
-		// Tercero periodo
-		$ini_3p = date('2019-06-09 00:00:00');
-		$end_3p = date('2019-09-14 23:59:59');
+		$ini_2p = date('2019-04-15 00:00:00');
+		$end_2p = date('2019-06-14 23:59:59');
+		// Tercer periodo
+		$ini_3p = date('2019-06-17 00:00:00');
+		$end_3p = date('2019-09-20 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2019-09-15 00:00:00');
-		$end_4p = date('2019-11-30 23:59:59');
+		$ini_4p = date('2019-09-23 00:00:00');
+		$end_4p = date('2019-11-29 23:59:59');
 
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
 		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
@@ -453,16 +453,16 @@ class ObserverController extends Controller
 		$id = Auth::id();
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-07 00:00:00');
-		$end_2p = date('2019-06-08 23:59:59');
-		// Tercero periodo
-		$ini_3p = date('2019-06-09 00:00:00');
-		$end_3p = date('2019-09-14 23:59:59');
+		$ini_2p = date('2019-04-15 00:00:00');
+		$end_2p = date('2019-06-14 23:59:59');
+		// Tercer periodo
+		$ini_3p = date('2019-06-17 00:00:00');
+		$end_3p = date('2019-09-20 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2019-09-15 00:00:00');
-		$end_4p = date('2019-11-30 23:59:59');
+		$ini_4p = date('2019-09-23 00:00:00');
+		$end_4p = date('2019-11-29 23:59:59');
 
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
 		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
@@ -481,9 +481,9 @@ class ObserverController extends Controller
 	
 	public function comentarios()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 1)->paginate(20);
 		$total_comentarios = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 1)->count();
 
@@ -491,9 +491,9 @@ class ObserverController extends Controller
 	}
 	public function notificaciones()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 2)->paginate(20);
 		$total_notificaciones = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 2)->count();
 
@@ -501,9 +501,9 @@ class ObserverController extends Controller
 	}
 	public function compromisos()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 3)->paginate(20);
 		$total_compromisos = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 3)->count();
 
@@ -511,9 +511,9 @@ class ObserverController extends Controller
 	}
 	public function sanciones()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 4)->paginate(20);
 		$total_sanciones = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 4)->count();
 
@@ -521,9 +521,9 @@ class ObserverController extends Controller
 	}
 	public function comite_convivencia()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 6)->paginate(20);
 		$total_comite_convivencia = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 6)->count();
 
@@ -531,9 +531,9 @@ class ObserverController extends Controller
 	}
 	public function consejo_academico()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 7)->paginate(20);
 		$total_consejo_academico = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 7)->count();
 
@@ -541,9 +541,9 @@ class ObserverController extends Controller
 	}
 	public function matricula_condicional()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 5)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 5)->count();
 
@@ -551,9 +551,9 @@ class ObserverController extends Controller
 	}
 	public function cancelacion_matricula()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 8)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 8)->count();
 
@@ -561,9 +561,9 @@ class ObserverController extends Controller
 	}
 	public function remision_orientacion()
 	{
-		// Tercer periodo
+		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-01 23:59:59');
+		$end_1p = date('2019-04-12 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 9)->paginate(20);
 		$total_remision_orientacion = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 9)->count();
 
