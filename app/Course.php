@@ -20,10 +20,15 @@ class Course extends Model
         'director',
     ];
 
-    public function user    ()
+    public function user()
     {
         return $this->hasMany(User::class);
     }
+
+    // public function user()
+    // {
+    //     return $this->belongsTo('App\user', 'user_id', 'local_key');
+    // }
     
 
     /**

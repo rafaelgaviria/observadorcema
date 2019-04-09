@@ -47,22 +47,20 @@
         <td>{{ $observations4p->observation }}</td>
         <td>{{ $observations4p->creator }}</td>
         <td>
-          <?php $role = Auth::user()->role_id; ?>
-          @if($role == 1)
+          @if(Auth::user()->id == 16)
             <a href="{{ route('observer.show', $observations4p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
               <i class="eye blue icon"></i>
             </a>
             <a href="{{ route('observer.edit', $observations4p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
+            
+            {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
+            {!! Form::close() !!}
           @endif 
-          
-          {{--
-          {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
-          {!! Form::close() !!}
-          --}}
+         
         </td>
       </tr>
       @endforeach 
@@ -102,22 +100,18 @@
         <td>{{ $observations3p->observation }}</td>
         <td>{{ $observations3p->creator->name }}</td>
         <td>
-          <?php $role = Auth::user()->role_id; ?>
-          @if($role == 1)
+          @if(Auth::user()->id == 16)
             <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
               <i class="eye blue icon"></i>
             </a>
             <a href="{{ route('observer.edit', $observations3p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
+            {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
+            {!! Form::close() !!}
           @endif 
-          
-          {{--
-          {!!Form::open(['route' => ['observer.destroy', $observations3p->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
-          {!! Form::close() !!}
-          --}}
         </td>
       </tr>
       @endforeach 
@@ -158,22 +152,19 @@
         <td>{{ $observations2p->observation }}</td>
         <td>{{ $observations2p->creator->name }}</td>
         <td>
-          <?php $role = Auth::user()->role_id; ?>
-          @if($role == 1)
+          @if(Auth::user()->id == 16)
             <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
               <i class="eye blue icon"></i>
             </a>
             <a href="{{ route('observer.edit', $observations2p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
-          @endif 
           
-          {{--
-          {!!Form::open(['route' => ['observer.destroy', $observations2p->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
-          {!! Form::close() !!}
-          --}}
+            {!!Form::open(['route' => ['observer.destroy', $observations2p->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
+            {!! Form::close() !!}
+          @endif
         </td>
       </tr>
       @endforeach 
@@ -214,22 +205,20 @@
         <td>{{ $observations1p->observation }}</td>
         <td>{{ $observations1p->creator->name }}</td>
         <td>
-          <?php $role = Auth::user()->role_id; ?>
-          @if($role == 1)
-            <a href="{{ route('observer.show', $observations1p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+          <a href="{{ route('observer.show', $observations1p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
               <i class="eye blue icon"></i>
             </a>
+            @if(Auth::user()->id == 16)
             <a href="{{ route('observer.edit', $observations1p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
+
+            {!!Form::open(['route' => ['observer.destroy', $observations1p->id],
+            'method' => 'DELETE']) !!}
+            <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
+            {!! Form::close() !!}
           @endif 
-          
-          {{--
-          {!!Form::open(['route' => ['observer.destroy', $observations1p->id],
-          'method' => 'DELETE']) !!}
-          <button class="ui tiny icon button"><i class="cancel red icon"></i></button>
-          {!! Form::close() !!}
-          --}}
+         
         </td>
       </tr>
       @endforeach 

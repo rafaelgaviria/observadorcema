@@ -11,7 +11,6 @@
         <th>Documento</th>
         <th>Perfil</th>
         <th>Estado</th>
-
         <th>Detalle</th>
         <th>Editar</th>
         <th>Eliminar</th>
@@ -22,7 +21,7 @@
         @foreach($users as $user)
         <tr>
             <td>{{$user->name}}</td>
-            <td>{{$user->course_id}}</td>
+            <td>{{$user->course}}</td>
             <td>{{$user->email}}</td>
             <td>{{$user->document}}</td>
             <td>{{$user->role_id}}</td>
