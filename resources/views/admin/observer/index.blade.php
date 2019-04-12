@@ -246,7 +246,10 @@
       @foreach($observations as $observation)
       <tr>
         <td>{{ $observation->id }}</td>
-        <td>{{ $observation->user->name }}</td>
+        <td>
+            <a href="{{ route('observerstudent',$observation->user_id)}}" >
+              {{ $observation->user->name }}</td>
+            </a>
         <td>{{ $observation->observercategory->name }}</td>
         <td>{{ $observation->observerscene->name }}</td>
         <td>{{ $observation->observernote->name }}</td>

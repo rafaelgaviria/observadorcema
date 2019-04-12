@@ -41,51 +41,49 @@ Route::get('/autenticacion', 'Web\PageController@autenticacion');
 //Route::resource('observer/create{id}', 'Admin\ObserverController');
 
 Route::group(['middleware' => 'admin'], function () {
-  
-  
+    
   Route::resource('observer', 'Admin\ObserverController');
-});
+  Route::resource('/usuarios', 'Admin\UsersController');
 
-
-Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
-Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
-//Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
-Route::resource('/usuarios', 'Admin\UsersController');
-
-Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
-Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
-Route::get('compromisos','Admin\ObserverController@compromisos')->name('compromisos');
-Route::get('sanciones','Admin\ObserverController@sanciones')->name('sanciones');
-Route::get('matricula_condicional','Admin\ObserverController@matricula_condicional')->name('matricula_condicional');
-Route::get('comite_convivencia','Admin\ObserverController@comite_convivencia')->name('comite_convivencia');
-Route::get('consejo_academico','Admin\ObserverController@consejo_academico')->name('consejo_academico');
-Route::get('remision_orientacion','Admin\ObserverController@remision_orientacion')->name('remision_orientacion');
-Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricula')->name('cancelacion_matricula');
-
-// Route::put('observer/unactive','Admin\ObserverController@unactive');
-// Route::put('observer/active','Admin\ObserverController@active');
-
-//Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
-
-
-////////////// PRUEBAS CONSULTAS MUCHOS A MUCHOS //////////////
-// Route::get('observer', function(){
-  // $user = App\User::findOrFail(402);
-  // return $user->materias; 
+  Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
+  Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
+  //Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
   
-  // $materia = App\Materia::findOrFail(144);
-  // return $materia->users; 
-  //  });
-
-
- // OBSERVADOR ACADEMICO
+  Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
+  Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
+  Route::get('compromisos','Admin\ObserverController@compromisos')->name('compromisos');
+  Route::get('sanciones','Admin\ObserverController@sanciones')->name('sanciones');
+  Route::get('matricula_condicional','Admin\ObserverController@matricula_condicional')->name('matricula_condicional');
+  Route::get('comite_convivencia','Admin\ObserverController@comite_convivencia')->name('comite_convivencia');
+  Route::get('consejo_academico','Admin\ObserverController@consejo_academico')->name('consejo_academico');
+  Route::get('remision_orientacion','Admin\ObserverController@remision_orientacion')->name('remision_orientacion');
+  Route::get('cancelacion_matricula','Admin\ObserverController@cancelacion_matricula')->name('cancelacion_matricula');
+  
+  // Route::put('observer/unactive','Admin\ObserverController@unactive');
+  // Route::put('observer/active','Admin\ObserverController@active');
+  
+  //Route::resource('observer/observerstudent/', 'Admin\ObserverController@observerStudent');
+  
+  ////////////// PRUEBAS CONSULTAS MUCHOS A MUCHOS //////////////
+  // Route::get('observer', function(){
+    // $user = App\User::findOrFail(402);
+    // return $user->materias; 
+    
+    // $materia = App\Materia::findOrFail(144);
+    // return $materia->users; 
+    //  });
+    
+  // OBSERVADOR ACADEMICO
   Route::get('cursos', 'Admin\MateriasController@index')->name('cursos');
   Route::get('materia_list/{id}','Admin\MateriasController@materia_list')->name('materia_list');
   Route::get('student_list/{id}','Admin\MateriasController@student_list')->name('student_list');
   Route::resource('materias', 'Admin\MateriasController');
-  Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');
   Route::get('academicocurso','Admin\MateriasController@academicocurso')->name('academicocurso');
   Route::get('editmateria/{id}','Admin\MateriasController@editmateria')->name('editmateria');
+    
+});
+  
+Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');
   //Route::get('/miobservador', 'Admin\ObserverController@miobservador')->name('miobservador');
 
 Route::get('observerstudent/{id}',[
