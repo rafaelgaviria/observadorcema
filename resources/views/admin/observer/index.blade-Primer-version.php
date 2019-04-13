@@ -6,44 +6,104 @@
 <div class="ui grid">
   <div class="six wide column">
     <h3 class="ui header">Cursos</h3>
-    
-      @for($i=1;$i<=11;$i++)
-      <?php
-        if($i==1) $curso="Primero";
-        if($i==2) $curso="Segundo";
-        if($i==3) $curso="Tercero";
-        if($i==4) $curso="Cuarto";
-        if($i==5) $curso="Quinto";
-        if($i==6) $curso="Sexto";
-        if($i==7) $curso="Séptimo";
-        if($i==8) $curso="Octavo";
-        if($i==9) $curso="Noveno";
-        if($i==10) $curso="Décimo";
-        if($i==11) $curso="Once";
-      ?>
-        <div class="title ui orange segment">
-          <a href="{{ route('observacionesdelcurso',$i)}}" >
-            Curso {{$curso}}<span class="totalcurso">{{$total[$i]}}</span>
-          </a>
+    <div class="ui styled fluid accordion segment">
+        @for($i=1;$i<=11;$i++)
+        <?php
+          if($i==1) $curso="Primero";
+          if($i==2) $curso="Segundo";
+          if($i==3) $curso="Tercero";
+          if($i==4) $curso="Cuarto";
+          if($i==5) $curso="Quinto";
+          if($i==6) $curso="Sexto";
+          if($i==7) $curso="Séptimo";
+          if($i==8) $curso="Octavo";
+          if($i==9) $curso="Noveno";
+          if($i==10) $curso="Décimo";
+          if($i==11) $curso="Once";
+        ?>
+          <div class="title ui orange segment"><i class="dropdown icon"></i>
+            <a href="{{ route('observacionesdelcurso',$i)}}" >
+              Curso {{$curso}}<span class="totalcurso">{{$total[$i]}}</span>
+            </a>
+          </div>
+          
+          <div class="content">
+            <table class="ui celled striped small compact table rowfix">
+              <thead>
+                <tr>
+                  <th><h4>Foto</h4></th>
+                  <th><h4>Nombres</h4></th>
+                  <th><h4>A</h4></th>
+                  <th><h4>P</h4></th>
+                  <th><h4>PP</h4></th>
+                  <th><h4>CT</h4></th>
+                  <th><h4>CIR</h4></th>
+                  <th><h4>T1</h4></th>
+                  <th><h4>T2</h4></th>
+                  <th><h4>T3</h4></th>
+                  <th><h5>Sanciones</h5></th>
+                  <th><h5>Matrícula condicional</h5></th>
+                  <th><h5>Cancelación</h5></th>
+                  <th><h4>Acudiente</h4></th>
+                  <th><h4>Crear</h4></th>
+                </tr>
+              </thead>
+              <?php 
+                $k=0;
+                $nada="-" ?>
+              @foreach($estudiantes[$i] as $estudiante)
+              <tr>
+                <td>
+                    @php
+                    $foto = public_path().'/images/avatar/'.$estudiante->document.'.jpg';
+                  @endphp
+                  @if(file_exists($foto))
+                    <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar" style="width: 48px; height:45px">
+                  @else
+                    <img src="{{asset('images/avatar/user.png')}}" class="avatar" style="width: 48px; height:45px">
+                  @endif  
+                  {{-- <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar"> --}}
+                </td>
+                <td><h4 style="display:inline-block"><a href="{{ route('observerstudent',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
+                  <span class="link"><a href="{{ route('observerstudent',$estudiante->id)}}" ><i class="angle double right icon teal"></i></a></span>
+                </td>
+                <td>@if ($asistencia[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$asistencia[$i][$k]}} </h3> @endif</td>
+                <td>@if ($puntualidad[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$puntualidad[$i][$k]}} </h3> @endif</td>
+                <td>@if ($presentacion_personal[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$presentacion_personal[$i][$k]}} </h3> @endif</td>
+                <td>@if ($cumplimiento_tareas[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$cumplimiento_tareas[$i][$k]}} </h3> @endif</td>
+                <td>@if ($circulares[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$circulares[$i][$k]}} </h3> @endif</td>
+                <td>@if ($tipo_1[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_1[$i][$k]}} </h3> @endif</td>
+                <td>@if ($tipo_2[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_2[$i][$k]}} </h3> @endif</td>
+                <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
+                <td>@if ($sanciones[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$sanciones[$i][$k]}} </h3> @endif</td>
+      
+                <td></td>
+                <td></td>
+                <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
+                <td><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
+              </tr>
+              <?php $k++; ?>
+              @endforeach
+            </table>
+          </div>
+        @endfor
         </div>
-      @endfor
-    
   </div>
   <div class="ten wide column">
     <h3 class="ui header">Resumen observador Colegio CEMA</h3>
     <!-- <table class="ui six celled striped small compact table"> -->
-    <table class="ui small celled structured compact selectable table">
+    <table class="ui small celled structured compact table">
       <thead>
         <tr>
-          <th rowspan="2" class="six wide">Tipo de nota</th>
-          <th colspan="4" class="two wide">Periodo</th>
-          <th rowspan="2" class="two wide">Total</th>
+          <th rowspan="2">Tipo de nota</th>
+          <th colspan="4">Periodo</th>
+          <th rowspan="2">Total</th>
         </tr>
         <tr>
-          <th class="two wide">1</th>
-          <th class="two wide">2</th>
-          <th class="two wide">3</th>
-          <th class="two wide">4</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>4</th>
         </tr>
       </thead>
       <tbody>
@@ -170,19 +230,19 @@
   {{-- CIERRE CONTENEDOR ACORDEON    --}}
 
 <h3 class="ui dividing header">Últimas observaciones</h3>
-  <table class="ui celled striped small very compact selectable table" id="table_id" class="display">
+  <table class="ui celled striped small very compact table" id="table_id" class="display">
     <thead>
       <tr>
-        <th class="">Id</th>
-        <th class="three wide">Nombres</th>
-        <th class="">Tipo</th>
-        <th class="">Escenario</th>
-        <th class="">Nota</th>
-        <th class="">Fecha</th>
-        <th class="four wide">Comentario</th>
-        <th class="">Autor</th>
-        <th class="">Curso</th>
-        <th class="">Acciones</th>
+        <th>Id</th>
+        <th>Nombres</th>
+        <th>Tipo</th>
+        <th>Escenario</th>
+        <th>Nota</th>
+        <th>Fecha</th>
+        <th>Comentario</th>
+        <th>Autor</th>
+        <th>Curso</th>
+        <th>Acciones</th>
       </tr>
     </thead>
     <tbody>

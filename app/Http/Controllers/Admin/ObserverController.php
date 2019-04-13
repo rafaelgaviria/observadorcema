@@ -153,10 +153,10 @@ class ObserverController extends Controller
 		$cancelacion_matricula_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
 		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
 		
-		//$observations = Observer::orderBy('id','DES')->paginate(10);
+		$observations = Observer::orderBy('id','DES')->paginate(50);
 		
 		//$observations = Observer::get()->orderBy('id','DES');
-		$observations = DB::table('observations')->orderBy('id','DES')->get();
+		//$observations = DB::table('observations')->orderBy('id','DES')->get();
 		
 		
 		//$plucked = $collection->pluck('name');

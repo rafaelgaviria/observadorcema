@@ -17,7 +17,27 @@
     $i = 1;
   @endphp    
     <div class="content">
-      
+      <table class="ui celled striped small compact table rowfix headerfix">
+        <thead>
+          <tr>
+            <th class="one wide"><h4>Foto</h4></th>
+            <th class="four wide"><h4>Nombres</h4></th>
+            <th><h4>A</h4></th>
+            <th><h4>P</h4></th>
+            <th><h4>PP</h4></th>
+            <th><h4>CT</h4></th>
+            <th><h4>CIR</h4></th>
+            <th><h4>T1</h4></th>
+            <th><h4>T2</h4></th>
+            <th><h4>T3</h4></th>
+            <th><h5>Sanciones</h5></th>
+            <th><h5>Matrícula condicional</h5></th>
+            <th><h5>Cancelación</h5></th>
+            <th><h4>Acudiente</h4></th>
+            <th class="two wide"><h4>Crear</h4></th>
+          </tr>
+        </thead>
+      </table>
       <table class="ui celled striped small compact table rowfix">
         <thead>
           <tr>
@@ -43,7 +63,7 @@
           $nada="-" ?>
         @foreach($estudiantes[$i] as $estudiante)
         <tr>
-          <td>
+          <td class="one wide">
               @php
               $foto = public_path().'/images/avatar/'.$estudiante->document.'.jpg';
             @endphp
@@ -54,7 +74,7 @@
             @endif  
             {{-- <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar"> --}}
           </td>
-          <td><h4 style="display:inline-block"><a href="{{ route('observerstudent',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
+          <td class="four wide"><h4 style="display:inline-block"><a href="{{ route('observerstudent',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
             <span class="link"><a href="{{ route('observerstudent',$estudiante->id)}}" ><i class="angle double right icon teal"></i></a></span>
           </td>
           <td>@if ($asistencia[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$asistencia[$i][$k]}} </h3> @endif</td>
@@ -70,7 +90,7 @@
           <td></td>
           <td></td>
           <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
-          <td><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button"><i class="plus circle icon"></i>Crear</a></td>
+          <td class="two wide"><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button">Crear</a></td>
         </tr>
         <?php $k++; ?>
         @endforeach
