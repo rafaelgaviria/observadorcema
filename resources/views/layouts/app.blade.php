@@ -13,8 +13,13 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/semantic.min.css') }}" rel="stylesheet" type="text/css">
+    
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+  
+
+
     
     <script>
         $('.message .close')
@@ -121,10 +126,6 @@
                 </ul>
             </div> 
             @endif
-
-
-            
-
             @yield('content')
         </div>
         
@@ -133,6 +134,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/semantic.min.js') }}"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
   <script>
     $('.message .close')

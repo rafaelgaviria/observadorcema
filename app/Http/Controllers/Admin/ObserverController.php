@@ -153,7 +153,21 @@ class ObserverController extends Controller
 		$cancelacion_matricula_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
 		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
 		
-		$observations = Observer::orderBy('id','DES')->paginate(20);
+		//$observations = Observer::orderBy('id','DES')->paginate(10);
+		
+		//$observations = Observer::get()->orderBy('id','DES');
+		$observations = DB::table('observations')->orderBy('id','DES')->get();
+		
+		
+		//$plucked = $collection->pluck('name');
+		
+		//$observations->all();
+		//dd($observations);
+
+		//$totalstudents = User::all()->where('role_id', '=', 5)->where('state', '=', true)->count();
+
+
+
 		// dd($observations);
 
 		return view('admin.observer.index', compact(
@@ -418,6 +432,61 @@ class ObserverController extends Controller
 		$observation->save();
 	}	
 
+	
+	public function observacionesdelcurso($id)
+	{
+		// Primer periodo
+		$ini_1p = date('2019-02-01 00:00:00');
+		$end_1p = date('2019-04-12 23:59:59');
+		// Segundo periodo
+		$ini_2p = date('2019-04-15 00:00:00');
+		$end_2p = date('2019-06-14 23:59:59');
+		// Tercer periodo
+		$ini_3p = date('2019-06-17 00:00:00');
+		$end_3p = date('2019-09-20 23:59:59');
+		// Cuarto periodo
+		$ini_4p = date('2019-09-23 00:00:00');
+		$end_4p = date('2019-11-29 23:59:59');
+		
+		$curso = ($id);
+		// LISTADO DE CURSOS
+		for($i=1;$i<=1;$i++){
+			$estudiantes[$i] = DB::table('users')
+				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $curso)->orderBy('name', 'ASC')->get();
+			
+				$total[$i] = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where("course_id","=",$i)->count();
+			
+			foreach($estudiantes[$i] as $estudiante){
+				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',1)->count();
+				$puntualidad[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',2)->count();
+				$presentacion_personal[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',3)->count();
+				$cumplimiento_tareas[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',4)->count();
+				$circulares[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',5)->count();
+				$tipo_3[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',8)->count();
+				$tipo_2[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',7)->count();
+				$tipo_1[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',6)->count();
+				$sanciones[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_note_id',4)->count();
+				$acudiente[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
+						->where('observer_category_id',9)->count();
+						//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";
+			}
+					//print_r($observacion);
+		}
+
+		return view('admin.observer.observacionesdelcurso', compact(
+			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones', 'curso'));
+			
+
+	}
 	public function observerStudent($id)
 	{
 		// Primer periodo

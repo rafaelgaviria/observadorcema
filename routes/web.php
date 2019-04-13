@@ -47,8 +47,10 @@ Route::group(['middleware' => 'admin'], function () {
 
   Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
   Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
+  Route::get('observacionesdelcurso/{id}', 'Admin\ObserverController@observacionesdelcurso')->name('observacionesdelcurso');
   //Route::get('usuarios', 'Admin\UserController@micurso')->name('micurso');
   
+
   Route::get('comentarios','Admin\ObserverController@comentarios')->name('comentarios');
   Route::get('notificaciones','Admin\ObserverController@notificaciones')->name('notificaciones');
   Route::get('compromisos','Admin\ObserverController@compromisos')->name('compromisos');
