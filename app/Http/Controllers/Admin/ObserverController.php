@@ -449,6 +449,8 @@ class ObserverController extends Controller
 		$end_4p = date('2019-11-29 23:59:59');
 		
 		$curso = ($id);
+
+		$totalstudents = User::all()->where('role_id', '=', 5)->where('state', '=', true)->count();
 		// LISTADO DE CURSOS
 		for($i=1;$i<=1;$i++){
 			$estudiantes[$i] = DB::table('users')
@@ -483,9 +485,7 @@ class ObserverController extends Controller
 		}
 
 		return view('admin.observer.observacionesdelcurso', compact(
-			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones', 'curso'));
-			
-
+			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','totalobservaciones', 'totalstudents','sanciones', 'curso'));
 	}
 	public function observerStudent($id)
 	{
