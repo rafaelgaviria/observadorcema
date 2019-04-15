@@ -51,7 +51,7 @@ class ObserverController extends Controller
 		$ini_1p = date('2019-02-01 00:00:00');
 		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-15 00:00:00');
+		$ini_2p = date('2019-04-16 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
@@ -439,7 +439,7 @@ class ObserverController extends Controller
 		$ini_1p = date('2019-02-01 00:00:00');
 		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-15 00:00:00');
+		$ini_2p = date('2019-04-16 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
@@ -493,7 +493,7 @@ class ObserverController extends Controller
 		$ini_1p = date('2019-02-01 00:00:00');
 		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-15 00:00:00');
+		$ini_2p = date('2019-04-16 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
@@ -524,7 +524,7 @@ class ObserverController extends Controller
 		$ini_1p = date('2019-02-01 00:00:00');
 		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
-		$ini_2p = date('2019-04-15 00:00:00');
+		$ini_2p = date('2019-04-16 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
