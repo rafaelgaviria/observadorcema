@@ -20,8 +20,8 @@
       <table class="ui celled striped small compact table rowfix headerfix">
         <thead>
           <tr>
-            <th class="one wide"><h4>Foto</h4></th>
-            <th class="four wide"><h4>Nombres</h4></th>
+            <th width="68px"><h4>Foto</h4></th>
+            <th width="250px"><h4>Nombres</h4></th>
             <th><h4>A</h4></th>
             <th><h4>P</h4></th>
             <th><h4>PP</h4></th>
@@ -34,7 +34,7 @@
             <th><h5>Matrícula condicional</h5></th>
             <th><h5>Cancelación</h5></th>
             <th><h4>Acudiente</h4></th>
-            <th class="two wide"><h4>Crear</h4></th>
+            <th width="130px"><h4>Crear</h4></th>
           </tr>
         </thead>
       </table>

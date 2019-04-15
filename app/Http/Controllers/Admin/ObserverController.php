@@ -49,7 +49,7 @@ class ObserverController extends Controller
 		
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2019-04-15 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
@@ -153,7 +153,7 @@ class ObserverController extends Controller
 		$cancelacion_matricula_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
 		$remision_orientacion_4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
 		
-		$observations = Observer::orderBy('id','DES')->paginate(50);
+		$observations = Observer::orderBy('id','DES')->paginate(1000);
 		
 		//$observations = Observer::get()->orderBy('id','DES');
 		//$observations = DB::table('observations')->orderBy('id','DES')->get();
@@ -437,7 +437,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2019-04-15 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
@@ -491,7 +491,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2019-04-15 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
@@ -522,7 +522,7 @@ class ObserverController extends Controller
 		$id = Auth::id();
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		// Segundo periodo
 		$ini_2p = date('2019-04-15 00:00:00');
 		$end_2p = date('2019-06-14 23:59:59');
@@ -552,7 +552,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 1)->paginate(20);
 		$total_comentarios = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 1)->count();
 
@@ -562,7 +562,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 2)->paginate(20);
 		$total_notificaciones = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 2)->count();
 
@@ -572,7 +572,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 3)->paginate(20);
 		$total_compromisos = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 3)->count();
 
@@ -582,7 +582,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 4)->paginate(20);
 		$total_sanciones = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 4)->count();
 
@@ -592,7 +592,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 6)->paginate(20);
 		$total_comite_convivencia = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 6)->count();
 
@@ -602,7 +602,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 7)->paginate(20);
 		$total_consejo_academico = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 7)->count();
 
@@ -612,7 +612,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 5)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 5)->count();
 
@@ -622,7 +622,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 8)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 8)->count();
 
@@ -632,7 +632,7 @@ class ObserverController extends Controller
 	{
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
-		$end_1p = date('2019-04-12 23:59:59');
+		$end_1p = date('2019-04-15 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 9)->paginate(20);
 		$total_remision_orientacion = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('observer_note_id', '=', 9)->count();
 
