@@ -395,6 +395,8 @@ class MateriasController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Academic::find($id)->delete();
+
+		return back()->with('info', 'Registro eliminado correctamente');
     }
 }
