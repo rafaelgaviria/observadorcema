@@ -23,7 +23,7 @@
       ?>
         <div class="title ui orange segment">
           <a href="{{ route('observacionesdelcurso',$i)}}" >
-            Curso {{$curso}}<span class="totalcurso">{{$total[$i]}}</span>
+            {{$curso}}<span class="totalcurso">{{$total[$i]}}</span>
           </a>
         </div>
       @endfor

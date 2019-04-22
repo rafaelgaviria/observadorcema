@@ -1,9 +1,9 @@
 @extends('layouts.app')
 @section('content')
-
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
 
-{!! Form::open(['route' => 'materias.store','method'=>'post'])!!}
+{!! Form::open(['route' => 'tpmaterias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
   'class' => 'huge blue ui button',
 ]) !!}
@@ -35,30 +35,52 @@
     <tbody>
       <?php 
         $e=1;
-        $cant = count($students);
+        $cant = count($academics);
       ?>
-      @foreach($students as $student)
+      <?php 
+        // var_dump($cant)
+      ?>
+      @foreach($academics as $academic)
         <tr>
             <td>
-              @php
+              {{-- @php
                 $foto = public_path().'/images/avatar/'.$student->document.'.jpg';
               @endphp
               @if(file_exists($foto))
                 <img src="{{asset('images/avatar/'.$student->document.'.jpg')}}" class="avatar" style="width: 48px; height:45px">
               @else
                 <img src="{{asset('images/avatar/user.png')}}" class="avatar" style="width: 48px; height:45px">
-              @endif  
+              @endif   --}}
             </td>
             <td>
               <p>
-                <input type="hidden" name="user_id[{{$e}}]" value="{{ $student->id }}">
-                <a href="{{ route('observerstudent',$student->id)}}" >{{ $student->name }}</a></p>
+                
+                <input type="hidden" name="user_id[{{$e}}]" value="{{ $academic->user_id }}">
+                <a href="{{ route('observerstudent',$academic->user_id)}}" >
+                  {{ $academic->user->name }}
+                </a>
+              </p>
             </td>
             @for ($i = 1; $i < 13; $i++)
+              <?php
+                if($i==1) $corte="cp_01";
+                if($i==2) $corte="cp_02";
+                if($i==3) $corte="cp_03";
+                if($i==4) $corte="cp_04";
+                if($i==5) $corte="cp_05";
+                if($i==6) $corte="cp_06";
+                if($i==7) $corte="cp_07";
+                if($i==8) $corte="cp_08";
+                if($i==9) $corte="cp_09";
+                if($i==10) $corte="cp_10";
+                if($i==11) $corte="cp_11";
+                if($i==12) $corte="cp_12";
+              ?>
               <td>
               {{-- Corte {{ $i }} --}}
                 <div class="ui toggle checkbox mini form" id="cp">
-                <input type="checkbox" name="cp_{{$i}}[{{$e}}][{{$i}}]" value="1">
+                <input type="checkbox" name="cp_{{$i}}[{{$e}}][{{$i}}]" value="1"
+                  @if($academic->$corte === 1) checked=checked @else  @endif>
                 </div>
               </td>
             @endfor

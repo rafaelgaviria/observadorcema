@@ -1,25 +1,27 @@
 @extends('layouts.app')
 @section('content')
-
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 <h2 class="ui dividing header">Materias de {{$course->name}}</h2>
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
         <th>Nombre</th>
-        <th>Curso</th>
         <th>Área</th>
+        <th>Editar</th>
       </tr>
     </thead>
     <tbody>
       @foreach($materias as $materia)
         <tr>
             <td>
-                <a href="{{ route('student_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important">
+                {{-- <a href="{{ route('student_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important"> --}}
                     <h3>{{$materia->name}}</h3>                    
-                </a>
+                {{-- </a> --}}
             </td>
-            <td>{{$materia->name_course}}</td>
             <td>{{$materia->area}}</td>
+            <td><a href="{{ route('materias.edit', $materia->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+              <i class="edit blue icon"></i>
+            </a></td>
         </tr>
         @endforeach
   </table>

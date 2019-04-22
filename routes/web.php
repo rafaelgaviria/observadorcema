@@ -44,6 +44,7 @@ Route::group(['middleware' => 'admin'], function () {
     
   Route::resource('observer', 'Admin\ObserverController');
   Route::resource('/usuarios', 'Admin\UsersController');
+  Route::get('usuarios', 'Admin\UsersController@index')->name('usuarios');
 
   Route::get('observer/create/{id}','Admin\ObserverController@crearObservacion')->name('observer');
   Route::get('micurso', 'Admin\ObserverController@micurso')->name('micurso');
@@ -82,7 +83,8 @@ Route::group(['middleware' => 'admin'], function () {
   Route::resource('materias', 'Admin\MateriasController');
   Route::get('academicocurso','Admin\MateriasController@academicocurso')->name('academicocurso');
   Route::get('editmateria/{id}','Admin\MateriasController@editmateria')->name('editmateria');
-    
+
+  Route::resource('tpmaterias', 'Admin\TpacademicController');
 });
   
 Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');

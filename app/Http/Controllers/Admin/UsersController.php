@@ -15,7 +15,7 @@ class UsersController extends Controller
     public function index(Request $request)
     {
         //return 'Listado de usuarios';
-        $users = User::paginate(30);
+        $users = User::paginate(800);
         return view('admin.users.index',compact('users'));
     }
 
@@ -81,7 +81,9 @@ class UsersController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
-        //
-    }
+	{
+		User::find($id)->delete();
+
+		return back()->with('info', 'Usuario eliminado correctamente');
+	}
 }
