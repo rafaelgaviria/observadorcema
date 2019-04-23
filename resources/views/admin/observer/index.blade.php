@@ -229,9 +229,9 @@
     </tbody>
     <tfoot>
       <tr>
-        {{-- <th colspan="10">
+        <th colspan="10">
             {{$observations->render()}}  
-        </th> --}}
+        </th>
     </tr>
   </tfoot>
   </table>
