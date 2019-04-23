@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Auth;
 
 use DB;
 use App\Academic;
+use App\Tpacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -52,7 +53,7 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         
-        $ob_academics = Academic::where('user_id',$id)->get();
+        $ob_academics = Tpacademic::where('user_id',$id)->get();
         return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }
 

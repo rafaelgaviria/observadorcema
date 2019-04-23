@@ -16,7 +16,6 @@
         <th colspan="3" class="text-center">2do. periodo</th>
         <th colspan="3" class="text-center">3er. periodo</th>
         <th colspan="3" class="text-center">4to. periodo</th>
-        <th rowspan="2" class="text-center">Acciones</th>
       </tr>
       <tr>
         <th class="text-center">1<br>Mar. 1</th>
@@ -31,7 +30,7 @@
         <th class="text-center">1<br>Oct. 18</th>
         <th class="text-center">2<br>Nov. 1</th>
         <th class="text-center">3<br>Nov. 15</th>
-        
+        <th class="text-center">Acciones</th>
       </tr>
     </thead>
     <tbody>
@@ -57,7 +56,6 @@
             <td>
               <p>
                 
-                <input type="hidden" name="id" value="{{ $academic->id }}">
                 <input type="hidden" name="user_id[{{$e}}]" value="{{ $academic->user_id }}">
                 <a href="{{ route('observerstudent',$academic->user_id)}}" >
                   {{ $academic->user->name }}
