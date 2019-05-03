@@ -47,13 +47,13 @@
         </tr>
       </thead>
       <tbody>
-        <tr >
-          <td >Comentarios</td>
-          <td >{{$comentarios_1p}}
+        <tr>
+          <td>Comentarios</td>
+          <td class="disabled">{{$comentarios_1p}}
             <a href="{{ route('comentarios')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a>
           </td>
-          <td class="disabled">{{$comentarios_2p}}</td>
+          <td>{{$comentarios_2p}}</td>
           <td class="disabled" class="disabled">{{$comentarios_3p}}
           </td>
           <td class="disabled">{{$comentarios_4p}}</td>
@@ -61,11 +61,11 @@
         </tr>
         <tr>
           <td>Notificaciones</td>
-          <td >{{$notificaciones_1p}}
+          <td class="disabled">{{$notificaciones_1p}}
             <a href="{{ route('notificaciones')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a>
           </td>
-          <td class="disabled">{{$notificaciones_2p}}</td>
+          <td>{{$notificaciones_2p}}</td>
           <td class="disabled" class="disabled">{{$notificaciones_3p}}
           </td>
           <td class="disabled">{{$notificaciones_4p}}</td>
@@ -73,77 +73,77 @@
         </tr>
         <tr>
           <td>Compromisos</td>
-          <td >{{$compromisos_1p}}
+          <td class="disabled">{{$compromisos_1p}}
           <a href="{{ route('compromisos')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a>
           </td>
-          <td class="disabled">{{$compromisos_2p}}</td>
+          <td>{{$compromisos_2p}}</td>
           <td class="disabled" class="disabled">{{$compromisos_3p}}</td>
           <td class="disabled">{{$compromisos_4p}}</td>
           <td>{{$compromisos}}</td>
         </tr>
         <tr>
           <td>Sanciones</td>
-          <td >{{$sancion_1p}}
+          <td class="disabled">{{$sancion_1p}}
           <a href="{{ route('sanciones')}}" class="ui tiny icon" style="display: inline-block !important">
           <i class="angle double right icon blue fz2em"></i></a>
           </td>
-          <td class="disabled">{{$sancion_2p}}</td>
+          <td>{{$sancion_2p}}</td>
           <td class="disabled">{{$sancion_3p}}</td>
           <td class="disabled">{{$sancion_4p}}</td>
           <td>{{$sancion}}</td>
         </tr>
         <tr>
           <td>Matricula condicional</td>
-          <td >{{$matricula_condicional_1p}}
+          <td class="disabled">{{$matricula_condicional_1p}}
             <a href="{{ route('matricula_condicional')}}" class="ui tiny icon" style="display: inline-block !important">
           <i class="angle double right icon blue fz2em"></i></a> 
           </td>
-          <td class="disabled">{{$matricula_condicional_2p}}</td>
+          <td >{{$matricula_condicional_2p}}</td>
           <td class="disabled" class="disabled">{{$matricula_condicional_3p}}</td>
           <td class="disabled">{{$matricula_condicional_4p}}</td>
           <td>{{$matricula_condicional}}</td>
         </tr>
         <tr>
           <td>Remisión a comité de convivencia</td>
-          <td >{{$remision_comite_convivencia_1p}}
+          <td class="disabled">{{$remision_comite_convivencia_1p}}
             <a href="{{ route('comite_convivencia')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a> 
           </td>
-          <td class="disabled">{{$remision_comite_convivencia_2p}}</td>
+          <td >{{$remision_comite_convivencia_2p}}</td>
           <td class="disabled" class="disabled">{{$remision_comite_convivencia_3p}}</td>
           <td class="disabled">{{$remision_comite_convivencia_4p}}</td>
           <td>{{$remision_comite_convivencia}}</td>
         </tr>
         <tr>
           <td>Remisión al consejo académico</td>
-          <td >{{$remision_consejo_academico_1p}}
+          <td class="disabled">{{$remision_consejo_academico_1p}}
             <a href="{{ route('consejo_academico')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a>             
           </td>
-          <td class="disabled">{{$remision_consejo_academico_2p}}</td>
+          <td >{{$remision_consejo_academico_2p}}</td>
           <td class="disabled" class="disabled">{{$remision_consejo_academico_3p}}</td>
           <td class="disabled">{{$remision_consejo_academico_4p}}</td>
           <td>{{$remision_consejo_academico}}</td>
         </tr>
         <tr>
           <td>Cancelación de matrícula</td>
-          <td >{{$cancelacion_matricula_1p}}
+          <td class="disabled">{{$cancelacion_matricula_1p}}
             <a href="{{ route('cancelacion_matricula')}}" class="ui tiny icon" style="display: inline-block !important">
           <i class="angle double right icon blue fz2em"></i></a> 
           </td>
-          <td class="disabled">{{$cancelacion_matricula_2p}}</td>
+          <td >{{$cancelacion_matricula_2p}}</td>
           <td class="disabled" class="disabled">{{$cancelacion_matricula_3p}}</td>
           <td class="disabled">{{$cancelacion_matricula_4p}}</td>
           <td>{{$cancelacion_matricula}}</td>
         </tr>
         <tr>
           <td>Remisión a orientación</td>
-          <td >{{$remision_orientacion_1p}}
+          <td class="disabled">{{$remision_orientacion_1p}}
             <a href="{{ route('remision_orientacion')}}" class="ui tiny icon" style="display: inline-block !important">
             <i class="angle double right icon blue fz2em"></i></a> 
           </td>
-          <td class="disabled">{{$remision_orientacion_2p}}</td>
+          <td >{{$remision_orientacion_2p}}</td>
           <td class="disabled" class="disabled">{{$remision_orientacion_3p}}</td>
           <td class="disabled">{{$remision_orientacion_4p}}</td>
           <td>{{$remision_orientacion}}</td>
@@ -152,8 +152,8 @@
       <tfoot>
         <tr>
           <th>Total Observaciones</th>
-          <th >{{$totalobservaciones_1p}}</th>
-          <th class="disabled">{{$totalobservaciones_2p}}</th>
+          <th class="disabled">{{$totalobservaciones_1p}}</th>
+          <th >{{$totalobservaciones_2p}}</th>
           <th class="disabled">{{$totalobservaciones_3p}}</th>
           <th class="disabled">{{$totalobservaciones_4p}}</th>
           <th>{{$totalobservaciones}}</th>
