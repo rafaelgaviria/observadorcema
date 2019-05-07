@@ -88,9 +88,7 @@
   {!! Form::hidden('student_count',$cant)!!}
   {!! Form::hidden('course',$course)!!}
   {!! Form::hidden('creator_id',$creator)!!}
-  
   {!! Form::hidden('materia_id',$materias->id)!!}
-
   {!! Form::close() !!}
   <br>
   <br>

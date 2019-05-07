@@ -47,10 +47,10 @@
         <td>{{ $observations4p->observation }}</td>
         <td>{{ $observations4p->creator }}</td>
         <td>
+          <a href="{{ route('observer.show', $observations4p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+            <i class="eye blue icon"></i>
+          </a>
           @if(Auth::user()->id == 16)
-            <a href="{{ route('observer.show', $observations4p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-              <i class="eye blue icon"></i>
-            </a>
             <a href="{{ route('observer.edit', $observations4p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
@@ -100,10 +100,10 @@
         <td>{{ $observations3p->observation }}</td>
         <td>{{ $observations3p->creator->name }}</td>
         <td>
+          <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+            <i class="eye blue icon"></i>
+          </a>
           @if(Auth::user()->id == 16)
-            <a href="{{ route('observer.show', $observations3p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
-              <i class="eye blue icon"></i>
-            </a>
             <a href="{{ route('observer.edit', $observations3p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
@@ -152,10 +152,10 @@
         <td>{{ $observations2p->observation }}</td>
         <td>{{ $observations2p->creator->name }}</td>
         <td>
-          @if(Auth::user()->id == 16)
-            <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
+          <a href="{{ route('observer.show', $observations2p->id)}}" class="ui tiny icon button" style="display: inline-block !important">
               <i class="eye blue icon"></i>
             </a>
+          @if(Auth::user()->id == 16)
             <a href="{{ route('observer.edit', $observations2p->id)}}" class="ui tiny icon button" style="display:inline-block !important">
               <i class="edit blue icon"></i>
             </a>
