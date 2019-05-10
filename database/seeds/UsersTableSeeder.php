@@ -16,27 +16,37 @@ class UsersTableSeeder extends Seeder
             
         App\User::create([
             //'id' => '63',
-            'name' => 'Caro Salamanca José Santiago',
-            'username' => '1023371224',
-            'email' => '1023371224@cema.edu.co',
-            'password' => bcrypt('1023371224'),
-            'document' => '1023371224',
-            'phonenumber' => '',
+            'name' => 'Rios Gómez Juan Esteban',
+            'username' => '1028800884',
+            'email' => 'claudhia-11@gmail.com',
+            'password' => bcrypt('1028800884'),
+            'document' => '1028800884',
+            'course' => '1',
+            'role_id' => '5'
+        ]);
+        App\User::create([
+            //'id' => '63',
+            'name' => 'Nuncira Jiménez María Camila',
+            'username' => '1141714965',
+            'email' => '1141714965@cema.edu.co',
+            'password' => bcrypt('1141714965'),
+            'document' => '1141714965',
             'course' => '7',
             'role_id' => '5'
-            ]);
-        App\User::create([
-            'id' => '510',
-            'name' => 'Rincón Cañón Laura Sofía',
-            'username' => '1001316703',
-            'email' => 'ceacv151025@gmail.com',
-            'password' => bcrypt('1001316703'),
-            'document' => '1001316703',
-            'officialcode' => '2018294',
-            'phonenumber' => '',
-            'course' => '11',
-            'role_id' => '5'
-            ]);
+        ]);
+
+        // App\User::create([
+        //     'id' => '510',
+        //     'name' => 'Rincón Cañón Laura Sofía',
+        //     'username' => '1001316703',
+        //     'email' => 'ceacv151025@gmail.com',
+        //     'password' => bcrypt('1001316703'),
+        //     'document' => '1001316703',
+        //     'officialcode' => '2018294',
+        //     'phonenumber' => '',
+        //     'course' => '11',
+        //     'role_id' => '5'
+        //     ]);
         
 
 // FORMULA PARA CONCATENAR EN EXCEL
