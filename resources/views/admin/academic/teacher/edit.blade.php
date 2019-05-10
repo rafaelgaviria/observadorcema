@@ -3,7 +3,7 @@
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
 
-{!! Form::open(['route' => 'tpmaterias.store','method'=>'post'])!!}
+{!! Form::open(['route' => 'cpmaterias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
   'class' => 'huge blue ui button',
 ]) !!}

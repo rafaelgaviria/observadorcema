@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Auth;
 use DB;
 use App\Academic;
 use App\Tpacademic;
+use App\Cpacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -276,7 +277,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Academic::where('materia_id',$id)->get();
+        $academics = Tpacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));
