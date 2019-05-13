@@ -14,11 +14,11 @@
       @foreach($materias as $materia)
         <tr>
             <td>
-              <a href="{{ route('student_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important">
+              {{-- <a href="{{ route('student_list', $materia->id)}}" class="ui tiny icon" style="display: inline-block !important"> --}}
               <div class="ui button" data-tooltip="{{ $materia->id }}" data-position="top left">
                 {{$materia->name}}
               </div>
-              </a>
+              {{-- </a> --}}
             </td>
             <td>{{$materia->area}}</td>
             <td><a href="{{ route('materias.edit', $materia->id)}}" class="ui tiny icon button" style="display:inline-block !important">
