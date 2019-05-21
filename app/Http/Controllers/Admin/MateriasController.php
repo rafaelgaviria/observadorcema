@@ -133,6 +133,21 @@ class MateriasController extends Controller
         // dd($creator);
         return view('admin.materias.student_list',compact('materias', 'students', 'course', 'creator'));
     }
+    public function materia_individual($id)
+    {
+        $students = User::where('id',$id)->get();
+        $course = User::where('id', $id)->pluck('course','id')->first();
+        $materia = Materia::where('course_id',$course)->orderBy('id', 'ASC')->pluck('name','id');
+        $creator = Auth::id();
+        
+        return view('admin.materias.materia_individual',compact('materia', 'students', 'course', 'creator'));
+    }
+    
+    public function academico_individual()
+    {
+        $users = User::where('state',1)->where('role_id',5)->where('course', '<', 12)->paginate(800);
+        return view('admin.academic.teacher.academico_individual',compact('users', 'students', 'course', 'creator'));
+    }
     
     /**
      * Show the form for creating a new resource.
@@ -225,7 +240,7 @@ class MateriasController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Academic::create([
+                $academic = Cpacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,

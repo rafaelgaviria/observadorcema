@@ -56,10 +56,17 @@ class User extends Authenticatable
     //     return $this->belongsTo(Course::class);
     // }    
 
+    // public function course(){
+    //     return $this->hasMany('App\Course','id', 'course');
+    // }
+
     public function course(){
-        return $this->hasOne('App\Course','course');
+        return $this->hasOne('App\Course','id', 'course');
+        // return $this->hasOne('App\UserProfile', 'userID');
     }
-    
+
+
+    //$this->hasMany('App\Comment', 'foreign_key', 'local_key');
     // public function course(){
     //     return $this->belongsTo('App\course','id','course');
     // }

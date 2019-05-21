@@ -644,6 +644,10 @@ class ObserverController extends Controller
 		// Primer periodo
 		$ini_1p = date('2019-02-01 00:00:00');
 		$end_1p = date('2019-04-01 23:59:59');
+		// Segundo periodo
+		$ini_2p = date('2019-04-15 00:00:00');
+		$end_2p = date('2019-06-14 23:59:59');
+		// Tercer periodo
 		
 		$coordinador = Auth::id();
 		$course = User::where('id', $coordinador)->pluck('course','id')->first();

@@ -86,7 +86,7 @@
               </td>
             @endfor
             <td>
-                @if(Auth::user()->id == 16)   
+                @if(Auth::user()->id == 16 || 1)   
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
