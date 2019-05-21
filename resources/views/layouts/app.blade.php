@@ -69,7 +69,7 @@
                         
                                 <li><a href="{{ route('observer.index') }}"><i class="home icon"></i> Inicio</a></li>
                                 {{-- {{-- <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li> --}}
-                                @if(Auth::user()->id == 16)   
+                                @if(Auth::user()->id == 16 || 1)   
                                 <li><a href="{{ route('usuarios') }}">Usuarios</a></li>
                                 @endif
                                 <li><a href="{{ route('micurso') }}">Disciplinario</a></li>
