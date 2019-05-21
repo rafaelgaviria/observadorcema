@@ -146,7 +146,7 @@ class MateriasController extends Controller
     public function academico_individual()
     {
         $users = User::where('state',1)->where('role_id',5)->where('course', '<', 12)->paginate(800);
-        return view('admin.academic.teacher.academico_individual',compact('users', 'course', 'creator'));
+        return view('admin.academic.teacher.academico_individual',compact('users'));
     }
     
     /**
