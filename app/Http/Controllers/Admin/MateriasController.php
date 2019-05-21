@@ -139,14 +139,14 @@ class MateriasController extends Controller
         $course = User::where('id', $id)->pluck('course','id')->first();
         $materia = Materia::where('course_id',$course)->orderBy('id', 'ASC')->pluck('name','id');
         $creator = Auth::id();
-        
+
         return view('admin.materias.materia_individual',compact('materia', 'students', 'course', 'creator'));
     }
     
     public function academico_individual()
     {
         $users = User::where('state',1)->where('role_id',5)->where('course', '<', 12)->paginate(800);
-        return view('admin.academic.teacher.academico_individual',compact('users', 'students', 'course', 'creator'));
+        return view('admin.academic.teacher.academico_individual',compact('users', 'course', 'creator'));
     }
     
     /**
