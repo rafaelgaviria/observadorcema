@@ -24,6 +24,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '4'
         ]);
 
+        
         // App\User::create([
         //     'id' => '510',
         //     'name' => 'Rincón Cañón Laura Sofía',
