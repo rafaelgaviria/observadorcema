@@ -183,6 +183,8 @@ class TpacademicController extends Controller
      */
     public function destroy($id)
     {
+        Tpacademic::find($id)->delete();
+        return back()->with('info', 'Registro eliminado correctamente');
         //
     }
 }

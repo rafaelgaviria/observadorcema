@@ -90,7 +90,7 @@
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
-                {!!Form::open(['route' => ['materias.destroy', $academic->id],
+                {!!Form::open(['route' => ['tpmaterias.destroy', $academic->id],
                 'method' => 'DELETE']) !!}
                 <button class="ui tiny icon button">
                   <i class="cancel red icon"></i>
