@@ -30,7 +30,9 @@
         <th class="text-center">1<br>Oct. 18</th>
         <th class="text-center">2<br>Nov. 1</th>
         <th class="text-center">3<br>Nov. 15</th>
-        <th class="text-center">Acciones</th>
+        @if(Auth::user()->id == 16)
+          <th class="text-center">Acciones</th>
+        @endif
       </tr>
     </thead>
     <tbody>
@@ -85,8 +87,8 @@
                 </div>
               </td>
             @endfor
+            @if(Auth::user()->id == 16)   
             <td>
-                @if(Auth::user()->id == 16 || 1)   
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
@@ -97,8 +99,8 @@
                 </button>
                 
                 {!! Form::close() !!}
-              @endif
-            </td>
+              </td>
+            @endif
         </tr>
         <?php $e++; ?>
         @endforeach
