@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('1000707125'),
             'document' => '1000707125',
             'course' => '11',
-            'role_id' => '4'
+            'role_id' => '5'
         ]);
         App\User::create([
             'id' => '607',
@@ -32,7 +32,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('1028484317'),
             'document' => '1028484317',
             'course' => '6',
-            'role_id' => '4'
+            'role_id' => '5'
         ]);
         
         App\User::create([
@@ -43,7 +43,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('1014659824'),
             'document' => '1014659824',
             'course' => '8',
-            'role_id' => '4'
+            'role_id' => '5'
         ]);
     
 
