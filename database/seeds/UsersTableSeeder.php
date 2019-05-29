@@ -15,48 +15,37 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         
         App\User::create([
-            //'id' => '63',
-            'name' => 'Cubillos Castañeda Sara Lyset',
-            'username' => '1188220355',
-            'email' => '1188220355@cema.edu.co',
-            'password' => bcrypt('1188220355'),
-            'document' => '1188220355',
-            'course' => '1',
+            'id' => '606',
+            'name' => 'Guerrero Zamudio María Alejandra',
+            'username' => '1000707125',
+            'email' => '1000707125@cema.edu.co',
+            'password' => bcrypt('1000707125'),
+            'document' => '1000707125',
+            'course' => '11',
+            'role_id' => '4'
+        ]);
+        App\User::create([
+            'id' => '607',
+            'name' => 'Castillo Moreno Juan Diego',
+            'username' => '1028484317',
+            'email' => '1028484317@cema.edu.co',
+            'password' => bcrypt('1028484317'),
+            'document' => '1028484317',
+            'course' => '6',
             'role_id' => '4'
         ]);
         
         App\User::create([
-            //'id' => '63',
-            'name' => 'Rios Gómez Juan Esteban',
-            'username' => '1028800884',
-            'email' => '1028800884@cema.edu.co',
-            'password' => bcrypt('1028800884'),
-            'document' => '1028800884',
-            'course' => '1',
+            'id' => '608',
+            'name' => 'Lombana Vargas Duvan Alejandro',
+            'username' => '1014659824',
+            'email' => '1014659824@cema.edu.co',
+            'password' => bcrypt('1014659824'),
+            'document' => '1014659824',
+            'course' => '8',
             'role_id' => '4'
         ]);
-        
-        App\User::create([
-            //'id' => '63',
-            'name' => 'Lozano Bocanegra Jhon Steven',
-            'username' => '1108833396',
-            'email' => '1108833396@cema.edu.co',
-            'password' => bcrypt('1108833396'),
-            'document' => '1108833396',
-            'course' => '2',
-            'role_id' => '4'
-        ]);
-        
-        App\User::create([
-            //'id' => '63',
-            'name' => 'Guerrero Zamudio Daniel Alejandro',
-            'username' => '1023165547',
-            'email' => '1023165547@cema.edu.co',
-            'password' => bcrypt('1023165547'),
-            'document' => '1023165547',
-            'course' => '3',
-            'role_id' => '4'
-        ]);
+    
 
 // FORMULA PARA CONCATENAR EN EXCEL
 // =CONCATENAR(
