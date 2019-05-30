@@ -2,6 +2,13 @@
 @section('content')
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
 <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
+<div class="ui negative message">
+  <i class="close icon"></i>
+  <div class="header">
+    Aviso para calificación de cuarto corte parcial
+  </div>
+  <p>Si esta materia no contiene listado de estudiantes haga clic en el siguiente enlace: <a href="{{ route('student_list', $materias)}}" class="ui tiny icon " style="display:inline-block !important"><h4>Listado de estudiantes {{$materias->name}} {{$materias->name_course}}</h4></a>
+</p></div>
 
 {!! Form::open(['route' => 'cpmaterias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
