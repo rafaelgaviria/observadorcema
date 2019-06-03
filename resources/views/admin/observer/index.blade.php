@@ -6,7 +6,16 @@
 <div class="ui grid">
   <div class="six wide column">
     <h3 class="ui header">Cursos</h3>
-    
+    <table class="ui celled striped small very compact selectable table" id="table_id" class="display">
+      <thead>
+        <tr>
+          <th >Curso</th>
+          <th >Observador</th>
+          <th >Académico</th>
+          <th >Estudiantes</th>
+        </tr>
+      </thead>
+      <tbody>
       @for($i=1;$i<=11;$i++)
       <?php
         if($i==1) $curso="Primero";
@@ -21,12 +30,25 @@
         if($i==10) $curso="Décimo";
         if($i==11) $curso="Once";
       ?>
-        <div class="title ui orange segment">
-          <a href="{{ route('observacionesdelcurso',$i)}}" >
-            {{$curso}}<span class="totalcurso">{{$total[$i]}}</span>
-          </a>
-        </div>
-      @endfor
+        <tr>
+          <td>{{$curso}}</td>
+          <td><a href="{{ route('observacionesdelcurso',$i)}}" >
+            <i class="eye icon"></i>
+            <span>{{$total[$i]}}</span>
+            </a>
+          </td>
+          <td>
+            <a href="{{ route('calificacionesdelcurso',$i)}}" >
+              <i class="book icon"></i>
+              <span>{{$numero_estudiantes_calificados[$i]}}</span>
+            </a>
+          </td>
+          <td><span class="totalcurso">{{$numero_estudiantes[$i]}}</span></td>
+        </tr>
+        @endfor
+      </tbody>
+    </table>
+    
     
   </div>
   <div class="ten wide column">

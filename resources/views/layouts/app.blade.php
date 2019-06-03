@@ -72,8 +72,9 @@
                                 @if(Auth::user()->id == 16)   
                                 <li><a href="{{ route('usuarios') }}">Usuarios</a></li>
                                 @endif
-                                <li style="border-right: 1px solid #ccc;"><a href="{{ route('micurso') }}">Disciplinario</a></li>
+                                
                                 {{-- <li><a href="{{ route('academicocurso') }}">Académico</a></li> --}}
+                                <li style="border-right: 1px solid #ccc;"><a href="{{ route('micurso') }}">Disciplinario</a></li>
                                 <li><a href="{{ route('cursos') }}">Académica curso</a></li>
                                 <li>
                                     <a href="{{ route('academico_individual') }}">Académica por estudiante</a>

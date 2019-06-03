@@ -24,6 +24,7 @@ use App\Observercode;
 use App\Observernote; 
 use App\CourseUser; 
 use App\Role; 
+use App\Cpacademic; 
 
 class ObserverController extends Controller
 {
@@ -66,6 +67,33 @@ class ObserverController extends Controller
 				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $i)->orderBy('name', 'ASC')->get();
 			
 				$total[$i] = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where("course_id","=",$i)->count();
+				$numero_estudiantes[$i] = User::where("course","=",$i)->count();
+				
+				$numero_estudiantes_calificados[$i] = DB::table('cpacademics')
+					->where("course_id","=",$i)
+					->select('materia_id', DB::raw('count(*) as total'))
+					->groupBy('materia_id')
+					->pluck('total','materia_id')
+					->count();
+
+				
+				// $numero_estudiantes_calificados = DB::table('cpacademics')
+				// 	->where("course_id","=",$i)
+				// 	->select('materia_id', DB::raw('count(*) as total'))
+				// 	->groupBy('materia_id')
+				// 	->get();
+					
+				// $numero_estudiantes_calificados = DB::table('cpacademics')
+				// 	->where("course_id","=",$i)
+				// 	->select('materia_id', DB::raw('count(*) as total'))
+				// 	->groupBy('materia_id')
+				// 	->pluck('total','materia_id');
+
+
+				// $numberoftwits = DB::table('twits')
+                //      ->select(DB::raw('count(*) as num'))
+                //      ->groupBy('user_ID')
+                //      ->get();
 			
 			foreach($estudiantes[$i] as $estudiante){
 				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_2p, $end_2p])
@@ -92,8 +120,8 @@ class ObserverController extends Controller
 			}
 					//print_r($observacion);
 		}
-				// dd($sancion);
-				// dd($estudiantes);
+		// dd($numero_estudiantes_calificados);
+		
 
 		//$totalusers = DB::table('users')->where('role_id', '=', 4)->where('state', '=', true)->count();
 		$totalstudents = User::all()->where('role_id', '=', 5)->where('state', '=', true)->count();
@@ -172,7 +200,7 @@ class ObserverController extends Controller
 		// dd($observations);
 
 		return view('admin.observer.index', compact(
-		'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones',
+		'estudiantes','total', 'numero_estudiantes', 'numero_estudiantes_calificados','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
 		'comentarios','notificaciones','compromisos','sancion','matricula_condicional','remision_comite_convivencia','remision_consejo_academico','cancelacion_matricula','remision_orientacion',
