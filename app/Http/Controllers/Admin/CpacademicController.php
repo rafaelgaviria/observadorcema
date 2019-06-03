@@ -203,33 +203,11 @@ class CpacademicController extends Controller
                 $cp_10[$i][] = DB::table('cpacademics')->where('user_id',$estudiante->id)->where('cp_10',1)->count();
                 $cp_11[$i][] = DB::table('cpacademics')->where('user_id',$estudiante->id)->where('cp_11',1)->count();
                 $cp_12[$i][] = DB::table('cpacademics')->where('user_id',$estudiante->id)->where('cp_12',1)->count();
-                
-                $numero_estudiantes_calificados[$i][] = DB::table('cpacademics')
-					->where("course_id","=",$i)
-					->select('materia_id', DB::raw('count(*) as total'))
-					->groupBy('materia_id')
-					->pluck('total','materia_id')
-					->count();
-				
 			}
 					//print_r($observacion);
 		}
         // dd($estudiantes);
-		return view('admin.materias.calificacionesdelcurso', compact(
-            'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente', 'totalstudents','sanciones', 'curso','numero_estudiantes_calificados',
-            'cp_01',
-            'cp_02',
-            'cp_03',
-            'cp_04',
-            'cp_05',
-            'cp_06',
-            'cp_07',
-            'cp_08',
-            'cp_09',
-            'cp_10',
-            'cp_11',
-            'cp_12'
-        ));
+		return view('admin.materias.calificacionesdelcurso', compact('estudiantes', 'curso','cp_01','cp_02','cp_03','cp_04','cp_05','cp_06','cp_07','cp_08','cp_09','cp_10','cp_11','cp_12'));
 	}
 
     /**
