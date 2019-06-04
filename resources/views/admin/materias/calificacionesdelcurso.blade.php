@@ -75,8 +75,10 @@
             @endif  
             {{-- <img src="{{asset('images/avatar/'.$estudiante->document.'.jpg')}}" class="avatar"> --}}
           </td>
-          <td class="four wide"><h4 style="display:inline-block"><a href="{{ route('calificacionesdelestudiante',$estudiante->id)}}" >{{ $estudiante->name }}</a></h4>
-            <span class="link"><a href="{{ route('observerstudent',$estudiante->id)}}" ><i class="angle double right icon teal"></i></a></span>
+          <td class="four wide">
+                <h4 style="display:inline-block">
+                    <a href="{{ route('calificacionesdelestudiante',$estudiante->id)}}" >{{ $estudiante->name }}</a>
+                </h4>
           </td>
           {{-- <td>@if ($numero_estudiantes_calificados[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$numero_estudiantes_calificados[$i][$k]}} </h3> @endif</td> --}}
           

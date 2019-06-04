@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a><br><br>
 <h2 class="ui dividing header">Observador académico estudiante  {{$course}}</h2>
   <table class="ui celled striped small very compact table">
       <thead>
