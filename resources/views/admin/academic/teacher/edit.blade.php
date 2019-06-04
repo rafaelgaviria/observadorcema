@@ -1,23 +1,23 @@
 @extends('layouts.app')
 @section('content')
-<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a>
-<h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a><br><br>
+{{-- <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
 <div class="ui negative message">
   <i class="close icon"></i>
   <div class="header">
     Aviso para calificación de cuarto corte parcial
   </div>
   <p>Si esta materia no contiene listado de estudiantes haga clic en el siguiente enlace: <a href="{{ route('student_list', $materias)}}" class="ui tiny icon " style="display:inline-block !important"><h4>Listado de estudiantes {{$materias->name}} {{$materias->name_course}}</h4></a>
-</p></div>
+</p></div> --}}
 
-{!! Form::open(['route' => 'cpmaterias.store','method'=>'post'])!!}
+{!! Form::open(['route' => 'qpmaterias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
   'class' => 'huge blue ui button',
 ]) !!}
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th rowspan="2" class="text-center">Foto</th>
+        {{-- <th rowspan="2" class="text-center">Foto</th> --}}
         <th rowspan="2" class="text-center">Estudiante</th>
         <th colspan="3" class="text-center">1er. periodo</th>
         <th colspan="3" class="text-center">2do. periodo</th>
@@ -38,7 +38,7 @@
         <th class="text-center">2<br>Nov. 1</th>
         <th class="text-center">3<br>Nov. 15</th>
         @if(Auth::user()->id == 16)
-          <th class="text-center">Acciones</th>
+          <th class="text-center">Eliminar</th>
         @endif
       </tr>
     </thead>
@@ -52,16 +52,16 @@
       ?>
       @foreach($academics as $academic)
         <tr>
+          {{-- @php
             <td>
-              {{-- @php
                 $foto = public_path().'/images/avatar/'.$student->document.'.jpg';
               @endphp
               @if(file_exists($foto))
                 <img src="{{asset('images/avatar/'.$student->document.'.jpg')}}" class="avatar" style="width: 48px; height:45px">
               @else
                 <img src="{{asset('images/avatar/user.png')}}" class="avatar" style="width: 48px; height:45px">
+              </td>
               @endif   --}}
-            </td>
             <td>
               <p>
                 
@@ -99,7 +99,7 @@
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
-                {!!Form::open(['route' => ['tpmaterias.destroy', $academic->id],
+                {!!Form::open(['route' => ['cpmaterias.destroy', $academic->id],
                 'method' => 'DELETE']) !!}
                 <button class="ui tiny icon button">
                   <i class="cancel red icon"></i>

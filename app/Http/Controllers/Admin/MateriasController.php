@@ -5,8 +5,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Support\Collection as Collection; 
 use Illuminate\Http\Request;
-//use App\Http\Requests\AcademicStoreRequest;
-//use App\Http\Requests\AcademicUpdateRequest;
+use App\Http\Requests\MateriaStoreRequest;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
@@ -15,6 +14,7 @@ use DB;
 use App\Academic;
 use App\Tpacademic;
 use App\Cpacademic;
+use App\Qpacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -253,7 +253,7 @@ class MateriasController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Cpacademic::create([
+                $academic = Qpacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -274,7 +274,7 @@ class MateriasController extends Controller
 
         }
         
-        return redirect()->route('materias.show', $course)->with('info', '¡El registro académico del curso fue creado con éxito!');
+        return redirect()->route('academico_individual', $course)->with('info', '¡El registro académico del estudiante fue creado con éxito!');
     }
 
     /**
@@ -305,7 +305,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Tpacademic::where('materia_id',$id)->get();
+        $academics = Cpacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));

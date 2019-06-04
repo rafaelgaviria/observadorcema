@@ -5,15 +5,21 @@
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a><br><br>
 {!! Form::open(['route' => 'materias.store','method'=>'post'])!!}
 <div class="ui grid">
-  <div class="eight column row">
-    <div class="field">
-        {!! Form::label('Materia', "") !!}      
-        {!! Form::select('materia_id', $materia, null, [
-            'class'=>'ui selection dropdown',
-            'placeholder'=>'Seleccione la Materia',
-            ])
-        !!}
-    </div>  
+  <div class="eight column row">  
+    <div class="ui negative message">
+      <div class="header">
+        Por favor seleccionar primero la materia a calificar <br><br>
+        <div class="field">
+          {!! Form::label('Materia', "") !!}      
+          {!! Form::select('materia_id', $materia, null, [
+              'class'=>'ui selection dropdown',
+              'placeholder'=>'Seleccione la Materia',
+              ])
+          !!}
+        </div>  
+      </div>
+    </div>
+    
     <div class="right floated column">
       {!! Form::submit('Enviar', [
         'class' => 'fluid blue ui button',
@@ -82,6 +88,7 @@
         <?php $e++; ?>
       @endforeach
   </table>
+
   <div class="ui grid">
     <div class="nine column row">
       <div class="right floated column">
