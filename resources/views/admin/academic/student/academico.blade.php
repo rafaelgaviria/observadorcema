@@ -158,7 +158,14 @@
                 <i class="check big icon green"></i>
               @endif
             </td>
-            <td></td>
+            <td style="text-align: center; vertical-align:middle">
+              @if ($ob_academic->cp_05 === 1)
+                <i class="x big icon red"></i>
+              @else
+                <i class="check big icon green"></i>
+              @endif
+            </td>
+            
             <td></td>
             <td></td>
             <td></td>
