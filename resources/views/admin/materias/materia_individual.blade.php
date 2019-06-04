@@ -2,7 +2,7 @@
 @section('content')
 
 {{-- <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2> --}}
-
+<a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a><br><br>
 {!! Form::open(['route' => 'materias.store','method'=>'post'])!!}
 <div class="ui grid">
   <div class="eight column row">

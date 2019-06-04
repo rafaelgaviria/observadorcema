@@ -67,7 +67,7 @@ class ObserverController extends Controller
 				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $i)->orderBy('name', 'ASC')->get();
 			
 				$total[$i] = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where("course_id","=",$i)->count();
-				$numero_estudiantes[$i] = User::where("course","=",$i)->count();
+				$numero_estudiantes[$i] = User::where("course","=",$i)->where('state', '=', TRUE)->where('role_id', '=', 5)->count();
 				
 				$numero_estudiantes_calificados[$i] = DB::table('cpacademics')
 					->where("course_id","=",$i)
