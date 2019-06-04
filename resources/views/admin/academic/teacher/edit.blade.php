@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <a href="{{ URL::previous() }}"><i class="angle left icon fz2em"></i> Regresar</a><br><br>
-{{-- <h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
+<h2 class="ui dividing header">Materia: {{$materias->name}} {{$materias->name_course}}</h2>
+{{--
 <div class="ui negative message">
   <i class="close icon"></i>
   <div class="header">
