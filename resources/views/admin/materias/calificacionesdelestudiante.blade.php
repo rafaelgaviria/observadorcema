@@ -3,7 +3,7 @@
 @section('content')
 
 
-<h2 class="ui dividing header">Observador académico grado {{$namecourse}}</h2>
+<h2 class="ui dividing header">Observador académico estudiante  {{$course}}</h2>
   <table class="ui celled striped small very compact table">
       <thead>
           <tr>
@@ -11,7 +11,7 @@
             <th colspan="3" class="text-center">1er. periodo</th>
             <th colspan="3" class="text-center">2do. periodo</th>
             <th colspan="3" class="text-center">3er. periodo</th>
-            <th colspan="3" class="text-center">4to. periodo</th>
+            <th colspan="4" class="text-center">4to. periodo</th>
           </tr>
           <tr>
             <th class="text-center">1<br>Mar. 1</th>
@@ -26,6 +26,7 @@
             <th class="text-center">1<br>Oct. 18</th>
             <th class="text-center">2<br>Nov. 1</th>
             <th class="text-center">3<br>Nov. 15</th>
+            <th class="text-center"><br>Eliminar</th>
           </tr>
         </thead>
     <tbody>
@@ -76,6 +77,20 @@
             <td></td>
             <td></td>
             <td></td>
+            @if(Auth::user()->id == 16)   
+            <td>
+                {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
+                  <i class="edit blue icon"></i>
+                </a> --}}
+                {!!Form::open(['route' => ['cpmaterias.destroy', $ob_academic->id],
+                'method' => 'DELETE']) !!}
+                <button class="ui tiny icon button">
+                  <i class="cancel red icon"></i>
+                </button>
+                
+                {!! Form::close() !!}
+              </td>
+            @endif
         </tr>
         @endforeach
   </table>

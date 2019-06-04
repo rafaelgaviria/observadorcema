@@ -66,7 +66,7 @@ class MateriasController extends Controller
         $materias = Materia::where('course_id', $course)->get();
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
-        
+        // dd($student);
         $ob_academics = Cpacademic::where('user_id',$id)->get();
         return view('admin.materias.calificacionesdelestudiante',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }

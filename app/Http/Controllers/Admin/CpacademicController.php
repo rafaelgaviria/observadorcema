@@ -218,6 +218,8 @@ class CpacademicController extends Controller
      */
     public function destroy($id)
     {
+        Cpacademic::find($id)->delete();
+        return back()->with('info', 'Materia eliminada correctamente');
         //
     }
 }
