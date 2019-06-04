@@ -69,7 +69,7 @@ class ObserverController extends Controller
 				$total[$i] = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where("course_id","=",$i)->count();
 				$numero_estudiantes[$i] = User::where("course","=",$i)->where('state', '=', TRUE)->where('role_id', '=', 5)->count();
 				
-				$numero_estudiantes_calificados[$i] = DB::table('cpacademics')
+				$numero_estudiantes_calificados[$i] = DB::table('qpacademics')
 					->where("course_id","=",$i)
 					->select('materia_id', DB::raw('count(*) as total'))
 					->groupBy('materia_id')

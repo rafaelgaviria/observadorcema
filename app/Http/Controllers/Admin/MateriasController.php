@@ -54,7 +54,7 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         
-        $ob_academics = Cpacademic::where('user_id',$id)->get();
+        $ob_academics = Qpacademic::where('user_id',$id)->get();
         return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }
     
@@ -67,7 +67,7 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         // dd($student);
-        $ob_academics = Cpacademic::where('user_id',$id)->get();
+        $ob_academics = Qpacademic::where('user_id',$id)->get();
         return view('admin.materias.calificacionesdelestudiante',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }
 
