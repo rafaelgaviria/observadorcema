@@ -11,4 +11,8 @@ class Materia extends Model
     public function users(){
         return $this->belongsToMany(User::class);
     }
+    
+    public function name(){
+        return $this->belongsToMany(User::class);
+    }
 }
