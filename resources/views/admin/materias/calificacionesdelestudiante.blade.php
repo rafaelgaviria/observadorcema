@@ -77,8 +77,15 @@
                 <i class="check big icon green"></i>
               @endif
             </td>
+            <td style="text-align: center; vertical-align:middle">
+              @if ($ob_academic->cp_06 === 1)
+                <i class="x big icon red"></i>
+              @else
+                <i class="check big icon green"></i>
+              @endif
+            </td>
             
-            <td></td>
+            
             <td></td>
             <td></td>
             <td></td>
@@ -90,7 +97,7 @@
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
-                {!!Form::open(['route' => ['qpmaterias.destroy', $ob_academic->id],
+                {!!Form::open(['route' => ['spmaterias.destroy', $ob_academic->id],
                 'method' => 'DELETE']) !!}
                 <button class="ui tiny icon button">
                   <i class="cancel red icon"></i>

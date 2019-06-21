@@ -12,37 +12,15 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         // Eloquent::unguard();
-        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-        
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');        
         App\User::create([
-            'id' => '606',
-            'name' => 'Guerrero Zamudio María Alejandra',
-            'username' => '1000707125',
-            'email' => '1000707125@cema.edu.co',
-            'password' => bcrypt('1000707125'),
-            'document' => '1000707125',
-            'course' => '11',
-            'role_id' => '5'
-        ]);
-        App\User::create([
-            'id' => '607',
-            'name' => 'Castillo Moreno Juan Diego',
-            'username' => '1028484317',
-            'email' => '1028484317@cema.edu.co',
-            'password' => bcrypt('1028484317'),
-            'document' => '1028484317',
-            'course' => '6',
-            'role_id' => '5'
-        ]);
-        
-        App\User::create([
-            'id' => '608',
-            'name' => 'Lombana Vargas Duvan Alejandro',
-            'username' => '1014659824',
-            'email' => '1014659824@cema.edu.co',
-            'password' => bcrypt('1014659824'),
-            'document' => '1014659824',
-            'course' => '8',
+            'id' => '609',
+            'name' => 'Sánchez Carmona Andrés Esteban',
+            'username' => '1011226398',
+            'email' => '1011226398@cema.edu.co',
+            'password' => bcrypt('1011226398'),
+            'document' => '1011226398',
+            'course' => '1',
             'role_id' => '5'
         ]);
     

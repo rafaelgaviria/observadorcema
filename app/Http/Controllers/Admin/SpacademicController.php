@@ -2,18 +2,24 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Collection as Collection; 
 use Illuminate\Http\Request;
+use App\Http\Requests\MateriaStoreRequest;
+
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 use DB;
-use App\Cpacademic; 
-use App\Qpacademic; 
+use App\Academic;
+use App\Qpacademic;
+use App\Spacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
 use App\Materia; 
+use App\Rating; 
 
-class QpacademicController extends Controller
+class SpacademicController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -116,7 +122,7 @@ class QpacademicController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Qpacademic::create([
+                $academic = Spacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -217,7 +223,7 @@ class QpacademicController extends Controller
      */
     public function destroy($id)
     {
-        Qpacademic::find($id)->delete();
+        Spacademic::find($id)->delete();
         return back()->with('info', 'Materia eliminada correctamente');
     }
 }

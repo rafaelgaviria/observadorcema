@@ -15,6 +15,7 @@ use App\Academic;
 use App\Tpacademic;
 use App\Cpacademic;
 use App\Qpacademic;
+use App\Spacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -54,7 +55,7 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         
-        $ob_academics = Qpacademic::where('user_id',$id)->get();
+        $ob_academics = Spacademic::where('user_id',$id)->get();
         return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }
     
@@ -68,8 +69,8 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         // dd($student);
-        $ob_academics = Qpacademic::where('user_id',$id)->get();
-        $totalmaterias = Qpacademic::where('user_id',$id)->count();
+        $ob_academics = Spacademic::where('user_id',$id)->get();
+        $totalmaterias = Spacademic::where('user_id',$id)->count();
         return view('admin.materias.calificacionesdelestudiante',compact('materias', 'course', 'student', 'totalmaterias', 'ob_academics', 'namecourse'));
         //dd($student)
     }
@@ -256,7 +257,7 @@ class MateriasController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Qpacademic::create([
+                $academic = Spacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -308,7 +309,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Cpacademic::where('materia_id',$id)->get();
+        $academics = Qpacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));
