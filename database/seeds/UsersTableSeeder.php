@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
         // Eloquent::unguard();
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');        
         App\User::create([
-            'id' => '610',
+            'id' => '611',
             'name' => 'Montero Pastrana Danna Sofia',
             'username' => '1143384521',
             'email' => '1143384521@cema.edu.co',
