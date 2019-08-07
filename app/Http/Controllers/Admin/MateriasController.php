@@ -16,6 +16,7 @@ use App\Tpacademic;
 use App\Cpacademic;
 use App\Qpacademic;
 use App\Spacademic;
+use App\Sepacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -162,8 +163,8 @@ class MateriasController extends Controller
     
     public function academico_individual()
     {
-        // $users = User::where('state',1)->where('role_id',5)->where('course', '<', 12)->paginate(800);
-        $users = User::where('id',609)->paginate(1);
+        $users = User::where('state',1)->where('role_id',5)->where('course', '<', 12)->paginate(800);
+        // $users = User::where('id',609)->paginate(1);
         return view('admin.academic.teacher.academico_individual',compact('users'));
     }
     
@@ -258,7 +259,7 @@ class MateriasController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Spacademic::create([
+                $academic = Sepacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -310,7 +311,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Qpacademic::where('materia_id',$id)->get();
+        $academics = Spacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));

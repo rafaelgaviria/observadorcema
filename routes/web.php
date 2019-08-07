@@ -86,13 +86,14 @@ Route::group(['middleware' => 'admin'], function () {
   Route::get('academico_individual','Admin\MateriasController@academico_individual')->name('academico_individual');
   Route::get('materia_individual/{id}','Admin\MateriasController@materia_individual')->name('materia_individual');
 
-  Route::get('calificacionesdelcurso/{id}', 'Admin\SpacademicController@calificacionesdelcurso')->name('calificacionesdelcurso');
+  Route::get('calificacionesdelcurso/{id}', 'Admin\SepacademicController@calificacionesdelcurso')->name('calificacionesdelcurso');
   Route::get('calificacionesdelestudiante/{id}', 'Admin\MateriasController@calificacionesdelestudiante')->name('calificacionesdelestudiante');
 
   Route::resource('tpmaterias', 'Admin\TpacademicController');
   Route::resource('cpmaterias', 'Admin\CpacademicController');
   Route::resource('qpmaterias', 'Admin\QpacademicController');
   Route::resource('spmaterias', 'Admin\SpacademicController');
+  Route::resource('sepmaterias', 'Admin\SepacademicController');
 });
   
 Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');

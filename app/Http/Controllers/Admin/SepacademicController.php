@@ -2,18 +2,25 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Collection as Collection; 
 use Illuminate\Http\Request;
+use App\Http\Requests\MateriaStoreRequest;
+
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 use DB;
-use App\Cpacademic; 
-use App\Qpacademic; 
+use App\Academic;
+use App\Qpacademic;
+use App\Spacademic;
+use App\Sepacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
 use App\Materia; 
+use App\Rating; 
 
-class QpacademicController extends Controller
+class SepacademicController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -116,7 +123,7 @@ class QpacademicController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Qpacademic::create([
+                $academic = Sepacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -190,18 +197,18 @@ class QpacademicController extends Controller
 			foreach($estudiantes[$i] as $estudiante){
 				// $asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_2p, $end_2p])
 				// 		->where('observer_category_id',1)->count();
-                $cp_01[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_01',1)->count();
-                $cp_02[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_02',1)->count();
-                $cp_03[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_03',1)->count();
-                $cp_04[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_04',1)->count();
-                $cp_05[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_05',1)->count();
-                $cp_06[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_06',1)->count();
-                $cp_07[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_07',1)->count();
-                $cp_08[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_08',1)->count();
-                $cp_09[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_09',1)->count();
-                $cp_10[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_10',1)->count();
-                $cp_11[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_11',1)->count();
-                $cp_12[$i][] = DB::table('spacademics')->where('user_id',$estudiante->id)->where('cp_12',1)->count();
+                $cp_01[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_01',1)->count();
+                $cp_02[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_02',1)->count();
+                $cp_03[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_03',1)->count();
+                $cp_04[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_04',1)->count();
+                $cp_05[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_05',1)->count();
+                $cp_06[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_06',1)->count();
+                $cp_07[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_07',1)->count();
+                $cp_08[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_08',1)->count();
+                $cp_09[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_09',1)->count();
+                $cp_10[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_10',1)->count();
+                $cp_11[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_11',1)->count();
+                $cp_12[$i][] = DB::table('sepacademics')->where('user_id',$estudiante->id)->where('cp_12',1)->count();
 			}
 					//print_r($observacion);
 		}
@@ -217,7 +224,7 @@ class QpacademicController extends Controller
      */
     public function destroy($id)
     {
-        Qpacademic::find($id)->delete();
+        Spacademic::find($id)->delete();
         return back()->with('info', 'Materia eliminada correctamente');
     }
 }
