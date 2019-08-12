@@ -27,9 +27,9 @@
             <th><h4>PP</h4></th>
             <th><h4>CT</h4></th>
             <th><h4>CIR</h4></th>
-            <th><h4>T1</h4></th>
-            <th><h4>T2</h4></th>
-            <th><h4>T3</h4></th>
+            <th><h4>L-T1</h4></th>
+            <th><h4>G-T2</h4></th>
+            <th><h4>EG-T3</h4></th>
             <th><h5>Sanciones</h5></th>
             <th><h5>Matrícula condicional</h5></th>
             <th><h5>Cancelación</h5></th>
@@ -48,9 +48,9 @@
             <th><h4>PP</h4></th>
             <th><h4>CT</h4></th>
             <th><h4>CIR</h4></th>
-            <th><h4>T1</h4></th>
-            <th><h4>T2</h4></th>
-            <th><h4>T3</h4></th>
+            <th><h4>L-T1</h4></th>
+            <th><h4>G-T2</h4></th>
+            <th><h4>EG-T3</h4></th>
             <th><h5>Sanciones</h5></th>
             <th><h5>Matrícula condicional</h5></th>
             <th><h5>Cancelación</h5></th>
