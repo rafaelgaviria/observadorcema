@@ -25,4 +25,19 @@ class Sepacademic extends Model
         'cp_11',
         'cp_12',
     ];
+
+    public function materia(){
+        return $this->hasOne('App\Materia','id','materia_id');
+    }
+    public function profesor(){
+        return $this->hasOne('App\user','id','creator_id');
+    }
+    public function course(){
+        return $this->hasOne('App\Course','id','course_id');
+    }
+
+    public function user(){
+        return $this->hasOne(User::class, 'id', 'user_id');
+        // el primer id corresponde a la fila de la tabla 2 y el 'idperfil' corresponde al campo de la tabla usuario
+    }
 }
