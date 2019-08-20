@@ -506,15 +506,17 @@ class ObserverController extends Controller
 						->where('observer_category_id',6)->count();
 				$sanciones[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])
 						->where('observer_note_id',4)->count();
-				$acudiente[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])
-						->where('observer_category_id',9)->count();
+				
+				$matricula_condicional[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])
+						->where('observer_note_id',5)->count();
+						
 						//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";
 			}
 					//print_r($observacion);
 		}
 
 		return view('admin.observer.observacionesdelcurso', compact(
-			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente', 'totalstudents','sanciones', 'curso'));
+			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente', 'totalstudents','sanciones', 'matricula_condicional', 'curso'));
 	}
 	public function observerStudent($id)
 	{
