@@ -86,9 +86,9 @@
           <td>@if ($tipo_2[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_2[$i][$k]}} </h3> @endif</td>
           <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
           <td>@if ($sanciones[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$sanciones[$i][$k]}} </h3> @endif</td>
-
-          <td></td>
-          <td></td>
+          <td>@if ($matricula_condicional[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$matricula_condicional[$k]}} </h3> @endif</td>
+          <td>@if ($cancelacion[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$cancelacion[$k]}} </h3> @endif</td>
+          <td>@if ($acudiente[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$k]}} </h3> @endif</td>
           <td>@if ($acudiente[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:blue; text-align:center"> {{$acudiente[$i][$k]}} </h3> @endif</td>
           <td class="two wide"><a href="{{ route('observer',$estudiante->id)}}" class="ui mini green button">Crear</a></td>
         </tr>
