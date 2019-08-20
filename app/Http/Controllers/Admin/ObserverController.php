@@ -517,7 +517,7 @@ class ObserverController extends Controller
 		}
 
 		return view('admin.observer.observacionesdelcurso', compact(
-			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente', 'totalstudents','sanciones', 'curso'));
+			'estudiantes','total','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente', 'totalstudents','sanciones', 'matricula_condicional', 'curso'));
 	}
 	public function observerStudent($id)
 	{
