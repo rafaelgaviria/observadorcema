@@ -88,7 +88,7 @@
           
           <td>@if ($tipo_3[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$tipo_3[$i][$k]}} </h3> @endif</td>
           
-          <td>@if ($sanciones[$i][$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$sanciones[$i][$k]}} </h3> @endif</td>
+          
           
           <td>@if ($matricula_condicional[$k] === 0) <span style="color:darkgrey">{{ $nada }}</span> @else <h3 style="color:#f2711c; text-align:center"> {{$matricula_condicional[$k]}} </h3> @endif</td>
           
