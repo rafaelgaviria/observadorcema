@@ -508,8 +508,7 @@ class ObserverController extends Controller
 						->where('observer_note_id',4)->count();				
 				$acudiente[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])
 						->where('observer_category_id',9)->count();
-				$matricula_condicional[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])
-						->where('observer_note_id',5)->count();
+				$matricula_condicional[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_3p, $end_3p])->where('observer_note_id',5)->count();
 						
 						//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";
 			}
