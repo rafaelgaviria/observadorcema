@@ -224,7 +224,7 @@ class SepacademicController extends Controller
      */
     public function destroy($id)
     {
-        Spacademic::find($id)->delete();
+        Sepacademic::find($id)->delete();
         return back()->with('info', 'Materia eliminada correctamente');
     }
 }
