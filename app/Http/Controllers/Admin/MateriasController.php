@@ -70,8 +70,8 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         // dd($student);
-        $ob_academics = Spacademic::where('user_id',$id)->get();
-        $totalmaterias = Spacademic::where('user_id',$id)->count();
+        $ob_academics = Sepacademic::where('user_id',$id)->get();
+        $totalmaterias = Sepacademic::where('user_id',$id)->count();
         return view('admin.materias.calificacionesdelestudiante',compact('materias', 'course', 'student', 'totalmaterias', 'ob_academics', 'namecourse'));
         //dd($student)
     }
