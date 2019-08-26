@@ -94,6 +94,7 @@ Route::group(['middleware' => 'admin'], function () {
   Route::resource('qpmaterias', 'Admin\QpacademicController');
   Route::resource('spmaterias', 'Admin\SpacademicController');
   Route::resource('sepmaterias', 'Admin\SepacademicController');
+  Route::resource('opmaterias', 'Admin\OpacademicController');
 });
   
 Route::get('miobservadoracademico','Admin\MateriasController@miobservadoracademico')->name('miobservadoracademico');
