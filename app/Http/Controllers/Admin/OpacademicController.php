@@ -2,8 +2,20 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Collection as Collection; 
 use Illuminate\Http\Request;
+use App\Http\Requests\MateriaStoreRequest;
+
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+
+use DB;
+use App\Academic;
+use App\Sepacademic;
+use App\Opacademic;
+use App\Course;
+use App\User; 
+use App\Materia; 
 
 class OpacademicController extends Controller
 {
