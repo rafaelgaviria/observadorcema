@@ -107,7 +107,7 @@
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
-                {!!Form::open(['route' => ['sepmaterias.destroy', $ob_academic->id],
+                {!!Form::open(['route' => ['opmaterias.destroy', $ob_academic->id],
                 'method' => 'DELETE']) !!}
                 <button class="ui tiny icon button">
                   <i class="cancel red icon"></i>
