@@ -11,7 +11,7 @@
   <p>Si esta materia no contiene listado de estudiantes haga clic en el siguiente enlace: <a href="{{ route('student_list', $materias)}}" class="ui tiny icon " style="display:inline-block !important"><h4>Listado de estudiantes {{$materias->name}} {{$materias->name_course}}</h4></a>
 </p></div> --}}
 
-{!! Form::open(['route' => 'opmaterias.store','method'=>'post'])!!}
+{!! Form::open(['route' => 'npmaterias.store','method'=>'post'])!!}
 {!! Form::submit('Enviar', [
   'class' => 'huge blue ui button',
 ]) !!}
@@ -100,7 +100,7 @@
                 {{-- <a href="{{ route('observer.edit', $observation->id)}}" class="ui tiny icon button" style="display:inline-block !important">
                   <i class="edit blue icon"></i>
                 </a> --}}
-                {!!Form::open(['route' => ['cpmaterias.destroy', $academic->id],
+                {!!Form::open(['route' => ['npmaterias.destroy', $academic->id],
                 'method' => 'DELETE']) !!}
                 <button class="ui tiny icon button">
                   <i class="cancel red icon"></i>
