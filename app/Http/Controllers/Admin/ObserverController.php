@@ -56,7 +56,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -472,7 +472,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -528,7 +528,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -559,7 +559,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -589,7 +589,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -608,7 +608,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -627,7 +627,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -646,7 +646,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -665,7 +665,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -684,7 +684,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -703,7 +703,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -722,7 +722,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -741,7 +741,7 @@ class ObserverController extends Controller
 		$end_2p = date('2019-06-14 23:59:59');
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
-		$end_3p = date('2019-09-20 23:59:59');
+		$end_3p = date('2019-09-21 23:59:59');
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
