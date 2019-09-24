@@ -309,7 +309,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Sepacademic::where('materia_id',$id)->get();
+        $academics = Opacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));

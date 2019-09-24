@@ -12,49 +12,27 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         // Eloquent::unguard();
-        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');        
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');       
         
         App\User::create([
-            'id' => '615',
-            'name' => 'Arias Tovar Juan Manuel',
-            'username' => '1029962647',
-            'email' => '1029962647@cema.edu.co',
-            'password' => bcrypt('1029962647'),
-            'document' => '1029962647',
+            'id' => '619',
+            'name' => 'Vela Johann Manuel',
+            'username' => '1018443343',
+            'email' => '1018443343@cema.edu.co',
+            'password' => bcrypt('1018443343'),
+            'document' => '1018443343',
+            'course' => '5',
+            'role_id' => '5'
+        ]);
+        
+        App\User::create([
+            'id' => '620',
+            'name' => 'Vela Johell Santiago',
+            'username' => '1025068705',
+            'email' => '1025068705@cema.edu.co',
+            'password' => bcrypt('1025068705'),
+            'document' => '1025068705',
             'course' => '2',
-            'role_id' => '5'
-        ]);
-        
-        App\User::create([
-            'id' => '616',
-            'name' => 'Hernandez Gomez Sara Sofia',
-            'username' => '1070390329',
-            'email' => '1070390329@cema.edu.co',
-            'password' => bcrypt('1070390329'),
-            'document' => '1070390329',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
-        
-        App\User::create([
-            'id' => '617',
-            'name' => 'Dorado Quiñonez Leslie Milena',
-            'username' => '1021395450',
-            'email' => '1021395450@cema.edu.co',
-            'password' => bcrypt('1021395450'),
-            'document' => '1021395450',
-            'course' => '8',
-            'role_id' => '5'
-        ]);
-        
-        App\User::create([
-            'id' => '618',
-            'name' => 'Arevalo Mejia Nicolas',
-            'username' => '1016937399',
-            'email' => '1016937399@cema.edu.co',
-            'password' => bcrypt('1016937399'),
-            'document' => '1016937399',
-            'course' => '8',
             'role_id' => '5'
         ]);
     
