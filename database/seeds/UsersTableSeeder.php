@@ -16,25 +16,15 @@ class UsersTableSeeder extends Seeder
         
         App\User::create([
             'id' => '619',
-            'name' => 'Vela Johann Manuel',
-            'username' => '1018443343',
-            'email' => '1018443343@cema.edu.co',
-            'password' => bcrypt('1018443343'),
-            'document' => '1018443343',
-            'course' => '5',
+            'name' => 'Vega Peña Valentina',
+            'username' => '1014870432',
+            'email' => '1014870432@cema.edu.co',
+            'password' => bcrypt('1014870432'),
+            'document' => '1014870432',
+            'course' => '4',
             'role_id' => '5'
         ]);
-        
-        App\User::create([
-            'id' => '620',
-            'name' => 'Vela Johell Santiago',
-            'username' => '1025068705',
-            'email' => '1025068705@cema.edu.co',
-            'password' => bcrypt('1025068705'),
-            'document' => '1025068705',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
+
     
 
 // FORMULA PARA CONCATENAR EN EXCEL
