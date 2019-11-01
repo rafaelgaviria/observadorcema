@@ -193,9 +193,21 @@
                 <i class="check big icon green"></i>
               @endif
             </td>
+            <td style="text-align: center; vertical-align:middle">
+              @if ($ob_academic->cp_10 === 1)
+                <i class="x big icon red"></i>
+              @else
+                <i class="check big icon green"></i>
+              @endif
+            </td>
+            <td style="text-align: center; vertical-align:middle">
+              @if ($ob_academic->cp_11 === 1)
+                <i class="x big icon red"></i>
+              @else
+                <i class="check big icon green"></i>
+              @endif
+            </td>
             
-            <td></td>
-            <td></td>
             <td></td>
         </tr>
         @endforeach

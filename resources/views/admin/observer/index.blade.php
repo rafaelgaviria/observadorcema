@@ -12,7 +12,7 @@
           <th >Curso</th>
           <th >Observador</th>
           <th >Académico</th>
-          <th >Estudiantes ok git 2</th>
+          <th >Estudiantes</th>
         </tr>
       </thead>
       <tbody>

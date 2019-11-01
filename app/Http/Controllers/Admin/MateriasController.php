@@ -15,6 +15,7 @@ use App\Academic;
 use App\Sepacademic;
 use App\Opacademic;
 use App\Npacademic;
+use App\Onpacademic;
 use App\Course;
 use App\User; 
 use App\CourseUser; 
@@ -54,7 +55,7 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         
-        $ob_academics = Npacademic::where('user_id',$id)->get();
+        $ob_academics = Onpacademic::where('user_id',$id)->get();
         return view('admin.academic.student.academico',compact('materias', 'course', 'student', 'ob_academics', 'namecourse'));
     }
     
@@ -68,8 +69,8 @@ class MateriasController extends Controller
         // $totalmaterias = Materia::where('course_id', $course)->count();
         // $academic = Academic::where('user_id', $student)->first();
         // dd($student);
-        $ob_academics = Npacademic::where('user_id',$id)->get();
-        $totalmaterias = Npacademic::where('user_id',$id)->count();
+        $ob_academics = Onpacademic::where('user_id',$id)->get();
+        $totalmaterias = Onpacademic::where('user_id',$id)->count();
         return view('admin.materias.calificacionesdelestudiante',compact('materias', 'course', 'student', 'totalmaterias', 'ob_academics', 'namecourse'));
         //dd($student)
     }
@@ -257,7 +258,7 @@ class MateriasController extends Controller
             else
                 $e1212 = NULL;
 
-                $academic = Npacademic::create([
+                $academic = Onpacademic::create([
                     'user_id' =>$request->user_id[$e],
                     'course_id' =>$request->course,
                     'materia_id' =>$request->materia_id,
@@ -309,7 +310,7 @@ class MateriasController extends Controller
         $students = User::where('course',$course)->where('state', '=', TRUE)->where('role_id', '=', 5)->orderBy('name', 'ASC')->get();
         $materias = Materia::where('id', $id)->first();
         // $id = 1;
-        $academics = Opacademic::where('materia_id',$id)->get();
+        $academics = Npacademic::where('materia_id',$id)->get();
         $creator = Auth::id();
         // dd($academics);
         return view('admin.academic.teacher.edit',compact('academics','course','students','materias','creator'));
