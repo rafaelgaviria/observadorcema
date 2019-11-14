@@ -105,7 +105,7 @@
                 <i class="check big icon green"></i>
               @endif
             </td>
-            <td style="text-align: center; vertical-align:middle">
+            <td style="text-align: center; vertical-align:mgit iddle">
               @if ($ob_academic->cp_10 === 1)
                 <i class="x big icon red"></i>
               @else
