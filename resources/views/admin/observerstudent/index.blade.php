@@ -26,7 +26,7 @@
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th>Id</th>
+        <!-- <th>Id</th> -->
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -39,7 +39,7 @@
     <tbody>
       @foreach($observations4p as $observations4p)
       <tr>
-        <td>{{ $observations4p->id }}</td>
+        <!-- <td>{{ $observations4p->id }}</td> -->
         <td>{{ $observations4p->observercategory->name }}</td>
         <td>{{ $observations4p->observerscene->name }}</td>
         <td>{{ $observations4p->observernote->name }}</td>
@@ -79,7 +79,7 @@
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th>Id</th>
+        <!-- <th>Id</th> -->
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -92,7 +92,7 @@
     <tbody>
       @foreach($observations3p as $observations3p)
       <tr>
-        <td>{{ $observations3p->id }}</td>
+        <!-- <td>{{ $observations3p->id }}</td> -->
         <td>{{ $observations3p->observercategory->name }}</td>
         <td>{{ $observations3p->observerscene->name }}</td>
         <td>{{ $observations3p->observernote->name }}</td>
@@ -131,7 +131,7 @@
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th>Id</th>
+        <!-- <th>Id</th> -->
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -144,7 +144,7 @@
     <tbody>
       @foreach($observations2p as $observations2p)
       <tr>
-        <td>{{ $observations2p->id }}</td>
+        <!-- <td>{{ $observations2p->id }}</td> -->
         <td>{{ $observations2p->observercategory->name }}</td>
         <td>{{ $observations2p->observerscene->name }}</td>
         <td>{{ $observations2p->observernote->name }}</td>
@@ -184,7 +184,7 @@
   <table class="ui celled striped small very compact table">
     <thead>
       <tr>
-        <th>Id</th>
+        <!-- <th>Id</th> -->
         <th>Tipo</th>
         <th>Escenario</th>
         <th>Nota</th>
@@ -197,7 +197,7 @@
     <tbody>
       @foreach($observations1p as $observations1p)
       <tr>
-        <td>{{ $observations1p->id }}</td>
+        <!-- <td>{{ $observations1p->id }}</td> -->
         <td>{{ $observations1p->observercategory->name }}</td>
         <td>{{ $observations1p->observerscene->name }}</td>
         <td>{{ $observations1p->observernote->name }}</td>
