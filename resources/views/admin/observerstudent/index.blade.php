@@ -238,6 +238,7 @@
 
 @endsection
 
+
 @section('scripts')
   <script>
     $('.ui.accordion')
