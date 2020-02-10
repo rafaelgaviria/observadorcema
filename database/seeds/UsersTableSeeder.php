@@ -12,18 +12,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         // Eloquent::unguard();
-        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');       
-        
-        App\User::create([
-            'id' => '621',
-            'name' => 'Vega Peña Valentina',
-            'username' => '1014870432',
-            'email' => '1014870432@cema.edu.co',
-            'password' => bcrypt('1014870432'),
-            'document' => '1014870432',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
+        //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
 
         App\User::create([
