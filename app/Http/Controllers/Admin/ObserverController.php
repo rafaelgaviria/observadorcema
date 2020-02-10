@@ -530,6 +530,7 @@ class ObserverController extends Controller
 		// Tercer periodo
 		$ini_3p = date('2019-06-17 00:00:00');
 		$end_3p = date('2019-09-21 23:59:59');
+		
 		// Cuarto periodo
 		$ini_4p = date('2019-09-23 00:00:00');
 		$end_4p = date('2019-11-29 23:59:59');
@@ -538,14 +539,29 @@ class ObserverController extends Controller
 		$observations1p = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
 		$observations2p = Observer::whereBetween('created_at', [$ini_2p, $end_2p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
 		$observations3p = Observer::whereBetween('created_at', [$ini_3p, $end_3p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
-		$observations4p = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
+		$cuarto_observaciones = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
+		$observations4ps = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->get();
+
+		// dd($cuarto_observaciones);
+
+
+			// $observations4p = InfoGames::where('id_game', $info_games->id_game)->get();
+			// $list_observations4p = array();
+			// foreach($observations4ps as $observations4p)
+			// {
+				// $list_console[] = Console::where('id', $infogame->id_console)->first();
+			// 	$list_observations4p[] = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('user_id', '=', $id)->orderBy('created_at', 'DES')->first();
+			// }
+
+		// dd($observations4p);
+		
 		$observations = Observer::where('user_id', '=', $id)->orderBy('id','DES')->get();
 		$estudiante = User::where('id', '=', $id)->pluck('name','id')->first();
 		$idestudiante = User::find($id);
 		//$observerscenes = Observerscene::orderBy('id', 'ASC')->pluck('name','id');
 		//dd($estudiante);
 		//dd($totalobservaciones);
-		return view('admin.observerstudent.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4p', 'totalobservaciones'));
+		return view('admin.observerstudent.index', compact('estudiante', 'idestudiante', 'observations', 'observations1p', 'observations2p', 'observations3p', 'observations4ps', 'totalobservaciones', 'cuarto_observaciones'));
 		
 	}
 	
