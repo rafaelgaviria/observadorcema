@@ -156,16 +156,16 @@ class UsersTableSeeder extends Seeder
 //             'role_id' => '5'
 //         ]);
 
-   App\User::create([
-            'id' => '649',
-            'name' => 'Meneses Viñas Sara Daniela',
-            'username' => '1085098737',
-            'email' => '1085098737@cema.edu.co',
-            'password' => bcrypt('1085098737'),
-            'document' => '1085098737',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
+//    App\User::create([
+//             'id' => '649',
+//             'name' => 'Meneses Viñas Sara Daniela',
+//             'username' => '1085098737',
+//             'email' => '1085098737@cema.edu.co',
+//             'password' => bcrypt('1085098737'),
+//             'document' => '1085098737',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
    App\User::create([
             'id' => '650',
             'name' => 'Páez Rivas María Estefanía',
