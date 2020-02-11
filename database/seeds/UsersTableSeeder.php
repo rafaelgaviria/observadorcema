@@ -15,156 +15,147 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
 
-        App\User::create([
-            'id' => '634',
-            'name' => 'Campos Amaya Santiago',
-            'username' => '1027286457',
-            'email' => '1027286457@cema.edu.co',
-            'password' => bcrypt('1027286457'),
-            'document' => '1027286457',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '635',
-            'name' => 'Ciro Arias Violetta',
-            'username' => '1032024955',
-            'email' => '1032024955@cema.edu.co',
-            'password' => bcrypt('1032024955'),
-            'document' => '1032024955',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '636',
-            'name' => 'Díaz Arciniegas Juliana Alejandra',
-            'username' => '1029292028',
-            'email' => '1029292028@cema.edu.co',
-            'password' => bcrypt('1029292028'),
-            'document' => '1029292028',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '637',
-            'name' => 'Hormiga Acosta Nicolas De Jesus',
-            'username' => '1011220177',
-            'email' => '1011220177@cema.edu.co',
-            'password' => bcrypt('1011220177'),
-            'document' => '1011220177',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '638',
-            'name' => 'Suárez Echeverria Dílan Santiago',
-            'username' => '1029287705',
-            'email' => '1029287705@cema.edu.co',
-            'password' => bcrypt('1029287705'),
-            'document' => '1029287705',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '639',
-            'name' => 'Bernal Tamayo Valentina',
-            'username' => '1060536724',
-            'email' => '1060536724@cema.edu.co',
-            'password' => bcrypt('1060536724'),
-            'document' => '1060536724',
-            'course' => '3',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '640',
-            'name' => 'Bonilla Arias Luis Alberto',
-            'username' => '1012441710',
-            'email' => '1012441710@cema.edu.co',
-            'password' => bcrypt('1012441710'),
-            'document' => '1012441710',
-            'course' => '3',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '641',
-            'name' => 'Braga Barros Murillo',
-            'username' => '09103613127',
-            'email' => '09103613127@cema.edu.co',
-            'password' => bcrypt('09103613127'),
-            'document' => '09103613127',
-            'course' => '3',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '642',
-            'name' => 'Leal Lemus Angely Daniela',
-            'username' => '1015438158',
-            'email' => '1015438158@cema.edu.co',
-            'password' => bcrypt('1015438158'),
-            'document' => '1015438158',
-            'course' => '3',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '643',
-            'name' => 'Bernal Gutierrez Isabel Sofia',
-            'username' => '1033742064',
-            'email' => '1033742064@cema.edu.co',
-            'password' => bcrypt('1033742064'),
-            'document' => '1033742064',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '644',
-            'name' => 'Castaño Garzón Camila',
-            'username' => '1141718855',
-            'email' => '1141718855@cema.edu.co',
-            'password' => bcrypt('1141718855'),
-            'document' => '1141718855',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '645',
-            'name' => 'Castellanos Montejo Karol Sofía',
-            'username' => '1019997148',
-            'email' => '1019997148@cema.edu.co',
-            'password' => bcrypt('1019997148'),
-            'document' => '1019997148',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '646',
-            'name' => 'Estrada Carreño Jesus David',
-            'username' => '1142921052',
-            'email' => '1142921052@cema.edu.co',
-            'password' => bcrypt('1142921052'),
-            'document' => '1142921052',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '647',
-            'name' => 'Garzón Maldonado Juan Esteban',
-            'username' => '1141718474',
-            'email' => '1141718474@cema.edu.co',
-            'password' => bcrypt('1141718474'),
-            'document' => '1141718474',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '648',
-            'name' => 'Martinez Vargas Juan Diego',
-            'username' => '1028490724',
-            'email' => '1028490724@cema.edu.co',
-            'password' => bcrypt('1028490724'),
-            'document' => '1028490724',
-            'course' => '5',
-            'role_id' => '5'
-        ]);
+//         App\User::create([
+//             'id' => '634',
+//             'name' => 'Campos Amaya Santiago',
+//             'username' => '1027286457',
+//             'email' => '1027286457@cema.edu.co',
+//             'password' => bcrypt('1027286457'),
+//             'document' => '1027286457',
+//             'course' => '2',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '635',
+//             'name' => 'Ciro Arias Violetta',
+//             'username' => '1032024955',
+//             'email' => '1032024955@cema.edu.co',
+//             'password' => bcrypt('1032024955'),
+//             'document' => '1032024955',
+//             'course' => '2',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '636',
+//             'name' => 'Díaz Arciniegas Juliana Alejandra',
+//             'username' => '1029292028',
+//             'email' => '1029292028@cema.edu.co',
+//             'password' => bcrypt('1029292028'),
+//             'document' => '1029292028',
+//             'course' => '2',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '637',
+//             'name' => 'Hormiga Acosta Nicolas De Jesus',
+//             'username' => '1011220177',
+//             'email' => '1011220177@cema.edu.co',
+//             'password' => bcrypt('1011220177'),
+//             'document' => '1011220177',
+//             'course' => '2',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '638',
+//             'name' => 'Suárez Echeverria Dílan Santiago',
+//             'username' => '1029287705',
+//             'email' => '1029287705@cema.edu.co',
+//             'password' => bcrypt('1029287705'),
+//             'document' => '1029287705',
+//             'course' => '2',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '639',
+//             'name' => 'Bernal Tamayo Valentina',
+//             'username' => '1060536724',
+//             'email' => '1060536724@cema.edu.co',
+//             'password' => bcrypt('1060536724'),
+//             'document' => '1060536724',
+//             'course' => '3',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '640',
+//             'name' => 'Bonilla Arias Luis Alberto',
+//             'username' => '1012441710',
+//             'email' => '1012441710@cema.edu.co',
+//             'password' => bcrypt('1012441710'),
+//             'document' => '1012441710',
+//             'course' => '3',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '641',
+//             'name' => 'Braga Barros Murillo',
+//             'username' => '09103613127',
+//             'email' => '09103613127@cema.edu.co',
+//             'password' => bcrypt('09103613127'),
+//             'document' => '09103613127',
+//             'course' => '3',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '642',
+//             'name' => 'Leal Lemus Angely Daniela',
+//             'username' => '1015438158',
+//             'email' => '1015438158@cema.edu.co',
+//             'password' => bcrypt('1015438158'),
+//             'document' => '1015438158',
+//             'course' => '3',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '643',
+//             'name' => 'Bernal Gutierrez Isabel Sofia',
+//             'username' => '1033742064',
+//             'email' => '1033742064@cema.edu.co',
+//             'password' => bcrypt('1033742064'),
+//             'document' => '1033742064',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '644',
+//             'name' => 'Castaño Garzón Camila',
+//             'username' => '1141718855',
+//             'email' => '1141718855@cema.edu.co',
+//             'password' => bcrypt('1141718855'),
+//             'document' => '1141718855',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '645',
+//             'name' => 'Castellanos Montejo Karol Sofía',
+//             'username' => '1019997148',
+//             'email' => '1019997148@cema.edu.co',
+//             'password' => bcrypt('1019997148'),
+//             'document' => '1019997148',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '646',
+//             'name' => 'Estrada Carreño Jesus David',
+//             'username' => '1142921052',
+//             'email' => '1142921052@cema.edu.co',
+//             'password' => bcrypt('1142921052'),
+//             'document' => '1142921052',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
+//    App\User::create([
+//             'id' => '647',
+//             'name' => 'Garzón Maldonado Juan Esteban',
+//             'username' => '1141718474',
+//             'email' => '1141718474@cema.edu.co',
+//             'password' => bcrypt('1141718474'),
+//             'document' => '1141718474',
+//             'course' => '5',
+//             'role_id' => '5'
+//         ]);
+
    App\User::create([
             'id' => '649',
             'name' => 'Meneses Viñas Sara Daniela',
