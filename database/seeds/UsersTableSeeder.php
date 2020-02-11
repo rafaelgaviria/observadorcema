@@ -14,18 +14,9 @@ class UsersTableSeeder extends Seeder
         // Eloquent::unguard();
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
-    App\User::create([
-        'id' => '634',
-        'name' => 'Solano Duarte Laura Sofía',
-        'username' => '1027291175',
-        'email' => '1027291175@cema.edu.co',
-        'password' => bcrypt('1027291175'),
-        'document' => '1027291175',
-        'course' => '1',
-        'role_id' => '5'
-    ]);
-   App\User::create([
-            'id' => '635',
+
+        App\User::create([
+            'id' => '634',
             'name' => 'Campos Amaya Santiago',
             'username' => '1027286457',
             'email' => '1027286457@cema.edu.co',
@@ -35,7 +26,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '636',
+            'id' => '635',
             'name' => 'Ciro Arias Violetta',
             'username' => '1032024955',
             'email' => '1032024955@cema.edu.co',
@@ -45,7 +36,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '637',
+            'id' => '636',
             'name' => 'Díaz Arciniegas Juliana Alejandra',
             'username' => '1029292028',
             'email' => '1029292028@cema.edu.co',
@@ -55,7 +46,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '638',
+            'id' => '637',
             'name' => 'Hormiga Acosta Nicolas De Jesus',
             'username' => '1011220177',
             'email' => '1011220177@cema.edu.co',
@@ -65,7 +56,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '639',
+            'id' => '638',
             'name' => 'Suárez Echeverria Dílan Santiago',
             'username' => '1029287705',
             'email' => '1029287705@cema.edu.co',
@@ -75,7 +66,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '640',
+            'id' => '639',
             'name' => 'Bernal Tamayo Valentina',
             'username' => '1060536724',
             'email' => '1060536724@cema.edu.co',
@@ -85,7 +76,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '641',
+            'id' => '640',
             'name' => 'Bonilla Arias Luis Alberto',
             'username' => '1012441710',
             'email' => '1012441710@cema.edu.co',
@@ -95,7 +86,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '642',
+            'id' => '641',
             'name' => 'Braga Barros Murillo',
             'username' => '09103613127',
             'email' => '09103613127@cema.edu.co',
@@ -105,7 +96,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '643',
+            'id' => '642',
             'name' => 'Leal Lemus Angely Daniela',
             'username' => '1015438158',
             'email' => '1015438158@cema.edu.co',
@@ -115,7 +106,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '644',
+            'id' => '643',
             'name' => 'Bernal Gutierrez Isabel Sofia',
             'username' => '1033742064',
             'email' => '1033742064@cema.edu.co',
@@ -125,7 +116,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '645',
+            'id' => '644',
             'name' => 'Castaño Garzón Camila',
             'username' => '1141718855',
             'email' => '1141718855@cema.edu.co',
@@ -135,7 +126,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '646',
+            'id' => '645',
             'name' => 'Castellanos Montejo Karol Sofía',
             'username' => '1019997148',
             'email' => '1019997148@cema.edu.co',
@@ -145,7 +136,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '647',
+            'id' => '646',
             'name' => 'Estrada Carreño Jesus David',
             'username' => '1142921052',
             'email' => '1142921052@cema.edu.co',
@@ -155,7 +146,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '648',
+            'id' => '647',
             'name' => 'Garzón Maldonado Juan Esteban',
             'username' => '1141718474',
             'email' => '1141718474@cema.edu.co',
@@ -165,7 +156,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '649',
+            'id' => '648',
             'name' => 'Martinez Vargas Juan Diego',
             'username' => '1028490724',
             'email' => '1028490724@cema.edu.co',
@@ -175,7 +166,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '650',
+            'id' => '649',
             'name' => 'Meneses Viñas Sara Daniela',
             'username' => '1085098737',
             'email' => '1085098737@cema.edu.co',
@@ -185,7 +176,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '651',
+            'id' => '650',
             'name' => 'Páez Rivas María Estefanía',
             'username' => '92927775',
             'email' => '92927775@cema.edu.co',
@@ -195,7 +186,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '652',
+            'id' => '651',
             'name' => 'Ramírez John Luna Gabriela',
             'username' => '1014997925',
             'email' => '1014997925@cema.edu.co',
@@ -205,7 +196,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '653',
+            'id' => '652',
             'name' => 'Rojas Clavijo Paula Gabriela',
             'username' => '1014875319',
             'email' => '1014875319@cema.edu.co',
@@ -215,7 +206,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '654',
+            'id' => '653',
             'name' => 'Rubiano Pinilla Adrián Felipe',
             'username' => '1027284310',
             'email' => '1027284310@cema.edu.co',
@@ -225,7 +216,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '655',
+            'id' => '654',
             'name' => 'Alzáte Riaño Juan Pablo',
             'username' => '1019606356',
             'email' => '1019606356@cema.edu.co',
@@ -235,7 +226,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '656',
+            'id' => '655',
             'name' => 'Beltrán Rojas Sara Sofía',
             'username' => '1141716923',
             'email' => '1141716923@cema.edu.co',
@@ -245,7 +236,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '657',
+            'id' => '656',
             'name' => 'Castañeda Celis Kevin Fabian',
             'username' => '1025534838',
             'email' => '1025534838@cema.edu.co',
@@ -255,7 +246,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '658',
+            'id' => '657',
             'name' => 'Castaño Vargas Mariana',
             'username' => '1011102475',
             'email' => '1011102475@cema.edu.co',
@@ -265,7 +256,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '659',
+            'id' => '658',
             'name' => 'Chacon Díaz Gissel Saray',
             'username' => '1141717557',
             'email' => '1141717557@cema.edu.co',
@@ -275,7 +266,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '660',
+            'id' => '659',
             'name' => 'Forero Herrera Laura Isabel',
             'username' => '1014992811',
             'email' => '1014992811@cema.edu.co',
@@ -285,7 +276,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '661',
+            'id' => '660',
             'name' => 'García Valero Samuel Felipe',
             'username' => '1141715769',
             'email' => '1141715769@cema.edu.co',
@@ -295,7 +286,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '662',
+            'id' => '661',
             'name' => 'Martínez Bohorquez Laura Camila',
             'username' => '1016950043',
             'email' => '1016950043@cema.edu.co',
@@ -305,7 +296,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '663',
+            'id' => '662',
             'name' => 'Martínez Chacón Erick Johan',
             'username' => '1141717534',
             'email' => '1141717534@cema.edu.co',
@@ -315,7 +306,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '664',
+            'id' => '663',
             'name' => 'Perilla Polanía Eimmy Juliana',
             'username' => '1016953157',
             'email' => '1016953157@cema.edu.co',
@@ -325,7 +316,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '665',
+            'id' => '664',
             'name' => 'Sierra Pataquiva Laura Valentina',
             'username' => '1141717118',
             'email' => '1141717118@cema.edu.co',
@@ -335,7 +326,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '666',
+            'id' => '665',
             'name' => 'Bejarano Bejarano Laura Thalia',
             'username' => '1013109070',
             'email' => '1013109070@cema.edu.co',
@@ -345,7 +336,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '667',
+            'id' => '666',
             'name' => 'Cárdenas Reyes Laura Isabella',
             'username' => '1010841627',
             'email' => '1010841627@cema.edu.co',
@@ -355,7 +346,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '668',
+            'id' => '667',
             'name' => 'Dorado Quiñonez Ana Maria',
             'username' => '1021398247',
             'email' => '1021398247@cema.edu.co',
@@ -365,7 +356,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '669',
+            'id' => '668',
             'name' => 'Jaimes Vega Maria Fernanda',
             'username' => '1025462188',
             'email' => '1025462188@cema.edu.co',
@@ -375,7 +366,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '670',
+            'id' => '669',
             'name' => 'Linares Basto Jerónimo',
             'username' => '1016951034',
             'email' => '1016951034@cema.edu.co',
@@ -385,7 +376,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '671',
+            'id' => '670',
             'name' => 'Pardo Blandón Santiago Jose',
             'username' => '1114240652',
             'email' => '1114240652@cema.edu.co',
@@ -395,7 +386,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '672',
+            'id' => '671',
             'name' => 'Riaño Hoyos Santiago',
             'username' => '1141715970',
             'email' => '1141715970@cema.edu.co',
@@ -405,7 +396,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '673',
+            'id' => '672',
             'name' => 'Soto Bonilla Lina Maria',
             'username' => '1028481366',
             'email' => '1028481366@cema.edu.co',
@@ -415,7 +406,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '674',
+            'id' => '673',
             'name' => 'Vargas Morales Carol Tatiana',
             'username' => '1014860179',
             'email' => '1014860179@cema.edu.co',
@@ -425,7 +416,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '675',
+            'id' => '674',
             'name' => 'Benito Pinto Kevin Giovanny',
             'username' => '1096949159',
             'email' => '1096949159@cema.edu.co',
@@ -435,7 +426,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '676',
+            'id' => '675',
             'name' => 'Lancheros Rengífo Santiago',
             'username' => '1141714656',
             'email' => '1141714656@cema.edu.co',
@@ -445,7 +436,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '677',
+            'id' => '676',
             'name' => 'Riveros Avila Maria Camila',
             'username' => '1033099368',
             'email' => '1033099368@cema.edu.co',
@@ -455,7 +446,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '678',
+            'id' => '677',
             'name' => 'Gómez León Nicolas Fernando',
             'username' => '1096184604',
             'email' => '1096184604@cema.edu.co',
@@ -465,7 +456,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '679',
+            'id' => '678',
             'name' => 'Linares Basto Juan Pablo',
             'username' => '1018407510',
             'email' => '1018407510@cema.edu.co',
@@ -475,7 +466,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '680',
+            'id' => '679',
             'name' => 'Navia Sanchez Maria Fernanda',
             'username' => '1018226156',
             'email' => '1018226156@cema.edu.co',
@@ -485,7 +476,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '681',
+            'id' => '680',
             'name' => 'Peña Rodríguez Karol Tatiana',
             'username' => '1001119142',
             'email' => '1001119142@cema.edu.co',
@@ -495,7 +486,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '682',
+            'id' => '681',
             'name' => 'Riveros Avila Juan David',
             'username' => '1027150608',
             'email' => '1027150608@cema.edu.co',
@@ -505,7 +496,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '683',
+            'id' => '682',
             'name' => 'Romero Soto Michell Stiven',
             'username' => '1107976041',
             'email' => '1107976041@cema.edu.co',
@@ -515,7 +506,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '684',
+            'id' => '683',
             'name' => 'Velásquez Bedoya Thomas',
             'username' => '1013584236',
             'email' => '1013584236@cema.edu.co',
@@ -525,7 +516,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '685',
+            'id' => '684',
             'name' => 'Carranza Gil Julian Santiago',
             'username' => '1016943027',
             'email' => '1016943027@cema.edu.co',
@@ -535,7 +526,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '686',
+            'id' => '685',
             'name' => 'Flórez Arenas Nikol Ximena',
             'username' => '1025140565',
             'email' => '1025140565@cema.edu.co',
@@ -545,7 +536,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '687',
+            'id' => '686',
             'name' => 'Gómez Martinez Juan Sebastian',
             'username' => '1000627663',
             'email' => '1000627663@cema.edu.co',
@@ -555,7 +546,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '688',
+            'id' => '687',
             'name' => 'Gómez Quintero Angie Alejandra',
             'username' => '1000242029',
             'email' => '1000242029@cema.edu.co',
@@ -565,7 +556,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '689',
+            'id' => '688',
             'name' => 'Pachón Alarcón Nicolas',
             'username' => '1031421801',
             'email' => '1031421801@cema.edu.co',
@@ -575,7 +566,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '690',
+            'id' => '689',
             'name' => 'Rosas Guevara Carol Sofía',
             'username' => '1011086400',
             'email' => '1011086400@cema.edu.co',
@@ -585,7 +576,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '691',
+            'id' => '690',
             'name' => 'Vega Moreno Andrés Felipe',
             'username' => '1028780308',
             'email' => '1028780308@cema.edu.co',
@@ -595,7 +586,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '692',
+            'id' => '691',
             'name' => 'Velásquez Lozada Jhon Sebastian',
             'username' => '1007023047',
             'email' => '1007023047@cema.edu.co',
@@ -605,7 +596,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '693',
+            'id' => '692',
             'name' => 'Ardila Sanchez Bryhan Ernesto',
             'username' => '1101200013',
             'email' => '1101200013@cema.edu.co',
@@ -615,7 +606,7 @@ class UsersTableSeeder extends Seeder
             'role_id' => '5'
         ]);
    App\User::create([
-            'id' => '694',
+            'id' => '693',
             'name' => 'Ortiz Cruz Jean Carlos',
             'username' => '1117488546',
             'email' => '1117488546@cema.edu.co',
@@ -624,7 +615,7 @@ class UsersTableSeeder extends Seeder
             'course' => '11',
             'role_id' => '5'
         ]);
-        
+
 
 
 
