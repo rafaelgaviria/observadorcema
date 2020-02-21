@@ -15,11 +15,11 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
    App\User::create([
-        'id' => '694',
+        'id' => '698',
         'name' => 'González Acevedo Daniela Alexandra',
         'username' => '1015412722',
         'email' => 'lizfashion03@hotmail.co',
-        'password' => bcrypt('1015412722'),
+        'password' => bcrypt('1015dani'),
         'document' => '1015412722',
         'course' => '1',
         'role_id' => '4'
@@ -28,33 +28,33 @@ class UsersTableSeeder extends Seeder
     
     
     App\User::create([
-        'id' => '695',
+        'id' => '699',
         'name' => 'Rodríguez Trujillo Junise Alexandra',
         'username' => '1013589540',
         'email' => 'rockalexa187@gamil.com',
-        'password' => bcrypt('1013589540'),
+        'password' => bcrypt('Yuyiska187'),
         'document' => '1013589540',
         'course' => '4',
         'role_id' => '4'
     ]);
     
     App\User::create([
-        'id' => '696',
+        'id' => '700',
         'name' => 'Lopez Lopez Diego Alejandro',
         'username' => '1015457732',
         'email' => 'diego250113@gmail.com',
-        'password' => bcrypt('1015457732'),
+        'password' => bcrypt('diego951016'),
         'document' => '1015457732',
         'course' => '8',
         'role_id' => '4'
     ]);
     
     App\User::create([
-        'id' => '697',
+        'id' => '701',
         'name' => 'Suárez Rojas Cristian Alejandro',
         'username' => '1018418350',
         'email' => 'casuarezroj@gmail.com',
-        'password' => bcrypt('1018418350'),
+        'password' => bcrypt('244872senp7cm15'),
         'document' => '1018418350',
         'course' => '10',
         'role_id' => '4'
