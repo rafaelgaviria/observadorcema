@@ -67,7 +67,7 @@ class ObserverController extends Controller
 			$estudiantes[$i] = DB::table('users')
 				->where('role_id', '=', 5)->where('state', '=', TRUE)->where('course', '=', $i)->orderBy('name', 'ASC')->get();
 			
-				$total[$i] = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where("course_id","=",$i)->count();
+				$total[$i] = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where("course_id","=",$i)->count();
 				$numero_estudiantes[$i] = User::where("course","=",$i)->where('state', '=', TRUE)->where('role_id', '=', 5)->count();
 				
 				$numero_estudiantes_calificados[$i] = DB::table('onpacademics')
@@ -97,25 +97,25 @@ class ObserverController extends Controller
                 //      ->get();
 			
 			foreach($estudiantes[$i] as $estudiante){
-				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$asistencia[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',1)->count();
-				$puntualidad[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$puntualidad[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',2)->count();
-				$presentacion_personal[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$presentacion_personal[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',3)->count();
-				$cumplimiento_tareas[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$cumplimiento_tareas[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',4)->count();
-				$circulares[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$circulares[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',5)->count();
-				$tipo_3[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$tipo_3[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',8)->count();
-				$tipo_2[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$tipo_2[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',7)->count();
-				$tipo_1[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$tipo_1[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',6)->count();
-				$sanciones[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$sanciones[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_note_id',4)->count();
-				$acudiente[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_4p, $end_4p])
+				$acudiente[$i][] = DB::table('observations')->where('user_id',$estudiante->id)->whereBetween('created_at', [$ini_1p, $end_1p])
 						->where('observer_category_id',9)->count();
 						//echo $estudiante->id." - ".$estudiante->name." - Asistencia: ".$asistencia." - Puntualidad: ".$puntualidad."<br>";
 			}
