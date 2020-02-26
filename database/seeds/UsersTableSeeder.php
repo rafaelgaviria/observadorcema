@@ -16,56 +16,6 @@ class UsersTableSeeder extends Seeder
 
         
    
-   App\User::create([
-            'id' => '704',
-            'name' => 'León Riaño Isabella',
-            'username' => '1010967569',
-            'email' => '1010967569@cema.edu.co',
-            'password' => bcrypt('1010967569'),
-            'document' => '1010967569',
-            'course' => '2',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '705',
-            'name' => 'Espinosa Vargas Nicolle Andréa',
-            'username' => '1023392001',
-            'email' => '1023392001@cema.edu.co',
-            'password' => bcrypt('1023392001'),
-            'document' => '1023392001',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '706',
-            'name' => 'Estrada Carreño Juan Felipe',
-            'username' => '1142930635',
-            'email' => '1142930635@cema.edu.co',
-            'password' => bcrypt('1142930635'),
-            'document' => '1142930635',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '707',
-            'name' => 'Rivera Osuna Sara',
-            'username' => '1028490591',
-            'email' => '1028490591@cema.edu.co',
-            'password' => bcrypt('1028490591'),
-            'document' => '1028490591',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
-   App\User::create([
-            'id' => '708',
-            'name' => 'Linares Riveros Tomas',
-            'username' => '1028721176',
-            'email' => '1028721176@cema.edu.co',
-            'password' => bcrypt('1028721176'),
-            'document' => '1028721176',
-            'course' => '4',
-            'role_id' => '5'
-        ]);
 
    App\User::create([
             'id' => '710',
