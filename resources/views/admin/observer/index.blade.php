@@ -40,7 +40,7 @@
           <!-- <td>
             <a href="{{ route('calificacionesdelcurso',$i)}}" >
               <i class="book icon"></i>
-              <span>{{$numero_estudiantes_calificados[$i]}}</span>
+              {{-- <span>{{$numero_estudiantes_calificados[$i]}}</span> --}}
             </a>
           </td> -->
           <td><span class="totalcurso">{{$numero_estudiantes[$i]}}</span></td>
