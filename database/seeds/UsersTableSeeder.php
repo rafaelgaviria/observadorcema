@@ -14,8 +14,6 @@ class UsersTableSeeder extends Seeder
         // Eloquent::unguard();
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
-        
-
    App\User::create([
         'id' => '716',
         'name' => 'Meneses Viñas Sara Daniela',

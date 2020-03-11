@@ -68,18 +68,18 @@
                         @else
                         
                                 <li><a href="{{ route('observer.index') }}"><i class="home icon"></i>Inicio</a></li>
-                                {{-- {{-- <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li> --}}
+                                {{--  <li><a href="{{ route('observer.index') }}"></i>Docentes</a></li> --}}
                                 @if(Auth::user()->id == 16)   
                                 <li><a href="{{ route('usuarios') }}">Usuarios</a></li>
                                 @endif
+                                 
+                                {{-- <li><a href="{{ route('academicocurso') }}">Académico</a></li>  --}}
                                 
-                                {{-- <li><a href="{{ route('academicocurso') }}">Académico</a></li> --}}
                                 <li style="border-right: 1px solid #ccc;"><a href="{{ route('micurso') }}">Disciplinario</a></li>
-                                <li><a href="{{ route('cursos') }}">Académica curso</a></li>
-                                <li>
-                                    <a href="{{ route('academico_individual') }}">Académica por estudiante</a>
-                                </li>
 
+                                {{-- <li><a href="{{ route('cursos') }}">Académica curso</a></li>
+                                <li><a href="{{ route('academico_individual') }}">Académica por estudiante</a></li> --}}
+                                
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
                                     {{ Auth::user()->name }} <span class="caret"></span>
