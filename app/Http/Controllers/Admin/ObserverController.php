@@ -201,7 +201,7 @@ class ObserverController extends Controller
 		// dd($observations);
 
 		return view('admin.observer.index', compact(
-		'estudiantes','total', 'numero_estudiantes', 'numero_estudiantes_calificados','asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones',
+		'estudiantes','total', 'numero_estudiantes', 'asistencia','puntualidad', 'presentacion_personal','cumplimiento_tareas','circulares','tipo_3', 'tipo_2', 'tipo_1','acudiente','observations', 'totalobservaciones', 'totalstudents','sanciones',
 		
 		//ACUMULADO AÑO TIPO DE NOTA
 		'comentarios','notificaciones','compromisos','sancion','matricula_condicional','remision_comite_convivencia','remision_consejo_academico','cancelacion_matricula','remision_orientacion',
