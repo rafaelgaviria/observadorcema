@@ -24,8 +24,8 @@ use App\Observercode;
 use App\Observernote; 
 use App\CourseUser; 
 use App\Role; 
-use App\Cpacademic; 
-use App\Onpacademic; 
+// use App\Cpacademic; 
+// use App\Onpacademic; 
 
 class ObserverController extends Controller
 {
@@ -70,12 +70,12 @@ class ObserverController extends Controller
 				$total[$i] = Observer::whereBetween('created_at', [$ini_1p, $end_1p])->where("course_id","=",$i)->count();
 				$numero_estudiantes[$i] = User::where("course","=",$i)->where('state', '=', TRUE)->where('role_id', '=', 5)->count();
 				
-				$numero_estudiantes_calificados[$i] = DB::table('onpacademics')
-					->where("course_id","=",$i)
-					->select('materia_id', DB::raw('count(*) as total'))
-					->groupBy('materia_id')
-					->pluck('total','materia_id')
-					->count();
+				// $numero_estudiantes_calificados[$i] = DB::table('onpacademics')
+				// 	->where("course_id","=",$i)
+				// 	->select('materia_id', DB::raw('count(*) as total'))
+				// 	->groupBy('materia_id')
+				// 	->pluck('total','materia_id')
+				// 	->count();
 
 				
 				// $numero_estudiantes_calificados = DB::table('cpacademics')
