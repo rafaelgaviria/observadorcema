@@ -16,13 +16,13 @@ class UsersTableSeeder extends Seeder
 
    App\User::create([
         'id' => '716',
-        'name' => 'Meneses Viñas Sara Daniela',
-        'username' => '1085098737',
-        'email' => '1085098737@cema.edu.co',
-        'password' => bcrypt('1085098737'),
-        'document' => '1085098737',
+        'name' => 'Kenberly Eliana Vargas',
+        'username' => '1024537657',
+        'email' => '1024537657@cema.edu.co',
+        'password' => bcrypt('1024537657'),
+        'document' => '1024537657',
         'course' => '5',
-        'role_id' => '5'
+        'role_id' => '4'
     ]);
     
         
