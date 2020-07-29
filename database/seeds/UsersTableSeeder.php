@@ -15,27 +15,38 @@ class UsersTableSeeder extends Seeder
         //DB::statement('SET FOREIGN_KEY_CHECKS=0;');  
 
    App\User::create([
-        'id' => '699',
-        'name' => 'Rodríguez Trujillo Junise Alexandra',
-        'username' => 'junise',
-        'email' => 'junise@cema.edu.co',
-        'password' => bcrypt('1013589540'),
-        'document' => '1013589540',
-        'course' => '4',
+        'id' => '716',
+        'name' => 'Gloria Marisol Díaz Acosta',
+        'username' => '52157989',
+        'email' => '52157989@cema.edu.co',
+        'password' => bcrypt('52157989'),
+        'document' => '52157989',
+        'course' => '5',
         'role_id' => '4'
     ]);
-   
+
     App\User::create([
-        'id' => '432',
-        'name' => 'Guerrero Peña Nathali',
-        'username' => 'nathguerrerop',
-        'email' => 'nathguerrerop@gmail.com',
-        'password' => bcrypt('1032358384'),
-        'document' => '1032358384',
-        'course' => '7',
-        'role_id' => '4'
+        'id' => '717',
+        'name' => 'Benavides Alfonso Nicolás',
+        'username' => '1011221626',
+        'email' => '1011221626@cema.edu.co',
+        'password' => bcrypt('1011221626'),
+        'document' => '1011221626',
+        'course' => '2',
+        'role_id' => '5'
     ]);
     
+    App\User::create([
+        'id' => '718',
+        'name' => 'Martínez Rodríguez Santiago',
+        'username' => '1150186850',
+        'email' => '1150186850@cema.edu.co',
+        'password' => bcrypt('1150186850'),
+        'document' => '1150186850',
+        'course' => '2',
+        'role_id' => '5'
+    ]);
+  
         
 
 // FORMULA PARA CONCATENAR EN EXCEL
