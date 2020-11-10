@@ -58,7 +58,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		
 		// LISTADO DE CURSOS
@@ -474,7 +474,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		
 		$curso = ($id);
@@ -531,7 +531,7 @@ class ObserverController extends Controller
 		$end_3p = date('2020-09-07 23:59:59');
 		
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
@@ -577,7 +577,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 
 		$totalobservaciones = Observer::where('user_id', '=', $id)->count();
@@ -607,7 +607,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 1)->paginate(20);
 		$total_comentarios = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 1)->count();
@@ -626,7 +626,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 2)->paginate(20);
 		$total_notificaciones = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 2)->count();
@@ -645,7 +645,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 3)->paginate(20);
 		$total_compromisos = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 3)->count();
@@ -664,7 +664,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 4)->paginate(20);
 		$total_sanciones = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 4)->count();
@@ -683,7 +683,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 6)->paginate(20);
 		$total_comite_convivencia = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 6)->count();
@@ -702,7 +702,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 7)->paginate(20);
 		$total_consejo_academico = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 7)->count();
@@ -721,7 +721,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 5)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 5)->count();
@@ -740,7 +740,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->paginate(20);
 		$totalobservations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 8)->count();
@@ -759,7 +759,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		$observations = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->paginate(20);
 		$total_remision_orientacion = Observer::whereBetween('created_at', [$ini_4p, $end_4p])->where('observer_note_id', '=', 9)->count();
@@ -778,7 +778,7 @@ class ObserverController extends Controller
 		$ini_3p = date('2020-06-15 00:00:00');
 		$end_3p = date('2020-09-07 23:59:59');
 		// Cuarto periodo
-		$ini_4p = date('2020-09-07 00:00:00');
+		$ini_4p = date('2020-09-08 00:00:00');
 		$end_4p = date('2020-11-27 23:59:59');
 		
 		$coordinador = Auth::id();
